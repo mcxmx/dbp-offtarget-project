@@ -1,0 +1,9 @@
+pair_id,dna_length,single_mutants_theoretical,single_mutants_written,double_mutants_theoretical,double_mutants_before_sampling,double_mutants_written,double_sampling_applied
+1B3T_2_1,18,54,54,1377,1377,1377,False
+1D66_3_1,19,57,57,1539,1539,1539,False
+1O3Q_3_2,15,45,45,945,945,945,False
+1O3R_3_2,15,45,45,945,945,945,False
+1O3S_3_2,15,45,45,945,945,945,False
+1O3T_3_2,17,51,51,1224,1224,1224,False
+1TUP_3_1,21,63,63,1890,1890,1890,False
+8TAC_1_2,11,33,33,495,495,495,False
