@@ -1,0 +1,46 @@
+seed: 42
+retrieval_date: "2026-08-29"
+
+selected_pdb_ids:
+  - "4KPY"
+  - "8XIH"
+  - "8TAC"
+  - "1O3Q"
+  - "1O3R"
+  - "1O3S"
+  - "1O3T"
+  - "1D66"
+  - "4JBM"
+  - "1BNZ"
+  - "9C0F"
+  - "1WVL"
+  - "4E54"
+  - "4E5Z"
+  - "1B3T"
+
+gc_matched_per_target: 1000
+random_per_target: 1000
+gc_tolerance: 0.05
+max_double_mutants_per_target: 1000000
+
+benchmark_name: "v0.1"
+sequence_baseline_k_values: [3, 4]
+
+mutation_landscape_pair_id: "1D66"
+genome_scan_pair_id: "1D66"
+
+genome_demo:
+  assembly: "GRCh38"
+  chromosome: "chr22"
+  fasta_url: "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz"
+  seed_kmer_length: 8
+  max_candidates: 200
+  max_seed_hits_per_seed: 2000
+
+proxy_weights:
+  identity: 0.40
+  edit_similarity: 0.15
+  kmer3: 0.20
+  kmer4: 0.15
+  rc_kmer4: 0.10
+
