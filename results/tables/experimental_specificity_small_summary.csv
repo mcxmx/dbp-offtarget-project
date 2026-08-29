@@ -1,0 +1,6 @@
+source_database,source_id,protein_name,score_type,n_sequences,protein_sequence_available,min_score,max_score
+JASPAR CORE,MA0035.4,GATA1,jaspar_pfm_pwm_log2_odds_derived,234,True,-30.853980803866083,14.763047878542425
+JASPAR CORE,MA0079.5,SP1,jaspar_pfm_pwm_log2_odds_derived,228,True,-58.8892089953915,16.43586548956887
+JASPAR CORE,MA0106.3,TP53,jaspar_pfm_pwm_log2_odds_derived,255,True,-80.93071126340557,28.384095531168708
+JASPAR CORE,MA0139.1,CTCF,jaspar_pfm_pwm_log2_odds_derived,258,True,-56.891072207619075,26.062955027756637
+JASPAR CORE,MA0493.1,Klf1,jaspar_pfm_pwm_log2_odds_derived,234,True,-58.8805284434384,17.434882021707665

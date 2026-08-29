@@ -1,6 +1,10 @@
 # Data Sources
 
-## Protein-DNA benchmark sources
+## Protein-DNA structural cognate sources
+
+RCSB PDB entries are used as structural cognate protein-DNA cases. A PDB
+structure is not treated as quantitative specificity ground truth in benchmark
+v0.2.
 
 | source_type | accession | url | retrieval_date | notes |
 |---|---|---|---|---|
@@ -25,9 +29,28 @@
 
 | source_type | accession | url | retrieval_date | notes |
 |---|---|---|---|---|
-| Genome FASTA | GRCh38 chr22 | https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz | 2026-08-29 | Demo scan chromosome |
+| Genome FASTA | GRCh38 chr22 | https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz | 2026-08-29 | Genome candidate retrieval demo chromosome |
+
+## Experimental specificity pilot sources
+
+Layer C currently uses a small JASPAR CORE pilot. Scores in
+`data/processed/experimental_specificity_small.csv` are PWM log2-odds values
+derived from JASPAR position frequency matrices. They are not raw PBM
+enrichment scores and are not cross-assay normalized.
+
+| source_type | accession | protein | UniProt | URL | retrieval_date | notes |
+|---|---|---|---|---|---|---|
+| JASPAR CORE PFM | MA0139.1 | CTCF | P49711 | https://jaspar.elixir.no/matrix/MA0139.1/ | 2026-08-29 | PFM-derived PWM score pilot |
+| JASPAR CORE PFM | MA0106.3 | TP53 | P04637 | https://jaspar.elixir.no/matrix/MA0106.3/ | 2026-08-29 | PFM-derived PWM score pilot |
+| JASPAR CORE PFM | MA0493.1 | Klf1 | P46099 | https://jaspar.elixir.no/matrix/MA0493.1/ | 2026-08-29 | PFM-derived PWM score pilot |
+| JASPAR CORE PFM | MA0035.4 | GATA1 | P15976 | https://jaspar.elixir.no/matrix/MA0035.4/ | 2026-08-29 | PFM-derived PWM score pilot |
+| JASPAR CORE PFM | MA0079.5 | SP1 | P08047 | https://jaspar.elixir.no/matrix/MA0079.5/ | 2026-08-29 | PFM-derived PWM score pilot |
+| UniProt FASTA | P49711 | CTCF | P49711 | https://rest.uniprot.org/uniprotkb/P49711.fasta | 2026-08-29 | Protein sequence provenance |
+| UniProt FASTA | P04637 | TP53 | P04637 | https://rest.uniprot.org/uniprotkb/P04637.fasta | 2026-08-29 | Protein sequence provenance |
+| UniProt FASTA | P46099 | Klf1 | P46099 | https://rest.uniprot.org/uniprotkb/P46099.fasta | 2026-08-29 | Protein sequence provenance |
+| UniProt FASTA | P15976 | GATA1 | P15976 | https://rest.uniprot.org/uniprotkb/P15976.fasta | 2026-08-29 | Protein sequence provenance |
+| UniProt FASTA | P08047 | SP1 | P08047 | https://rest.uniprot.org/uniprotkb/P08047.fasta | 2026-08-29 | Protein sequence provenance |
 
 ## Literature anchor
 
 The designed binder example 8TAC is documented on the RCSB page and linked to the 2025 Nature article on computational design of sequence-specific DNA-binding proteins.
-

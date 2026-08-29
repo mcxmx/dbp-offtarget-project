@@ -53,3 +53,14 @@ benchmark_v0_2:
     - "guide_dependent"
     - "lesion_specific"
   curation_contact_cutoff_angstrom: 4.5
+
+experimental_specificity:
+  source_database: "JASPAR CORE"
+  n_random_kmers_per_matrix: 200
+  pwm_pseudocount: 0.8
+  matrix_ids:
+    - "MA0139.1"  # CTCF
+    - "MA0106.3"  # TP53
+    - "MA0493.1"  # Klf1
+    - "MA0035.4"  # GATA1
+    - "MA0079.5"  # SP1
