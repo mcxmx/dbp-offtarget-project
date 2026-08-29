@@ -104,3 +104,50 @@ metric property, not a protein-DNA recognition result.
 - Replot v0.2 figures under `results/figures/v0_2/` with figure notes.
 - Add an experimental specificity data pipeline as a separate data layer.
 
+## v0.2 Audit Results
+
+### Curation outcome
+
+The 16 historical PDB pairs were retained in
+`data/processed/dbp_target_pairs_all_curated.csv`. Only 8 records were retained
+for `data/processed/dbp_target_pairs_v0_2.csv` under the strict
+`core_benchmark` rule:
+
+- 7 natural sequence-specific structural cases
+- 1 designed sequence-specific structural case
+
+Guide-dependent, lesion-specific, non-specific, and transposase/substrate cases
+were preserved in the curated all-pairs table but excluded from the v0.2 core
+synthetic perturbation benchmark.
+
+### Ground-truth correction
+
+All PDB-derived v0.2 records set:
+
+- `has_structural_cognate=True`
+- `has_quantitative_specificity_ground_truth=False`
+
+This fixes the v0.1 mistake of treating PDB complex existence as specificity
+ground truth.
+
+### Positional proxy artifact
+
+`analysis/05_proxy_position_bias.py` compared single-mutation position effects
+for GAL4/1D66 using hamming similarity, edit similarity, 3-mer Jaccard, 4-mer
+Jaccard, and the combined sequence-only proxy. Hamming and edit similarity were
+flat across positions, as expected for one substitution in a fixed-length
+sequence. k-mer Jaccard metrics varied by position because internal bases are
+covered by more overlapping k-mers than edge bases.
+
+Observed metric ranges for this target:
+
+- hamming similarity: 0.000000
+- edit similarity: 0.000000
+- 3-mer Jaccard: 0.292857
+- 4-mer Jaccard: 0.358553
+- combined sequence-only proxy: 0.134764
+
+Therefore, position-dependent patterns in sequence-proxy mutation landscapes can
+be metric artifacts. They must not be described as biological specificity
+landscapes without protein-conditioned scoring or experimental ground truth.
+
