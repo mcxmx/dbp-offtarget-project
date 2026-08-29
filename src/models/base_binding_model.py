@@ -5,7 +5,7 @@ from dataclasses import dataclass, field
 from statistics import mean, pstdev
 from typing import Any, Iterable
 
-from src.utils import compute_sequence_metrics
+from src.utils import canonical_kmer_set, clamp, gc_content
 
 
 @dataclass
@@ -70,6 +70,11 @@ class SequenceProxyBaseline(BaseBindingModel):
         }
 
     def score(self, protein_sequence: str, dna_sequence: str) -> float:
-        metrics = compute_sequence_metrics(dna_sequence, dna_sequence, self.k_values)
-        return metrics["proxy_score"]
-
+        dna_sequence = dna_sequence.upper().replace(" ", "")
+        if not dna_sequence:
+            return 0.0
+        gc_term = 1.0 - abs(gc_content(dna_sequence) - 0.5)
+        k4 = len(canonical_kmer_set(dna_sequence, 4, rc_aware=True)) / max(len(dna_sequence) - 3, 1)
+        length_term = min(len(dna_sequence), 50) / 50.0
+        score = 0.45 * gc_term + 0.35 * k4 + 0.20 * length_term
+        return clamp(score, 0.0, 1.0)

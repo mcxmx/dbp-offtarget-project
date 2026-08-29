@@ -1,0 +1,6 @@
+candidate_type,count
+double_mut,23904
+gc_matched_random,16000
+random_dna,16000
+single_mut,843
+target,16
