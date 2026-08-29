@@ -44,3 +44,12 @@ proxy_weights:
   kmer3: 0.20
   kmer4: 0.15
   rc_kmer4: 0.10
+
+benchmark_v0_2:
+  include_recommended_use:
+    - "core_benchmark"
+  exclude_sequence_specificity_class:
+    - "non_specific"
+    - "guide_dependent"
+    - "lesion_specific"
+  curation_contact_cutoff_angstrom: 4.5
