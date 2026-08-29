@@ -29,6 +29,8 @@ def score_benchmark(df: pd.DataFrame) -> pd.DataFrame:
                 **metrics,
                 "sequence_proxy_score": metrics["proxy_score"],
                 "sequence_proxy_model_score": proxy.score(row["protein_sequence"], row["candidate_dna"]),
+                "sequence_proxy_model_is_protein_conditioned": proxy.is_protein_conditioned,
+                "sequence_proxy_model_label": proxy.score_label,
             }
         )
     return pd.DataFrame(scored_rows)
@@ -59,6 +61,8 @@ def main() -> None:
         "candidate_type",
         "sequence_proxy_score",
         "sequence_proxy_model_score",
+        "sequence_proxy_model_is_protein_conditioned",
+        "sequence_proxy_model_label",
         "hamming_distance",
         "edit_distance",
         "sequence_identity",
@@ -74,4 +78,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

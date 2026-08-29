@@ -94,6 +94,8 @@ def score_benchmark(df: pd.DataFrame) -> pd.DataFrame:
     for col in metric_df.columns:
         out[col] = metric_df[col]
     out = out.rename(columns={"proxy_score": "sequence_proxy_score"})
+    out["sequence_proxy_metric_is_protein_conditioned"] = False
+    out["sequence_proxy_metric_label"] = "sequence_similarity_proxy_score"
     return out
 
 
@@ -211,4 +213,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

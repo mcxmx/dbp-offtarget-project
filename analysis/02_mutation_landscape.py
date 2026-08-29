@@ -83,10 +83,10 @@ def plot_single(summary: pd.DataFrame, target: str, pair_id: str) -> None:
     mean_by_pos = summary.groupby("position")["proxy_score"].mean().reindex(positions)
     axes[0].plot(positions, mean_by_pos.values, marker="o", color="#dd8452", linewidth=1.8)
     axes[0].set_xlabel("mutation position")
-    axes[0].set_ylabel("mean proxy score")
-    axes[0].set_title(f"Single mutation landscape: {pair_id}")
+    axes[0].set_ylabel("mean sequence-only proxy score")
+    axes[0].set_title(f"Single-mutation sequence-proxy landscape: {pair_id}")
     axes[0].set_ylim(0, 1)
-    sns.heatmap(matrix, ax=axes[1], cmap="mako", vmin=0, vmax=1, cbar_kws={"label": "proxy score"})
+    sns.heatmap(matrix, ax=axes[1], cmap="mako", vmin=0, vmax=1, cbar_kws={"label": "sequence-only proxy score"})
     axes[1].set_xlabel("mutation position")
     axes[1].set_ylabel("substituted base")
     fig.tight_layout()
@@ -111,11 +111,11 @@ def plot_double(summary: pd.DataFrame, pair_id: str, target: str) -> None:
         cmap="viridis",
         vmin=0,
         vmax=1,
-        cbar_kws={"label": "mean proxy score"},
+        cbar_kws={"label": "mean sequence-only proxy score"},
     )
     ax.set_xlabel("mutation position j")
     ax.set_ylabel("mutation position i")
-    ax.set_title(f"Double mutation landscape: {pair_id}")
+    ax.set_title(f"Double-mutation sequence-proxy landscape: {pair_id}")
     fig.tight_layout()
     fig.savefig(RESULTS_FIGURES / "fig4_double_mutation_landscape.png", dpi=300, bbox_inches="tight")
     plt.close(fig)

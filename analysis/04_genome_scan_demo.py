@@ -87,7 +87,7 @@ def main() -> None:
     candidates.insert(1, "target_dna", target)
     candidates.insert(2, "protein_name", row["protein_name"])
     candidates.insert(3, "protein_sequence", row["protein_sequence"])
-    candidates["source"] = f"{CONFIG['genome_demo']['assembly']} {CONFIG['genome_demo']['chromosome']} scan"
+    candidates["source"] = f"{CONFIG['genome_demo']['assembly']} {CONFIG['genome_demo']['chromosome']} candidate retrieval demo"
     candidates["candidate_type"] = "genome_candidate"
     candidates.to_csv(RESULTS_TABLES / "genome_candidates_demo.csv", index=False)
 
@@ -108,7 +108,7 @@ def main() -> None:
         sns.barplot(data=top, x="rank", y="hamming_distance", hue="strand", dodge=False, ax=ax)
         ax.set_xlabel("rank")
         ax.set_ylabel("hamming distance")
-        ax.set_title("Top genome scan candidates")
+        ax.set_title("Top genome candidate retrieval results")
         fig.tight_layout()
         fig.savefig(RESULTS_FIGURES / "fig6_genome_scan_candidates.png", dpi=300, bbox_inches="tight")
         plt.close(fig)

@@ -21,6 +21,9 @@ class PredictionBundle:
 
 
 class BaseBindingModel(ABC):
+    is_protein_conditioned: bool | None = None
+    score_label: str = "unspecified_model_score"
+
     @abstractmethod
     def score(self, protein_sequence: str, dna_sequence: str) -> float:
         raise NotImplementedError
@@ -54,11 +57,16 @@ class BaseBindingModel(ABC):
             seed_disagreement=sigma,
             entropy=None,
             scores=scores,
-            details={"n_scores": len(scores)},
+            details={"n_scores": len(scores), "is_protein_conditioned": self.is_protein_conditioned},
         )
 
 
 class SequenceProxyBaseline(BaseBindingModel):
+    """DNA-sequence-only sanity-check baseline; not a protein-conditioned model."""
+
+    is_protein_conditioned = False
+    score_label = "sequence_only_proxy_score"
+
     def __init__(self, k_values: tuple[int, ...] = (3, 4), weights: dict[str, float] | None = None):
         self.k_values = tuple(k_values)
         self.weights = weights or {

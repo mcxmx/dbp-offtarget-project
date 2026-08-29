@@ -139,7 +139,7 @@ def main() -> None:
     candidates.insert(1, "target_dna", target)
     candidates.insert(2, "protein_name", row["protein_name"])
     candidates.insert(3, "protein_sequence", row["protein_sequence"])
-    candidates["source"] = f"{CONFIG['genome_demo']['assembly']} {CONFIG['genome_demo']['chromosome']} scan"
+    candidates["source"] = f"{CONFIG['genome_demo']['assembly']} {CONFIG['genome_demo']['chromosome']} candidate retrieval demo"
     candidates["candidate_type"] = "genome_candidate"
     candidates.to_csv(RESULTS_TABLES / "genome_candidates_demo.csv", index=False)
     print(f"Genome candidates written to {RESULTS_TABLES / 'genome_candidates_demo.csv'}")
@@ -148,4 +148,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
