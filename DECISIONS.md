@@ -7,4 +7,4 @@
 5. Treat all current scores as `sequence-only proxy baseline` values.
 6. Use chr22 for the genome-scan demo to keep the first pass small and reproducible.
 7. Favor simple, inspectable retrieval logic over heavy external aligner setup for the demo stage.
-
+8. Publish the project as a public GitHub repository under the existing `mcxmx` account using the stored Git credential, and push the current `qwqaq` history as the remote `main` branch.

@@ -11,6 +11,7 @@
 - Built `benchmark_v0_1.csv` with 56,763 rows.
 - Generated figures 1 to 6, including GC distribution, mutation landscapes, proxy distribution, and a chr22 genome-scan demo.
 - Generated `results/WEEKLY_PROGRESS.md`.
+- Published the repository to GitHub as a public remote.
 
 ## In progress
 
