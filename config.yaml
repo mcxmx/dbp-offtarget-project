@@ -4,6 +4,7 @@ retrieval_date: "2026-08-29"
 selected_pdb_ids:
   - "4KPY"
   - "8XIH"
+  - "1TUP"
   - "8TAC"
   - "1O3Q"
   - "1O3R"
@@ -43,4 +44,3 @@ proxy_weights:
   kmer3: 0.20
   kmer4: 0.15
   rc_kmer4: 0.10
-

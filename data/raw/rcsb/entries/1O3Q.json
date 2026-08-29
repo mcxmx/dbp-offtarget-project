@@ -1,0 +1,723 @@
+{
+  "audit_author": [
+    {
+      "name": "Chen, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Vojtechovsky, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Parkinson, G.N.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Ebright, R.H.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Berman, H.M.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 77.15,
+    "length_b": 77.15,
+    "length_c": 143.2
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_ASTM": "JMOBAK",
+      "journal_id_CSD": "0070",
+      "journal_id_ISSN": "0022-2836",
+      "journal_volume": "314",
+      "page_first": "63",
+      "page_last": "74",
+      "pdbx_database_id_DOI": "10.1006/jmbi.2001.5089",
+      "pdbx_database_id_PubMed": 11724532,
+      "rcsb_authors": [
+        "Chen, S.",
+        "Vojtechovsky, J.",
+        "Parkinson, G.N.",
+        "Ebright, R.H.",
+        "Berman, H.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Indirect Readout of DNA Sequence at the Primary-kink Site in the CAP-DNA Complex: DNA Binding Specificity Based on Energetics of DNA Kinking",
+      "year": 2001
+    },
+    {
+      "country": "UK",
+      "id": "1",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_ASTM": "JMOBAK",
+      "journal_id_CSD": "0070",
+      "journal_id_ISSN": "0022-2836",
+      "journal_volume": "314",
+      "page_first": "75",
+      "page_last": "82",
+      "pdbx_database_id_DOI": "10.1006/jmbi.2001.5090",
+      "rcsb_authors": [
+        "Chen, S.",
+        "Gunasekera, A.",
+        "Zhang, X.",
+        "Kunkel, T.A.",
+        "Ebright, R.H.",
+        "Berman, H.M."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Indirect Readout of DNA Sequence at the Primary-kink Site in the CAP-DNA Complex: Alteration of DNA Binding Specificity Through Alteration of DNA Kinking",
+      "year": 2001
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "1O3Q",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb1o3q/pdb",
+      "pdbx_database_accession": "pdb_00001o3q"
+    },
+    {
+      "database_code": "PD0398",
+      "database_id": "NDB"
+    },
+    {
+      "database_code": "RCSB001766",
+      "database_id": "RCSB"
+    },
+    {
+      "database_code": "D_1000001766",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 108.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1997-09-01T00:00:00.000+00:00",
+      "type": "RIGAKU RAXIS"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X25",
+      "pdbx_synchrotron_site": "NSLS",
+      "pdbx_wavelength": "1.100",
+      "source": "SYNCHROTRON",
+      "type": "NSLS BEAMLINE X25"
+    }
+  ],
+  "entry": {
+    "id": "1O3Q"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 4.01,
+      "density_percent_sol": 69.1,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 6.23,
+      "pdbx_details": "PEG 8000, 1,4-DIOXANE, MES, NACL, MGCL2, CAMP, pH 6.23, \nVAPOR DIFFUSION, HANGING DROP at 293K",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "struct_site",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2003-04-08T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2008-04-26T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2023-12-27T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 1,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 2,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_asym_id",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_comp_id",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_seq_id",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_database_PDB_obs_spr": [
+    {
+      "date": "2003-04-08T00:00:00.000+00:00",
+      "id": "SPRSDE",
+      "pdb_id": "1O3Q",
+      "replace_pdb_id": "1DB7"
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "1O3R",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "1O3S",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "1O3T",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2003-03-18T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T16:34:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2662,
+      "DCC_Rfree": 0.3199,
+      "EDS_R": 0.2504,
+      "EDS_res_high": 3.0,
+      "EDS_res_low": 20.0,
+      "Fo_Fc_correlation": 0.889,
+      "I_over_sigma": "3.37(2.98A)",
+      "Padilla_Yeates_L2_mean": 0.332,
+      "Padilla_Yeates_L_mean": 0.499,
+      "Wilson_B_aniso": "[83.198,83.198,50.727,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 69.037,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 73.807,
+      "bulk_solvent_k": 0.421,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.449,
+      "data_completeness": 96.2,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 9976,
+      "number_reflns_R_free": 987,
+      "percent_RSRZ_outliers": 8.85,
+      "percent_free_reflections": 9.89,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 3.97% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.036"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.07,
+      "bonds_RMSZ": 0.69,
+      "clashscore": 36.44,
+      "num_H_reduce": 1937,
+      "num_angles_RMSZ": 3069,
+      "num_bonds_RMSZ": 2196,
+      "percent_ramachandran_outliers": 1.52,
+      "percent_rotamer_outliers": 11.63
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2003-03-18T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2003-04-08T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2023-12-27T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "1O3Q",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "pubmed_id": 11724532,
+    "rcsb_id": "1O3Q"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2193,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 226,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 3,
+    "deposited_polymer_monomer_count": 226,
+    "deposited_solvent_atom_count": 41,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.1,
+    "diffrn_radiation_wavelength_minimum": 1.1,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 3.0
+    },
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 31.16,
+    "na_polymer_entity_types": "Other",
+    "ndb_struct_conf_na_feature_combined": [
+      "b-form double helix",
+      "double helix"
+    ],
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.33,
+    "nonpolymer_molecular_weight_minimum": 0.33,
+    "polymer_composition": "protein/NA",
+    "polymer_entity_count": 3,
+    "polymer_entity_count_DNA": 2,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 2,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 22.56,
+    "polymer_molecular_weight_minimum": 3.41,
+    "polymer_monomer_count_maximum": 200,
+    "polymer_monomer_count_minimum": 11,
+    "resolution_combined": [
+      3.0
+    ],
+    "selected_polymer_entity_types": "Protein/NA",
+    "software_programs_combined": [
+      "AMORE",
+      "CCP4",
+      "CNS",
+      "DENZO",
+      "SCALA"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "1O3Q",
+      "link": "https://nakb.org/atlas=1O3Q",
+      "type": "NAKB"
+    }
+  ],
+  "rcsb_id": "1O3Q",
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "J.Mol.Biol.",
+    "journal_id_ASTM": "JMOBAK",
+    "journal_id_CSD": "0070",
+    "journal_id_ISSN": "0022-2836",
+    "journal_volume": "314",
+    "page_first": "63",
+    "page_last": "74",
+    "pdbx_database_id_DOI": "10.1006/jmbi.2001.5089",
+    "pdbx_database_id_PubMed": 11724532,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Chen, S.",
+      "Vojtechovsky, J.",
+      "Parkinson, G.N.",
+      "Ebright, R.H.",
+      "Berman, H.M."
+    ],
+    "rcsb_journal_abbrev": "J Mol Biol",
+    "title": "Indirect Readout of DNA Sequence at the Primary-kink Site in the CAP-DNA Complex: DNA Binding Specificity Based on Energetics of DNA Kinking",
+    "year": 2001
+  },
+  "refine": [
+    {
+      "B_iso_mean": 57.5,
+      "aniso_B_1_1": 5.94,
+      "aniso_B_1_2": 20.46,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": 5.94,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": -11.89,
+      "ls_R_factor_R_free": 0.318,
+      "ls_R_factor_R_free_error": 0.01,
+      "ls_R_factor_R_work": 0.252,
+      "ls_R_factor_obs": 0.2521,
+      "ls_d_res_high": 3.0,
+      "ls_d_res_low": 20.0,
+      "ls_number_reflns_R_free": 987,
+      "ls_number_reflns_obs": 9976,
+      "ls_percent_reflns_R_free": 9.9,
+      "ls_percent_reflns_obs": 96.5,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_data_cutoff_high_absF": 2648334.31,
+      "pdbx_data_cutoff_low_absF": 0.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_isotropic_thermal_model": "RESTRAINED",
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 0.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_stereochemistry_target_values": "ENGH & HUBER",
+      "solvent_model_details": "FLAT MODEL",
+      "solvent_model_param_bsol": 66.42,
+      "solvent_model_param_ksol": 0.419
+    }
+  ],
+  "refine_analyze": [
+    {
+      "Luzzati_coordinate_error_free": 0.48,
+      "Luzzati_coordinate_error_obs": 0.37,
+      "Luzzati_d_res_low_obs": 5.0,
+      "Luzzati_sigma_a_free": 0.31,
+      "Luzzati_sigma_a_obs": 0.19,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 3.0,
+      "d_res_low": 20.0,
+      "number_atoms_solvent": 41,
+      "number_atoms_total": 2193,
+      "pdbx_number_atoms_ligand": 44,
+      "pdbx_number_atoms_nucleic_acid": 527,
+      "pdbx_number_atoms_protein": 1581,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.011,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_angle_deg_prot"
+    },
+    {
+      "dev_ideal": 23.1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_dihedral_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_improper_angle_d_prot"
+    },
+    {
+      "dev_ideal": 2.63,
+      "dev_ideal_target": 1.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_mcbond_it"
+    },
+    {
+      "dev_ideal": 4.19,
+      "dev_ideal_target": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_mcangle_it"
+    },
+    {
+      "dev_ideal": 3.54,
+      "dev_ideal_target": 2.0,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_scbond_it"
+    },
+    {
+      "dev_ideal": 5.07,
+      "dev_ideal_target": 2.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "c_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 39.99,
+      "d_resolution_high": 3.0,
+      "d_resolution_low": 20.0,
+      "number_obs": 9976,
+      "observed_criterion_sigma_I": 2.0,
+      "pdbx_Rmerge_I_obs": 0.079,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 6.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.3,
+      "percent_possible_obs": 96.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.422,
+      "d_res_high": 3.0,
+      "d_res_low": 3.16,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.3,
+      "percent_possible_all": 99.3
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "DENZO",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "AMoRE",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "refinement",
+      "name": "CNS",
+      "pdbx_ordinal": 4,
+      "version": "0.5"
+    },
+    {
+      "classification": "data scaling",
+      "name": "CCP4",
+      "pdbx_ordinal": 5,
+      "version": "(SCALA)"
+    }
+  ],
+  "struct": {
+    "title": "PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "GENE REGULATION/DNA",
+    "text": "PROTEIN-DNA COMPLEX, CAP, CAP-DNA, CATABOLITE GENE ACTIVATOR PROTEIN, CAMP RECEPTOR PROTEIN, CRP, GENE REGULATION-DNA COMPLEX"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "cell_setting": "trigonal",
+    "space_group_name_H_M": "P 31 2 1"
+  }
+}

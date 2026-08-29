@@ -185,3 +185,8 @@ def clamp(value: float, low: float = 0.0, high: float = 1.0) -> float:
 def canonical_dna(seq: str | None) -> str:
     return normalize_sequence(seq)
 
+
+def reverse_complement_canonical(seq: str | None) -> str:
+    seq = normalize_sequence(seq)
+    rc = reverse_complement(seq)
+    return min(seq, rc)

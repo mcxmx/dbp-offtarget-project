@@ -1,0 +1,669 @@
+{
+  "audit_author": [
+    {
+      "name": "Yeh, J.I.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Du, S.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 99.68,
+    "angle_gamma": 90.0,
+    "length_a": 76.736,
+    "length_b": 70.877,
+    "length_c": 191.448
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+      "journal_id_ASTM": "PNASA6",
+      "journal_id_CSD": "0040",
+      "journal_id_ISSN": "0027-8424",
+      "journal_volume": "109",
+      "page_first": "E2737",
+      "page_last": "E2746",
+      "pdbx_database_id_DOI": "10.1073/pnas.1110067109",
+      "pdbx_database_id_PubMed": 22822215,
+      "rcsb_authors": [
+        "Yeh, J.I.",
+        "Levine, A.S.",
+        "Du, S.",
+        "Chinte, U.",
+        "Ghodke, H.",
+        "Wang, H.",
+        "Shi, H.",
+        "Hsieh, C.L.",
+        "Conway, J.F.",
+        "Van Houten, B.",
+        "Rapic-Otrin, V."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+      "title": "Damaged DNA induced UV-damaged DNA-binding protein (UV-DDB) dimerization and its roles in chromatinized DNA repair.",
+      "year": 2012
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "4E54",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb4e54/pdb",
+      "pdbx_database_accession": "pdb_00004e54"
+    },
+    {
+      "database_code": "NA1899",
+      "database_id": "NDB"
+    },
+    {
+      "database_code": "RCSB071180",
+      "database_id": "RCSB"
+    },
+    {
+      "database_code": "D_1000071180",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "monochromators",
+      "detector": "CCD",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2009-07-08T00:00:00.000+00:00",
+      "type": "MARMOSAIC 300 mm CCD"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "SAGITALLY FOCUSED Si(111)",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "22-ID",
+      "pdbx_synchrotron_site": "APS",
+      "pdbx_wavelength_list": "1.00",
+      "source": "SYNCHROTRON",
+      "type": "APS BEAMLINE 22-ID"
+    }
+  ],
+  "entry": {
+    "id": "4E54"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.67,
+      "density_percent_sol": 53.95,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION",
+      "pH": 7.5,
+      "pdbx_details": "20mM Tris pH 7.5, 2mM MgCl2, 1mM EDTA, 2mM TECP, 5% Glycerol, 0.02% azide. UV-DDB-AP24 complex (molar ratio of 1:3 UV-DDB:DNA) at 2.5 mg/mL.  \n'AP24' refers to synthetic DNA substrate of 24-bpr with a central abasic site mimic., VAPOR DIFFUSION, temperature 277K",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_initial_refinement_model",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "struct_ref_seq_dif",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 8,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2012-08-08T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2012-10-24T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2023-09-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2024-10-16T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 1,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_leaving_atom_flag",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref_seq_dif.details",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "4E3H",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2012-03-14T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "3EI2",
+      "details": "PDB Entry 3EI2",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-05T16:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2348,
+      "DCC_Rfree": 0.2746,
+      "EDS_R": 0.1336,
+      "EDS_res_high": 2.85,
+      "EDS_res_low": 33.31,
+      "Fo_Fc_correlation": 0.88,
+      "I_over_sigma": "3.84(2.81A)",
+      "Padilla_Yeates_L2_mean": 0.127,
+      "Padilla_Yeates_L_mean": 0.278,
+      "Wilson_B_aniso": "[23.779,23.417,24.251,0.000,-0.469,0.000]",
+      "Wilson_B_estimate": 23.843,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 388.923,
+      "bulk_solvent_k": 0.25,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.035,
+      "data_completeness": 74.96,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 39395,
+      "number_reflns_R_free": 1965,
+      "percent_RSRZ_outliers": 0.0,
+      "percent_free_reflections": 4.99,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 1.99% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-k,-h-l:0.210"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.13,
+      "bonds_RMSZ": 0.43,
+      "clashscore": 77.85,
+      "num_H_reduce": 12395,
+      "num_angles_RMSZ": 18270,
+      "num_bonds_RMSZ": 13328,
+      "percent_ramachandran_outliers": 0.91,
+      "percent_rotamer_outliers": 12.7
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2012-03-14T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2012-08-08T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2024-10-16T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "4E54",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "pubmed_id": 22822215,
+    "rcsb_id": "4E54"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 16,
+    "deposited_atom_count": 12975,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 33,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 1590,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 4,
+    "deposited_polymer_monomer_count": 1633,
+    "deposited_solvent_atom_count": 0,
+    "deposited_unmodeled_polymer_monomer_count": 43,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.85
+    },
+    "disulfide_bond_count": 1,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 1,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 192.02,
+    "na_polymer_entity_types": "Other",
+    "ndb_struct_conf_na_feature_combined": [
+      "b-form double helix",
+      "double helix",
+      "internal loop",
+      "mismatched base pair"
+    ],
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "protein/NA",
+    "polymer_entity_count": 4,
+    "polymer_entity_count_DNA": 2,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 2,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 2,
+    "polymer_entity_taxonomy_count": 2,
+    "polymer_molecular_weight_maximum": 128.48,
+    "polymer_molecular_weight_minimum": 7.19,
+    "polymer_monomer_count_maximum": 1150,
+    "polymer_monomer_count_minimum": 24,
+    "resolution_combined": [
+      2.85
+    ],
+    "selected_polymer_entity_types": "Protein/NA",
+    "software_programs_combined": [
+      "ADSC",
+      "HKL-2000",
+      "PHENIX",
+      "SCALEPACK",
+      "SOLVE"
+    ],
+    "solvent_entity_count": 0,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "4E54",
+      "link": "https://nakb.org/atlas=4E54",
+      "type": "NAKB"
+    }
+  ],
+  "rcsb_id": "4E54",
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+    "journal_id_ASTM": "PNASA6",
+    "journal_id_CSD": "0040",
+    "journal_id_ISSN": "0027-8424",
+    "journal_volume": "109",
+    "page_first": "E2737",
+    "page_last": "E2746",
+    "pdbx_database_id_DOI": "10.1073/pnas.1110067109",
+    "pdbx_database_id_PubMed": 22822215,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Yeh, J.I.",
+      "Levine, A.S.",
+      "Du, S.",
+      "Chinte, U.",
+      "Ghodke, H.",
+      "Wang, H.",
+      "Shi, H.",
+      "Hsieh, C.L.",
+      "Conway, J.F.",
+      "Van Houten, B.",
+      "Rapic-Otrin, V."
+    ],
+    "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+    "title": "Damaged DNA induced UV-damaged DNA-binding protein (UV-DDB) dimerization and its roles in chromatinized DNA repair.",
+    "year": 2012
+  },
+  "refine": [
+    {
+      "aniso_B_1_1": -17.9366,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -2.0964,
+      "aniso_B_2_2": -25.9332,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": -21.89,
+      "ls_R_factor_R_free": 0.2809,
+      "ls_R_factor_R_work": 0.2331,
+      "ls_R_factor_all": 0.2582,
+      "ls_R_factor_obs": 0.2355,
+      "ls_d_res_high": 2.85,
+      "ls_d_res_low": 33.315,
+      "ls_number_reflns_R_free": 1931,
+      "ls_number_reflns_all": 47108,
+      "ls_number_reflns_obs": 38719,
+      "ls_percent_reflns_R_free": 4.99,
+      "ls_percent_reflns_obs": 81.03,
+      "overall_SU_ML": 0.79,
+      "pdbx_R_Free_selection_details": "Random",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_isotropic_thermal_model": "Isotropic",
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_ls_sigma_I": 2.7,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 24.09,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.77,
+      "pdbx_solvent_vdw_probe_radii": 0.9,
+      "pdbx_starting_model": "PDB Entry 3EI2",
+      "pdbx_stereochemistry_target_values": "MLHL",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL",
+      "solvent_model_param_bsol": 299.989,
+      "solvent_model_param_ksol": 0.265
+    }
+  ],
+  "refine_analyze": [
+    {
+      "Luzzati_sigma_a_free": 0.367,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.85,
+      "d_res_low": 33.315,
+      "number_atoms_solvent": 0,
+      "number_atoms_total": 12975,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 977,
+      "pdbx_number_atoms_protein": 11998,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.005,
+      "number": 13336,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.354,
+      "number": 18288,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 20.093,
+      "number": 4964,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.102,
+      "number": 2075,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.006,
+      "number": 2196,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 25.22,
+      "d_resolution_high": 2.85,
+      "d_resolution_low": 50.0,
+      "number_obs": 47108,
+      "observed_criterion_sigma_F": 2.0,
+      "observed_criterion_sigma_I": 2.0,
+      "pdbx_Rmerge_I_obs": 0.12,
+      "pdbx_Rsym_value": 0.1,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.28,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.5,
+      "percent_possible_obs": 89.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.12,
+      "d_res_high": 2.85,
+      "d_res_low": 2.96,
+      "meanI_over_sigI_obs": 7.7,
+      "number_unique_all": 3545,
+      "pdbx_Rsym_value": 0.321,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.5,
+      "percent_possible_all": 67.6
+    }
+  ],
+  "software": [
+    {
+      "classification": "data collection",
+      "name": "ADSC",
+      "pdbx_ordinal": 1,
+      "version": "Quantum"
+    },
+    {
+      "classification": "phasing",
+      "name": "SOLVE",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 3,
+      "version": "(phenix.refine: 1.7.1_743)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "title": "Damaged DNA induced UV-damaged DNA-binding protein (UV-DDB) dimerization and its roles in chromatinized DNA repair"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DNA BINDING PROTEIN/DNA",
+    "text": "BETA BARREL, DOUBLE HELIX, DDB1:WD40 beta-barrel fold, DNA damage, DNA repair, Host-virus interactions, Protein ubiquitination, Proteosomal degradation, DNA BINDING PROTEIN-DNA complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  }
+}

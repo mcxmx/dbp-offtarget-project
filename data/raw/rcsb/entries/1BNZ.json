@@ -1,0 +1,618 @@
+{
+  "audit_author": [
+    {
+      "name": "Gao, Y.-G.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Su, S.-Y.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Robinson, H.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Padmanabhan, S.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Lim, L.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Mccrary, B.S.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Edmondos, S.P.",
+      "pdbx_ordinal": 7
+    },
+    {
+      "name": "Shrive, J.W.",
+      "pdbx_ordinal": 8
+    },
+    {
+      "name": "Wang, A.H.-J.",
+      "pdbx_ordinal": 9
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 47.6,
+    "length_b": 50.77,
+    "length_c": 42.06
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Nat.Struct.Biol.",
+      "journal_id_ASTM": "NSBIEW",
+      "journal_id_CSD": "2024",
+      "journal_id_ISSN": "1072-8368",
+      "journal_volume": "5",
+      "page_first": "782",
+      "page_last": "786",
+      "pdbx_database_id_DOI": "10.1038/1822",
+      "pdbx_database_id_PubMed": 9731772,
+      "rcsb_authors": [
+        "Gao, Y.G.",
+        "Su, S.Y.",
+        "Robinson, H.",
+        "Padmanabhan, S.",
+        "Lim, L.",
+        "McCrary, B.S.",
+        "Edmondson, S.P.",
+        "Shriver, J.W.",
+        "Wang, A.H."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Struct Biol",
+      "title": "The crystal structure of the hyperthermophile chromosomal protein Sso7d bound to DNA.",
+      "year": 1998
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "1BNZ",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb1bnz/pdb",
+      "pdbx_database_accession": "pdb_00001bnz"
+    },
+    {
+      "database_code": "PD0012",
+      "database_id": "NDB"
+    },
+    {
+      "database_code": "RCSB008170",
+      "database_id": "RCSB"
+    },
+    {
+      "database_code": "D_1000008170",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 287.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "1997-05-15T00:00:00.000+00:00",
+      "type": "RIGAKU RAXIS IIC"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "GRAPHITE",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU RU200"
+    }
+  ],
+  "entry": {
+    "id": "1BNZ"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.12,
+      "density_percent_sol": 42.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "pH": 6.5,
+      "pdbx_details": "pH 6.5"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "software",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 6
+    },
+    {
+      "category": "struct_ref_seq_dif",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 6
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Other",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 5,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 6,
+      "revision_ordinal": 6
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "1998-11-11T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2011-05-09T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2011-07-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2011-07-27T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 4,
+      "ordinal": 5,
+      "revision_date": "2017-10-04T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 5,
+      "ordinal": 6,
+      "revision_date": "2024-02-07T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 1,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 2,
+      "revision_ordinal": 6
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref_seq_dif.details",
+      "ordinal": 3,
+      "revision_ordinal": 6
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "BNL",
+    "pdb_format_compatible": "Y",
+    "process_site": "NDB",
+    "recvd_initial_deposition_date": "1998-07-31T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-08T14:56:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.92,
+      "bonds_RMSZ": 0.51,
+      "clashscore": 15.37,
+      "num_H_reduce": 729,
+      "num_angles_RMSZ": 1231,
+      "num_bonds_RMSZ": 876,
+      "percent_ramachandran_outliers": 1.61,
+      "percent_rotamer_outliers": 5.56
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "1998-07-31T00:00:00.000+00:00",
+    "has_released_experimental_data": "N",
+    "initial_release_date": "1998-11-11T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 5,
+    "revision_date": "2024-02-07T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "1BNZ",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2"
+    ],
+    "pubmed_id": 9731772,
+    "rcsb_id": "1BNZ"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 931,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 162,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 80,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 3,
+    "deposited_polymer_monomer_count": 80,
+    "deposited_solvent_atom_count": 99,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    },
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 12.15,
+    "na_polymer_entity_types": "Other",
+    "ndb_struct_conf_na_feature_combined": [
+      "b-form double helix",
+      "double helix"
+    ],
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "protein/NA",
+    "polymer_entity_count": 2,
+    "polymer_entity_count_DNA": 1,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 1,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 7.3,
+    "polymer_molecular_weight_minimum": 2.43,
+    "polymer_monomer_count_maximum": 64,
+    "polymer_monomer_count_minimum": 8,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein/NA",
+    "software_programs_combined": [
+      "PHASIT",
+      "X-PLOR"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "5910",
+      "link": "https://bmrb.io/data_library/generate_summary.php?bmrbId=5910",
+      "type": "BMRB"
+    },
+    {
+      "id": "1BNZ",
+      "link": "https://nakb.org/atlas=1BNZ",
+      "type": "NAKB"
+    },
+    {
+      "id": "5909",
+      "link": "https://bmrb.io/data_library/generate_summary.php?bmrbId=5909",
+      "type": "BMRB"
+    }
+  ],
+  "rcsb_id": "1BNZ",
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Nat.Struct.Biol.",
+    "journal_id_ASTM": "NSBIEW",
+    "journal_id_CSD": "2024",
+    "journal_id_ISSN": "1072-8368",
+    "journal_volume": "5",
+    "page_first": "782",
+    "page_last": "786",
+    "pdbx_database_id_DOI": "10.1038/1822",
+    "pdbx_database_id_PubMed": 9731772,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Gao, Y.G.",
+      "Su, S.Y.",
+      "Robinson, H.",
+      "Padmanabhan, S.",
+      "Lim, L.",
+      "McCrary, B.S.",
+      "Edmondson, S.P.",
+      "Shriver, J.W.",
+      "Wang, A.H."
+    ],
+    "rcsb_journal_abbrev": "Nat Struct Biol",
+    "title": "The crystal structure of the hyperthermophile chromosomal protein Sso7d bound to DNA.",
+    "year": 1998
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.268,
+      "ls_R_factor_R_work": 0.168,
+      "ls_R_factor_obs": 0.168,
+      "ls_d_res_high": 2.0,
+      "ls_d_res_low": 6.0,
+      "ls_number_reflns_obs": 5682,
+      "ls_percent_reflns_obs": 76.0,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_sigma_F": 4.0,
+      "pdbx_method_to_determine_struct": "MIR",
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.0,
+      "d_res_low": 6.0,
+      "number_atoms_solvent": 99,
+      "number_atoms_total": 931,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 322,
+      "pdbx_number_atoms_protein": 510,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.01,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_bond_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_d_prot"
+    },
+    {
+      "dev_ideal": 1.37,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_angle_deg_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_dihedral_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_na"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_improper_angle_d_prot"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "x_scangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 32.0,
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 10.0,
+      "number_obs": 7607,
+      "observed_criterion_sigma_I": 1.0,
+      "pdbx_Rmerge_I_obs": 0.075,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.0,
+      "percent_possible_obs": 94.1
+    }
+  ],
+  "software": [
+    {
+      "classification": "model building",
+      "name": "PHASIT",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "refinement",
+      "name": "X-PLOR",
+      "pdbx_ordinal": 2,
+      "version": "3.1"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASIT",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "struct": {
+    "title": "SSO7D HYPERTHERMOPHILE PROTEIN/DNA COMPLEX"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DNA BINDING PROTEIN/DNA",
+    "text": "PROTEIN-DNA INTERACTION, DNA BINDING PROTEIN-DNA COMPLEX"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "cell_setting": "orthorhombic",
+    "space_group_name_H_M": "P 21 21 21"
+  }
+}

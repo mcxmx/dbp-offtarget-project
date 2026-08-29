@@ -1,0 +1,809 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQKK",
+    "pdbx_seq_one_letter_code_can": "MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQKK",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 1,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 64,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_genus": "Sulfolobus",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_gene_src_ncbi_taxonomy_id": "2285",
+      "pdbx_gene_src_scientific_name": "Sulfolobus acidocaldarius",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 9720,
+      "identity": 100
+    },
+    {
+      "cluster_id": 277,
+      "identity": 95
+    },
+    {
+      "cluster_id": 284,
+      "identity": 90
+    },
+    {
+      "cluster_id": 353,
+      "identity": 70
+    },
+    {
+      "cluster_id": 472,
+      "identity": 50
+    },
+    {
+      "cluster_id": 46,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data"
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "ncbi_parent_scientific_name": "Archaea",
+      "ncbi_scientific_name": "Sulfolobus acidocaldarius",
+      "ncbi_taxonomy_id": 2285,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Sulfolobus acidocaldarius",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2157",
+          "name": "Archaea"
+        },
+        {
+          "depth": 2,
+          "id": "2157",
+          "name": "Archaebacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2157",
+          "name": "Archaebiota"
+        },
+        {
+          "depth": 2,
+          "id": "2157",
+          "name": "Mendosicutes"
+        },
+        {
+          "depth": 2,
+          "id": "2157",
+          "name": "Metabacteria"
+        },
+        {
+          "depth": 3,
+          "id": "1783275",
+          "name": "Thermoproteati"
+        },
+        {
+          "depth": 3,
+          "id": "1783275",
+          "name": "Crenarchaeida"
+        },
+        {
+          "depth": 3,
+          "id": "1783275",
+          "name": "TACK group"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Thermoproteota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "\"Candidatus Marsarchaeota\" Jay et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "\"Candidatus Verstraetearchaeota\" Vanwonterghem et al. 2016"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Candidatus Korarchaeota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Candidatus Martarchaeota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Candidatus Methanomethylicota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Crenarchaeota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Eocyta"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Korarchaeota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Methanomethylicota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Thermoproteaeota"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Thermoproteota corrig. Garrity and Holt 2021"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Xenarchaea"
+        },
+        {
+          "depth": 4,
+          "id": "28889",
+          "name": "Xenarchaeota"
+        },
+        {
+          "depth": 5,
+          "id": "183924",
+          "name": "Thermoprotei"
+        },
+        {
+          "depth": 5,
+          "id": "183924",
+          "name": "Crenarchaeota"
+        },
+        {
+          "depth": 5,
+          "id": "183924",
+          "name": "Thermoprotea"
+        },
+        {
+          "depth": 6,
+          "id": "2281",
+          "name": "Sulfolobales"
+        },
+        {
+          "depth": 7,
+          "id": "118883",
+          "name": "Sulfolobaceae"
+        },
+        {
+          "depth": 8,
+          "id": "2284",
+          "name": "Sulfolobus"
+        },
+        {
+          "depth": 9,
+          "id": "2285",
+          "name": "Sulfolobus acidocaldarius"
+        }
+      ]
+    }
+  ],
+  "rcsb_id": "1BNZ_2",
+  "rcsb_polymer_entity": {
+    "formula_weight": 7.296,
+    "pdbx_description": "DNA-BINDING PROTEIN 7A",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "DNA-BINDING PROTEIN 7A",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      }
+    ],
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "DNA-binding protein 7d"
+      ],
+      "provenance_source": "UniProt Name"
+    },
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man"
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 64,
+          "ref_beg_seq_id": 1
+        }
+      ],
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P39476",
+      "reference_database_name": "UniProt"
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF02294",
+      "assignment_version": "34.0",
+      "name": "7kD DNA-binding domain (7kD_DNA_binding)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0003677",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003677",
+          "name": "DNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ],
+      "name": "DNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO"
+    },
+    {
+      "annotation_id": "GO:0004521",
+      "annotation_lineage": [
+        {
+          "id": "GO:0004519",
+          "name": "endonuclease activity"
+        },
+        {
+          "id": "GO:0004518",
+          "name": "nuclease activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0004521",
+          "name": "RNA endonuclease activity"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0004540",
+          "name": "RNA nuclease activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ],
+      "name": "RNA endonuclease activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO"
+    },
+    {
+      "annotation_id": "GO:0005737",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ],
+      "name": "cytoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO"
+    },
+    {
+      "annotation_id": "IPR016197",
+      "annotation_lineage": [
+        {
+          "id": "IPR016197",
+          "name": "Chromo-like domain superfamily"
+        }
+      ],
+      "name": "Chromo-like domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro"
+    },
+    {
+      "annotation_id": "IPR003212",
+      "annotation_lineage": [
+        {
+          "id": "IPR003212",
+          "name": "DNA-binding protein 7a-e"
+        }
+      ],
+      "name": "DNA-binding protein 7a-e",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro"
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "C"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASP",
+      "GLN",
+      "GLU",
+      "GLY",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "2",
+    "entry_id": "1BNZ",
+    "rcsb_id": "1BNZ_2",
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P39476",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 1.0
+      }
+    ],
+    "uniprot_ids": [
+      "P39476"
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF02294",
+      "feature_positions": [
+        {
+          "beg_seq_id": 3,
+          "end_seq_id": 61
+        }
+      ],
+      "name": "7kD DNA-binding domain (7kD_DNA_binding)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.33,
+            -0.59,
+            -1.18,
+            -1.49,
+            -2.39,
+            -2.34,
+            -2.19,
+            -2.14,
+            -1.5,
+            -1.16,
+            -1.54,
+            -0.66,
+            -0.7,
+            -0.7,
+            0.16,
+            -0.41,
+            -0.52,
+            -0.56,
+            -0.51,
+            -0.51,
+            -0.8,
+            0.13,
+            0.48,
+            0.32,
+            0.34,
+            0.7,
+            -0.16,
+            -0.5,
+            -0.11,
+            -0.37,
+            -0.91,
+            -1.26,
+            -1.64,
+            -1.61,
+            -1.97,
+            -1.62,
+            -1.03,
+            -0.52,
+            -0.57,
+            -0.91,
+            -0.91,
+            -1.22,
+            -0.98,
+            -0.66,
+            -1.04,
+            -1.63,
+            -1.68,
+            -1.17,
+            -1.17,
+            -0.52,
+            0.29,
+            -0.3,
+            -0.56,
+            -0.51,
+            -0.56,
+            -1.41
+          ]
+        }
+      ],
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy"
+    },
+    {
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.43,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.36,
+            0.33,
+            0.32,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.3,
+            0.33,
+            0.35,
+            0.37,
+            0.39,
+            0.4,
+            0.42,
+            0.43,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.4,
+            0.41,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43
+          ]
+        }
+      ],
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding"
+    },
+    {
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.76,
+            0.73,
+            0.68,
+            0.64,
+            0.55,
+            0.5,
+            0.4,
+            0.35,
+            0.31,
+            0.2,
+            0.16,
+            0.18,
+            0.16,
+            0.12,
+            0.17,
+            0.13,
+            0.2,
+            0.2,
+            0.27,
+            0.23,
+            0.23,
+            0.18,
+            0.18,
+            0.12,
+            0.13,
+            0.17,
+            0.18,
+            0.24,
+            0.24,
+            0.25,
+            0.31,
+            0.31,
+            0.33,
+            0.38,
+            0.41,
+            0.36,
+            0.41,
+            0.42,
+            0.43,
+            0.45,
+            0.48,
+            0.51,
+            0.57,
+            0.58,
+            0.62,
+            0.58,
+            0.6,
+            0.59,
+            0.55,
+            0.56,
+            0.56,
+            0.58,
+            0.57,
+            0.56,
+            0.6,
+            0.67,
+            0.74,
+            0.78,
+            0.82,
+            0.85,
+            0.88,
+            0.92,
+            0.93,
+            0.95
+          ]
+        }
+      ],
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder"
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.92188,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 32,
+          "ref_beg_seq_id": 315
+        },
+        {
+          "entity_beg_seq_id": 33,
+          "length": 32,
+          "ref_beg_seq_id": 363
+        }
+      ],
+      "group_id": "277_95",
+      "similarity_cutoff": 95.0
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 13,
+          "ref_beg_seq_id": 581
+        },
+        {
+          "entity_beg_seq_id": 14,
+          "length": 17,
+          "ref_beg_seq_id": 607
+        },
+        {
+          "entity_beg_seq_id": 31,
+          "length": 12,
+          "ref_beg_seq_id": 634
+        },
+        {
+          "entity_beg_seq_id": 43,
+          "length": 22,
+          "ref_beg_seq_id": 648
+        }
+      ],
+      "group_id": "46_30",
+      "similarity_cutoff": 30.0
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 1,
+          "ref_beg_seq_id": 315
+        },
+        {
+          "entity_beg_seq_id": 2,
+          "length": 13,
+          "ref_beg_seq_id": 332
+        },
+        {
+          "entity_beg_seq_id": 15,
+          "length": 32,
+          "ref_beg_seq_id": 347
+        },
+        {
+          "entity_beg_seq_id": 47,
+          "length": 18,
+          "ref_beg_seq_id": 380
+        }
+      ],
+      "group_id": "353_70",
+      "similarity_cutoff": 70.0
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 32,
+          "ref_beg_seq_id": 315
+        },
+        {
+          "entity_beg_seq_id": 33,
+          "length": 32,
+          "ref_beg_seq_id": 363
+        }
+      ],
+      "group_id": "284_90",
+      "similarity_cutoff": 90.0
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 64,
+          "ref_beg_seq_id": 1
+        }
+      ],
+      "group_id": "P39476"
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 1,
+          "ref_beg_seq_id": 231
+        },
+        {
+          "entity_beg_seq_id": 2,
+          "length": 13,
+          "ref_beg_seq_id": 332
+        },
+        {
+          "entity_beg_seq_id": 15,
+          "length": 31,
+          "ref_beg_seq_id": 347
+        },
+        {
+          "entity_beg_seq_id": 46,
+          "length": 19,
+          "ref_beg_seq_id": 379
+        }
+      ],
+      "group_id": "472_50",
+      "similarity_cutoff": 50.0
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 64,
+          "ref_beg_seq_id": 21
+        }
+      ],
+      "group_id": "9720_100",
+      "similarity_cutoff": 100.0
+    }
+  ]
+}

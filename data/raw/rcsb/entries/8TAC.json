@@ -1,0 +1,661 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0008-473X",
+      "name": "Doyle, L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0003-2250-9601",
+      "name": "Stoddard, B.L.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-5223-6339",
+      "name": "Glasscock, C.J.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-0291-2196",
+      "name": "McHugh, R.P.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0002-1656-0470",
+      "name": "Pecoraro, R.J.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 99.47,
+    "angle_gamma": 90.0,
+    "length_a": 28.352,
+    "length_b": 103.996,
+    "length_c": 32.825
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Nat.Struct.Mol.Biol.",
+      "journal_id_ISSN": "1545-9985",
+      "pdbx_database_id_DOI": "10.1038/s41594-025-01669-4",
+      "pdbx_database_id_PubMed": 40940539,
+      "rcsb_authors": [
+        "Glasscock, C.J.",
+        "Pecoraro, R.J.",
+        "McHugh, R.",
+        "Doyle, L.A.",
+        "Chen, W.",
+        "Boivin, O.",
+        "Lonnquist, B.",
+        "Na, E.",
+        "Politanska, Y.",
+        "Haddox, H.K.",
+        "Cox, D.",
+        "Norn, C.",
+        "Coventry, B.",
+        "Goreshnik, I.",
+        "Vafeados, D.",
+        "Lee, G.R.",
+        "Gordan, R.",
+        "Stoddard, B.L.",
+        "DiMaio, F.",
+        "Baker, D."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Struct Mol Biol",
+      "title": "Computational design of sequence-specific DNA-binding proteins.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8TAC",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8tac/pdb",
+      "pdbx_database_accession": "pdb_00008tac"
+    },
+    {
+      "database_code": "D_1000275535",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-05-25T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 2M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Si(220)",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "5.0.1",
+      "pdbx_synchrotron_site": "ALS",
+      "pdbx_wavelength_list": "0.9774",
+      "source": "SYNCHROTRON",
+      "type": "ALS BEAMLINE 5.0.1"
+    }
+  ],
+  "entry": {
+    "id": "8TAC"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.15,
+      "density_percent_sol": 42.79,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 4.6,
+      "pdbx_details": "0.2 M Ammonium acetate, 0.1 M Sodium acetate pH 4.6, 28% PEG 4000",
+      "temp": 300.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-08-28T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-09-24T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/Office of the Director",
+      "grant_number": "S10-OD028581",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Science Foundation (NSF, United States)",
+      "grant_number": "MFB 2226466",
+      "ordinal": 2
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Howard Hughes Medical Institute (HHMI)",
+      "ordinal": 3
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Washington Research Foundation",
+      "ordinal": 4
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Audacious Project at the Institute for Protein Design",
+      "ordinal": 5
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2023-06-27T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "computational design",
+      "id": 1,
+      "source_name": "Other",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-10T04:35:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2449,
+      "DCC_Rfree": 0.2793,
+      "EDS_R": 0.2876,
+      "EDS_res_high": 2.34,
+      "EDS_res_low": 52.0,
+      "Fo_Fc_correlation": 0.833,
+      "I_over_sigma": "0.48(2.16A)",
+      "Padilla_Yeates_L2_mean": 0.248,
+      "Padilla_Yeates_L_mean": 0.42,
+      "Wilson_B_aniso": "[21.741,18.721,21.141,0.000,-0.860,0.000]",
+      "Wilson_B_estimate": 20.401,
+      "acentric_outliers": 5,
+      "bulk_solvent_b": 54.737,
+      "bulk_solvent_k": 0.391,
+      "centric_outliers": 3,
+      "data_anisotropy": 0.147,
+      "data_completeness": 98.45,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 9965,
+      "number_reflns_R_free": 1003,
+      "percent_RSRZ_outliers": 12.34,
+      "percent_free_reflections": 10.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 10.21% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.34,
+      "bonds_RMSZ": 0.18,
+      "clashscore": 12.66,
+      "num_H_reduce": 1151,
+      "num_angles_RMSZ": 2015,
+      "num_bonds_RMSZ": 1432,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 4.71
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-06-27T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-08-28T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2025-09-24T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1",
+      "2"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8TAC",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "pubmed_id": 40940539,
+    "rcsb_id": "8TAC"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 2,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1442,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1149,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 154,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 4,
+    "deposited_polymer_monomer_count": 162,
+    "deposited_solvent_atom_count": 68,
+    "deposited_unmodeled_polymer_monomer_count": 8,
+    "diffrn_radiation_wavelength_maximum": 0.9774,
+    "diffrn_radiation_wavelength_minimum": 0.9774,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.34
+    },
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 22.2,
+    "na_polymer_entity_types": "Other",
+    "ndb_struct_conf_na_feature_combined": [
+      "b-form double helix",
+      "double helix"
+    ],
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "protein/NA",
+    "polymer_entity_count": 3,
+    "polymer_entity_count_DNA": 2,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 2,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 3,
+    "polymer_molecular_weight_maximum": 7.75,
+    "polymer_molecular_weight_minimum": 3.34,
+    "polymer_monomer_count_maximum": 70,
+    "polymer_monomer_count_minimum": 11,
+    "resolution_combined": [
+      2.34
+    ],
+    "selected_polymer_entity_types": "Protein/NA",
+    "software_programs_combined": [
+      "BOS",
+      "DIALS",
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "8TAC",
+      "link": "https://nakb.org/atlas=8TAC",
+      "type": "NAKB"
+    }
+  ],
+  "rcsb_id": "8TAC",
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Nat.Struct.Mol.Biol.",
+    "journal_id_ISSN": "1545-9985",
+    "pdbx_database_id_DOI": "10.1038/s41594-025-01669-4",
+    "pdbx_database_id_PubMed": 40940539,
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-5223-6339",
+      "?",
+      "0000-0003-0291-2196",
+      "0000-0002-0008-473X",
+      "0000-0002-5255-4166",
+      "?",
+      "0009-0006-1778-2135",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-6910-6255",
+      "?",
+      "?",
+      "0000-0002-9119-5303",
+      "0000-0002-6404-6556",
+      "?",
+      "0000-0002-7524-8938",
+      "0000-0001-7896-6217"
+    ],
+    "rcsb_authors": [
+      "Glasscock, C.J.",
+      "Pecoraro, R.J.",
+      "McHugh, R.",
+      "Doyle, L.A.",
+      "Chen, W.",
+      "Boivin, O.",
+      "Lonnquist, B.",
+      "Na, E.",
+      "Politanska, Y.",
+      "Haddox, H.K.",
+      "Cox, D.",
+      "Norn, C.",
+      "Coventry, B.",
+      "Goreshnik, I.",
+      "Vafeados, D.",
+      "Lee, G.R.",
+      "Gordan, R.",
+      "Stoddard, B.L.",
+      "DiMaio, F.",
+      "Baker, D."
+    ],
+    "rcsb_journal_abbrev": "Nat Struct Mol Biol",
+    "title": "Computational design of sequence-specific DNA-binding proteins.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2791,
+      "ls_R_factor_R_work": 0.2444,
+      "ls_R_factor_obs": 0.248,
+      "ls_d_res_high": 2.34,
+      "ls_d_res_low": 52.0,
+      "ls_number_reflns_R_free": 1545,
+      "ls_number_reflns_obs": 7879,
+      "ls_percent_reflns_R_free": 10.01,
+      "ls_percent_reflns_obs": 99.1,
+      "overall_SU_ML": 0.44,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.4,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 29.21,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.34,
+      "d_res_low": 52.0,
+      "number_atoms_solvent": 68,
+      "number_atoms_total": 1436,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 418,
+      "pdbx_number_atoms_protein": 950,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.003,
+      "number": 1426,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.579,
+      "number": 2008,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 29.096,
+      "number": 347,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.036,
+      "number": 240,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.002,
+      "number": 192,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 27.43,
+      "d_resolution_high": 2.34,
+      "d_resolution_low": 52.0,
+      "number_obs": 7888,
+      "pdbx_CC_half": 0.979,
+      "pdbx_Rmerge_I_obs": 0.1832,
+      "pdbx_Rpim_I_all": 0.07882,
+      "pdbx_Rrim_I_all": 0.1998,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 5.38,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.2,
+      "percent_possible_obs": 99.57
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.2997,
+      "d_res_high": 2.34,
+      "d_res_low": 2.424,
+      "meanI_over_sigI_obs": 1.05,
+      "number_unique_obs": 772,
+      "pdbx_CC_half": 0.895,
+      "pdbx_Rpim_I_all": 0.1298,
+      "pdbx_Rrim_I_all": 0.3272,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.2,
+      "percent_possible_all": 99.87
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.18_3855"
+    },
+    {
+      "classification": "data scaling",
+      "name": "DIALS",
+      "pdbx_ordinal": 2,
+      "version": "3.8"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3,
+      "version": "2.8.3"
+    },
+    {
+      "classification": "data collection",
+      "name": "BOS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 5,
+      "version": "V4.1"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DIALS",
+      "pdbx_ordinal": 6,
+      "version": "3.8"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Designed DNA binding protein"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DE NOVO PROTEIN/DNA",
+    "text": "DNA binding, computational design, protein-DNA complex, docking, DE NOVO PROTEIN, DE NOVO PROTEIN-DNA complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  }
+}

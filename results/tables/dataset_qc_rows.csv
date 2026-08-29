@@ -1,0 +1,17 @@
+pair_id,pdb_id,dna_length,protein_length,dna_is_valid,protein_is_valid,dna_exact_duplicate,dna_rc_duplicate,protein_exact_duplicate,filter_reason,keep_row
+9C0F_3_1,9C0F,35,578,True,True,False,False,False,,True
+4E54_1_3,4E54,24,1150,True,True,True,True,True,,True
+4E5Z_1_3,4E5Z,24,1150,True,True,True,True,True,,True
+1TUP_3_1,1TUP,21,219,True,True,False,False,False,,True
+4KPY_1_2,4KPY,21,685,True,True,False,False,False,,True
+1D66_3_1,1D66,19,66,True,True,False,False,False,,True
+1B3T_2_1,1B3T,18,147,True,True,False,False,False,,True
+1O3T_3_2,1O3T,17,200,True,True,False,False,True,,True
+8XIH_1_3,8XIH,16,795,True,True,False,False,False,,True
+1O3Q_3_2,1O3Q,15,200,True,True,False,False,True,,True
+1O3R_3_2,1O3R,15,200,True,True,True,True,True,,True
+1O3S_3_2,1O3S,15,200,True,True,True,True,False,,True
+4JBM_1_2,4JBM,12,193,True,True,False,False,False,,True
+8TAC_1_2,8TAC,11,70,True,True,False,False,False,,True
+1WVL_2_1,1WVL,10,80,True,True,False,False,False,,True
+1BNZ_2_1,1BNZ,8,64,True,True,False,False,False,,True

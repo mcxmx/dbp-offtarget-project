@@ -1,0 +1,17 @@
+pdb_id,status,pair_id,source_url,source_api_url,source_title,retrieval_date
+4KPY,collected,4KPY_1_2,https://www.rcsb.org/structure/4KPY,https://data.rcsb.org/rest/v1/core/entry/4KPY,DNA binding protein and DNA complex structure,2026-08-29
+8XIH,collected,8XIH_1_3,https://www.rcsb.org/structure/8XIH,https://data.rcsb.org/rest/v1/core/entry/8XIH,protein-DNA complex,2026-08-29
+1TUP,collected,1TUP_3_1,https://www.rcsb.org/structure/1TUP,https://data.rcsb.org/rest/v1/core/entry/1TUP,TUMOR SUPPRESSOR P53 COMPLEXED WITH DNA,2026-08-29
+8TAC,collected,8TAC_1_2,https://www.rcsb.org/structure/8TAC,https://data.rcsb.org/rest/v1/core/entry/8TAC,Designed DNA binding protein,2026-08-29
+1O3Q,collected,1O3Q_3_2,https://www.rcsb.org/structure/1O3Q,https://data.rcsb.org/rest/v1/core/entry/1O3Q,PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES,2026-08-29
+1O3R,collected,1O3R_3_2,https://www.rcsb.org/structure/1O3R,https://data.rcsb.org/rest/v1/core/entry/1O3R,PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES,2026-08-29
+1O3S,collected,1O3S_3_2,https://www.rcsb.org/structure/1O3S,https://data.rcsb.org/rest/v1/core/entry/1O3S,PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES,2026-08-29
+1O3T,collected,1O3T_3_2,https://www.rcsb.org/structure/1O3T,https://data.rcsb.org/rest/v1/core/entry/1O3T,PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES,2026-08-29
+1D66,collected,1D66_3_1,https://www.rcsb.org/structure/1D66,https://data.rcsb.org/rest/v1/core/entry/1D66,DNA RECOGNITION BY GAL4: STRUCTURE OF A PROTEIN/DNA COMPLEX,2026-08-29
+4JBM,collected,4JBM_1_2,https://www.rcsb.org/structure/4JBM,https://data.rcsb.org/rest/v1/core/entry/4JBM,Structure of murine DNA binding protein bound with ds DNA,2026-08-29
+1BNZ,collected,1BNZ_2_1,https://www.rcsb.org/structure/1BNZ,https://data.rcsb.org/rest/v1/core/entry/1BNZ,SSO7D HYPERTHERMOPHILE PROTEIN/DNA COMPLEX,2026-08-29
+9C0F,collected,9C0F_3_1,https://www.rcsb.org/structure/9C0F,https://data.rcsb.org/rest/v1/core/entry/9C0F,piggyBat transposase protein-DNA complex,2026-08-29
+1WVL,collected,1WVL_2_1,https://www.rcsb.org/structure/1WVL,https://data.rcsb.org/rest/v1/core/entry/1WVL,Crystal Structure of Multimeric DNA-binding Protein Sac7d-GCN4 with DNA decamer,2026-08-29
+4E54,collected,4E54_1_3,https://www.rcsb.org/structure/4E54,https://data.rcsb.org/rest/v1/core/entry/4E54,Damaged DNA induced UV-damaged DNA-binding protein (UV-DDB) dimerization and its roles in chromatinized DNA repair,2026-08-29
+4E5Z,collected,4E5Z_1_3,https://www.rcsb.org/structure/4E5Z,https://data.rcsb.org/rest/v1/core/entry/4E5Z,Damaged DNA induced UV-damaged DNA-binding protein (UV-DDB) dimerization and its roles in chromatinized DNA repair,2026-08-29
+1B3T,collected,1B3T_2_1,https://www.rcsb.org/structure/1B3T,https://data.rcsb.org/rest/v1/core/entry/1B3T,EBNA-1 NUCLEAR PROTEIN/DNA COMPLEX,2026-08-29

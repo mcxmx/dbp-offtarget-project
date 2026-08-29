@@ -1,0 +1,13 @@
+metric,value
+raw_rows,16
+valid_rows,16
+filtered_rows,0
+invalid_dna_rows,0
+invalid_protein_rows,0
+missing_dna_rows,0
+missing_protein_rows,0
+exact_duplicate_dna_rows,4
+reverse_complement_duplicate_dna_rows,4
+exact_duplicate_protein_rows,5
+unique_dna_canonical_sequences,14
+unique_protein_sequences,13

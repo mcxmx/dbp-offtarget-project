@@ -1,0 +1,58 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "(DG)(DG)(DC)(DG)(DC)(DG)(DC)(DG)(DC)(DG)(DC)(DC)",
+    "pdbx_seq_one_letter_code_can": "GGCGCGCGCGCC",
+    "pdbx_strand_id": "T,R",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "DNA",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 12,
+    "type": "polydeoxyribonucleotide"
+  },
+  "rcsb_id": "4JBM_2",
+  "rcsb_polymer_entity": {
+    "formula_weight": 3.665,
+    "pdbx_description": "DNA (5'-D(*GP*GP*CP*GP*CP*GP*CP*GP*CP*GP*CP*C)-3')",
+    "pdbx_number_of_molecules": 2,
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "DNA (5'-D(*GP*GP*CP*GP*CP*GP*CP*GP*CP*GP*CP*C)-3')",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      }
+    ],
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Dna (5'-d(*gp*gp*cp*gp*cp*gp*cp*gp*cp*gp*cp*c)-3')"
+      ],
+      "provenance_source": "PDB Preferred Name"
+    },
+    "rcsb_source_part_count": 0,
+    "rcsb_source_taxonomy_count": 0,
+    "src_method": "syn"
+  },
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "C",
+      "D"
+    ],
+    "auth_asym_ids": [
+      "R",
+      "T"
+    ],
+    "chem_comp_monomers": [
+      "DC",
+      "DG"
+    ],
+    "entity_id": "2",
+    "entry_id": "4JBM",
+    "rcsb_id": "4JBM_2"
+  }
+}

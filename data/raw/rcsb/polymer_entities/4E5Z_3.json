@@ -1,0 +1,72 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "(DT)(DG)(DA)(DC)(DT)(DG)(DT)(DA)(DT)(DG)(DA)(DT)(DG)(DA)(DC)(DG)(DA)(DT)(DG)(DC)(DT)(DG)(DA)(DC)",
+    "pdbx_seq_one_letter_code_can": "TGACTGTATGATGACGATGCTGAC",
+    "pdbx_strand_id": "F",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "DNA",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 24,
+    "type": "polydeoxyribonucleotide"
+  },
+  "pdbx_entity_src_syn": [
+    {
+      "details": "Synthetic single stranded 24-oligodeoxynucleotides with complementary strand sequence: 5-TGACTGTATGATGACGATGCTGAC-3",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "source_type": "synthetic"
+    }
+  ],
+  "rcsb_id": "4E5Z_3",
+  "rcsb_polymer_entity": {
+    "formula_weight": 7.425,
+    "pdbx_description": "AP24 DNA strand",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "AP24 DNA strand",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      }
+    ],
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Ap24 dna strand"
+      ],
+      "provenance_source": "PDB Preferred Name"
+    },
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 0,
+    "src_method": "syn"
+  },
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "C"
+    ],
+    "auth_asym_ids": [
+      "F"
+    ],
+    "chem_comp_monomers": [
+      "DA",
+      "DC",
+      "DG",
+      "DT"
+    ],
+    "entity_id": "3",
+    "entry_id": "4E5Z",
+    "rcsb_id": "4E5Z_3"
+  }
+}
