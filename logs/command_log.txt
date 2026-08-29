@@ -1,0 +1,17 @@
+[2026-08-29T21:52:30] .venv313\Scripts\python src\collect_data.py
+[2026-08-29T21:53:01] .venv313\Scripts\python src\validate_sequences.py
+[2026-08-29T21:53:14] .venv313\Scripts\python src\preprocess.py
+[2026-08-29T21:53:26] .venv313\Scripts\python src\generate_mutants.py
+[2026-08-29T21:53:47] .venv313\Scripts\python src\generate_gc_matched.py
+[2026-08-29T21:54:13] .venv313\Scripts\python src\preprocess.py
+[2026-08-29T21:54:26] .venv313\Scripts\python src\sequence_baselines.py
+[2026-08-29T21:55:06] .venv313\Scripts\python analysis/02_mutation_landscape.py
+[2026-08-29T21:55:06] .venv313\Scripts\python analysis/01_dataset_summary.py
+[2026-08-29T21:56:05] .venv313\Scripts\python analysis/02_mutation_landscape.py
+[2026-08-29T21:56:05] .venv313\Scripts\python analysis/04_genome_scan_demo.py
+[2026-08-29T21:57:54] .venv313\Scripts\python analysis/02_mutation_landscape.py
+[2026-08-29T21:57:54] .venv313\Scripts\python analysis/03_sequence_baseline.py
+[2026-08-29T22:02:55] .venv313\Scripts\python src/validate_sequences.py
+[2026-08-29T22:03:21] .venv313\Scripts\python analysis/04_genome_scan_demo.py
+[2026-08-29T22:03:42] .venv313\Scripts\python -m pytest -q
+[2026-08-29T22:04:42] .venv313\Scripts\python analysis/03_sequence_baseline.py

@@ -1,0 +1,5 @@
+metric,value
+n_candidates,200.0
+min_hamming,3.0
+median_hamming,5.0
+max_support_count,7.0
