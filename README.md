@@ -16,7 +16,8 @@ Current scope:
 3. `.\.venv313\Scripts\python analysis/05_proxy_position_bias.py`
 4. `.\.venv313\Scripts\python analysis/06_v0_2_figures.py`
 5. `.\.venv313\Scripts\python src/collect_experimental_specificity.py`
-6. `.\.venv313\Scripts\python analysis/07_benchmark_quality_report.py`
+6. `.\.venv313\Scripts\python analysis/08_experimental_specificity_proxy_baseline.py`
+7. `.\.venv313\Scripts\python analysis/07_benchmark_quality_report.py`
 
 ## v0.1 Historical Run Order
 
