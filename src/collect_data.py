@@ -24,7 +24,7 @@ INTERIM_DIR = ensure_dir(ROOT / "data" / "interim")
 META_DIR = ensure_dir(ROOT / "metadata")
 
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": "dbp-offtarget-prototype/0.1"})
+SESSION.headers.update({"User-Agent": "dbp-offtarget-prototype/0.2"})
 
 
 def fetch_json(url: str, cache_path: Path) -> dict:
@@ -101,8 +101,10 @@ def collect_entry(pdb_id: str) -> dict | None:
 
     pair_id = f"{pdb_id}_{protein['entity_id']}_{dna['entity_id']}"
     notes = (
+        "uncurated automated collection row; "
         f"selected longest protein entity from {len(proteins)} protein entity(ies) and "
-        f"longest DNA entity from {len(dnas)} DNA entity(ies)"
+        f"longest DNA entity from {len(dnas)} DNA entity(ies); "
+        "run src/curate_pdb_pairs.py before using records for benchmark construction"
     )
     if "designed" in title.lower():
         notes += "; designed complex"
@@ -132,7 +134,11 @@ def collect_entry(pdb_id: str) -> dict | None:
         "source_paper_year": citation["source_paper_year"],
         "retrieval_date": RETRIEVAL_DATE,
         "experimental_or_designed": classify_entry(title),
-        "has_specificity_ground_truth": True,
+        "has_specificity_ground_truth": False,
+        "has_structural_cognate": True,
+        "has_direct_dna_binding_evidence": "",
+        "has_sequence_specificity_evidence": "",
+        "has_quantitative_specificity_ground_truth": False,
         "notes": notes,
     }
     return row
@@ -181,4 +187,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
