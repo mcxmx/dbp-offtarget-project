@@ -33,7 +33,7 @@ v0.2.
 
 ## Experimental specificity pilot sources
 
-Layer C currently uses a small JASPAR CORE pilot. Scores in
+Layer C v0.2 used a small JASPAR CORE pilot. Scores in
 `data/processed/experimental_specificity_small.csv` are PWM log2-odds values
 derived from JASPAR position frequency matrices. They are not raw PBM
 enrichment scores and are not cross-assay normalized.
@@ -50,6 +50,19 @@ enrichment scores and are not cross-assay normalized.
 | UniProt FASTA | P46099 | Klf1 | P46099 | https://rest.uniprot.org/uniprotkb/P46099.fasta | 2026-08-29 | Protein sequence provenance |
 | UniProt FASTA | P15976 | GATA1 | P15976 | https://rest.uniprot.org/uniprotkb/P15976.fasta | 2026-08-29 | Protein sequence provenance |
 | UniProt FASTA | P08047 | SP1 | P08047 | https://rest.uniprot.org/uniprotkb/P08047.fasta | 2026-08-29 | Protein sequence provenance |
+
+## Designed DBP uPBM experimental specificity sources
+
+Layer C v0.3 uses GEO GSE237017 processed and raw uPBM supplementary files for designed DNA-binding proteins. These files provide experimental 7-mer PBM E-scores, median intensities, and z-scores for DBP1, DBP3, DBP5, DBP6, DBP9, DBP35, and DBP48.
+
+| source_type | accession | URL | retrieval_date | local_manifest | notes |
+|---|---|---|---|---|---|
+| GEO Series | GSE237017 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE237017 | 2026-09-01 | `metadata/v0_3/gse237017_series_metadata.json` | Series metadata for computational design of sequence-specific DNA-binding proteins |
+| GEO Family SOFT | GSE237017_family.soft.gz | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/soft/GSE237017_family.soft.gz | 2026-09-01 | `metadata/v0_3/gse237017_samples.csv` | Programmatically parsed GSM sample metadata |
+| GEO Supplementary Files | 12 processed 7-mer files and 12 raw spot-data files | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/suppl/ | 2026-09-01 | `metadata/v0_3/gse237017_file_manifest.csv` | Raw files preserved under `data/raw/gse237017/` with SHA256 and file size |
+| Nature Supplementary Workbook | 41594_2025_1669_MOESM3_ESM.xlsx | https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-025-01669-4/MediaObjects/41594_2025_1669_MOESM3_ESM.xlsx | 2026-09-01 | `metadata/v0_3/designed_dbp_design_source_manifest.csv` | Official supplementary tables used for designed DBP protein sequences and intended target DNA sequences |
+
+The v0.3 benchmark output is `data/processed/v0_3/designed_dbp_upbm_v0_3.parquet`. PBM E-score is treated as an experimental 7-mer specificity/enrichment score for per-protein ranking, not as Kd or absolute cross-protein affinity.
 
 ## Literature anchor
 

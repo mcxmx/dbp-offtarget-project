@@ -61,12 +61,19 @@ What it does not support by itself:
 Files:
 
 - `data/processed/experimental_specificity_small.csv`
+- `data/processed/v0_3/designed_dbp_upbm_v0_3.parquet`
+- `metadata/v0_3/gse237017_samples.csv`
+- `metadata/v0_3/gse237017_file_manifest.csv`
+- `metadata/v0_3/designed_dbp_sequences.csv`
+- `metadata/v0_3/designed_dbp_targets.csv`
 
 Purpose:
 
 - Store experimentally measured DNA preference records from PBM, HT-SELEX,
   CIS-BP/JASPAR-like curated resources, Kd/competition assays, or related
   quantitative sources.
+- Store GSE237017 designed DBP uPBM 7-mer specificity measurements as the first
+  raw experimental designed-DBP external benchmark.
 
 Required columns:
 
@@ -86,11 +93,28 @@ Required columns:
 What it supports:
 
 - Quantitative validation once score meaning and assay type are clear.
+- Per-protein ranking evaluation for designed DBP 7-mer PBM specificity.
+- External/OOD evaluation of protein-conditioned models trained on natural DBPs.
 
 What it does not support automatically:
 
 - Cross-assay score normalization.
 - Family-level generalization claims without leakage-controlled splits.
+- Cross-protein absolute affinity comparison.
+- Direct full-target affinity when only overlapping 7-mer scores are available.
+
+v0.3 source:
+
+- GEO GSE237017 is Layer C experimental specificity ground truth for designed
+  DBPs. Its primary score is `PBM E-score`, stored as
+  `experimental_score_primary` after within-protein replicate consensus.
+
+Important distinction:
+
+- The v0.2 JASPAR pilot is PFM-derived motif scoring and is not equivalent to
+  GSE237017 raw experimental PBM measurements. It remains useful for code-path
+  testing, but it should not be mixed with v0.3 uPBM records as if the score
+  scales were the same.
 
 ## Layer D: Genome Candidate Dataset
 
@@ -116,4 +140,3 @@ Incorrect interpretation:
 - Not off-target prediction.
 - Not exhaustive GRCh38 screening.
 - Not protein-conditioned risk assessment.
-

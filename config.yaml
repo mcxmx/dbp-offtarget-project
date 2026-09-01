@@ -67,6 +67,7 @@ experimental_specificity:
 
 benchmark_v0_3:
   gse_id: "GSE237017"
+  retrieval_date: "2026-09-01"
   geo_series_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE237017"
   geo_family_soft_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/soft/GSE237017_family.soft.gz"
   geo_supplement_dir_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/suppl/"

@@ -28,23 +28,36 @@
 - Generated `results/BENCHMARK_QUALITY_REPORT.md` and `results/WEEKLY_PROGRESS_V0_2.md`.
 - Created local tag `v0.2-benchmark-freeze` at the v0.2 benchmark state.
 
+### v0.3 designed DBP experimental specificity benchmark
+
+- Programmatically collected GEO GSE237017 series and GSM metadata for designed DBP uPBM experiments.
+- Downloaded 12 processed 7-mer files and 12 raw spot-data files, with SHA256 and file size provenance in `metadata/v0_3/gse237017_file_manifest.csv`.
+- Parsed processed uPBM files into `data/interim/gse237017/upbm_7mers_long.parquet`, explicitly expanding the reverse-complement companion 7-mer column.
+- Verified complete 7-mer coverage for all 12 samples: 16,384 unique 7-mers per sample after reverse-complement expansion.
+- Built `data/processed/v0_3/designed_dbp_upbm_v0_3.parquet` with 114,688 protein-7mer experimental measurements.
+- Recovered all 7 designed DBP protein sequences and intended target DNA sequences from official Nature supplementary material.
+- Generated replicate QC, reverse-complement QC, target-derived 7-mer rank summaries, sequence-only baseline comparisons, and v0.3 figures.
+- Created v0.3 dataset card, PBM score definitions, model split plan, progress report, and GO/NO-GO report.
+
 ## In progress
 
-- v0.3 designed DBP experimental specificity benchmark from GSE237017 uPBM data.
-- Expanding beyond structural complexes to raw PBM / HT-SELEX / CIS-BP-style quantitative specificity datasets.
+- Preparing v0.4 protein-conditioned baseline experiments using v0.3 as an external designed-DBP benchmark.
+- Expanding beyond GSE237017 to additional raw PBM / HT-SELEX / CIS-BP-style quantitative specificity datasets.
 - Designing protein-conditioned model interfaces for future calibration work.
 
 ## Next step
 
-- Replace or complement the JASPAR PFM-derived pilot with raw experimental specificity measurements where accessible.
+- Keep GSE237017 designed DBPs as an external/OOD test set rather than mixing them into natural DBP training.
 - Add CIS-BP / PBM / HT-SELEX sources and protein-family / DNA-similarity split logic.
 - Attach a protein-conditioned scoring backend when a suitable model is available.
 
 ## Known limitations
 
-- Current scores are sequence-only proxy metrics.
+- v0.1/v0.2 scores are sequence-only proxy metrics.
+- v0.3 PBM E-scores are experimental 7-mer specificity/enrichment scores, not Kd, binding free energy, binding probability, or absolute cross-protein affinity.
 - Sequence-only proxy mutation landscapes can contain positional artifacts from k-mer overlap.
 - The genome scan is a chr22 candidate retrieval demo, not a full-GRCh38 screen or off-target prediction.
 - PDB structural pairs do not provide quantitative specificity ground truth.
 - JASPAR pilot scores are PFM-derived PWM log2-odds values, not raw PBM/HT-SELEX enrichment.
+- GSE237017 processed PBM tables are 7-mer level; intended full target DNA sequences are longer than 7 bp and are summarized by overlapping 7-mers only.
 - No calibrated uncertainty or protein-conditioned binding model is available yet.

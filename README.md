@@ -8,6 +8,17 @@ Current scope:
 - GC-matched and random negative controls
 - sequence-only proxy baselines for pipeline sanity checks
 - chr22 genome candidate retrieval prototype
+- designed DBP uPBM experimental specificity benchmark from GEO GSE237017
+
+## v0.3 Run Order
+
+1. `.\.venv313\Scripts\python src/collect_gse237017.py`
+2. `.\.venv313\Scripts\python src/parse_upbm.py`
+3. `.\.venv313\Scripts\python analysis/v0_3/01_upbm_qc.py`
+4. `.\.venv313\Scripts\python src/collect_designed_dbp_metadata.py`
+5. `.\.venv313\Scripts\python src/build_designed_dbp_benchmark_v0_3.py`
+6. `.\.venv313\Scripts\python analysis/v0_3/02_experimental_figures_and_baseline.py`
+7. `.\.venv313\Scripts\python analysis/v0_3/03_write_v0_3_reports.py`
 
 ## v0.2 Run order
 
@@ -43,4 +54,6 @@ Current scope:
 
 ## Notes
 
-PDB structures are treated as structural cognate evidence, not quantitative specificity ground truth. All current benchmark scores are sequence-only proxy metrics for sanity checking. They are not protein-conditioned binding predictions, binding affinities, calibrated risks, or biological specificity landscapes.
+PDB structures are treated as structural cognate evidence, not quantitative specificity ground truth. v0.1/v0.2 sequence scores are sequence-only proxy metrics for sanity checking. They are not protein-conditioned binding predictions, binding affinities, calibrated risks, or biological specificity landscapes.
+
+v0.3 adds real in vitro uPBM experimental 7-mer specificity measurements for designed DBPs. The primary score is PBM E-score for per-protein ranking. It must not be interpreted as Kd, binding free energy, binding probability, in vivo genomic binding, or absolute cross-protein affinity.
