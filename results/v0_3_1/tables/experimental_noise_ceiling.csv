@@ -1,0 +1,16 @@
+protein_id,score_type,pearson_correlation,spearman_correlation,n_aligned_7mers,interpretation
+DBP1,e_score,0.5576835930067374,0.5084861363759142,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP1,median_intensity,0.6735181583090148,0.5944143351636137,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP1,z_score,0.7077155691741284,0.5944153256717385,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP3,e_score,0.7387428151495147,0.6550445942721039,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP3,median_intensity,0.9491194043402164,0.5854082872304418,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP3,z_score,0.8614461077492972,0.5854079292704789,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP35,e_score,0.6649318479771515,0.5914386964424022,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP35,median_intensity,0.8883916475333693,0.535536796462225,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP35,z_score,0.8397953985519048,0.5355368758800267,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP6,e_score,0.5510723425109617,0.4694268168791889,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP6,median_intensity,0.6774779625350241,0.3758223602476148,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP6,z_score,0.6552648005219078,0.3758211992079694,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP9,e_score,0.7649283126311639,0.7338508941862311,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP9,median_intensity,0.770407762363607,0.7148370709208728,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling
+DBP9,z_score,0.7709542179537962,0.7148374169996209,16384,empirical replicate agreement / assay reproducibility reference; not a strict mathematical ceiling

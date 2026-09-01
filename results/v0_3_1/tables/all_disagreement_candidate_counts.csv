@@ -1,0 +1,8 @@
+protein_id,n_total_sequences,n_disagreement,fraction_disagreement,experimental_score_threshold,sequence_similarity_threshold,threshold_definition,notes
+DBP1,8192,287,0.0350341796875,0.15946075,0.4,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
+DBP3,8192,381,0.0465087890625,0.19579749999999999,0.5,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
+DBP35,8192,174,0.021240234375,0.16523749999999995,0.33333333333333337,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
+DBP48,8192,224,0.02734375,0.2747939999999999,0.5,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
+DBP5,8192,178,0.021728515625,0.17978199999999997,0.33333333333333337,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
+DBP6,8192,150,0.018310546875,0.17680424999999986,0.33333333333333337,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
+DBP9,8192,121,0.0147705078125,0.20275924999999997,0.33333333333333337,per-protein E-score >= 0.95 quantile and RC-aware motif hamming similarity <= 0.50 quantile,Sequence-vs-experiment disagreement candidates; not model failures.
