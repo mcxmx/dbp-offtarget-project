@@ -1,0 +1,2 @@
+n_proteins,n_oriented_rows_total,n_oriented_7mers_per_protein,n_rc_equivalence_classes_total,n_rc_equivalence_classes_per_protein,independence_note
+7,114688,16384,57344,8192,114688 oriented rows collapse to 57344 protein-RC-class experimental units; rows are not all independent sequence units.

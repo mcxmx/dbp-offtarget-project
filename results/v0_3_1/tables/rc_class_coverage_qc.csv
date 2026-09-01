@@ -1,0 +1,8 @@
+protein_id,n_oriented_rows,n_unique_oriented_7mers,n_rc_equivalence_classes,expected_oriented_7mers,expected_rc_equivalence_classes,n_rc_classes_with_two_oriented_rows,n_bad_rc_classes,max_rc_class_score_abs_diff,coverage_status
+DBP1,16384,16384,8192,16384,8192,8192,0,0.0,PASS
+DBP3,16384,16384,8192,16384,8192,8192,0,0.0,PASS
+DBP35,16384,16384,8192,16384,8192,8192,0,0.0,PASS
+DBP48,16384,16384,8192,16384,8192,8192,0,0.0,PASS
+DBP5,16384,16384,8192,16384,8192,8192,0,0.0,PASS
+DBP6,16384,16384,8192,16384,8192,8192,0,0.0,PASS
+DBP9,16384,16384,8192,16384,8192,8192,0,0.0,PASS
