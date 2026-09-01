@@ -64,3 +64,21 @@ experimental_specificity:
     - "MA0493.1"  # Klf1
     - "MA0035.4"  # GATA1
     - "MA0079.5"  # SP1
+
+benchmark_v0_3:
+  gse_id: "GSE237017"
+  geo_series_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE237017"
+  geo_family_soft_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/soft/GSE237017_family.soft.gz"
+  geo_supplement_dir_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/suppl/"
+  geo_filelist_url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/suppl/filelist.txt"
+  expected_7mer_count: 16384
+  designed_dbp_ids:
+    - "DBP1"
+    - "DBP3"
+    - "DBP5"
+    - "DBP6"
+    - "DBP9"
+    - "DBP35"
+    - "DBP48"
+  primary_score: "e_score"
+  consensus_method: "mean"
