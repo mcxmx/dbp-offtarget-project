@@ -1,0 +1,22 @@
+protein_id,gsm_a,replicate_a,gsm_b,replicate_b,score_type,n_aligned_7mers,pearson_correlation,spearman_correlation,qc_status,notes
+DBP1,GSM7593072,1,GSM7593079,2,e_score,16384,0.5576835930067374,0.5084861363759142,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP1,GSM7593072,1,GSM7593079,2,median_intensity,16384,0.6735181583090148,0.5944143351636137,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP1,GSM7593072,1,GSM7593079,2,z_score,16384,0.7077155691741284,0.5944153256717385,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP3,GSM7593073,1,GSM7593080,2,e_score,16384,0.7387428151495147,0.6550445942721039,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP3,GSM7593073,1,GSM7593080,2,median_intensity,16384,0.9491194043402164,0.5854082872304418,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP3,GSM7593073,1,GSM7593080,2,z_score,16384,0.8614461077492972,0.5854079292704789,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP35,GSM7593077,1,GSM7593083,2,e_score,16384,0.6649318479771515,0.5914386964424022,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP35,GSM7593077,1,GSM7593083,2,median_intensity,16384,0.8883916475333693,0.535536796462225,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP35,GSM7593077,1,GSM7593083,2,z_score,16384,0.8397953985519048,0.5355368758800267,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP48,GSM7593078,1,,,e_score,0,,,single_replicate_only,No replicate correlation calculated because GEO metadata contains one sample for this protein.
+DBP48,GSM7593078,1,,,median_intensity,0,,,single_replicate_only,No replicate correlation calculated because GEO metadata contains one sample for this protein.
+DBP48,GSM7593078,1,,,z_score,0,,,single_replicate_only,No replicate correlation calculated because GEO metadata contains one sample for this protein.
+DBP5,GSM7593074,1,,,e_score,0,,,single_replicate_only,No replicate correlation calculated because GEO metadata contains one sample for this protein.
+DBP5,GSM7593074,1,,,median_intensity,0,,,single_replicate_only,No replicate correlation calculated because GEO metadata contains one sample for this protein.
+DBP5,GSM7593074,1,,,z_score,0,,,single_replicate_only,No replicate correlation calculated because GEO metadata contains one sample for this protein.
+DBP6,GSM7593075,1,GSM7593081,2,e_score,16384,0.5510723425109617,0.4694268168791889,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP6,GSM7593075,1,GSM7593081,2,median_intensity,16384,0.6774779625350241,0.37582236024761484,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP6,GSM7593075,1,GSM7593081,2,z_score,16384,0.6552648005219078,0.3758211992079694,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP9,GSM7593076,1,GSM7593082,2,e_score,16384,0.7649283126311639,0.7338508941862311,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP9,GSM7593076,1,GSM7593082,2,median_intensity,16384,0.770407762363607,0.7148370709208728,replicate_pair,Replicates aligned by expanded dna_7mer.
+DBP9,GSM7593076,1,GSM7593082,2,z_score,16384,0.7709542179537962,0.7148374169996209,replicate_pair,Replicates aligned by expanded dna_7mer.

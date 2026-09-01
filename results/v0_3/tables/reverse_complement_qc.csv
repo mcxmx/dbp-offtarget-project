@@ -1,0 +1,13 @@
+protein_id,gsm_id,n_7mers,e_score_n_pairs_checked,e_score_max_abs_rc_difference,e_score_mean_abs_rc_difference,median_intensity_n_pairs_checked,median_intensity_max_abs_rc_difference,median_intensity_mean_abs_rc_difference,z_score_n_pairs_checked,z_score_max_abs_rc_difference,z_score_mean_abs_rc_difference,notes
+DBP1,GSM7593072,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP1,GSM7593079,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP3,GSM7593073,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP3,GSM7593080,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP35,GSM7593077,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP35,GSM7593083,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP48,GSM7593078,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP5,GSM7593074,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP6,GSM7593075,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP6,GSM7593081,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP9,GSM7593076,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
+DBP9,GSM7593082,16384,16384,0.0,0.0,16384,0.0,0.0,16384,0.0,0.0,Processed table contains paired 7-mer and reverse-complement columns; parser expands both columns and checks score symmetry.
