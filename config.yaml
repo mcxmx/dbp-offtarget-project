@@ -24,7 +24,7 @@ random_per_target: 1000
 gc_tolerance: 0.05
 max_double_mutants_per_target: 1000000
 
-benchmark_name: "v0.1"
+benchmark_name: "v0.2"
 sequence_baseline_k_values: [3, 4]
 
 mutation_landscape_pair_id: "1D66"

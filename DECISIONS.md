@@ -1,7 +1,7 @@
 # Decisions
 
 1. Use RCSB PDB structural complexes as the first real paired DBP-DNA benchmark because they provide direct provenance and sequence data with minimal ambiguity.
-2. Select one protein entity and one DNA entity per PDB entry, choosing the longest protein and longest DNA chain when multiple candidates exist.
+2. Historical v0.1 rule, superseded in v0.2: select one protein entity and one DNA entity per PDB entry by choosing the longest protein and longest DNA chain when multiple candidates exist. This rule is retained only as an uncurated raw/interim collection heuristic.
 3. Keep raw downloads under `data/raw/` and never overwrite them.
 4. Use Python 3.13 in `.venv313` because Python 3.14 did not have fast wheel availability for the scientific stack.
 5. Treat all current scores as `sequence-only proxy baseline` values.

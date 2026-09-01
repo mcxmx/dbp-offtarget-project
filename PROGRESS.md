@@ -2,6 +2,8 @@
 
 ## Completed
 
+### v0.1 historical prototype
+
 - Initialized standalone git repository and project skeleton.
 - Created and used Python 3.13 virtual environment.
 - Collected 16 real PDB protein-DNA pairs with provenance.
@@ -12,6 +14,9 @@
 - Generated figures 1 to 6, including GC distribution, mutation landscapes, proxy distribution, and a chr22 genome-scan demo.
 - Generated `results/WEEKLY_PROGRESS.md`.
 - Published the repository to GitHub as a public remote.
+
+### v0.2 curated benchmark
+
 - Completed benchmark v0.2 scientific audit and documented v0.1 assumptions in `docs/SCIENTIFIC_AUDIT.md`.
 - Curated all 16 historical PDB pairs in `metadata/pdb_pair_curation.csv`.
 - Corrected PDB structural evidence versus quantitative specificity ground-truth annotations.
@@ -21,9 +26,11 @@
 - Added sequence-only proxy positional-bias analysis in `analysis/05_proxy_position_bias.py`.
 - Added a small Layer C experimental specificity pilot from JASPAR CORE and UniProt with 5 proteins and 1,209 PFM-derived DNA score records.
 - Generated `results/BENCHMARK_QUALITY_REPORT.md` and `results/WEEKLY_PROGRESS_V0_2.md`.
+- Created local tag `v0.2-benchmark-freeze` at the v0.2 benchmark state.
 
 ## In progress
 
+- v0.3 designed DBP experimental specificity benchmark from GSE237017 uPBM data.
 - Expanding beyond structural complexes to raw PBM / HT-SELEX / CIS-BP-style quantitative specificity datasets.
 - Designing protein-conditioned model interfaces for future calibration work.
 
