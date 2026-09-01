@@ -1,5 +1,5 @@
 {
-  "metadata_only": true,
+  "metadata_only": false,
   "n_manifest_files": 24,
   "n_processed_7mer_files": 12,
   "n_proteins": 7,

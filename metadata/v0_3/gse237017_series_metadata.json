@@ -1,10 +1,10 @@
 {
-  "family_soft_download_status": "downloaded",
+  "family_soft_download_status": "existing",
   "family_soft_local_path": "E:\\codex\\dbp_offtarget_project\\data\\raw\\gse237017\\GSE237017_family.soft.gz",
   "family_soft_sha256": "893c3ad1f06c6441aa7b1b5fe2c19ba21aecd92600fc9dda90f4afb902edbe63",
   "family_soft_size_bytes": 5130,
   "family_soft_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/soft/GSE237017_family.soft.gz",
-  "filelist_download_status": "downloaded",
+  "filelist_download_status": "existing",
   "filelist_local_path": "E:\\codex\\dbp_offtarget_project\\data\\raw\\gse237017\\filelist.txt",
   "filelist_sha256": "7c003fe28d0e9e3e254ed0d1a04c3588f24658cfa3aa29119da548b819107a1e",
   "filelist_size_bytes": 1850,
