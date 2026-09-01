@@ -1,0 +1,2 @@
+gate,paper_reproduction_status,max_reproduction_error,rc_status,n_oriented_rows,n_rc_class_units,total_disagreement_candidates,example_rows,e_score_replicate_pearson_median,e_score_replicate_spearman_median,n_protein_sequence_clusters,n_original_target_groups,n_assay_target_groups,n_motif_groups,pytest_status,pytest_detail
+GO TO V0.4,PASS,1.2535011902581914,PASS,114688,57344,1515,140,0.6649318479771515,0.5914386964424022,4,4,4,4,PASS,29 passed

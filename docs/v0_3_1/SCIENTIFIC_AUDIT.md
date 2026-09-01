@@ -63,3 +63,20 @@ v0.4 model work is allowed only if v0.3.1 establishes:
 - Tests pass.
 
 Final gate labels: `GO TO V0.4`, `CONDITIONAL GO`, or `STOP -- FIX REQUIRED`.
+
+## Resolution Summary
+
+Completed in v0.3.1:
+
+- Published Extended Data Fig. 8 uPBM motif percentiles reproduced for all seven designed DBPs.
+- DBP48 original design target, assay target, and PBM evaluation motif separated.
+- Reverse-complement canonicalization implemented and tested.
+- v0.3.1 benchmark rebuilt with oriented rows and RC-class units.
+- Sequence-only baseline recomputed with RC-aware motif comparison.
+- Disagreement counts corrected: 140 is examples-only; all-candidate count is 1515 under the v0.3.1 rule.
+- Empirical replicate agreement/noise ceiling generated.
+- Protein sequence clusters and target/motif groups generated.
+- Portability manifest created with project-relative paths.
+- v0.3.1 tests pass.
+
+Final validation report: `results/v0_3_1/V0_3_1_VALIDATION_REPORT.md`.

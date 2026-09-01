@@ -15,3 +15,8 @@
 13. Interpret v0.3 PBM E-scores only as per-protein experimental 7-mer specificity/enrichment scores. Do not treat them as Kd, binding free energy, binding probability, in vivo binding, or absolute cross-protein affinity.
 14. The GSE237017 processed 7-mer files contain a primary 7-mer column and a reverse-complement companion 7-mer column. v0.3 explicitly expands both columns and verifies reverse-complement score consistency instead of silently merging or dropping one orientation.
 15. Keep GSE237017 designed DBPs as an external/OOD designed-protein evaluation set for v0.4+ model development. Do not mix these seven designed proteins into natural DBP training splits unless the analysis is explicitly leave-one-designed-DBP-out.
+16. For v0.3.1, treat 8192 source-data rows as reverse-complement equivalence classes and 16384 expanded sequences as oriented rows. Report 57344 protein-RC-class units as the primary independent sequence-unit count.
+17. For v0.3.1, reproduce paper uPBM motif percentiles from Nature Source Data Extended Data Fig. 8 using 8192 RC-class rows, motif matching against either 7-mer column, rank-percentile E-scores within each replicate, and replicate averaging.
+18. For v0.3.1, separate original design target, experimental assay target, and PBM evaluation motif. DBP48 is recorded as original design target I and assay/PBM reference target C.
+19. For v0.3.1, define disagreement candidates as sequence-vs-experiment cases, not model failures, because no protein-conditioned model has been evaluated yet.
+20. For future DNA-level splits, group by canonical reverse-complement equivalence class and never split a sequence and its reverse complement across train/test.

@@ -61,8 +61,10 @@ Layer C v0.3 uses GEO GSE237017 processed and raw uPBM supplementary files for d
 | GEO Family SOFT | GSE237017_family.soft.gz | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/soft/GSE237017_family.soft.gz | 2026-09-01 | `metadata/v0_3/gse237017_samples.csv` | Programmatically parsed GSM sample metadata |
 | GEO Supplementary Files | 12 processed 7-mer files and 12 raw spot-data files | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237017/suppl/ | 2026-09-01 | `metadata/v0_3/gse237017_file_manifest.csv` | Raw files preserved under `data/raw/gse237017/` with SHA256 and file size |
 | Nature Supplementary Workbook | 41594_2025_1669_MOESM3_ESM.xlsx | https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-025-01669-4/MediaObjects/41594_2025_1669_MOESM3_ESM.xlsx | 2026-09-01 | `metadata/v0_3/designed_dbp_design_source_manifest.csv` | Official supplementary tables used for designed DBP protein sequences and intended target DNA sequences |
+| Nature Source Data Fig. 4 | 41594_2025_1669_MOESM12_ESM.xlsx | https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-025-01669-4/MediaObjects/41594_2025_1669_MOESM12_ESM.xlsx | 2026-09-01 | `metadata/v0_3_1/paper_source_data_manifest.csv` | Source data used to cross-check DBP48 sequence C context |
+| Nature Source Data Extended Data Fig. 8 | 41594_2025_1669_MOESM20_ESM.xls | https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-025-01669-4/MediaObjects/41594_2025_1669_MOESM20_ESM.xls | 2026-09-01 | `metadata/v0_3_1/paper_source_data_manifest.csv` | Source data used to reproduce published uPBM motif percentile values |
 
-The v0.3 benchmark output is `data/processed/v0_3/designed_dbp_upbm_v0_3.parquet`. PBM E-score is treated as an experimental 7-mer specificity/enrichment score for per-protein ranking, not as Kd or absolute cross-protein affinity.
+The v0.3 benchmark output is `data/processed/v0_3/designed_dbp_upbm_v0_3.parquet`. The v0.3.1 corrected outputs are under `data/processed/v0_3_1/`, including oriented rows and RC-class units. PBM E-score is treated as a processed experimental 7-mer specificity/enrichment score for per-protein ranking, not as Kd or absolute cross-protein affinity.
 
 ## Literature anchor
 

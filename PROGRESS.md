@@ -39,6 +39,21 @@
 - Generated replicate QC, reverse-complement QC, target-derived 7-mer rank summaries, sequence-only baseline comparisons, and v0.3 figures.
 - Created v0.3 dataset card, PBM score definitions, model split plan, progress report, and GO/NO-GO report.
 
+### v0.3.1 scientific audit and correction
+
+- Re-read the paper/source-data definition for Extended Data Fig. 8 uPBM motif percentiles.
+- Downloaded and preserved Nature Source Data Fig. 4 and Source Data Extended Data Fig. 8 under `data/raw/v0_3_1/`.
+- Reproduced published uPBM motif percentiles for all 7 designed DBPs within a 2 percentile-point tolerance; maximum error was 1.2535 points.
+- Separated original design target, experimental assay target, and PBM evaluation motif in `metadata/v0_3_1/designed_dbp_target_definitions.csv`; DBP48 is now original target I but assay/PBM reference C.
+- Added explicit reverse-complement canonicalization and rebuilt v0.3.1 oriented and RC-class benchmark files.
+- Confirmed 114,688 oriented rows collapse to 57,344 protein-RC-class experimental units.
+- Recomputed RC-aware sequence-only baseline against paper motifs.
+- Corrected the old "140 failure cases" interpretation: 140 is now documented as top examples only, while the v0.3.1 total sequence-vs-experiment disagreement count is 1,515.
+- Added empirical replicate agreement/noise ceiling table and figure.
+- Added designed DBP protein sequence clusters and target/motif groups for future split control.
+- Added v0.3.1 portability/schema/reproduction tests; `pytest` reports 29 passed.
+- Generated `results/v0_3_1/V0_3_1_VALIDATION_REPORT.md` with final gate `GO TO V0.4`.
+
 ## In progress
 
 - Preparing v0.4 protein-conditioned baseline experiments using v0.3 as an external designed-DBP benchmark.
@@ -60,4 +75,5 @@
 - PDB structural pairs do not provide quantitative specificity ground truth.
 - JASPAR pilot scores are PFM-derived PWM log2-odds values, not raw PBM/HT-SELEX enrichment.
 - GSE237017 processed PBM tables are 7-mer level; intended full target DNA sequences are longer than 7 bp and are summarized by overlapping 7-mers only.
+- Natural-to-designed OOD evaluation may be confounded by assay shift unless natural PBM/uPBM controls are added.
 - No calibrated uncertainty or protein-conditioned binding model is available yet.
