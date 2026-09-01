@@ -1,0 +1,8 @@
+protein_id,target_length,n_target_7mers,best_target_7mer,best_target_7mer_escore,best_target_percentile,mean_target_7mer_escore,median_target_7mer_escore,notes
+DBP1,13,7,GATGTGT,0.207135,0.977630615234375,0.06045214285714286,0.086735,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
+DBP3,13,7,GATGTGT,0.22033999999999998,0.961761474609375,0.07799928571428572,0.052015000000000006,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
+DBP35,15,9,TGCACAT,0.244575,0.979217529296875,-0.013047777777777778,-0.010190000000000001,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
+DBP48,14,8,AGCCGCG,0.1036,0.773162841796875,-0.006057500000000004,-0.006675,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
+DBP5,15,9,TGCACAT,0.19171,0.960052490234375,0.023903333333333335,0.03471,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
+DBP6,15,9,TGCACAT,0.370915,0.993743896484375,0.09180555555555554,-0.017994999999999997,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
+DBP9,15,9,TGCACAT,0.41484,0.999481201171875,0.12544388888888888,0.042449999999999995,Intended target length exceeds 7 bp for all designs; summary uses overlapping target-derived 7-mers and is not a full-target affinity.
