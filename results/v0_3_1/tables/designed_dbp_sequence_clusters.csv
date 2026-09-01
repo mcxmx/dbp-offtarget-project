@@ -1,0 +1,8 @@
+protein_id,protein_sequence_cluster,cluster_identity_threshold,cluster_method
+DBP1,protein_cluster_1,0.6,connected components using simple_global_identity >= threshold
+DBP3,protein_cluster_1,0.6,connected components using simple_global_identity >= threshold
+DBP35,protein_cluster_2,0.6,connected components using simple_global_identity >= threshold
+DBP48,protein_cluster_3,0.6,connected components using simple_global_identity >= threshold
+DBP5,protein_cluster_2,0.6,connected components using simple_global_identity >= threshold
+DBP6,protein_cluster_4,0.6,connected components using simple_global_identity >= threshold
+DBP9,protein_cluster_4,0.6,connected components using simple_global_identity >= threshold

@@ -1,0 +1,8 @@
+protein_id,original_target_group,assay_target_group,motif_group,designed_binding_site_motif,protein_sequence_cluster,notes
+DBP1,original_target_A_c,assay_target_A_c,motif_CCTGC,GCAGG,protein_cluster_1,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
+DBP3,original_target_A_c,assay_target_A_c,motif_GCAGGA,GCAGGA,protein_cluster_1,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
+DBP35,original_target_B_c,assay_target_B_c,motif_TGCACA,TGCACA,protein_cluster_2,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
+DBP48,original_target_I_b,assay_target_C,motif_CGTCAG,CTGACG,protein_cluster_3,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
+DBP5,original_target_B_c,assay_target_B_c,motif_TGCACA,TGCACA,protein_cluster_2,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
+DBP6,original_target_B_b,assay_target_B_b,motif_TGCACA,TGCACA,protein_cluster_4,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
+DBP9,original_target_B_b,assay_target_B_b,motif_TGCACA,TGCACA,protein_cluster_4,Future splits should not treat shared target/motif/sequence-cluster proteins as independent strongest generalization tests.
