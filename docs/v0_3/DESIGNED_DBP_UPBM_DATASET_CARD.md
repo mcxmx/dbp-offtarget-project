@@ -46,7 +46,9 @@ Universal protein-binding microarray experiments were performed for small recomb
 
 ## DNA Sequence Space
 
-Each sample covers 16384 unique 7-mers after explicit expansion of the reverse-complement companion column. The final consensus benchmark contains 114688 protein-7mer measurements.
+Each sample covers 8192 reverse-complement equivalence classes in the GEO processed source-data rows. v0.3 expanded the reverse-complement companion column into 16384 oriented 7-mer rows per sample.
+
+The final v0.3 consensus benchmark contains 114688 oriented protein-7mer rows. v0.3.1 clarifies that these collapse to 57344 protein-RC-class experimental units. The oriented rows are useful for compatibility with sequence-scoring code, but they should not be described as 114688 fully independent sequence units.
 
 ## Score Definitions
 
@@ -54,7 +56,7 @@ Primary score: PBM E-score, stored as `experimental_score_primary`.
 
 Secondary scores: `median_intensity_mean`, `z_score_mean`.
 
-The primary score is an experimental PBM specificity/enrichment score for per-protein ranking. It is not a Kd, binding probability, binding free energy, or absolute cross-protein affinity.
+The primary score is a processed experimental PBM specificity/enrichment score for per-protein ranking. It is not a Kd, binding probability, binding free energy, or absolute cross-protein affinity.
 
 ## Processing Steps
 
@@ -88,6 +90,8 @@ The primary score is an experimental PBM specificity/enrichment score for per-pr
 ## Known Limitations
 
 - Processed specificity is 7-mer based; full target DNA binding is not directly measured by these tables.
+- v0.3.1 supersedes the v0.3 `intended_target_dna` interpretation by separating original design target, experimental assay target, and PBM motif reference in `metadata/v0_3_1/designed_dbp_target_definitions.csv`.
+- DBP48's original design target is target I, while v0.3.1 records sequence C as the assay/PBM evaluation reference.
 - DBP5 and DBP48 have one GEO sample each in the parsed metadata, so replicate QC cannot be computed for them.
 - Absolute E-scores should not be compared across proteins as binding affinity.
 - The benchmark is in vitro uPBM, not in vivo genomic binding.
