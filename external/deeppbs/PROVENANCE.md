@@ -13,6 +13,6 @@ Audit date: 2026-09-02
 
 ## v0.4.2 Execution Status
 
-Official example status: `OFFICIAL_EXAMPLE_NOT_RUN_HOST_NO_LINUX_RUNTIME`.
+Official example status: `OFFICIAL_EXAMPLE_NOT_RUN_HOST_NO_LINUX_RUNTIME` because this host has no usable Docker/WSL runtime.
 
 This is an environment/runtime limitation, not a DeepPBS model performance result. No DeepPBS designed-DBP ranking is reported from this host.

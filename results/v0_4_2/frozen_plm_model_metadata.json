@@ -1,0 +1,20 @@
+{
+  "baseline": "FrozenPLMProteinConditionalBaseline",
+  "not_proposed_method": true,
+  "protein_encoder": "esm2_t12_35M_UR50D",
+  "protein_encoder_frozen": true,
+  "repr_layer": 12,
+  "protein_representation": "mean-pooled frozen ESM-2 residue embeddings",
+  "protein_sequence_version": "FULL_LENGTH_REFERENCE for natural PBM; designed DBP sequences from v0.3.1",
+  "construct_aligned_training": false,
+  "dna_representation": "one-hot and simple k-mer/composition features for 7-mer/8-mer DNA",
+  "interaction_head": "raw mean-pooled ESM embedding concatenated with DNA k-mer features; ridge regression",
+  "training_data": "natural PBM train split only",
+  "validation_data": "natural PBM validation split only",
+  "external_test": "GSE237017 designed uPBM, not used for alpha selection",
+  "target": "within-protein experimental percentile of processed PBM E-score",
+  "selected_alpha": 1000.0,
+  "validation_macro_median_spearman": 0.2871103168139345,
+  "seed": 42,
+  "date": "2026-09-02"
+}

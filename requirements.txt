@@ -13,3 +13,4 @@ openpyxl==3.1.5
 xlrd==2.0.2
 torch==2.13.0
 ProDy==2.6.1
+fair-esm==2.0.0
