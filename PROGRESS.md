@@ -85,6 +85,18 @@
 - Added v0.4.1 regression tests; `pytest` reports 61 passed.
 - Current v0.4.1 gate: `WAIT FOR STRONGER BASELINE`.
 
+### v0.4.2 strong baseline closure
+
+- Created a v0.4.2 construct audit for the 57 natural UniPROBE proteins.
+- Confirmed that no assay-aligned construct sequences were recovered from the local provenance, so the assay-aligned natural construct benchmark remains empty.
+- Preserved `FULL_LENGTH_REFERENCE` as a sensitivity benchmark only.
+- Recorded DeepPBS Linux runtime status and kept the official Docker/WSL limitation explicit in provenance.
+- Trained a frozen ESM-2 `esm2_t12_35M_UR50D` protein-conditioned baseline on the natural PBM train split.
+- FrozenPLM macro median Spearman: natural_test 0.316 and designed_external 0.153.
+- Wrote `results/v0_4_2/FINAL_STRONG_BASELINE_GATE.md` and `results/v0_4_2/V0_4_2_VALIDATION_REPORT.md`.
+- Added v0.4.2 regression tests; `pytest` reports 67 passed.
+- Current v0.4.2 gate: `WAIT - BENCHMARK STILL INCOMPLETE`.
+
 ## In progress
 
 - Preparing a supported Linux/Docker execution path for DeepPBS official preprocessing and prediction.
@@ -114,3 +126,5 @@
 - v0.4.1 natural PBM uses 8-mer UniPROBE E-scores, while GSE237017 designed uPBM uses 7-mer E-scores; natural-to-designed comparisons remain confounded by assay/k-mer processing differences.
 - v0.4.1 natural protein sequences are full-length UniProt references, not confirmed assay constructs.
 - v0.4.1 SimplePC is a low-capacity baseline, not the proposed model and not a replacement for strong structure-aware baselines.
+- v0.4.2 assay-aligned natural PBM construct sequences were not recovered from the current local provenance, so the primary construct-aware benchmark remains empty.
+- v0.4.2 DeepPBS still lacks a runnable Linux runtime on this host; the official example remains unexecuted locally.
