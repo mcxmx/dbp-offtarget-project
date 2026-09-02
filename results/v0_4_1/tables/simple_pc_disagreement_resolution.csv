@@ -1,0 +1,8 @@
+protein_id,baseline,n_v0_3_1_disagreement_candidates,n_evaluable_candidates,n_resolved,resolution_rate,resolution_definition
+DBP1,SimpleProteinConditionalBaseline_composition_ridge,287,287,85,0.2961672473867596,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein
+DBP3,SimpleProteinConditionalBaseline_composition_ridge,381,381,85,0.2230971128608924,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein
+DBP35,SimpleProteinConditionalBaseline_composition_ridge,174,174,41,0.23563218390804597,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein
+DBP48,SimpleProteinConditionalBaseline_composition_ridge,224,224,19,0.08482142857142858,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein
+DBP5,SimpleProteinConditionalBaseline_composition_ridge,178,178,58,0.3258426966292135,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein
+DBP6,SimpleProteinConditionalBaseline_composition_ridge,150,150,7,0.04666666666666667,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein
+DBP9,SimpleProteinConditionalBaseline_composition_ridge,121,121,38,0.3140495867768595,candidate is sequence-vs-experiment disagreement and SimplePC ranks it in top 10% within protein

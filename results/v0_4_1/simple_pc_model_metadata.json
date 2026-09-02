@@ -1,0 +1,15 @@
+{
+  "baseline": "SimpleProteinConditionalBaseline_composition_ridge",
+  "status": "trained",
+  "not_proposed_method": true,
+  "protein_representation": "amino-acid composition and simple physicochemical summaries; no protein LM fine-tuning",
+  "dna_representation": "padded one-hot, base composition, dinucleotide composition, GC, DNA length",
+  "interaction": "outer product of five protein summary features with DNA features",
+  "training_data": "UniPROBE natural PBM train proteins only",
+  "target": "within-protein percentile of processed 8-mer PBM E-score",
+  "selected_alpha": 100.0,
+  "validation_macro_median_spearman": 0.3185958872513204,
+  "train_rows_per_protein": 2500,
+  "validation_rows_per_protein": 4000,
+  "seed": 42
+}

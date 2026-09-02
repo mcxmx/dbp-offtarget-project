@@ -10,6 +10,7 @@ from src.utils import DNA_ALPHABET, PROTEIN_ALPHABET, normalize_sequence
 
 AA_ORDER = "ACDEFGHIKLMNPQRSTVWY"
 DINUC_ORDER = [a + b for a in DNA_ALPHABET for b in DNA_ALPHABET]
+MAX_DNA_LEN = 8
 
 
 def protein_composition_features(protein_sequence: str) -> np.ndarray:
@@ -24,11 +25,13 @@ def protein_composition_features(protein_sequence: str) -> np.ndarray:
     return np.concatenate([counts, np.array([length / 100.0, charged, basic, acidic, valid_fraction])])
 
 
-def dna_7mer_features(dna_sequence: str) -> np.ndarray:
+def dna_kmer_features(dna_sequence: str, max_len: int = MAX_DNA_LEN) -> np.ndarray:
     seq = normalize_sequence(dna_sequence)
-    if len(seq) != 7 or any(base not in DNA_ALPHABET for base in seq):
-        raise ValueError(f"SimpleProteinConditionalBaseline expects an ACGT 7-mer, got {dna_sequence!r}")
-    one_hot = np.zeros((7, 4), dtype=float)
+    if len(seq) < 1 or len(seq) > max_len or any(base not in DNA_ALPHABET for base in seq):
+        raise ValueError(
+            f"SimpleProteinConditionalBaseline expects an ACGT sequence with length 1-{max_len}, got {dna_sequence!r}"
+        )
+    one_hot = np.zeros((max_len, 4), dtype=float)
     base_to_idx = {base: i for i, base in enumerate(DNA_ALPHABET)}
     for i, base in enumerate(seq):
         one_hot[i, base_to_idx[base]] = 1.0
@@ -37,13 +40,21 @@ def dna_7mer_features(dna_sequence: str) -> np.ndarray:
     for i in range(len(seq) - 1):
         dinuc[dinuc_index[seq[i : i + 2]]] += 1.0
     dinuc /= max(len(seq) - 1, 1)
+    base_comp = np.array([seq.count(base) / len(seq) for base in DNA_ALPHABET], dtype=float)
     gc = (seq.count("G") + seq.count("C")) / len(seq)
-    return np.concatenate([one_hot.ravel(), dinuc, np.array([gc])])
+    return np.concatenate([one_hot.ravel(), base_comp, dinuc, np.array([gc, len(seq) / max_len])])
+
+
+def dna_7mer_features(dna_sequence: str) -> np.ndarray:
+    seq = normalize_sequence(dna_sequence)
+    if len(seq) != 7:
+        raise ValueError(f"dna_7mer_features expects a 7-mer, got {dna_sequence!r}")
+    return dna_kmer_features(seq)
 
 
 def simple_pc_features(protein_sequence: str, dna_sequence: str) -> np.ndarray:
     protein = protein_composition_features(protein_sequence)
-    dna = dna_7mer_features(dna_sequence)
+    dna = dna_kmer_features(dna_sequence)
     # A small interaction term keeps the baseline protein-conditioned without
     # becoming a proposed architecture.
     interaction = np.array([
@@ -80,4 +91,3 @@ class SimpleProteinConditionalBaseline(BaseBindingModel):
         if features.shape[0] != self.weights.shape[0]:
             raise ValueError("Feature vector and weight vector have different lengths")
         return float(features @ self.weights + self.intercept)
-
