@@ -1,0 +1,4 @@
+split,n_proteins,n_families,n_protein_dna_units
+natural_test,9,5,296064
+train,39,7,1282944
+validation,9,4,296064
