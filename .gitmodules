@@ -1,0 +1,9 @@
+[submodule "external/deeppbs/DeepPBS"]
+	path = external/deeppbs/DeepPBS
+	url = https://github.com/timkartar/DeepPBS.git
+[submodule "external/nampnn/NA-MPNN"]
+	path = external/nampnn/NA-MPNN
+	url = https://github.com/baker-laboratory/NA-MPNN.git
+[submodule "external/dbp_design"]
+	path = external/dbp_design
+	url = https://github.com/cjg263/dbp_design.git
