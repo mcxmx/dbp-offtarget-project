@@ -54,17 +54,33 @@
 - Added v0.3.1 portability/schema/reproduction tests; `pytest` reports 29 passed.
 - Generated `results/v0_3_1/V0_3_1_VALIDATION_REPORT.md` with final gate `GO TO V0.4`.
 
+### v0.4 strong protein-conditioned baseline arena
+
+- Created local freeze tag `v0.3.1-benchmark-freeze` before starting v0.4 work.
+- Added official external repositories as tracked dependencies for DeepPBS, NA-MPNN, and the designed-DBP structure source repository.
+- Wrote baseline feasibility audit, task harmonization notes, failure-resolution definition, and natural PBM/uPBM control plan under `docs/v0_4/`.
+- Built `metadata/v0_4/designed_dbp_structure_manifest.csv`: public checked structures are available for DBP35 and DBP48 only; DBP1, DBP3, DBP5, DBP6, and DBP9 are not structure-evaluable in this pass.
+- Ran official NA-MPNN specificity inference on the bundled example, DBP35 theoretical complex model, and DBP48/8TAC experimental structure.
+- Detected that `8tac` appears in NA-MPNN split files, so DBP48/8TAC is recorded as diagnostic and not zero-shot.
+- Recorded DeepPBS as not fairly evaluable in the current Windows environment because the official preprocessing stack requires additional Linux-oriented structure-processing dependencies.
+- Implemented `SimpleProteinConditionalBaseline` as an untrained Tier 1 protein-conditioned scaffold; no model was trained on GSE237017.
+- Evaluated all baselines as per-protein RC-class ranking tasks and wrote v0.4 tables under `results/v0_4/tables/`.
+- Generated six v0.4 figures under `results/v0_4/figures/`.
+- Generated `results/v0_4/BASELINE_GAP_ANALYSIS.md`, `results/v0_4/NEW_MODEL_GO_NO_GO.md`, and `results/v0_4/V0_4_PROGRESS.md`.
+- Current v0.4 gate: `CONDITIONAL GO`.
+
 ## In progress
 
-- Preparing v0.4 protein-conditioned baseline experiments using v0.3 as an external designed-DBP benchmark.
+- Preparing assay-matched natural PBM/uPBM controls required before training a protein-conditioned baseline.
 - Expanding beyond GSE237017 to additional raw PBM / HT-SELEX / CIS-BP-style quantitative specificity datasets.
-- Designing protein-conditioned model interfaces for future calibration work.
+- Improving DeepPBS/NA-MPNN or alternative structure-aware baseline coverage for all seven designed DBPs.
 
 ## Next step
 
+- Add assay-matched natural PBM/uPBM training/control data.
+- Run DeepPBS in a supported Linux/container environment, or document it as not comparable.
+- Extend structure-aware baseline coverage or choose a structure-free protein-conditioned baseline that can evaluate all seven designed DBPs.
 - Keep GSE237017 designed DBPs as an external/OOD test set rather than mixing them into natural DBP training.
-- Add CIS-BP / PBM / HT-SELEX sources and protein-family / DNA-similarity split logic.
-- Attach a protein-conditioned scoring backend when a suitable model is available.
 
 ## Known limitations
 
@@ -77,3 +93,5 @@
 - GSE237017 processed PBM tables are 7-mer level; intended full target DNA sequences are longer than 7 bp and are summarized by overlapping 7-mers only.
 - Natural-to-designed OOD evaluation may be confounded by assay shift unless natural PBM/uPBM controls are added.
 - No calibrated uncertainty or protein-conditioned binding model is available yet.
+- v0.4 NA-MPNN results are diagnostic for two proteins only; DBP48/8TAC is not zero-shot because of detected split overlap.
+- DeepPBS has not been fairly evaluated yet.

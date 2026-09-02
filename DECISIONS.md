@@ -20,3 +20,11 @@
 18. For v0.3.1, separate original design target, experimental assay target, and PBM evaluation motif. DBP48 is recorded as original design target I and assay/PBM reference target C.
 19. For v0.3.1, define disagreement candidates as sequence-vs-experiment cases, not model failures, because no protein-conditioned model has been evaluated yet.
 20. For future DNA-level splits, group by canonical reverse-complement equivalence class and never split a sequence and its reverse complement across train/test.
+21. For v0.4, freeze v0.3.1 as the fixed experimental benchmark and write all new outputs under `v0_4` paths. Do not modify v0.3.1 benchmark files.
+22. For v0.4, evaluate baselines as per-protein DNA ranking tasks on canonical RC classes, then macro-summarize. Do not pool all 57,344 rows into a primary correlation.
+23. For v0.4, treat DeepPBS as not fairly evaluable in the current Windows environment unless the official preprocessing stack can be run reproducibly. Missing DeepPBS predictions are stored as not evaluable, never as zero scores.
+24. For v0.4, map NA-MPNN specificity-mode PPM outputs to 7-mer rankings only as a documented diagnostic task-harmonization layer: best contiguous structure-window log probability over both RC orientations.
+25. For v0.4, classify DBP48/8TAC NA-MPNN results as diagnostic rather than zero-shot because `8tac` appears in NA-MPNN split files.
+26. For v0.4, keep `SimpleProteinConditionalBaseline` as an untrained Tier 1 scaffold until an assay-matched natural PBM/uPBM training source is available. Do not train it on random rows from the seven designed DBPs as a main generalization result.
+27. For v0.4, use empirical replicate agreement only as an assay reproducibility reference, not as a strict theoretical upper bound.
+28. For v0.4, set the new-model gate to `CONDITIONAL GO`: the sequence-only gap is clear, but structure-aware strong baseline coverage remains incomplete.

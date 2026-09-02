@@ -2,7 +2,7 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.3.1 experimental benchmark scientific validation.
+Current status: v0.4 strong protein-conditioned baseline arena.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -11,10 +11,30 @@ Current scope:
 - sequence-only proxy baselines for pipeline sanity checks
 - chr22 genome candidate retrieval prototype
 - designed DBP uPBM experimental specificity benchmark from GEO GSE237017
+- baseline feasibility and diagnostic evaluation for DeepPBS / NA-MPNN / simple protein-conditioned scaffold
 
 NO NEW MODEL TRAINED YET.
 
-Next stage: v0.4 strong protein-conditioned baseline arena.
+Next stage: v0.4 continuation with assay-matched natural PBM/uPBM controls and stronger baseline coverage.
+
+## v0.4 Current Results
+
+- Fixed benchmark: v0.3.1 GSE237017 designed-DBP uPBM, 7 proteins and 57,344 protein-RC-class experimental units.
+- Tier 0 sequence-only best baseline: `sequence_kmer3`, macro median Spearman 0.232.
+- Empirical replicate agreement reference: median E-score replicate Spearman 0.591.
+- DeepPBS: official repository checked, not fairly evaluable in the current Windows environment.
+- NA-MPNN: official specificity inference ran for DBP35 and DBP48 only; DBP48/8TAC has split-overlap risk and is diagnostic, not zero-shot.
+- SimpleProteinConditionalBaseline: implemented as an untrained Tier 1 interface scaffold; not reported as a model result.
+- v0.4 gate: `CONDITIONAL GO`, because sequence-only gap is clear but strong structure-aware baseline coverage is incomplete.
+
+## v0.4 Run Order
+
+1. `.\.venv313\Scripts\python analysis/v0_4/00_baseline_feasibility_and_manifests.py`
+2. Run official NA-MPNN specificity inference for evaluable structures, preserving outputs under `results/v0_4/external_runs/`.
+3. `.\.venv313\Scripts\python analysis/v0_4/01_build_v0_4_predictions_and_evaluation.py`
+4. `.\.venv313\Scripts\python analysis/v0_4/02_generate_v0_4_figures.py`
+5. `.\.venv313\Scripts\python analysis/v0_4/03_write_v0_4_reports.py`
+6. `.\.venv313\Scripts\python -m pytest -q`
 
 ## v0.3.1 Validation Run Order
 
