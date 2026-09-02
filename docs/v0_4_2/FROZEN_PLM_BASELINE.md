@@ -2,7 +2,7 @@
 
 Date: 2026-09-02
 
-This baseline uses frozen ESM-2 `esm2_t12_35M_UR50D` mean-pooled protein embeddings and a small ridge-regression interaction head. It is a baseline only, not the proposed model.
+This baseline uses frozen ESM-2 `esm2_t12_35M_UR50D` mean-pooled protein embeddings concatenated with simple DNA features and scored by ridge regression. It is a baseline only, not the proposed model.
 
 ## Training and validation
 
@@ -12,4 +12,4 @@ This baseline uses frozen ESM-2 `esm2_t12_35M_UR50D` mean-pooled protein embeddi
 - Selected alpha: 1000.0
 - Validation macro median Spearman: 0.287
 
-The protein LM is not fine-tuned. Designed DBP rows do not influence checkpoint, alpha, feature construction, or any hyperparameter selection.
+The protein LM is not fine-tuned. Designed DBP rows do not influence checkpoint, alpha, feature encoding, or any hyperparameter selection.

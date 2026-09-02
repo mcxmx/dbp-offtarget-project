@@ -20,4 +20,4 @@ WAIT - BENCHMARK STILL INCOMPLETE
 
 ## Interpretation
 
-FrozenPLM is a real, frozen protein-conditioned baseline and is stronger than the sequence-only proxy family, but it is still far below empirical replicate agreement on designed uPBM. Because the assay-aligned natural construct benchmark remains empty and DeepPBS is still not runnable on this host, the project should not yet transition to the final proposed model implementation from this repository state alone.
+FrozenPLM is a real, frozen protein-conditioned baseline, but it did not improve designed-uPBM ranking relative to either the best sequence-only proxy or SimplePC. It remains far below empirical replicate agreement. Because the assay-aligned natural construct benchmark remains empty and DeepPBS is still not runnable on this host, the project should not yet transition to the final proposed model implementation from this repository state alone.

@@ -25,3 +25,4 @@ Date: 2026-09-02
 ## Limitation
 
 The construct-aware natural PBM benchmark remains empty, so the current protein-conditioned comparison is still anchored to full-length reference sequences rather than verified assay constructs.
+FrozenPLM did not improve designed external ranking over either SimplePC or the best sequence-only proxy, despite its slightly higher natural held-out result.

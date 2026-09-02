@@ -13,7 +13,6 @@ import torch
 if __package__ in (None, ""):
     sys.path.append(str(Path(__file__).resolve().parents[2]))
 
-from src.models.frozen_plm_baseline import FrozenPLMProteinConditionalBaseline
 from src.models.simple_protein_conditional_baseline import dna_kmer_features
 from src.utils import ensure_dir, project_root
 from src.v0_4_evaluation import compute_ranking_metrics
@@ -222,7 +221,6 @@ def write_model_artifacts(model: dict, validation_record: dict) -> None:
         feature_mean=model["feature_mean"],
         feature_scale=model["feature_scale"],
         intercept=np.array([model["intercept"]], dtype=np.float32),
-        protein_projection=np.array([], dtype=np.float32),
     )
     metadata = {
         "baseline": "FrozenPLMProteinConditionalBaseline",
@@ -347,7 +345,7 @@ def main() -> None:
 
 Date: {TODAY}
 
-This baseline uses frozen ESM-2 `{CHECKPOINT_NAME}` mean-pooled protein embeddings and a small ridge-regression interaction head. It is a baseline only, not the proposed model.
+This baseline uses frozen ESM-2 `{CHECKPOINT_NAME}` mean-pooled protein embeddings concatenated with simple DNA features and scored by ridge regression. It is a baseline only, not the proposed model.
 
 ## Training and validation
 
@@ -357,7 +355,7 @@ This baseline uses frozen ESM-2 `{CHECKPOINT_NAME}` mean-pooled protein embeddin
 - Selected alpha: {best_record['alpha']}
 - Validation macro median Spearman: {best_record['validation_macro_median_spearman']:.3f}
 
-The protein LM is not fine-tuned. Designed DBP rows do not influence checkpoint, alpha, feature projection, or any hyperparameter selection.
+The protein LM is not fine-tuned. Designed DBP rows do not influence checkpoint, alpha, feature encoding, or any hyperparameter selection.
 """,
         encoding="utf-8",
     )

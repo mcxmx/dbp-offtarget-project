@@ -27,15 +27,10 @@ class FrozenPLMProteinConditionalBaseline(BaseBindingModel):
     intercept: float = 0.0
     feature_mean: np.ndarray | None = None
     feature_scale: np.ndarray | None = None
-    protein_projection: np.ndarray | None = None
 
     def featurize(self, protein_embedding: np.ndarray, dna_sequence: str) -> np.ndarray:
-        if self.protein_projection is None:
-            raise RuntimeError("protein_projection is required for FrozenPLMProteinConditionalBaseline")
-        projected = protein_embedding @ self.protein_projection
         dna = dna_kmer_features(dna_sequence)
-        interaction = np.outer(projected, dna).ravel()
-        return np.concatenate([projected, dna, interaction]).astype(np.float32)
+        return np.concatenate([protein_embedding, dna]).astype(np.float32)
 
     def score(self, protein_embedding: np.ndarray, dna_sequence: str) -> float:
         if self.weights is None or self.feature_mean is None or self.feature_scale is None:
