@@ -66,6 +66,19 @@ Layer C v0.3 uses GEO GSE237017 processed and raw uPBM supplementary files for d
 
 The v0.3 benchmark output is `data/processed/v0_3/designed_dbp_upbm_v0_3.parquet`. The v0.3.1 corrected outputs are under `data/processed/v0_3_1/`, including oriented rows and RC-class units. PBM E-score is treated as a processed experimental 7-mer specificity/enrichment score for per-protein ranking, not as Kd or absolute cross-protein affinity.
 
+## Natural PBM training benchmark sources
+
+Layer C v0.4.1 adds a natural-protein PBM training/control benchmark from UniPROBE processed contiguous 8-mer E-score files. These data are kept separate from the GSE237017 designed-DBP 7-mer uPBM benchmark.
+
+| source_type | accession | URL | retrieval_date | local_manifest | notes |
+|---|---|---|---|---|---|
+| UniPROBE downloads page | publication-level contiguous 8-mer archives | https://thebrain.bwh.harvard.edu/uniprobe/downloads.php | 2026-09-02 | `metadata/v0_4_1/natural_pbm_files.csv` | Source page used to programmatically discover 8-mer profile archives |
+| UniPROBE 8-mer archives | 11 publication-level archives | see `metadata/v0_4_1/natural_pbm_files.csv` | 2026-09-02 | `metadata/v0_4_1/natural_pbm_files.csv` | Raw archives preserved under `data/raw/v0_4_1/` with SHA256 and file size |
+| UniProt REST API | reference protein sequences | https://rest.uniprot.org/uniprotkb/search | 2026-09-02 | `metadata/v0_4_1/natural_pbm_protein_sequences.csv` | Full-length reference sequences for train-ready natural PBM proteins; not claimed as exact assay construct sequences |
+| DeepPBS official repository | commit 8bfb211dd67f02877841f6f33aa493ddf7daedf9 | https://github.com/timkartar/DeepPBS | 2026-09-02 | `external/deeppbs/PROVENANCE.md` | Official code/weights provenance for future Linux reproduction; not run in v0.4.1 because Docker/WSL was unavailable |
+
+The v0.4.1 natural PBM benchmark output is `data/processed/v0_4_1/natural_pbm_benchmark_v0_4_1.parquet`. It contains 57 proteins and 1,875,072 protein-RC-class 8-mer units after QC. Scores are processed UniPROBE 8-mer E-scores for per-protein ranking, not Kd or absolute cross-protein affinity.
+
 ## Literature anchor
 
 The designed binder example 8TAC is documented on the RCSB page and linked to the 2025 Nature article on computational design of sequence-specific DNA-binding proteins.

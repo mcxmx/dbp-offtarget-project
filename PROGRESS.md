@@ -69,18 +69,34 @@
 - Generated `results/v0_4/BASELINE_GAP_ANALYSIS.md`, `results/v0_4/NEW_MODEL_GO_NO_GO.md`, and `results/v0_4/V0_4_PROGRESS.md`.
 - Current v0.4 gate: `CONDITIONAL GO`.
 
+### v0.4.1 natural PBM training benchmark and DeepPBS Linux audit
+
+- Created local freeze tag `v0.4-baseline-diagnostic-freeze` before starting v0.4.1 work.
+- Audited natural PBM/uPBM sources and selected UniPROBE processed contiguous 8-mer E-score profiles as the primary natural training source.
+- Downloaded 11 UniPROBE publication-level 8-mer archives with SHA256 provenance in `metadata/v0_4_1/natural_pbm_files.csv`.
+- Parsed 112 profile files into `data/interim/v0_4_1/natural_pbm_long.parquet`.
+- Recovered conservative full-length UniProt reference sequences for 57 train-ready natural protein/construct IDs; construct-level sequence matching remains unresolved and is marked `sequence_match_to_assay=false`.
+- Built `data/processed/v0_4_1/natural_pbm_benchmark_v0_4_1.parquet` with 57 proteins and 1,875,072 protein-RC-class 8-mer units.
+- Generated 40% protein-cluster-aware split: train 39, validation 9, natural_test 9 proteins.
+- Trained a lightweight `SimpleProteinConditionalBaseline_composition_ridge` only on natural PBM train proteins; this is not the proposed method.
+- SimplePC macro median Spearman: natural_test 0.301 and designed external GSE237017 0.362.
+- SimplePC resolved 333/1,515 pre-registered v0.3.1 sequence-vs-experiment disagreement candidates.
+- Added DeepPBS Docker/Linux wrapper and provenance, but official DeepPBS execution was not run because the current host lacks Docker/WSL runtime.
+- Added v0.4.1 regression tests; `pytest` reports 61 passed.
+- Current v0.4.1 gate: `WAIT FOR STRONGER BASELINE`.
+
 ## In progress
 
-- Preparing assay-matched natural PBM/uPBM controls required before training a protein-conditioned baseline.
-- Expanding beyond GSE237017 to additional raw PBM / HT-SELEX / CIS-BP-style quantitative specificity datasets.
-- Improving DeepPBS/NA-MPNN or alternative structure-aware baseline coverage for all seven designed DBPs.
+- Preparing a supported Linux/Docker execution path for DeepPBS official preprocessing and prediction.
+- Expanding natural PBM protein sequence curation from full-length UniProt references to assay construct sequences.
+- Improving structure-aware baseline coverage for all seven designed DBPs.
 
 ## Next step
 
-- Add assay-matched natural PBM/uPBM training/control data.
-- Run DeepPBS in a supported Linux/container environment, or document it as not comparable.
-- Extend structure-aware baseline coverage or choose a structure-free protein-conditioned baseline that can evaluate all seven designed DBPs.
-- Keep GSE237017 designed DBPs as an external/OOD test set rather than mixing them into natural DBP training.
+- Run DeepPBS in a supported Linux/Docker/WSL environment using the wrapper in `external/deeppbs/`.
+- Replace v0.4.1 proxy protein clustering with MMseqs2/CD-HIT once a Linux runtime is available.
+- Curate experimental PBM construct sequences where source publications provide them.
+- Keep GSE237017 designed DBPs as an external test set rather than mixing them into natural DBP training.
 
 ## Known limitations
 
@@ -95,3 +111,6 @@
 - No calibrated uncertainty or protein-conditioned binding model is available yet.
 - v0.4 NA-MPNN results are diagnostic for two proteins only; DBP48/8TAC is not zero-shot because of detected split overlap.
 - DeepPBS has not been fairly evaluated yet.
+- v0.4.1 natural PBM uses 8-mer UniPROBE E-scores, while GSE237017 designed uPBM uses 7-mer E-scores; natural-to-designed comparisons remain confounded by assay/k-mer processing differences.
+- v0.4.1 natural protein sequences are full-length UniProt references, not confirmed assay constructs.
+- v0.4.1 SimplePC is a low-capacity baseline, not the proposed model and not a replacement for strong structure-aware baselines.

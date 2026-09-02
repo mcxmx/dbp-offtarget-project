@@ -1,0 +1,7 @@
+baseline,training_source,evaluation_dataset,coverage_proteins,macro_median_spearman,notes
+sequence_kmer3_RC_aware,none,GSE237017 designed uPBM,7,0.2320822289869546,Best v0.3.1/v0.4 sequence-only baseline; not protein-conditioned.
+SimpleProteinConditionalBaseline_composition_ridge,UniPROBE natural PBM train split,UniPROBE natural PBM natural_test split,9,0.3013536821293048,Lightweight protein-conditioned baseline using reference full-length UniProt sequences; not proposed method.
+SimpleProteinConditionalBaseline_composition_ridge,UniPROBE natural PBM train split,GSE237017 designed uPBM external,7,0.3616108129479222,Natural-to-designed external test with assay/k-mer-length caveats.
+NA-MPNN_structural_ppm,official checkpoint / diagnostic v0.4,GSE237017 designed uPBM,2,-0.0407175716940406,Diagnostic only; 2/7 proteins covered and DBP48 has overlap risk.
+DeepPBS,official checkpoint intended,GSE237017 designed uPBM,0,,Not run in v0.4.1 because this host lacks Docker/WSL runtime for official Linux workflow.
+designed_uPBM_replicate_reference,not a model,GSE237017 designed uPBM replicate agreement,7,0.591,"Empirical assay reproducibility reference from v0.3.1, not a strict theoretical upper bound."

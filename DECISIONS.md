@@ -28,3 +28,10 @@
 26. For v0.4, keep `SimpleProteinConditionalBaseline` as an untrained Tier 1 scaffold until an assay-matched natural PBM/uPBM training source is available. Do not train it on random rows from the seven designed DBPs as a main generalization result.
 27. For v0.4, use empirical replicate agreement only as an assay reproducibility reference, not as a strict theoretical upper bound.
 28. For v0.4, set the new-model gate to `CONDITIONAL GO`: the sequence-only gap is clear, but structure-aware strong baseline coverage remains incomplete.
+29. For v0.4.1, use UniPROBE processed contiguous 8-mer E-scores as the primary natural PBM training source. Keep natural 8-mer PBM and designed 7-mer uPBM as separate assay/task layers.
+30. For v0.4.1, include only complete 8-mer reverse-complement class profiles with conservative protein sequence recovery in the train-ready natural benchmark. Incomplete profiles and unclear/fusion labels are retained in QC metadata but excluded from training.
+31. For v0.4.1, use full-length UniProt reference sequences only as conservative protein features and mark `sequence_match_to_assay=false` until assay construct sequences are curated.
+32. For v0.4.1, use a fast amino-acid 3-mer Jaccard proxy only for split hygiene. It is not a formal homology analysis and should be replaced by MMseqs2/CD-HIT in a Linux runtime.
+33. For v0.4.1, train `SimpleProteinConditionalBaseline_composition_ridge` only on natural PBM train proteins and select hyperparameters only on natural validation proteins. Designed DBPs remain an external test set.
+34. For v0.4.1, do not claim DeepPBS performance because Docker and WSL are unavailable on this host. Record official provenance and runnable Linux wrapper instead of substituting a reimplementation.
+35. For v0.4.1, set the final gate to `WAIT FOR STRONGER BASELINE`: SimplePC improves over sequence-only, but DeepPBS still needs a fair supported-runtime reproduction before proposed model development.

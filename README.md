@@ -2,7 +2,7 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.4 strong protein-conditioned baseline arena.
+Current status: v0.4.1 natural PBM training benchmark plus DeepPBS Linux reproduction audit.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -12,10 +12,34 @@ Current scope:
 - chr22 genome candidate retrieval prototype
 - designed DBP uPBM experimental specificity benchmark from GEO GSE237017
 - baseline feasibility and diagnostic evaluation for DeepPBS / NA-MPNN / simple protein-conditioned scaffold
+- natural UniPROBE PBM 8-mer training benchmark for first protein-conditioned baseline sanity checks
 
-NO NEW MODEL TRAINED YET.
+NO FINAL PROPOSED MODEL TRAINED YET.
 
-Next stage: v0.4 continuation with assay-matched natural PBM/uPBM controls and stronger baseline coverage.
+Next stage: fair Linux/Docker DeepPBS reproduction on structurally evaluable designed DBPs before starting any final proposed model.
+
+## v0.4.1 Current Results
+
+- Natural PBM source: UniPROBE processed contiguous 8-mer E-score profiles.
+- Final natural benchmark: 57 proteins, 7 coarse protein-family classes, 7 species, and 1,875,072 protein-RC-class 8-mer units.
+- 40% protein-cluster split: train 39, validation 9, natural_test 9 proteins.
+- SimpleProteinConditionalBaseline: lightweight composition/ridge baseline trained only on natural PBM train proteins; not the proposed method.
+- SimplePC macro median Spearman: natural_test 0.301; designed external GSE237017 0.362.
+- Best prior designed sequence-only baseline: 0.232 macro median Spearman.
+- Designed uPBM empirical replicate Spearman reference: about 0.591.
+- DeepPBS: Linux/Docker provenance and wrapper added, but official example was not run because this host lacks Docker/WSL runtime.
+- v0.4.1 gate: `WAIT FOR STRONGER BASELINE`.
+
+## v0.4.1 Run Order
+
+1. `.\.venv313\Scripts\python analysis/v0_4_1/00_natural_pbm_source_audit_and_download.py`
+2. `.\.venv313\Scripts\python analysis/v0_4_1/01_build_natural_pbm_benchmark.py`
+3. `.\.venv313\Scripts\python analysis/v0_4_1/02_recover_natural_pbm_sequences.py`
+4. `.\.venv313\Scripts\python analysis/v0_4_1/03_finalize_natural_pbm_benchmark.py`
+5. `.\.venv313\Scripts\python analysis/v0_4_1/04_train_simple_pc_baseline.py`
+6. `.\.venv313\Scripts\python analysis/v0_4_1/05_deeppbs_linux_reproduction_audit.py`
+7. `.\.venv313\Scripts\python analysis/v0_4_1/06_v0_4_1_reports_and_figures.py`
+8. `.\.venv313\Scripts\python -m pytest`
 
 ## v0.4 Current Results
 
