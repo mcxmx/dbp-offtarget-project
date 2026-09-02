@@ -1,0 +1,58 @@
+protein_id,protein_name,protein_family,species,cluster_40,split
+UniPROBE:DEV12:Abd-B,Abd-B,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_001,validation
+UniPROBE:DEV12:Bap,Bap,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_002,validation
+UniPROBE:DEV12:Eve,Eve,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_003,train
+UniPROBE:DEV12:Lbl,Lbl,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_004,validation
+UniPROBE:DEV12:Msh,Msh,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_005,train
+UniPROBE:DEV12:Ptx1,Ptx1,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_006,train
+UniPROBE:DEV12:Six4,Six4,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_007,natural_test
+UniPROBE:DEV12:Slou,Slou,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_008,train
+UniPROBE:DEV12:Tin,Tin,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_009,train
+UniPROBE:DEV12:Ubx,Ubx,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_010,train
+UniPROBE:GB11:Abf1,Abf1,Myb_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_011,train
+UniPROBE:GB11:Cad1,Cad1,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_012,train
+UniPROBE:GB11:Cin5,Cin5,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_013,natural_test
+UniPROBE:GB11:Cst6,Cst6,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_014,natural_test
+UniPROBE:GB11:Ecm22,Ecm22,fungal_Zn2Cys6_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_015,train
+UniPROBE:GB11:Gcr1,Gcr1,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_016,train
+UniPROBE:GB11:Hac1,Hac1,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_017,validation
+UniPROBE:GB11:Hap1,Hap1,fungal_Zn2Cys6_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_018,natural_test
+UniPROBE:GB11:Hmlalpha2,Hmlalpha2,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_019,train
+UniPROBE:GB11:Mot3,Mot3,C2H2_zinc_finger_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_020,train
+UniPROBE:GB11:Msn1,Msn1,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_021,train
+UniPROBE:GB11:Nrg2,Nrg2,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_022,natural_test
+UniPROBE:GB11:Pdr3,Pdr3,fungal_Zn2Cys6_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_023,train
+UniPROBE:GB11:Sko1,Sko1,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_024,train
+UniPROBE:GB11:Stb4,Stb4,C2H2_zinc_finger_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_025,train
+UniPROBE:GB11:Stb5,Stb5,C2H2_zinc_finger_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_026,train
+UniPROBE:GB11:Ste12,Ste12,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_027,train
+UniPROBE:GB11:Stp1,Stp1,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_028,train
+UniPROBE:GB11:Sut1,Sut1,fungal_Zn2Cys6_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_029,train
+UniPROBE:GB11:Upc2,Upc2,fungal_Zn2Cys6_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_030,validation
+UniPROBE:GB11:Vhr1,Vhr1,C2H2_zinc_finger_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_031,train
+UniPROBE:GB11:Vhr2,Vhr2,C2H2_zinc_finger_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_032,train
+UniPROBE:GB11:Yap3,Yap3,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_033,train
+UniPROBE:GB11:Ybr033w,Ybr033w,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_034,train
+UniPROBE:GB11:Yer184c,Yer184c,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_035,train
+UniPROBE:GB11:Ylr278c,Ylr278c,unknown_or_publication_specific,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_036,train
+UniPROBE:GB11:Zap1,Zap1,C2H2_zinc_finger_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_037,train
+UniPROBE:LIU18A:BCL11A_23,BCL11A,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_038,train
+UniPROBE:LIU18A:BCL11A_456,BCL11A,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_038,train
+UniPROBE:LIU18A:BCL11A_XL,BCL11A,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_038,train
+UniPROBE:LIU18A:BCL11A_d23d456,BCL11A,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_038,train
+UniPROBE:LIU18A:BCL11B_23,BCL11B,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_039,natural_test
+UniPROBE:LIU18A:BCL11B_456,BCL11B,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_039,natural_test
+UniPROBE:LIU18A:BCL11B_XL,BCL11B,C2H2_zinc_finger_like,Homo sapiens (Human),cluster_0.40_039,natural_test
+UniPROBE:NAR10:GCN4,GCN4,bZIP_or_AP1_like,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),cluster_0.40_040,train
+UniPROBE:NAR10:Jun_Fos,Jun_Fos,bZIP_or_AP1_like,Gallus gallus (Chicken),cluster_0.40_041,natural_test
+UniPROBE:NAR11:HLH-1,HLH-1,bHLH,Caenorhabditis elegans,cluster_0.40_042,validation
+UniPROBE:NAR11:HLH-1_L13R,HLH-1,bHLH,Caenorhabditis elegans,cluster_0.40_042,validation
+UniPROBE:NAR11:HLH-1_L13T,HLH-1,bHLH,Caenorhabditis elegans,cluster_0.40_042,validation
+UniPROBE:NAR11:HLH-1_L13V,HLH-1,bHLH,Caenorhabditis elegans,cluster_0.40_042,validation
+UniPROBE:NBT06:CEH-22,CEH-22,homeodomain,Caenorhabditis elegans,cluster_0.40_043,train
+UniPROBE:NBT06:Cbf1,Cbf1,bHLH,Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast),cluster_0.40_044,train
+UniPROBE:NBT06:Ceh-22,Ceh-22,homeodomain,Caenorhabditis elegans,cluster_0.40_043,train
+UniPROBE:NBT06:Oct-1,Oct-1,unknown_or_publication_specific,Caenorhabditis elegans,cluster_0.40_045,train
+UniPROBE:NBT06:Rap1,Rap1,Myb_like,Drosophila melanogaster (Fruit fly),cluster_0.40_046,train
+UniPROBE:NBT06:Zif268,Zif268,C2H2_zinc_finger_like,Rattus norvegicus (Rat),cluster_0.40_047,train
+UniPROBE:PNAS12:Lmd,Lmd,homeodomain,Drosophila melanogaster (Fruit fly),cluster_0.40_048,train

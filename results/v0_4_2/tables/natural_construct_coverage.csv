@@ -1,0 +1,2 @@
+n_total_proteins,n_exact_construct,n_domain_reconstructed,n_full_length_confirmed,n_unknown,fraction_high_confidence_construct,interpretation
+57,0,0,0,57,0.0,Current v0.4.2 audit cannot verify assay construct sequences for the natural UniPROBE proteins; assay-aligned primary training is therefore empty.

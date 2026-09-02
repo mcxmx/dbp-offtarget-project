@@ -1,0 +1,8 @@
+{
+  "audit_date": "2026-09-02",
+  "host": "Windows PowerShell",
+  "docker_returncode": 127,
+  "podman_returncode": 127,
+  "wsl_returncode": 50,
+  "official_example_status": "OFFICIAL_EXAMPLE_NOT_RUN_HOST_NO_LINUX_RUNTIME"
+}

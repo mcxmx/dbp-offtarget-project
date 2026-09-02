@@ -1,0 +1,1 @@
+docker run --rm -v ${PWD}/external/deeppbs/DeepPBS/run/process/pdb:/app/input:ro -v ${PWD}/results/v0_4_2/external_runs/deeppbs_official_example:/output aricohen/deeppbs:latest /app/input/5x6g.pdb -m
