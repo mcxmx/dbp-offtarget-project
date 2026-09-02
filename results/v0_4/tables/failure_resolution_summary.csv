@@ -1,0 +1,22 @@
+protein_id,baseline,n_v0_3_1_disagreement_candidates,n_evaluable_candidates,n_resolved,resolution_rate,resolution_definition,evaluation_status
+DBP1,NA-MPNN_structural_ppm,287,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP1,DeepPBS,287,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP1,SimpleProteinConditionalBaseline,287,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP3,NA-MPNN_structural_ppm,381,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP3,DeepPBS,381,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP3,SimpleProteinConditionalBaseline,381,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP35,NA-MPNN_structural_ppm,174,174,50,0.28735632183908044,candidate predicted in top 10% within protein by protein-conditioned baseline score,evaluated
+DBP35,DeepPBS,174,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP35,SimpleProteinConditionalBaseline,174,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP48,NA-MPNN_structural_ppm,224,224,0,0.0,candidate predicted in top 10% within protein by protein-conditioned baseline score,evaluated
+DBP48,DeepPBS,224,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP48,SimpleProteinConditionalBaseline,224,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP5,NA-MPNN_structural_ppm,178,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP5,DeepPBS,178,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP5,SimpleProteinConditionalBaseline,178,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP6,NA-MPNN_structural_ppm,150,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP6,DeepPBS,150,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP6,SimpleProteinConditionalBaseline,150,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP9,NA-MPNN_structural_ppm,121,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP9,DeepPBS,121,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
+DBP9,SimpleProteinConditionalBaseline,121,0,0,,candidate predicted in top 10% within protein by protein-conditioned baseline score,not_evaluable
