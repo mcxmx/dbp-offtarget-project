@@ -1,0 +1,21 @@
+weight_file,sha256,size_bytes,source
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.19.40_173/Model.best.tar,1698fe57ba527a54371a5fb8e4576e852ca0a089f1efd9d0bdbae608f67dbe3a,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.19.40_529/Model.best.tar,c454f9795ef8d56847ae77af0048c1c9314dcf296dc4c8f90baaff411c86f1a1,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.19.40_828/Model.best.tar,b9abaa9635ccce2f08e0c2fb29bf2acb7a8e132151bb7613a301416f6438211e,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.19.40_898/Model.best.tar,944b66624d43cf5c0020ec5f2c4853b0c1bb5350363dc3c02cbe65f2e96ff4c5,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.20.18_820/Model.best.tar,821ab9209348c07f03419203c77ece327f82a9f19379f1b062d49140f1537a4b,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.21.45_551/Model.best.tar,982158107e1fc8cc9d330342044a68c68a93ac39c500b234be1a99ba355d271e,102961,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.21.45_727/Model.best.tar,be273ab928edd053a9f500d3ddcacde671f627c1dbff22cf64f1861b26792ab2,102961,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.21.45_851/Model.best.tar,89f32cf7727315f9645f0ff098cc8b793060c9bd4c1909fdcd17bac21bc2d221,102961,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.21.45_945/Model.best.tar,b7dcd647c47e91823c64b69a4d78a05adb21e797112edc71fa1b978f8ad135c0,102961,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.23_481/Model.best.tar,fa3ecda5f6485e06a021d1760adcbe5567964e04703429b814472139394bafdd,102961,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.28_511/Model.best.tar,ae80bb67afda238804e54abd3f9247ddaa5004f5e808964dfd4e8bd0e0d4a957,101361,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.28_74/Model.best.tar,caee65dde1cc2f6302ca5908de04c1401cf90731bd870645e0a08b9c7ef61761,101361,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.28_912/Model.best.tar,9deb7161f995c66d8adbd89c881683609718135c019713751d5296c350ff2831,101361,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.31_436/Model.best.tar,f11c8494a79d1cd8669b2e872b689f654301df8f89662e0b014977d7a773ee15,101361,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.31_863/Model.best.tar,3db7feda9914d1cee153c9bbf4c4292af3ec55065ad8f0f456b55947d32e71ff,101361,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.33_540/Model.best.tar,90b552243ea82467d6f97d0a485aa35300b0c35c98ee9276e8a49c56470a1d11,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.22.33_739/Model.best.tar,b803485733954c7a01380afec90c20721df8d4888a37f07e49dbfd2006dcda48,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.23.01_781/Model.best.tar,6d0c2145a093be256effb40c60d9de898026df2b55d3d961862bd0b1f1986ca5,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.23.03_10/Model.best.tar,04516c7902edd646d4282d3f7811d6161e155270d42a50edd35778aab5daff99,102705,bundled in checked-out official DeepPBS repository
+external/deeppbs/DeepPBS/run/output/config_03.26.2024.23.04_247/Model.best.tar,354b15c3c4be5903d87bfbd90c365f8e1a26246be031e34f93f565f9df049ad7,102705,bundled in checked-out official DeepPBS repository

@@ -1,0 +1,8 @@
+protein_id,baseline,spearman,ndcg_1pct,ndcg_5pct,pairwise_accuracy,top1pct_recovery,n_rc_classes,evaluation_status
+DBP1,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
+DBP3,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
+DBP5,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
+DBP6,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
+DBP9,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
+DBP35,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
+DBP48,DeepPBS,,,,,,0,not_run_host_lacks_docker_or_wsl
