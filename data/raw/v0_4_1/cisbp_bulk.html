@@ -1,0 +1,1185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>CIS-BP Database: Catalog of Inferred Sequence Binding Preferences</title>
+   <link href="style/stylelarger.css" rel="stylesheet" type="text/css" />
+
+   
+</head>
+<body>
+   <div id="container">
+      <div id="header">
+        <!--<div id="header_left"></div>-->
+        <div id="header_main">CIS-BP Database: Catalog of Inferred Sequence Binding Preferences</div>
+        <div id="header_right"></div>
+      </div>
+
+
+      <!-- This is the left sidebar with navigation BEGIN -->
+      <div id="sidebar">
+<a class="mainMenuLink" href="index.php">Home</a><a class="mainMenuLink" href="TFTools.php">Tools</a><a class="mainMenuLink" href="cart.php">View cart</a><a class="mainMenuLinkSelected" href="bulk.php">Bulk downloads</a><a class="mainMenuLink" href="stats.php">Database stats</a><a class="mainMenuLink" href="contact.php">Contact us</a><a class="mainMenuLink" href="help.html" target="_blank">Help</a><a class="mainMenuLink" href="update.html" target="_blank">Update Log</a><a class="mainMenuLink" href="faq.html" target="_blank">FAQ</a><a class="mainMenuLink" href="links.html" target="_blank">Links</a><a class="mainMenuLink" href="cite.php">How to cite</a></div>
+      <!-- Navigation and sidebar END -->
+      <div id="main">
+
+          <form action="bulk_archive.php" method="post" id="cart">
+          <table class="tf_report">
+              <tr>
+                  
+                <th align="center">Categories</th>
+                <th align="center">Selection</th>
+                <th align="center">Logos</th>
+                <th align="center">E-scores</th>
+                <th align="center">Z-scores</th>
+                <th align="center">Probe Intensities</th>
+                <th align="center">TF info</th>
+                <th align="center">PWMs</th>
+                <th align="center">Action</th>
+
+              </tr>
+              <tr>
+                <td >By Species</td>
+                <td >
+                      <select name="selSpec">
+                          <option value="0" Selected></option>
+                                                               <option style="font-style:italic" value="Acanthamoeba_castellanii">Acanthamoeba_castellanii</option>
+                                                                    <option style="font-style:italic" value="Acanthamoeba_polyphaga_mimivirus">Acanthamoeba_polyphaga_mimivirus</option>
+                                                                    <option style="font-style:italic" value="Acanthocheilonema_viteae">Acanthocheilonema_viteae</option>
+                                                                    <option style="font-style:italic" value="Acipenser_baerii">Acipenser_baerii</option>
+                                                                    <option style="font-style:italic" value="Acremonium_chrysogenum">Acremonium_chrysogenum</option>
+                                                                    <option style="font-style:italic" value="Acropora_formosa">Acropora_formosa</option>
+                                                                    <option style="font-style:italic" value="Acropora_millepora">Acropora_millepora</option>
+                                                                    <option style="font-style:italic" value="Acyrthosiphon_pisum">Acyrthosiphon_pisum</option>
+                                                                    <option style="font-style:italic" value="Aedes_aegypti">Aedes_aegypti</option>
+                                                                    <option style="font-style:italic" value="Aegilops_tauschii">Aegilops_tauschii</option>
+                                                                    <option style="font-style:italic" value="Agaricus_bisporus">Agaricus_bisporus</option>
+                                                                    <option style="font-style:italic" value="Ailuropoda_melanoleuca">Ailuropoda_melanoleuca</option>
+                                                                    <option style="font-style:italic" value="Albugo_laibachii">Albugo_laibachii</option>
+                                                                    <option style="font-style:italic" value="Alligator_sinensis">Alligator_sinensis</option>
+                                                                    <option style="font-style:italic" value="Allomyces_macrogynus">Allomyces_macrogynus</option>
+                                                                    <option style="font-style:italic" value="Alternaria_brassicicola">Alternaria_brassicicola</option>
+                                                                    <option style="font-style:italic" value="Amanita_muscaria">Amanita_muscaria</option>
+                                                                    <option style="font-style:italic" value="Amborella_trichopoda">Amborella_trichopoda</option>
+                                                                    <option style="font-style:italic" value="Amphimedon_queenslandica">Amphimedon_queenslandica</option>
+                                                                    <option style="font-style:italic" value="Anas_platyrhynchos">Anas_platyrhynchos</option>
+                                                                    <option style="font-style:italic" value="Ancylostoma_caninum">Ancylostoma_caninum</option>
+                                                                    <option style="font-style:italic" value="Ancylostoma_ceylanicum">Ancylostoma_ceylanicum</option>
+                                                                    <option style="font-style:italic" value="Ancylostoma_duodenale">Ancylostoma_duodenale</option>
+                                                                    <option style="font-style:italic" value="Angiostrongylus_cantonensis">Angiostrongylus_cantonensis</option>
+                                                                    <option style="font-style:italic" value="Angiostrongylus_costaricensis">Angiostrongylus_costaricensis</option>
+                                                                    <option style="font-style:italic" value="Anisakis_simplex">Anisakis_simplex</option>
+                                                                    <option style="font-style:italic" value="Anncaliia_algerae">Anncaliia_algerae</option>
+                                                                    <option style="font-style:italic" value="Anolis_carolinensis">Anolis_carolinensis</option>
+                                                                    <option style="font-style:italic" value="Anopheles_albimanus">Anopheles_albimanus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_arabiensis">Anopheles_arabiensis</option>
+                                                                    <option style="font-style:italic" value="Anopheles_atroparvus">Anopheles_atroparvus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_christyi">Anopheles_christyi</option>
+                                                                    <option style="font-style:italic" value="Anopheles_coluzzii">Anopheles_coluzzii</option>
+                                                                    <option style="font-style:italic" value="Anopheles_culicifacies">Anopheles_culicifacies</option>
+                                                                    <option style="font-style:italic" value="Anopheles_darlingi">Anopheles_darlingi</option>
+                                                                    <option style="font-style:italic" value="Anopheles_dirus">Anopheles_dirus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_epiroticus">Anopheles_epiroticus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_farauti">Anopheles_farauti</option>
+                                                                    <option style="font-style:italic" value="Anopheles_funestus">Anopheles_funestus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_gambiae">Anopheles_gambiae</option>
+                                                                    <option style="font-style:italic" value="Anopheles_maculatus">Anopheles_maculatus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_melas">Anopheles_melas</option>
+                                                                    <option style="font-style:italic" value="Anopheles_merus">Anopheles_merus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_minimus">Anopheles_minimus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_quadriannulatus">Anopheles_quadriannulatus</option>
+                                                                    <option style="font-style:italic" value="Anopheles_sinensis">Anopheles_sinensis</option>
+                                                                    <option style="font-style:italic" value="Anopheles_stephensi">Anopheles_stephensi</option>
+                                                                    <option style="font-style:italic" value="Antirrhinum_majus">Antirrhinum_majus</option>
+                                                                    <option style="font-style:italic" value="Apis_mellifera">Apis_mellifera</option>
+                                                                    <option style="font-style:italic" value="Aplysia_californica">Aplysia_californica</option>
+                                                                    <option style="font-style:italic" value="Aptenodytes_forsteri">Aptenodytes_forsteri</option>
+                                                                    <option style="font-style:italic" value="Aquilegia_coerulea">Aquilegia_coerulea</option>
+                                                                    <option style="font-style:italic" value="Arabidopsis_lyrata">Arabidopsis_lyrata</option>
+                                                                    <option style="font-style:italic" value="Arabidopsis_thaliana">Arabidopsis_thaliana</option>
+                                                                    <option style="font-style:italic" value="Artemia_franciscana">Artemia_franciscana</option>
+                                                                    <option style="font-style:italic" value="Arthrobotrys_oligospora">Arthrobotrys_oligospora</option>
+                                                                    <option style="font-style:italic" value="Arthroderma_benhamiae">Arthroderma_benhamiae</option>
+                                                                    <option style="font-style:italic" value="Arthroderma_otae">Arthroderma_otae</option>
+                                                                    <option style="font-style:italic" value="Ascaris_lumbricoides">Ascaris_lumbricoides</option>
+                                                                    <option style="font-style:italic" value="Ascaris_suum">Ascaris_suum</option>
+                                                                    <option style="font-style:italic" value="Ashbya_gossypii">Ashbya_gossypii</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_carbonarius">Aspergillus_carbonarius</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_clavatus">Aspergillus_clavatus</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_flavus">Aspergillus_flavus</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_fumigatus">Aspergillus_fumigatus</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_nidulans">Aspergillus_nidulans</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_niger">Aspergillus_niger</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_oryzae">Aspergillus_oryzae</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_ruber">Aspergillus_ruber</option>
+                                                                    <option style="font-style:italic" value="Aspergillus_terreus">Aspergillus_terreus</option>
+                                                                    <option style="font-style:italic" value="Astyanax_mexicanus">Astyanax_mexicanus</option>
+                                                                    <option style="font-style:italic" value="Atta_cephalotes">Atta_cephalotes</option>
+                                                                    <option style="font-style:italic" value="Aureobasidium_melanogenum">Aureobasidium_melanogenum</option>
+                                                                    <option style="font-style:italic" value="Aureobasidium_pullulans">Aureobasidium_pullulans</option>
+                                                                    <option style="font-style:italic" value="Aureobasidium_subglaciale">Aureobasidium_subglaciale</option>
+                                                                    <option style="font-style:italic" value="Aureococcus_anophagefferens">Aureococcus_anophagefferens</option>
+                                                                    <option style="font-style:italic" value="Avian_erythroblastosis_virus">Avian_erythroblastosis_virus</option>
+                                                                    <option style="font-style:italic" value="Avian_musculoaponeurotic_fibrosarcoma_virus_AS42">Avian_musculoaponeurotic_fibrosarcoma_virus_AS42</option>
+                                                                    <option style="font-style:italic" value="Avian_myeloblastosis_virus">Avian_myeloblastosis_virus</option>
+                                                                    <option style="font-style:italic" value="Avian_sarcoma_virus_17">Avian_sarcoma_virus_17</option>
+                                                                    <option style="font-style:italic" value="Babesia_bovis">Babesia_bovis</option>
+                                                                    <option style="font-style:italic" value="Batrachochytrium_dendrobatidis">Batrachochytrium_dendrobatidis</option>
+                                                                    <option style="font-style:italic" value="Baudoinia_compniacensis">Baudoinia_compniacensis</option>
+                                                                    <option style="font-style:italic" value="Beauveria_bassiana">Beauveria_bassiana</option>
+                                                                    <option style="font-style:italic" value="Bigelowiella_natans">Bigelowiella_natans</option>
+                                                                    <option style="font-style:italic" value="Biomphalaria_glabrata">Biomphalaria_glabrata</option>
+                                                                    <option style="font-style:italic" value="Bipolaris_maydis">Bipolaris_maydis</option>
+                                                                    <option style="font-style:italic" value="Bipolaris_oryzae">Bipolaris_oryzae</option>
+                                                                    <option style="font-style:italic" value="Bipolaris_sorokiniana">Bipolaris_sorokiniana</option>
+                                                                    <option style="font-style:italic" value="Bipolaris_victoriae">Bipolaris_victoriae</option>
+                                                                    <option style="font-style:italic" value="Bipolaris_zeicola">Bipolaris_zeicola</option>
+                                                                    <option style="font-style:italic" value="Blastomyces_dermatitidis">Blastomyces_dermatitidis</option>
+                                                                    <option style="font-style:italic" value="Blumeria_graminis">Blumeria_graminis</option>
+                                                                    <option style="font-style:italic" value="Boechera_stricta">Boechera_stricta</option>
+                                                                    <option style="font-style:italic" value="Bombyx_mori">Bombyx_mori</option>
+                                                                    <option style="font-style:italic" value="Bos_grunniens">Bos_grunniens</option>
+                                                                    <option style="font-style:italic" value="Bos_taurus">Bos_taurus</option>
+                                                                    <option style="font-style:italic" value="Botryobasidium_botryosum">Botryobasidium_botryosum</option>
+                                                                    <option style="font-style:italic" value="Botrytis_cinerea">Botrytis_cinerea</option>
+                                                                    <option style="font-style:italic" value="Bovine_papillomavirus_type_2">Bovine_papillomavirus_type_2</option>
+                                                                    <option style="font-style:italic" value="Brachypodium_distachyon">Brachypodium_distachyon</option>
+                                                                    <option style="font-style:italic" value="Branchiostoma_floridae">Branchiostoma_floridae</option>
+                                                                    <option style="font-style:italic" value="Brassica_napus">Brassica_napus</option>
+                                                                    <option style="font-style:italic" value="Brassica_oleracea">Brassica_oleracea</option>
+                                                                    <option style="font-style:italic" value="Brassica_rapa">Brassica_rapa</option>
+                                                                    <option style="font-style:italic" value="Brettanomyces_bruxellensis">Brettanomyces_bruxellensis</option>
+                                                                    <option style="font-style:italic" value="Brugia_malayi">Brugia_malayi</option>
+                                                                    <option style="font-style:italic" value="Brugia_pahangi">Brugia_pahangi</option>
+                                                                    <option style="font-style:italic" value="Brugia_timori">Brugia_timori</option>
+                                                                    <option style="font-style:italic" value="Buceros_rhinoceros">Buceros_rhinoceros</option>
+                                                                    <option style="font-style:italic" value="Bursaphelenchus_xylophilus">Bursaphelenchus_xylophilus</option>
+                                                                    <option style="font-style:italic" value="Byssochlamys_spectabilis">Byssochlamys_spectabilis</option>
+                                                                    <option style="font-style:italic" value="Caenorhabditis_brenneri">Caenorhabditis_brenneri</option>
+                                                                    <option style="font-style:italic" value="Caenorhabditis_briggsae">Caenorhabditis_briggsae</option>
+                                                                    <option style="font-style:italic" value="Caenorhabditis_elegans">Caenorhabditis_elegans</option>
+                                                                    <option style="font-style:italic" value="Caenorhabditis_japonica">Caenorhabditis_japonica</option>
+                                                                    <option style="font-style:italic" value="Caenorhabditis_remanei">Caenorhabditis_remanei</option>
+                                                                    <option style="font-style:italic" value="Callithrix_jacchus">Callithrix_jacchus</option>
+                                                                    <option style="font-style:italic" value="Calypte_anna">Calypte_anna</option>
+                                                                    <option style="font-style:italic" value="Camponotus_floridanus">Camponotus_floridanus</option>
+                                                                    <option style="font-style:italic" value="Candida_albicans">Candida_albicans</option>
+                                                                    <option style="font-style:italic" value="Candida_dubliniensis">Candida_dubliniensis</option>
+                                                                    <option style="font-style:italic" value="Candida_glabrata">Candida_glabrata</option>
+                                                                    <option style="font-style:italic" value="Candida_guilliermondii">Candida_guilliermondii</option>
+                                                                    <option style="font-style:italic" value="Candida_lusitaniae">Candida_lusitaniae</option>
+                                                                    <option style="font-style:italic" value="Candida_maltosa">Candida_maltosa</option>
+                                                                    <option style="font-style:italic" value="Candida_orthopsilosis">Candida_orthopsilosis</option>
+                                                                    <option style="font-style:italic" value="Candida_parapsilosis">Candida_parapsilosis</option>
+                                                                    <option style="font-style:italic" value="Candida_tenuis">Candida_tenuis</option>
+                                                                    <option style="font-style:italic" value="Candida_tropicalis">Candida_tropicalis</option>
+                                                                    <option style="font-style:italic" value="Canis_familiaris">Canis_familiaris</option>
+                                                                    <option style="font-style:italic" value="Cannabis_sativa">Cannabis_sativa</option>
+                                                                    <option style="font-style:italic" value="Capitella_teleta">Capitella_teleta</option>
+                                                                    <option style="font-style:italic" value="Capronia_coronata">Capronia_coronata</option>
+                                                                    <option style="font-style:italic" value="Capronia_epimyces">Capronia_epimyces</option>
+                                                                    <option style="font-style:italic" value="Capronia_semiimmersa">Capronia_semiimmersa</option>
+                                                                    <option style="font-style:italic" value="Capsaspora_owczarzaki">Capsaspora_owczarzaki</option>
+                                                                    <option style="font-style:italic" value="Capsella_grandiflora">Capsella_grandiflora</option>
+                                                                    <option style="font-style:italic" value="Capsella_rubella">Capsella_rubella</option>
+                                                                    <option style="font-style:italic" value="Carica_papaya">Carica_papaya</option>
+                                                                    <option style="font-style:italic" value="Cavia_porcellus">Cavia_porcellus</option>
+                                                                    <option style="font-style:italic" value="Ceriporiopsis_subvermispora">Ceriporiopsis_subvermispora</option>
+                                                                    <option style="font-style:italic" value="Chaetomium_globosum">Chaetomium_globosum</option>
+                                                                    <option style="font-style:italic" value="Chaetomium_thermophilum">Chaetomium_thermophilum</option>
+                                                                    <option style="font-style:italic" value="Chelonia_mydas">Chelonia_mydas</option>
+                                                                    <option style="font-style:italic" value="Chlamydomonas_reinhardtii">Chlamydomonas_reinhardtii</option>
+                                                                    <option style="font-style:italic" value="Chlorella_NC64A">Chlorella_NC64A</option>
+                                                                    <option style="font-style:italic" value="Chlorella_vulgaris">Chlorella_vulgaris</option>
+                                                                    <option style="font-style:italic" value="Chlorocebus_sabaeus">Chlorocebus_sabaeus</option>
+                                                                    <option style="font-style:italic" value="Choloepus_hoffmanni">Choloepus_hoffmanni</option>
+                                                                    <option style="font-style:italic" value="Chroomonas_mesostigmatica">Chroomonas_mesostigmatica</option>
+                                                                    <option style="font-style:italic" value="Cicer_arietinum">Cicer_arietinum</option>
+                                                                    <option style="font-style:italic" value="Cimex_lectularius">Cimex_lectularius</option>
+                                                                    <option style="font-style:italic" value="Ciona_intestinalis">Ciona_intestinalis</option>
+                                                                    <option style="font-style:italic" value="Ciona_savignyi">Ciona_savignyi</option>
+                                                                    <option style="font-style:italic" value="Citrullus_lanatus">Citrullus_lanatus</option>
+                                                                    <option style="font-style:italic" value="Citrus_clementina">Citrus_clementina</option>
+                                                                    <option style="font-style:italic" value="Citrus_sinensis">Citrus_sinensis</option>
+                                                                    <option style="font-style:italic" value="Cladophialophora_bantiana">Cladophialophora_bantiana</option>
+                                                                    <option style="font-style:italic" value="Cladophialophora_carrionii">Cladophialophora_carrionii</option>
+                                                                    <option style="font-style:italic" value="Cladophialophora_immunda">Cladophialophora_immunda</option>
+                                                                    <option style="font-style:italic" value="Cladophialophora_psammophila">Cladophialophora_psammophila</option>
+                                                                    <option style="font-style:italic" value="Cladophialophora_yegresii">Cladophialophora_yegresii</option>
+                                                                    <option style="font-style:italic" value="Claviceps_purpurea">Claviceps_purpurea</option>
+                                                                    <option style="font-style:italic" value="Clavispora_lusitaniae">Clavispora_lusitaniae</option>
+                                                                    <option style="font-style:italic" value="Clonorchis_sinensis">Clonorchis_sinensis</option>
+                                                                    <option style="font-style:italic" value="Coccidioides_immitis">Coccidioides_immitis</option>
+                                                                    <option style="font-style:italic" value="Coccidioides_posadasii">Coccidioides_posadasii</option>
+                                                                    <option style="font-style:italic" value="Coccomyxa_subellipsoidea_C169">Coccomyxa_subellipsoidea_C169</option>
+                                                                    <option style="font-style:italic" value="Cochliobolus_heterostrophus_C5">Cochliobolus_heterostrophus_C5</option>
+                                                                    <option style="font-style:italic" value="Colletotrichum_fioriniae">Colletotrichum_fioriniae</option>
+                                                                    <option style="font-style:italic" value="Colletotrichum_gloeosporioides">Colletotrichum_gloeosporioides</option>
+                                                                    <option style="font-style:italic" value="Colletotrichum_graminicola">Colletotrichum_graminicola</option>
+                                                                    <option style="font-style:italic" value="Colletotrichum_higginsianum">Colletotrichum_higginsianum</option>
+                                                                    <option style="font-style:italic" value="Colletotrichum_orbiculare">Colletotrichum_orbiculare</option>
+                                                                    <option style="font-style:italic" value="Colletotrichum_sublineola">Colletotrichum_sublineola</option>
+                                                                    <option style="font-style:italic" value="Coniosporium_apollinis">Coniosporium_apollinis</option>
+                                                                    <option style="font-style:italic" value="Coprinellus_disseminatus">Coprinellus_disseminatus</option>
+                                                                    <option style="font-style:italic" value="Coprinopsis_cinerea">Coprinopsis_cinerea</option>
+                                                                    <option style="font-style:italic" value="Coprinopsis_scobicola">Coprinopsis_scobicola</option>
+                                                                    <option style="font-style:italic" value="Cordyceps_militaris">Cordyceps_militaris</option>
+                                                                    <option style="font-style:italic" value="Crassostrea_gigas">Crassostrea_gigas</option>
+                                                                    <option style="font-style:italic" value="Cryphonectria_parasitica">Cryphonectria_parasitica</option>
+                                                                    <option style="font-style:italic" value="Cryptococcus_gattii">Cryptococcus_gattii</option>
+                                                                    <option style="font-style:italic" value="Cryptococcus_neoformans">Cryptococcus_neoformans</option>
+                                                                    <option style="font-style:italic" value="Cryptosporidium_hominis">Cryptosporidium_hominis</option>
+                                                                    <option style="font-style:italic" value="Cryptosporidium_muris">Cryptosporidium_muris</option>
+                                                                    <option style="font-style:italic" value="Cryptosporidium_parvum">Cryptosporidium_parvum</option>
+                                                                    <option style="font-style:italic" value="Cucumis_sativus">Cucumis_sativus</option>
+                                                                    <option style="font-style:italic" value="Culex_pipiens">Culex_pipiens</option>
+                                                                    <option style="font-style:italic" value="Culex_quinquefasciatus">Culex_quinquefasciatus</option>
+                                                                    <option style="font-style:italic" value="Cupiennius_salei">Cupiennius_salei</option>
+                                                                    <option style="font-style:italic" value="Cyanidioschyzon_merolae">Cyanidioschyzon_merolae</option>
+                                                                    <option style="font-style:italic" value="Cylicostephanus_goldi">Cylicostephanus_goldi</option>
+                                                                    <option style="font-style:italic" value="Cyphellophora_europaea">Cyphellophora_europaea</option>
+                                                                    <option style="font-style:italic" value="Dacryopinax_sp">Dacryopinax_sp</option>
+                                                                    <option style="font-style:italic" value="Dactylellina_haptotyla">Dactylellina_haptotyla</option>
+                                                                    <option style="font-style:italic" value="Danaus_plexippus">Danaus_plexippus</option>
+                                                                    <option style="font-style:italic" value="Danio_rerio">Danio_rerio</option>
+                                                                    <option style="font-style:italic" value="Daphnia_pulex">Daphnia_pulex</option>
+                                                                    <option style="font-style:italic" value="Dasypus_novemcinctus">Dasypus_novemcinctus</option>
+                                                                    <option style="font-style:italic" value="Debaryomyces_hansenii">Debaryomyces_hansenii</option>
+                                                                    <option style="font-style:italic" value="Dendroctonus_ponderosae">Dendroctonus_ponderosae</option>
+                                                                    <option style="font-style:italic" value="Dichomitus_squalens">Dichomitus_squalens</option>
+                                                                    <option style="font-style:italic" value="Dictyocaulus_viviparus">Dictyocaulus_viviparus</option>
+                                                                    <option style="font-style:italic" value="Dictyostelium_discoideum">Dictyostelium_discoideum</option>
+                                                                    <option style="font-style:italic" value="Dictyostelium_purpureum">Dictyostelium_purpureum</option>
+                                                                    <option style="font-style:italic" value="Diphyllobothrium_latum">Diphyllobothrium_latum</option>
+                                                                    <option style="font-style:italic" value="Dipodomys_ordii">Dipodomys_ordii</option>
+                                                                    <option style="font-style:italic" value="Dirofilaria_immitis">Dirofilaria_immitis</option>
+                                                                    <option style="font-style:italic" value="Discocelis_tigrina">Discocelis_tigrina</option>
+                                                                    <option style="font-style:italic" value="Dothistroma_septosporum">Dothistroma_septosporum</option>
+                                                                    <option style="font-style:italic" value="Dracunculus_medinensis">Dracunculus_medinensis</option>
+                                                                    <option style="font-style:italic" value="Drechslerella_stenobrocha">Drechslerella_stenobrocha</option>
+                                                                    <option style="font-style:italic" value="Drosophila_ananassae">Drosophila_ananassae</option>
+                                                                    <option style="font-style:italic" value="Drosophila_erecta">Drosophila_erecta</option>
+                                                                    <option style="font-style:italic" value="Drosophila_grimshawi">Drosophila_grimshawi</option>
+                                                                    <option style="font-style:italic" value="Drosophila_melanogaster">Drosophila_melanogaster</option>
+                                                                    <option style="font-style:italic" value="Drosophila_mojavensis">Drosophila_mojavensis</option>
+                                                                    <option style="font-style:italic" value="Drosophila_persimilis">Drosophila_persimilis</option>
+                                                                    <option style="font-style:italic" value="Drosophila_pseudoobscura">Drosophila_pseudoobscura</option>
+                                                                    <option style="font-style:italic" value="Drosophila_sechellia">Drosophila_sechellia</option>
+                                                                    <option style="font-style:italic" value="Drosophila_simulans">Drosophila_simulans</option>
+                                                                    <option style="font-style:italic" value="Drosophila_virilis">Drosophila_virilis</option>
+                                                                    <option style="font-style:italic" value="Drosophila_willistoni">Drosophila_willistoni</option>
+                                                                    <option style="font-style:italic" value="Drosophila_yakuba">Drosophila_yakuba</option>
+                                                                    <option style="font-style:italic" value="Echinococcus_canadensis">Echinococcus_canadensis</option>
+                                                                    <option style="font-style:italic" value="Echinococcus_granulosus">Echinococcus_granulosus</option>
+                                                                    <option style="font-style:italic" value="Echinococcus_multilocularis">Echinococcus_multilocularis</option>
+                                                                    <option style="font-style:italic" value="Echinops_telfairi">Echinops_telfairi</option>
+                                                                    <option style="font-style:italic" value="Echinostoma_caproni">Echinostoma_caproni</option>
+                                                                    <option style="font-style:italic" value="Edhazardia_aedis">Edhazardia_aedis</option>
+                                                                    <option style="font-style:italic" value="Eimeria_tenella">Eimeria_tenella</option>
+                                                                    <option style="font-style:italic" value="Elaeophora_elaphi">Elaeophora_elaphi</option>
+                                                                    <option style="font-style:italic" value="Eleutheria_dichotoma">Eleutheria_dichotoma</option>
+                                                                    <option style="font-style:italic" value="Emiliania_huxleyi">Emiliania_huxleyi</option>
+                                                                    <option style="font-style:italic" value="Encephalitozoon_cuniculi">Encephalitozoon_cuniculi</option>
+                                                                    <option style="font-style:italic" value="Encephalitozoon_hellem">Encephalitozoon_hellem</option>
+                                                                    <option style="font-style:italic" value="Encephalitozoon_intestinalis">Encephalitozoon_intestinalis</option>
+                                                                    <option style="font-style:italic" value="Encephalitozoon_romaleae">Encephalitozoon_romaleae</option>
+                                                                    <option style="font-style:italic" value="Endocarpon_pusillum">Endocarpon_pusillum</option>
+                                                                    <option style="font-style:italic" value="Entamoeba_dispar">Entamoeba_dispar</option>
+                                                                    <option style="font-style:italic" value="Entamoeba_histolytica">Entamoeba_histolytica</option>
+                                                                    <option style="font-style:italic" value="Entamoeba_invadens">Entamoeba_invadens</option>
+                                                                    <option style="font-style:italic" value="Enterobius_vermicularis">Enterobius_vermicularis</option>
+                                                                    <option style="font-style:italic" value="Enterocytozoon_bieneusi">Enterocytozoon_bieneusi</option>
+                                                                    <option style="font-style:italic" value="EpsteinBarr_virus">EpsteinBarr_virus</option>
+                                                                    <option style="font-style:italic" value="Equus_caballus">Equus_caballus</option>
+                                                                    <option style="font-style:italic" value="Eremothecium_cymbalariae">Eremothecium_cymbalariae</option>
+                                                                    <option style="font-style:italic" value="Erinaceus_europaeus">Erinaceus_europaeus</option>
+                                                                    <option style="font-style:italic" value="Erysiphe_necator">Erysiphe_necator</option>
+                                                                    <option style="font-style:italic" value="Eucalyptus_grandis">Eucalyptus_grandis</option>
+                                                                    <option style="font-style:italic" value="Eutrema_salsugineum">Eutrema_salsugineum</option>
+                                                                    <option style="font-style:italic" value="Eutypa_lata">Eutypa_lata</option>
+                                                                    <option style="font-style:italic" value="Exophiala_aquamarina">Exophiala_aquamarina</option>
+                                                                    <option style="font-style:italic" value="Exophiala_dermatitidis">Exophiala_dermatitidis</option>
+                                                                    <option style="font-style:italic" value="Exophiala_mesophila">Exophiala_mesophila</option>
+                                                                    <option style="font-style:italic" value="Exophiala_oligosperma">Exophiala_oligosperma</option>
+                                                                    <option style="font-style:italic" value="Exophiala_sideris">Exophiala_sideris</option>
+                                                                    <option style="font-style:italic" value="Exophiala_spinifera">Exophiala_spinifera</option>
+                                                                    <option style="font-style:italic" value="Exophiala_xenobiotica">Exophiala_xenobiotica</option>
+                                                                    <option style="font-style:italic" value="Fasciola_hepatica">Fasciola_hepatica</option>
+                                                                    <option style="font-style:italic" value="Felis_catus">Felis_catus</option>
+                                                                    <option style="font-style:italic" value="Fibroporia_radiculosa">Fibroporia_radiculosa</option>
+                                                                    <option style="font-style:italic" value="Ficedula_albicollis">Ficedula_albicollis</option>
+                                                                    <option style="font-style:italic" value="Fomitopsis_pinicola">Fomitopsis_pinicola</option>
+                                                                    <option style="font-style:italic" value="Fonsecaea_pedrosoi">Fonsecaea_pedrosoi</option>
+                                                                    <option style="font-style:italic" value="Fragaria_vesca">Fragaria_vesca</option>
+                                                                    <option style="font-style:italic" value="Fragilariopsis_cylindrus">Fragilariopsis_cylindrus</option>
+                                                                    <option style="font-style:italic" value="Fusarium_fujikuroi">Fusarium_fujikuroi</option>
+                                                                    <option style="font-style:italic" value="Fusarium_graminearum">Fusarium_graminearum</option>
+                                                                    <option style="font-style:italic" value="Fusarium_oxysporum">Fusarium_oxysporum</option>
+                                                                    <option style="font-style:italic" value="Fusarium_pseudograminearum">Fusarium_pseudograminearum</option>
+                                                                    <option style="font-style:italic" value="Fusarium_solani">Fusarium_solani</option>
+                                                                    <option style="font-style:italic" value="Fusarium_verticillioides">Fusarium_verticillioides</option>
+                                                                    <option style="font-style:italic" value="Gadus_morhua">Gadus_morhua</option>
+                                                                    <option style="font-style:italic" value="Gaeumannomyces_graminis">Gaeumannomyces_graminis</option>
+                                                                    <option style="font-style:italic" value="Galerina_marginata">Galerina_marginata</option>
+                                                                    <option style="font-style:italic" value="Gallid_herpesvirus_2">Gallid_herpesvirus_2</option>
+                                                                    <option style="font-style:italic" value="Gallus_gallus">Gallus_gallus</option>
+                                                                    <option style="font-style:italic" value="Gasterosteus_aculeatus">Gasterosteus_aculeatus</option>
+                                                                    <option style="font-style:italic" value="Geospiza_fortis">Geospiza_fortis</option>
+                                                                    <option style="font-style:italic" value="Giardia_lamblia">Giardia_lamblia</option>
+                                                                    <option style="font-style:italic" value="Glarea_lozoyensis">Glarea_lozoyensis</option>
+                                                                    <option style="font-style:italic" value="Globodera_pallida">Globodera_pallida</option>
+                                                                    <option style="font-style:italic" value="Gloeophyllum_trabeum">Gloeophyllum_trabeum</option>
+                                                                    <option style="font-style:italic" value="Glycine_max">Glycine_max</option>
+                                                                    <option style="font-style:italic" value="Gongylonema_pulchrum">Gongylonema_pulchrum</option>
+                                                                    <option style="font-style:italic" value="Gorilla_gorilla">Gorilla_gorilla</option>
+                                                                    <option style="font-style:italic" value="Gossypium_raimondii">Gossypium_raimondii</option>
+                                                                    <option style="font-style:italic" value="Grosmannia_clavigera">Grosmannia_clavigera</option>
+                                                                    <option style="font-style:italic" value="Guillardia_theta">Guillardia_theta</option>
+                                                                    <option style="font-style:italic" value="Gymnopus_luxurians">Gymnopus_luxurians</option>
+                                                                    <option style="font-style:italic" value="Haemonchus_contortus">Haemonchus_contortus</option>
+                                                                    <option style="font-style:italic" value="Haemonchus_placei">Haemonchus_placei</option>
+                                                                    <option style="font-style:italic" value="Halocynthia_roretzi">Halocynthia_roretzi</option>
+                                                                    <option style="font-style:italic" value="Halyomorpha_halys">Halyomorpha_halys</option>
+                                                                    <option style="font-style:italic" value="Harpegnathos_saltator">Harpegnathos_saltator</option>
+                                                                    <option style="font-style:italic" value="Hebeloma_cylindrosporum">Hebeloma_cylindrosporum</option>
+                                                                    <option style="font-style:italic" value="Helianthus_annuus">Helianthus_annuus</option>
+                                                                    <option style="font-style:italic" value="Heliconius_melpomene">Heliconius_melpomene</option>
+                                                                    <option style="font-style:italic" value="Heligmosomoides_bakeri">Heligmosomoides_bakeri</option>
+                                                                    <option style="font-style:italic" value="Helobdella_robusta">Helobdella_robusta</option>
+                                                                    <option style="font-style:italic" value="Hemiselmis_andersenii">Hemiselmis_andersenii</option>
+                                                                    <option style="font-style:italic" value="Heterobasidion_annosum">Heterobasidion_annosum</option>
+                                                                    <option style="font-style:italic" value="Heterobasidion_irregulare">Heterobasidion_irregulare</option>
+                                                                    <option style="font-style:italic" value="Heterodontus_francisci">Heterodontus_francisci</option>
+                                                                    <option style="font-style:italic" value="Heterorhabditis_bacteriophora">Heterorhabditis_bacteriophora</option>
+                                                                    <option style="font-style:italic" value="Histoplasma_capsulatum">Histoplasma_capsulatum</option>
+                                                                    <option style="font-style:italic" value="Homo_sapiens">Homo_sapiens</option>
+                                                                    <option style="font-style:italic" value="Hordeum_vulgare">Hordeum_vulgare</option>
+                                                                    <option style="font-style:italic" value="Human_herpesvirus_2">Human_herpesvirus_2</option>
+                                                                    <option style="font-style:italic" value="Hyaloperonospora_arabidopsidis">Hyaloperonospora_arabidopsidis</option>
+                                                                    <option style="font-style:italic" value="Hydatigera_taeniaeformis">Hydatigera_taeniaeformis</option>
+                                                                    <option style="font-style:italic" value="Hydnomerulius_pinastri">Hydnomerulius_pinastri</option>
+                                                                    <option style="font-style:italic" value="Hydra_magnipapillata">Hydra_magnipapillata</option>
+                                                                    <option style="font-style:italic" value="Hymenolepis_diminuta">Hymenolepis_diminuta</option>
+                                                                    <option style="font-style:italic" value="Hymenolepis_microstoma">Hymenolepis_microstoma</option>
+                                                                    <option style="font-style:italic" value="Hymenolepis_nana">Hymenolepis_nana</option>
+                                                                    <option style="font-style:italic" value="Ictidomys_tridecemlineatus">Ictidomys_tridecemlineatus</option>
+                                                                    <option style="font-style:italic" value="Ipomoea_batatas">Ipomoea_batatas</option>
+                                                                    <option style="font-style:italic" value="Ixodes_scapularis">Ixodes_scapularis</option>
+                                                                    <option style="font-style:italic" value="Jaapia_argillacea">Jaapia_argillacea</option>
+                                                                    <option style="font-style:italic" value="Kazachstania_africana">Kazachstania_africana</option>
+                                                                    <option style="font-style:italic" value="Kazachstania_naganishii">Kazachstania_naganishii</option>
+                                                                    <option style="font-style:italic" value="Kluyveromyces_delphensis">Kluyveromyces_delphensis</option>
+                                                                    <option style="font-style:italic" value="Kluyveromyces_lactis">Kluyveromyces_lactis</option>
+                                                                    <option style="font-style:italic" value="Kluyveromyces_thermotolerans">Kluyveromyces_thermotolerans</option>
+                                                                    <option style="font-style:italic" value="Kluyveromyces_waltii">Kluyveromyces_waltii</option>
+                                                                    <option style="font-style:italic" value="Komagataella_pastoris">Komagataella_pastoris</option>
+                                                                    <option style="font-style:italic" value="Kuraishia_capsulata">Kuraishia_capsulata</option>
+                                                                    <option style="font-style:italic" value="Laccaria_amethystina">Laccaria_amethystina</option>
+                                                                    <option style="font-style:italic" value="Laccaria_bicolor">Laccaria_bicolor</option>
+                                                                    <option style="font-style:italic" value="Lachancea_kluyveri">Lachancea_kluyveri</option>
+                                                                    <option style="font-style:italic" value="Lachancea_lanzarotensis">Lachancea_lanzarotensis</option>
+                                                                    <option style="font-style:italic" value="Lachancea_thermotolerans">Lachancea_thermotolerans</option>
+                                                                    <option style="font-style:italic" value="Latimeria_chalumnae">Latimeria_chalumnae</option>
+                                                                    <option style="font-style:italic" value="Leersia_perrieri">Leersia_perrieri</option>
+                                                                    <option style="font-style:italic" value="Leishmania_braziliensis">Leishmania_braziliensis</option>
+                                                                    <option style="font-style:italic" value="Leishmania_infantum">Leishmania_infantum</option>
+                                                                    <option style="font-style:italic" value="Leishmania_major">Leishmania_major</option>
+                                                                    <option style="font-style:italic" value="Leishmania_mexicana">Leishmania_mexicana</option>
+                                                                    <option style="font-style:italic" value="Lepisosteus_oculatus">Lepisosteus_oculatus</option>
+                                                                    <option style="font-style:italic" value="Leptinotarsa_decemlineata">Leptinotarsa_decemlineata</option>
+                                                                    <option style="font-style:italic" value="Leptosphaeria_maculans">Leptosphaeria_maculans</option>
+                                                                    <option style="font-style:italic" value="Lingula_unguis">Lingula_unguis</option>
+                                                                    <option style="font-style:italic" value="Linum_usitatissimum">Linum_usitatissimum</option>
+                                                                    <option style="font-style:italic" value="Litomosoides_sigmodontis">Litomosoides_sigmodontis</option>
+                                                                    <option style="font-style:italic" value="Loa_loa">Loa_loa</option>
+                                                                    <option style="font-style:italic" value="Lodderomyces_elongisporus">Lodderomyces_elongisporus</option>
+                                                                    <option style="font-style:italic" value="Lottia_gigantea">Lottia_gigantea</option>
+                                                                    <option style="font-style:italic" value="Lotus_japonicus">Lotus_japonicus</option>
+                                                                    <option style="font-style:italic" value="Loxodonta_africana">Loxodonta_africana</option>
+                                                                    <option style="font-style:italic" value="Lucilia_cuprina">Lucilia_cuprina</option>
+                                                                    <option style="font-style:italic" value="Lutzomyia_longipalpis">Lutzomyia_longipalpis</option>
+                                                                    <option style="font-style:italic" value="Lycopersicon_esculentum">Lycopersicon_esculentum</option>
+                                                                    <option style="font-style:italic" value="Macaca_fascicularis">Macaca_fascicularis</option>
+                                                                    <option style="font-style:italic" value="Macaca_mulatta">Macaca_mulatta</option>
+                                                                    <option style="font-style:italic" value="Macrophomina_phaseolina">Macrophomina_phaseolina</option>
+                                                                    <option style="font-style:italic" value="Macropus_eugenii">Macropus_eugenii</option>
+                                                                    <option style="font-style:italic" value="Magnaporthe_oryzae">Magnaporthe_oryzae</option>
+                                                                    <option style="font-style:italic" value="Magnaporthe_poae">Magnaporthe_poae</option>
+                                                                    <option style="font-style:italic" value="Malassezia_globosa">Malassezia_globosa</option>
+                                                                    <option style="font-style:italic" value="Malassezia_sympodialis">Malassezia_sympodialis</option>
+                                                                    <option style="font-style:italic" value="Malus_domestica">Malus_domestica</option>
+                                                                    <option style="font-style:italic" value="Manihot_esculenta">Manihot_esculenta</option>
+                                                                    <option style="font-style:italic" value="Marmota_monax">Marmota_monax</option>
+                                                                    <option style="font-style:italic" value="Marssonina_brunnea">Marssonina_brunnea</option>
+                                                                    <option style="font-style:italic" value="Medicago_sativa">Medicago_sativa</option>
+                                                                    <option style="font-style:italic" value="Medicago_truncatula">Medicago_truncatula</option>
+                                                                    <option style="font-style:italic" value="Megaselia_scalaris">Megaselia_scalaris</option>
+                                                                    <option style="font-style:italic" value="Melampsora_laricipopulina">Melampsora_laricipopulina</option>
+                                                                    <option style="font-style:italic" value="Meleagris_gallopavo">Meleagris_gallopavo</option>
+                                                                    <option style="font-style:italic" value="Melitaea_cinxia">Melitaea_cinxia</option>
+                                                                    <option style="font-style:italic" value="Meloidogyne_floridensis">Meloidogyne_floridensis</option>
+                                                                    <option style="font-style:italic" value="Meloidogyne_hapla">Meloidogyne_hapla</option>
+                                                                    <option style="font-style:italic" value="Meloidogyne_incognita">Meloidogyne_incognita</option>
+                                                                    <option style="font-style:italic" value="Mesocestoides_corti">Mesocestoides_corti</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_acridum">Metarhizium_acridum</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_album">Metarhizium_album</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_anisopliae">Metarhizium_anisopliae</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_brunneum">Metarhizium_brunneum</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_guizhouense">Metarhizium_guizhouense</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_majus">Metarhizium_majus</option>
+                                                                    <option style="font-style:italic" value="Metarhizium_robertsii">Metarhizium_robertsii</option>
+                                                                    <option style="font-style:italic" value="Meyerozyma_guilliermondii">Meyerozyma_guilliermondii</option>
+                                                                    <option style="font-style:italic" value="Microbotryum_violaceum">Microbotryum_violaceum</option>
+                                                                    <option style="font-style:italic" value="Microcebus_murinus">Microcebus_murinus</option>
+                                                                    <option style="font-style:italic" value="Micromonas_pusilla">Micromonas_pusilla</option>
+                                                                    <option style="font-style:italic" value="Micromonas_sp_RCC299">Micromonas_sp_RCC299</option>
+                                                                    <option style="font-style:italic" value="Microsporidia_sp">Microsporidia_sp</option>
+                                                                    <option style="font-style:italic" value="Microsporum_canis">Microsporum_canis</option>
+                                                                    <option style="font-style:italic" value="Microsporum_gypseum">Microsporum_gypseum</option>
+                                                                    <option style="font-style:italic" value="Millerozyma_farinosa">Millerozyma_farinosa</option>
+                                                                    <option style="font-style:italic" value="Mimulus_guttatus">Mimulus_guttatus</option>
+                                                                    <option style="font-style:italic" value="Mixia_osmundae">Mixia_osmundae</option>
+                                                                    <option style="font-style:italic" value="Mnemiopsis_leidyi">Mnemiopsis_leidyi</option>
+                                                                    <option style="font-style:italic" value="Moniliophthora_perniciosa">Moniliophthora_perniciosa</option>
+                                                                    <option style="font-style:italic" value="Moniliophthora_roreri">Moniliophthora_roreri</option>
+                                                                    <option style="font-style:italic" value="Monodelphis_domestica">Monodelphis_domestica</option>
+                                                                    <option style="font-style:italic" value="Monosiga_brevicollis">Monosiga_brevicollis</option>
+                                                                    <option style="font-style:italic" value="Mucor_circinelloides">Mucor_circinelloides</option>
+                                                                    <option style="font-style:italic" value="Musa_acuminata">Musa_acuminata</option>
+                                                                    <option style="font-style:italic" value="Musca_domestica">Musca_domestica</option>
+                                                                    <option style="font-style:italic" value="Mustela_putorius_furo">Mustela_putorius_furo</option>
+                                                                    <option style="font-style:italic" value="Mus_musculus">Mus_musculus</option>
+                                                                    <option style="font-style:italic" value="Myceliophthora_thermophila">Myceliophthora_thermophila</option>
+                                                                    <option style="font-style:italic" value="Mycosphaerella_fijiensis">Mycosphaerella_fijiensis</option>
+                                                                    <option style="font-style:italic" value="Mycosphaerella_graminicola">Mycosphaerella_graminicola</option>
+                                                                    <option style="font-style:italic" value="Myotis_brandtii">Myotis_brandtii</option>
+                                                                    <option style="font-style:italic" value="Myotis_lucifugus">Myotis_lucifugus</option>
+                                                                    <option style="font-style:italic" value="Naegleria_gruberi">Naegleria_gruberi</option>
+                                                                    <option style="font-style:italic" value="Nasonia_vitripennis">Nasonia_vitripennis</option>
+                                                                    <option style="font-style:italic" value="Naumovozyma_castellii">Naumovozyma_castellii</option>
+                                                                    <option style="font-style:italic" value="Naumovozyma_dairenensis">Naumovozyma_dairenensis</option>
+                                                                    <option style="font-style:italic" value="Necator_americanus">Necator_americanus</option>
+                                                                    <option style="font-style:italic" value="Nectria_haematococca">Nectria_haematococca</option>
+                                                                    <option style="font-style:italic" value="Nematocida_parisii_ertm1">Nematocida_parisii_ertm1</option>
+                                                                    <option style="font-style:italic" value="Nematocida_sp">Nematocida_sp</option>
+                                                                    <option style="font-style:italic" value="Nematostella_vectensis">Nematostella_vectensis</option>
+                                                                    <option style="font-style:italic" value="Neofusicoccum_parvum">Neofusicoccum_parvum</option>
+                                                                    <option style="font-style:italic" value="Neosartorya_fischeri">Neosartorya_fischeri</option>
+                                                                    <option style="font-style:italic" value="Neospora_caninum">Neospora_caninum</option>
+                                                                    <option style="font-style:italic" value="Neurospora_crassa">Neurospora_crassa</option>
+                                                                    <option style="font-style:italic" value="Neurospora_discreta">Neurospora_discreta</option>
+                                                                    <option style="font-style:italic" value="Neurospora_tetrasperma">Neurospora_tetrasperma</option>
+                                                                    <option style="font-style:italic" value="Nicotiana_sp.">Nicotiana_sp.</option>
+                                                                    <option style="font-style:italic" value="Nicotiana_tabacum">Nicotiana_tabacum</option>
+                                                                    <option style="font-style:italic" value="Nippostrongylus_brasiliensis">Nippostrongylus_brasiliensis</option>
+                                                                    <option style="font-style:italic" value="Nomascus_leucogenys">Nomascus_leucogenys</option>
+                                                                    <option style="font-style:italic" value="Nosema_apis">Nosema_apis</option>
+                                                                    <option style="font-style:italic" value="Nosema_bombycis">Nosema_bombycis</option>
+                                                                    <option style="font-style:italic" value="Nosema_ceranae">Nosema_ceranae</option>
+                                                                    <option style="font-style:italic" value="Ochotona_princeps">Ochotona_princeps</option>
+                                                                    <option style="font-style:italic" value="Octopus_bimaculoides">Octopus_bimaculoides</option>
+                                                                    <option style="font-style:italic" value="Oesophagostomum_dentatum">Oesophagostomum_dentatum</option>
+                                                                    <option style="font-style:italic" value="Ogataea_parapolymorpha">Ogataea_parapolymorpha</option>
+                                                                    <option style="font-style:italic" value="Oidiodendron_maius">Oidiodendron_maius</option>
+                                                                    <option style="font-style:italic" value="Oikopleura_dioica">Oikopleura_dioica</option>
+                                                                    <option style="font-style:italic" value="Onchocerca_flexuosa">Onchocerca_flexuosa</option>
+                                                                    <option style="font-style:italic" value="Onchocerca_ochengi">Onchocerca_ochengi</option>
+                                                                    <option style="font-style:italic" value="Onchocerca_volvulus">Onchocerca_volvulus</option>
+                                                                    <option style="font-style:italic" value="Oncorhynchus_tshawytscha">Oncorhynchus_tshawytscha</option>
+                                                                    <option style="font-style:italic" value="Ophiocordyceps_sinensis">Ophiocordyceps_sinensis</option>
+                                                                    <option style="font-style:italic" value="Ophiostoma_piceae_uamh">Ophiostoma_piceae_uamh</option>
+                                                                    <option style="font-style:italic" value="Ophisaurus_gracilis">Ophisaurus_gracilis</option>
+                                                                    <option style="font-style:italic" value="Opisthorchis_viverrini">Opisthorchis_viverrini</option>
+                                                                    <option style="font-style:italic" value="Ordospora_colligata">Ordospora_colligata</option>
+                                                                    <option style="font-style:italic" value="Oreochromis_niloticus">Oreochromis_niloticus</option>
+                                                                    <option style="font-style:italic" value="Ornithorhynchus_anatinus">Ornithorhynchus_anatinus</option>
+                                                                    <option style="font-style:italic" value="Oryctolagus_cuniculus">Oryctolagus_cuniculus</option>
+                                                                    <option style="font-style:italic" value="Oryza_barthii">Oryza_barthii</option>
+                                                                    <option style="font-style:italic" value="Oryza_brachyantha">Oryza_brachyantha</option>
+                                                                    <option style="font-style:italic" value="Oryza_glaberrima">Oryza_glaberrima</option>
+                                                                    <option style="font-style:italic" value="Oryza_glumaepatula">Oryza_glumaepatula</option>
+                                                                    <option style="font-style:italic" value="Oryza_indica">Oryza_indica</option>
+                                                                    <option style="font-style:italic" value="Oryza_longistaminata">Oryza_longistaminata</option>
+                                                                    <option style="font-style:italic" value="Oryza_meridionalis">Oryza_meridionalis</option>
+                                                                    <option style="font-style:italic" value="Oryza_nivara">Oryza_nivara</option>
+                                                                    <option style="font-style:italic" value="Oryza_punctata">Oryza_punctata</option>
+                                                                    <option style="font-style:italic" value="Oryza_rufipogon">Oryza_rufipogon</option>
+                                                                    <option style="font-style:italic" value="Oryza_sativa">Oryza_sativa</option>
+                                                                    <option style="font-style:italic" value="Oryzias_latipes">Oryzias_latipes</option>
+                                                                    <option style="font-style:italic" value="Ostreococcus_lucimarinus">Ostreococcus_lucimarinus</option>
+                                                                    <option style="font-style:italic" value="Ostreococcus_RCC809">Ostreococcus_RCC809</option>
+                                                                    <option style="font-style:italic" value="Ostreococcus_tauri">Ostreococcus_tauri</option>
+                                                                    <option style="font-style:italic" value="Otolemur_garnettii">Otolemur_garnettii</option>
+                                                                    <option style="font-style:italic" value="Ovis_aries">Ovis_aries</option>
+                                                                    <option style="font-style:italic" value="Oxytricha_trifallax">Oxytricha_trifallax</option>
+                                                                    <option style="font-style:italic" value="Panicum_virgatum">Panicum_virgatum</option>
+                                                                    <option style="font-style:italic" value="Pan_paniscus">Pan_paniscus</option>
+                                                                    <option style="font-style:italic" value="Pan_troglodytes">Pan_troglodytes</option>
+                                                                    <option style="font-style:italic" value="Papio_anubis">Papio_anubis</option>
+                                                                    <option style="font-style:italic" value="Paracoccidioides_brasiliensis">Paracoccidioides_brasiliensis</option>
+                                                                    <option style="font-style:italic" value="Paracoccidioides_sp_lutzii">Paracoccidioides_sp_lutzii</option>
+                                                                    <option style="font-style:italic" value="Paramecium_tetraurelia">Paramecium_tetraurelia</option>
+                                                                    <option style="font-style:italic" value="Parascaris_equorum">Parascaris_equorum</option>
+                                                                    <option style="font-style:italic" value="Parastrongyloides_trichosuri">Parastrongyloides_trichosuri</option>
+                                                                    <option style="font-style:italic" value="Patiria_miniata">Patiria_miniata</option>
+                                                                    <option style="font-style:italic" value="Paxillus_involutus">Paxillus_involutus</option>
+                                                                    <option style="font-style:italic" value="Paxillus_rubicundulus">Paxillus_rubicundulus</option>
+                                                                    <option style="font-style:italic" value="PBM_CONSTRUCTS">PBM_CONSTRUCTS</option>
+                                                                    <option style="font-style:italic" value="Pediculus_humanus">Pediculus_humanus</option>
+                                                                    <option style="font-style:italic" value="Pelodiscus_sinensis">Pelodiscus_sinensis</option>
+                                                                    <option style="font-style:italic" value="Penicillium_chrysogenum">Penicillium_chrysogenum</option>
+                                                                    <option style="font-style:italic" value="Penicillium_digitatum">Penicillium_digitatum</option>
+                                                                    <option style="font-style:italic" value="Penicillium_expansum">Penicillium_expansum</option>
+                                                                    <option style="font-style:italic" value="Penicillium_italicum">Penicillium_italicum</option>
+                                                                    <option style="font-style:italic" value="Penicillium_marneffei">Penicillium_marneffei</option>
+                                                                    <option style="font-style:italic" value="Penicillium_oxalicum">Penicillium_oxalicum</option>
+                                                                    <option style="font-style:italic" value="Penicillium_rubens">Penicillium_rubens</option>
+                                                                    <option style="font-style:italic" value="Penicillium_solitum">Penicillium_solitum</option>
+                                                                    <option style="font-style:italic" value="Pestalotiopsis_fici">Pestalotiopsis_fici</option>
+                                                                    <option style="font-style:italic" value="Petromyzon_marinus">Petromyzon_marinus</option>
+                                                                    <option style="font-style:italic" value="Petroselinum_crispum">Petroselinum_crispum</option>
+                                                                    <option style="font-style:italic" value="Petunia_x_hybrida">Petunia_x_hybrida</option>
+                                                                    <option style="font-style:italic" value="Phaeodactylum_tricornutum">Phaeodactylum_tricornutum</option>
+                                                                    <option style="font-style:italic" value="Phaeosphaeria_nodorum">Phaeosphaeria_nodorum</option>
+                                                                    <option style="font-style:italic" value="Phanerochaete_carnosa">Phanerochaete_carnosa</option>
+                                                                    <option style="font-style:italic" value="Phanerochaete_chrysosporium">Phanerochaete_chrysosporium</option>
+                                                                    <option style="font-style:italic" value="Phaseolus_vulgaris">Phaseolus_vulgaris</option>
+                                                                    <option style="font-style:italic" value="Phlebiopsis_gigantea">Phlebiopsis_gigantea</option>
+                                                                    <option style="font-style:italic" value="Phlebotomus_papatasi">Phlebotomus_papatasi</option>
+                                                                    <option style="font-style:italic" value="Phoenix_dactylifera">Phoenix_dactylifera</option>
+                                                                    <option style="font-style:italic" value="Phycomyces_blakesleeanus">Phycomyces_blakesleeanus</option>
+                                                                    <option style="font-style:italic" value="Physcomitrella_patens">Physcomitrella_patens</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_capsici">Phytophthora_capsici</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_infestans">Phytophthora_infestans</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_kernoviae">Phytophthora_kernoviae</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_lateralis">Phytophthora_lateralis</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_parasitica">Phytophthora_parasitica</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_ramorum">Phytophthora_ramorum</option>
+                                                                    <option style="font-style:italic" value="Phytophthora_sojae">Phytophthora_sojae</option>
+                                                                    <option style="font-style:italic" value="Pichia_angusta">Pichia_angusta</option>
+                                                                    <option style="font-style:italic" value="Pichia_kudriavzevii">Pichia_kudriavzevii</option>
+                                                                    <option style="font-style:italic" value="Pichia_pastoris">Pichia_pastoris</option>
+                                                                    <option style="font-style:italic" value="Pichia_stipitis">Pichia_stipitis</option>
+                                                                    <option style="font-style:italic" value="Piloderma_croceum">Piloderma_croceum</option>
+                                                                    <option style="font-style:italic" value="Piriformospora_indica">Piriformospora_indica</option>
+                                                                    <option style="font-style:italic" value="Pisolithus_microcarpus">Pisolithus_microcarpus</option>
+                                                                    <option style="font-style:italic" value="Pisolithus_tinctorius">Pisolithus_tinctorius</option>
+                                                                    <option style="font-style:italic" value="Pisum_sativum">Pisum_sativum</option>
+                                                                    <option style="font-style:italic" value="Plasmodium_berghei">Plasmodium_berghei</option>
+                                                                    <option style="font-style:italic" value="Plasmodium_chabaudi">Plasmodium_chabaudi</option>
+                                                                    <option style="font-style:italic" value="Plasmodium_falciparum">Plasmodium_falciparum</option>
+                                                                    <option style="font-style:italic" value="Plasmodium_knowlesi">Plasmodium_knowlesi</option>
+                                                                    <option style="font-style:italic" value="Plasmodium_vivax">Plasmodium_vivax</option>
+                                                                    <option style="font-style:italic" value="Plasmodium_yoelii">Plasmodium_yoelii</option>
+                                                                    <option style="font-style:italic" value="Pleurobrachia_pileus">Pleurobrachia_pileus</option>
+                                                                    <option style="font-style:italic" value="Pleurotus_djamor">Pleurotus_djamor</option>
+                                                                    <option style="font-style:italic" value="Pleurotus_ostreatus">Pleurotus_ostreatus</option>
+                                                                    <option style="font-style:italic" value="Plicaturopsis_crispa">Plicaturopsis_crispa</option>
+                                                                    <option style="font-style:italic" value="Pneumocystis_carinii">Pneumocystis_carinii</option>
+                                                                    <option style="font-style:italic" value="Pneumocystis_murina">Pneumocystis_murina</option>
+                                                                    <option style="font-style:italic" value="Podocoryne_carnea">Podocoryne_carnea</option>
+                                                                    <option style="font-style:italic" value="Podospora_anserina">Podospora_anserina</option>
+                                                                    <option style="font-style:italic" value="Poecilia_formosa">Poecilia_formosa</option>
+                                                                    <option style="font-style:italic" value="Pogona_vitticeps">Pogona_vitticeps</option>
+                                                                    <option style="font-style:italic" value="Polysphondylium_pallidum">Polysphondylium_pallidum</option>
+                                                                    <option style="font-style:italic" value="Pongo_abelii">Pongo_abelii</option>
+                                                                    <option style="font-style:italic" value="Populus_trichocarpa">Populus_trichocarpa</option>
+                                                                    <option style="font-style:italic" value="Postia_placenta">Postia_placenta</option>
+                                                                    <option style="font-style:italic" value="Pristionchus_exspectatus">Pristionchus_exspectatus</option>
+                                                                    <option style="font-style:italic" value="Pristionchus_pacificus">Pristionchus_pacificus</option>
+                                                                    <option style="font-style:italic" value="Procavia_capensis">Procavia_capensis</option>
+                                                                    <option style="font-style:italic" value="Protopolystoma_xenopodis">Protopolystoma_xenopodis</option>
+                                                                    <option style="font-style:italic" value="Prunus_mume">Prunus_mume</option>
+                                                                    <option style="font-style:italic" value="Prunus_persica">Prunus_persica</option>
+                                                                    <option style="font-style:italic" value="Pseudocercospora_fijiensis">Pseudocercospora_fijiensis</option>
+                                                                    <option style="font-style:italic" value="Pseudogymnoascus_destructans">Pseudogymnoascus_destructans</option>
+                                                                    <option style="font-style:italic" value="Pseudogymnoascus_pannorum">Pseudogymnoascus_pannorum</option>
+                                                                    <option style="font-style:italic" value="Pseudozyma_antarctica">Pseudozyma_antarctica</option>
+                                                                    <option style="font-style:italic" value="Pseudozyma_aphidis">Pseudozyma_aphidis</option>
+                                                                    <option style="font-style:italic" value="Pseudozyma_brasiliensis">Pseudozyma_brasiliensis</option>
+                                                                    <option style="font-style:italic" value="Pseudozyma_flocculosa">Pseudozyma_flocculosa</option>
+                                                                    <option style="font-style:italic" value="Pseudozyma_hubeiensis">Pseudozyma_hubeiensis</option>
+                                                                    <option style="font-style:italic" value="Pteropus_vampyrus">Pteropus_vampyrus</option>
+                                                                    <option style="font-style:italic" value="Puccinia_graminis">Puccinia_graminis</option>
+                                                                    <option style="font-style:italic" value="Puccinia_triticina">Puccinia_triticina</option>
+                                                                    <option style="font-style:italic" value="Punctularia_strigosozonata">Punctularia_strigosozonata</option>
+                                                                    <option style="font-style:italic" value="Pyrenophora_teres">Pyrenophora_teres</option>
+                                                                    <option style="font-style:italic" value="Pyrenophora_triticirepentis">Pyrenophora_triticirepentis</option>
+                                                                    <option style="font-style:italic" value="Pythium_aphanidermatum">Pythium_aphanidermatum</option>
+                                                                    <option style="font-style:italic" value="Pythium_arrhenomanes">Pythium_arrhenomanes</option>
+                                                                    <option style="font-style:italic" value="Pythium_irregulare">Pythium_irregulare</option>
+                                                                    <option style="font-style:italic" value="Pythium_iwayamai">Pythium_iwayamai</option>
+                                                                    <option style="font-style:italic" value="Pythium_ultimum">Pythium_ultimum</option>
+                                                                    <option style="font-style:italic" value="Pythium_vexans">Pythium_vexans</option>
+                                                                    <option style="font-style:italic" value="Rattus_norvegicus">Rattus_norvegicus</option>
+                                                                    <option style="font-style:italic" value="Rhabditophanes_kr3021">Rhabditophanes_kr3021</option>
+                                                                    <option style="font-style:italic" value="Rhinocladiella_mackenziei">Rhinocladiella_mackenziei</option>
+                                                                    <option style="font-style:italic" value="Rhizoctonia_solani">Rhizoctonia_solani</option>
+                                                                    <option style="font-style:italic" value="Rhizophagus_irregularis">Rhizophagus_irregularis</option>
+                                                                    <option style="font-style:italic" value="Rhizopus_oryzae">Rhizopus_oryzae</option>
+                                                                    <option style="font-style:italic" value="Rhodnius_prolixus">Rhodnius_prolixus</option>
+                                                                    <option style="font-style:italic" value="Rhodosporidium_toruloides">Rhodosporidium_toruloides</option>
+                                                                    <option style="font-style:italic" value="Rhodotorula_glutinis">Rhodotorula_glutinis</option>
+                                                                    <option style="font-style:italic" value="Ricinus_communis">Ricinus_communis</option>
+                                                                    <option style="font-style:italic" value="Romanomermis_culicivorax">Romanomermis_culicivorax</option>
+                                                                    <option style="font-style:italic" value="Rozella_allomycis">Rozella_allomycis</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_arboricola">Saccharomyces_arboricola</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_bayanus">Saccharomyces_bayanus</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_castellii">Saccharomyces_castellii</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_cerevisiae">Saccharomyces_cerevisiae</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_kudriavzevii">Saccharomyces_kudriavzevii</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_mikatae">Saccharomyces_mikatae</option>
+                                                                    <option style="font-style:italic" value="Saccharomyces_paradoxus">Saccharomyces_paradoxus</option>
+                                                                    <option style="font-style:italic" value="Saccharomycetaceae_sp_ashbya_aceri">Saccharomycetaceae_sp_ashbya_aceri</option>
+                                                                    <option style="font-style:italic" value="Saccoglossus_kowalevskii">Saccoglossus_kowalevskii</option>
+                                                                    <option style="font-style:italic" value="Salix_purpurea">Salix_purpurea</option>
+                                                                    <option style="font-style:italic" value="Salpingoeca_rosetta">Salpingoeca_rosetta</option>
+                                                                    <option style="font-style:italic" value="Saprolegnia_parasitica">Saprolegnia_parasitica</option>
+                                                                    <option style="font-style:italic" value="Sarcophilus_harrisii">Sarcophilus_harrisii</option>
+                                                                    <option style="font-style:italic" value="Sarsia_sp._Long_Island_Sound">Sarsia_sp._Long_Island_Sound</option>
+                                                                    <option style="font-style:italic" value="Scedosporium_apiospermum">Scedosporium_apiospermum</option>
+                                                                    <option style="font-style:italic" value="Scheffersomyces_stipitis">Scheffersomyces_stipitis</option>
+                                                                    <option style="font-style:italic" value="Schistocephalus_solidus">Schistocephalus_solidus</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_curassoni">Schistosoma_curassoni</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_haematobium">Schistosoma_haematobium</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_japonicum">Schistosoma_japonicum</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_mansoni">Schistosoma_mansoni</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_margrebowiei">Schistosoma_margrebowiei</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_mattheei">Schistosoma_mattheei</option>
+                                                                    <option style="font-style:italic" value="Schistosoma_rodhaini">Schistosoma_rodhaini</option>
+                                                                    <option style="font-style:italic" value="Schizophyllum_commune">Schizophyllum_commune</option>
+                                                                    <option style="font-style:italic" value="Schizosaccharomyces_cryophilus">Schizosaccharomyces_cryophilus</option>
+                                                                    <option style="font-style:italic" value="Schizosaccharomyces_japonicus">Schizosaccharomyces_japonicus</option>
+                                                                    <option style="font-style:italic" value="Schizosaccharomyces_octosporus">Schizosaccharomyces_octosporus</option>
+                                                                    <option style="font-style:italic" value="Schizosaccharomyces_pombe">Schizosaccharomyces_pombe</option>
+                                                                    <option style="font-style:italic" value="Schmidtea_mediterranea">Schmidtea_mediterranea</option>
+                                                                    <option style="font-style:italic" value="Scleroderma_citrinum">Scleroderma_citrinum</option>
+                                                                    <option style="font-style:italic" value="Sclerotinia_borealis">Sclerotinia_borealis</option>
+                                                                    <option style="font-style:italic" value="Sclerotinia_sclerotiorum">Sclerotinia_sclerotiorum</option>
+                                                                    <option style="font-style:italic" value="Selaginella_moellendorffii">Selaginella_moellendorffii</option>
+                                                                    <option style="font-style:italic" value="Serendipita_vermifera">Serendipita_vermifera</option>
+                                                                    <option style="font-style:italic" value="Serpula_lacrymans">Serpula_lacrymans</option>
+                                                                    <option style="font-style:italic" value="Setaria_italica">Setaria_italica</option>
+                                                                    <option style="font-style:italic" value="Setosphaeria_turcica">Setosphaeria_turcica</option>
+                                                                    <option style="font-style:italic" value="Soboliphyme_baturini">Soboliphyme_baturini</option>
+                                                                    <option style="font-style:italic" value="Solanum_lycopersicum">Solanum_lycopersicum</option>
+                                                                    <option style="font-style:italic" value="Solanum_tuberosum">Solanum_tuberosum</option>
+                                                                    <option style="font-style:italic" value="Solenopsis_invicta">Solenopsis_invicta</option>
+                                                                    <option style="font-style:italic" value="Sordaria_macrospora">Sordaria_macrospora</option>
+                                                                    <option style="font-style:italic" value="Sorex_araneus">Sorex_araneus</option>
+                                                                    <option style="font-style:italic" value="Sorghum_bicolor">Sorghum_bicolor</option>
+                                                                    <option style="font-style:italic" value="Spadella_cephaloptera">Spadella_cephaloptera</option>
+                                                                    <option style="font-style:italic" value="Spathaspora_passalidarum">Spathaspora_passalidarum</option>
+                                                                    <option style="font-style:italic" value="Sphaerobolus_stellatus">Sphaerobolus_stellatus</option>
+                                                                    <option style="font-style:italic" value="Sphaerulina_musiva">Sphaerulina_musiva</option>
+                                                                    <option style="font-style:italic" value="Spirometra_erinaceieuropaei">Spirometra_erinaceieuropaei</option>
+                                                                    <option style="font-style:italic" value="Spizellomyces_punctatus">Spizellomyces_punctatus</option>
+                                                                    <option style="font-style:italic" value="Sporisorium_reilianum">Sporisorium_reilianum</option>
+                                                                    <option style="font-style:italic" value="Sporobolomyces_roseus">Sporobolomyces_roseus</option>
+                                                                    <option style="font-style:italic" value="Sporothrix_brasiliensis">Sporothrix_brasiliensis</option>
+                                                                    <option style="font-style:italic" value="Sporothrix_schenckii">Sporothrix_schenckii</option>
+                                                                    <option style="font-style:italic" value="Spraguea_lophii">Spraguea_lophii</option>
+                                                                    <option style="font-style:italic" value="Stachybotrys_chartarum">Stachybotrys_chartarum</option>
+                                                                    <option style="font-style:italic" value="Stachybotrys_chlorohalonata">Stachybotrys_chlorohalonata</option>
+                                                                    <option style="font-style:italic" value="Stagonospora_nodorum">Stagonospora_nodorum</option>
+                                                                    <option style="font-style:italic" value="Steinernema_carpocapsae">Steinernema_carpocapsae</option>
+                                                                    <option style="font-style:italic" value="Steinernema_feltiae">Steinernema_feltiae</option>
+                                                                    <option style="font-style:italic" value="Steinernema_glaseri">Steinernema_glaseri</option>
+                                                                    <option style="font-style:italic" value="Steinernema_monticolum">Steinernema_monticolum</option>
+                                                                    <option style="font-style:italic" value="Steinernema_scapterisci">Steinernema_scapterisci</option>
+                                                                    <option style="font-style:italic" value="Strigamia_maritima">Strigamia_maritima</option>
+                                                                    <option style="font-style:italic" value="Strongylocentrotus_purpuratus">Strongylocentrotus_purpuratus</option>
+                                                                    <option style="font-style:italic" value="Strongyloides_papillosus">Strongyloides_papillosus</option>
+                                                                    <option style="font-style:italic" value="Strongyloides_stercoralis">Strongyloides_stercoralis</option>
+                                                                    <option style="font-style:italic" value="Strongyloides_venezuelensis">Strongyloides_venezuelensis</option>
+                                                                    <option style="font-style:italic" value="Strongylus_vulgaris">Strongylus_vulgaris</option>
+                                                                    <option style="font-style:italic" value="Suillus_luteus">Suillus_luteus</option>
+                                                                    <option style="font-style:italic" value="Sus_scrofa">Sus_scrofa</option>
+                                                                    <option style="font-style:italic" value="Syphacia_muris">Syphacia_muris</option>
+                                                                    <option style="font-style:italic" value="Taenia_asiatica">Taenia_asiatica</option>
+                                                                    <option style="font-style:italic" value="Taenia_solium">Taenia_solium</option>
+                                                                    <option style="font-style:italic" value="Taeniopygia_guttata">Taeniopygia_guttata</option>
+                                                                    <option style="font-style:italic" value="Takifugu_rubripes">Takifugu_rubripes</option>
+                                                                    <option style="font-style:italic" value="Talaromyces_marneffei">Talaromyces_marneffei</option>
+                                                                    <option style="font-style:italic" value="Talaromyces_stipitatus">Talaromyces_stipitatus</option>
+                                                                    <option style="font-style:italic" value="Tarsius_syrichta">Tarsius_syrichta</option>
+                                                                    <option style="font-style:italic" value="Teladorsagia_circumcincta">Teladorsagia_circumcincta</option>
+                                                                    <option style="font-style:italic" value="Tetrahymena_thermophila">Tetrahymena_thermophila</option>
+                                                                    <option style="font-style:italic" value="Tetranychus_urticae">Tetranychus_urticae</option>
+                                                                    <option style="font-style:italic" value="Tetraodon_nigroviridis">Tetraodon_nigroviridis</option>
+                                                                    <option style="font-style:italic" value="Tetrapisispora_blattae">Tetrapisispora_blattae</option>
+                                                                    <option style="font-style:italic" value="Tetrapisispora_phaffii">Tetrapisispora_phaffii</option>
+                                                                    <option style="font-style:italic" value="Thalassiosira_pseudonana">Thalassiosira_pseudonana</option>
+                                                                    <option style="font-style:italic" value="Thecamonas_trahens">Thecamonas_trahens</option>
+                                                                    <option style="font-style:italic" value="Theileria_annulata">Theileria_annulata</option>
+                                                                    <option style="font-style:italic" value="Theileria_parva">Theileria_parva</option>
+                                                                    <option style="font-style:italic" value="Thelazia_callipaeda">Thelazia_callipaeda</option>
+                                                                    <option style="font-style:italic" value="Theobroma_cacao">Theobroma_cacao</option>
+                                                                    <option style="font-style:italic" value="Thielavia_terrestris">Thielavia_terrestris</option>
+                                                                    <option style="font-style:italic" value="Tilletiaria_anomala">Tilletiaria_anomala</option>
+                                                                    <option style="font-style:italic" value="Togninia_minima">Togninia_minima</option>
+                                                                    <option style="font-style:italic" value="Torrubiella_hemipterigena">Torrubiella_hemipterigena</option>
+                                                                    <option style="font-style:italic" value="Torulaspora_delbrueckii">Torulaspora_delbrueckii</option>
+                                                                    <option style="font-style:italic" value="Toxocara_canis">Toxocara_canis</option>
+                                                                    <option style="font-style:italic" value="Toxoplasma_gondii">Toxoplasma_gondii</option>
+                                                                    <option style="font-style:italic" value="Trachipleistophora_hominis">Trachipleistophora_hominis</option>
+                                                                    <option style="font-style:italic" value="Trametes_cinnabarina">Trametes_cinnabarina</option>
+                                                                    <option style="font-style:italic" value="Tremella_mesenterica">Tremella_mesenterica</option>
+                                                                    <option style="font-style:italic" value="Tribolium_castaneum">Tribolium_castaneum</option>
+                                                                    <option style="font-style:italic" value="Trichinella_nativa">Trichinella_nativa</option>
+                                                                    <option style="font-style:italic" value="Trichinella_spiralis">Trichinella_spiralis</option>
+                                                                    <option style="font-style:italic" value="Trichobilharzia_regenti">Trichobilharzia_regenti</option>
+                                                                    <option style="font-style:italic" value="Trichoderma_atroviride">Trichoderma_atroviride</option>
+                                                                    <option style="font-style:italic" value="Trichoderma_reesei">Trichoderma_reesei</option>
+                                                                    <option style="font-style:italic" value="Trichoderma_virens">Trichoderma_virens</option>
+                                                                    <option style="font-style:italic" value="Trichomonas_vaginalis">Trichomonas_vaginalis</option>
+                                                                    <option style="font-style:italic" value="Trichophyton_equinum">Trichophyton_equinum</option>
+                                                                    <option style="font-style:italic" value="Trichophyton_interdigitale">Trichophyton_interdigitale</option>
+                                                                    <option style="font-style:italic" value="Trichophyton_rubrum">Trichophyton_rubrum</option>
+                                                                    <option style="font-style:italic" value="Trichophyton_soudanense">Trichophyton_soudanense</option>
+                                                                    <option style="font-style:italic" value="Trichophyton_tonsurans">Trichophyton_tonsurans</option>
+                                                                    <option style="font-style:italic" value="Trichophyton_verrucosum">Trichophyton_verrucosum</option>
+                                                                    <option style="font-style:italic" value="Trichoplax_adhaerens">Trichoplax_adhaerens</option>
+                                                                    <option style="font-style:italic" value="Trichosporon_asahii">Trichosporon_asahii</option>
+                                                                    <option style="font-style:italic" value="Trichuris_muris">Trichuris_muris</option>
+                                                                    <option style="font-style:italic" value="Trichuris_suis">Trichuris_suis</option>
+                                                                    <option style="font-style:italic" value="Trichuris_trichiura">Trichuris_trichiura</option>
+                                                                    <option style="font-style:italic" value="Trionyx_sinensis">Trionyx_sinensis</option>
+                                                                    <option style="font-style:italic" value="Tripedalia_cystophora">Tripedalia_cystophora</option>
+                                                                    <option style="font-style:italic" value="Triticum_aestivum">Triticum_aestivum</option>
+                                                                    <option style="font-style:italic" value="Triticum_urartu">Triticum_urartu</option>
+                                                                    <option style="font-style:italic" value="Trypanosoma_brucei">Trypanosoma_brucei</option>
+                                                                    <option style="font-style:italic" value="Trypanosoma_congolense">Trypanosoma_congolense</option>
+                                                                    <option style="font-style:italic" value="Trypanosoma_cruzi">Trypanosoma_cruzi</option>
+                                                                    <option style="font-style:italic" value="Trypanosoma_vivax">Trypanosoma_vivax</option>
+                                                                    <option style="font-style:italic" value="Tuber_melanosporum">Tuber_melanosporum</option>
+                                                                    <option style="font-style:italic" value="Tulasnella_calospora">Tulasnella_calospora</option>
+                                                                    <option style="font-style:italic" value="Tupaia_belangeri">Tupaia_belangeri</option>
+                                                                    <option style="font-style:italic" value="Tursiops_truncatus">Tursiops_truncatus</option>
+                                                                    <option style="font-style:italic" value="Tyto_alba">Tyto_alba</option>
+                                                                    <option style="font-style:italic" value="Uncinocarpus_reesii">Uncinocarpus_reesii</option>
+                                                                    <option style="font-style:italic" value="Ustilaginoidea_virens">Ustilaginoidea_virens</option>
+                                                                    <option style="font-style:italic" value="Ustilago_hordei">Ustilago_hordei</option>
+                                                                    <option style="font-style:italic" value="Ustilago_maydis">Ustilago_maydis</option>
+                                                                    <option style="font-style:italic" value="Vanderwaltozyma_polyspora">Vanderwaltozyma_polyspora</option>
+                                                                    <option style="font-style:italic" value="Vavraia_culicis">Vavraia_culicis</option>
+                                                                    <option style="font-style:italic" value="Verruconis_gallopava">Verruconis_gallopava</option>
+                                                                    <option style="font-style:italic" value="Verticillium_albo_atrum">Verticillium_albo_atrum</option>
+                                                                    <option style="font-style:italic" value="Verticillium_alfalfae">Verticillium_alfalfae</option>
+                                                                    <option style="font-style:italic" value="Verticillium_dahliae">Verticillium_dahliae</option>
+                                                                    <option style="font-style:italic" value="Vicugna_pacos">Vicugna_pacos</option>
+                                                                    <option style="font-style:italic" value="Vitis_vinifera">Vitis_vinifera</option>
+                                                                    <option style="font-style:italic" value="Vittaforma_corneae">Vittaforma_corneae</option>
+                                                                    <option style="font-style:italic" value="Volvox_carteri">Volvox_carteri</option>
+                                                                    <option style="font-style:italic" value="Wallemia_ichthyophaga">Wallemia_ichthyophaga</option>
+                                                                    <option style="font-style:italic" value="Wallemia_sebi">Wallemia_sebi</option>
+                                                                    <option style="font-style:italic" value="Wickerhamomyces_ciferrii">Wickerhamomyces_ciferrii</option>
+                                                                    <option style="font-style:italic" value="Wuchereria_bancrofti">Wuchereria_bancrofti</option>
+                                                                    <option style="font-style:italic" value="Xenopus_laevis">Xenopus_laevis</option>
+                                                                    <option style="font-style:italic" value="Xenopus_tropicalis">Xenopus_tropicalis</option>
+                                                                    <option style="font-style:italic" value="Xiphophorus_maculatus">Xiphophorus_maculatus</option>
+                                                                    <option style="font-style:italic" value="Yarrowia_lipolytica">Yarrowia_lipolytica</option>
+                                                                    <option style="font-style:italic" value="Zea_mays">Zea_mays</option>
+                                                                    <option style="font-style:italic" value="Zootermopsis_nevadensis">Zootermopsis_nevadensis</option>
+                                                                    <option style="font-style:italic" value="Zygosaccharomyces_bailii">Zygosaccharomyces_bailii</option>
+                                                                    <option style="font-style:italic" value="Zygosaccharomyces_rouxii">Zygosaccharomyces_rouxii</option>
+                                                                    <option style="font-style:italic" value="Zymoseptoria_tritici">Zymoseptoria_tritici</option>
+                                
+                      </select>
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Spec[]" value="Logos" checked />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Spec[]" value="Escores" />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Spec[]" value="Zscores" />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Spec[]" value="SignalIntensities" />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Spec[]" value="TF_Information" checked />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Spec[]" value="PWMs" checked />
+                </td>
+                <td align="center"><input type="submit" name="submit" value="Download Species Archive!"></input></td>
+              </tr>
+              <tr>
+                <td >By Family</td>
+                <td >
+                     <select name="selFamily">
+                        <option value="0" Selected></option>
+
+                                                      <option value="F002_3.10">ABF1</option>
+                                                          <option value="F001_3.10">ABF1,B3</option>
+                                                          <option value="F003_3.10">ABF1,C2H2 ZF</option>
+                                                          <option value="F004_3.10">ABF1,Forkhead</option>
+                                                          <option value="F005_3.10">ABF1,LOB</option>
+                                                          <option value="F006_3.10">ABF1,Myb/SANT</option>
+                                                          <option value="F007_3.10">AFT</option>
+                                                          <option value="F008_3.10">AFT,FAR1</option>
+                                                          <option value="F024_3.10">AP-2</option>
+                                                          <option value="F021_3.10">AP-2,Myb/SANT</option>
+                                                          <option value="F009_3.10">AP2</option>
+                                                          <option value="F010_3.10">AP2,B3</option>
+                                                          <option value="F011_3.10">AP2,BED ZF</option>
+                                                          <option value="F012_3.10">AP2,CxxC</option>
+                                                          <option value="F013_3.10">AP2,CxxC,HSF,MBD,Myb/SANT</option>
+                                                          <option value="F014_3.10">AP2,FAR1</option>
+                                                          <option value="F015_3.10">AP2,GATA</option>
+                                                          <option value="F016_3.10">AP2,Homeodomain</option>
+                                                          <option value="F017_3.10">AP2,Homeodomain,Myb/SANT</option>
+                                                          <option value="F018_3.10">AP2,HSF</option>
+                                                          <option value="F019_3.10">AP2,LOB</option>
+                                                          <option value="F020_3.10">AP2,Myb/SANT</option>
+                                                          <option value="F022_3.10">AP2,Storekeeper</option>
+                                                          <option value="F023_3.10">AP2,TCR/CxC</option>
+                                                          <option value="F026_3.10">APSES</option>
+                                                          <option value="F025_3.10">APSES,GATA</option>
+                                                          <option value="F027_3.10">APSES,Zinc cluster</option>
+                                                          <option value="F028_3.10">ARID/BRIGHT</option>
+                                                          <option value="F029_3.10">ARID/BRIGHT,AT hook</option>
+                                                          <option value="F030_3.10">ARID/BRIGHT,C2H2 ZF</option>
+                                                          <option value="F031_3.10">ARID/BRIGHT,C2H2 ZF,RFX</option>
+                                                          <option value="F032_3.10">ARID/BRIGHT,CENPB,RFX</option>
+                                                          <option value="F033_3.10">ARID/BRIGHT,Myb/SANT</option>
+                                                          <option value="F034_3.10">ARID/BRIGHT,Myb/SANT,Rap1</option>
+                                                          <option value="F035_3.10">ARID/BRIGHT,Rap1</option>
+                                                          <option value="F036_3.10">ARID/BRIGHT,RFX</option>
+                                                          <option value="F037_3.10">ARID/BRIGHT,SAND</option>
+                                                          <option value="F038_3.10">ARID/BRIGHT,Sox</option>
+                                                          <option value="F039_3.10">AT hook</option>
+                                                          <option value="F040_3.10">AT hook,B3</option>
+                                                          <option value="F041_3.10">AT hook,C2H2 ZF</option>
+                                                          <option value="F042_3.10">AT hook,C2H2 ZF,MBD</option>
+                                                          <option value="F043_3.10">AT hook,FAR1</option>
+                                                          <option value="F044_3.10">AT hook,FLYWCH</option>
+                                                          <option value="F045_3.10">AT hook,Forkhead</option>
+                                                          <option value="F046_3.10">AT hook,GCR1</option>
+                                                          <option value="F047_3.10">AT hook,MBD</option>
+                                                          <option value="F048_3.10">AT hook,Myb/SANT</option>
+                                                          <option value="F049_3.10">AT hook,Zinc cluster</option>
+                                                          <option value="F050_3.10">B3</option>
+                                                          <option value="F051_3.10">B3,bZIP</option>
+                                                          <option value="F052_3.10">B3,CG-1</option>
+                                                          <option value="F053_3.10">B3,Dof</option>
+                                                          <option value="F054_3.10">B3,FAR1</option>
+                                                          <option value="F055_3.10">B3,GATA</option>
+                                                          <option value="F056_3.10">B3,Myb/SANT</option>
+                                                          <option value="F057_3.10">B3,NAC/NAM</option>
+                                                          <option value="F058_3.10">B3,Sox</option>
+                                                          <option value="F059_3.10">B3,WRKY</option>
+                                                          <option value="F061_3.10">BBR</option>
+                                                          <option value="F060_3.10">BBR,C2H2 ZF</option>
+                                                          <option value="F077_3.10">BED ZF</option>
+                                                          <option value="F062_3.10">BED ZF,C2H2 ZF</option>
+                                                          <option value="F063_3.10">BED ZF,FAR1</option>
+                                                          <option value="F064_3.10">BED ZF,FLYWCH</option>
+                                                          <option value="F065_3.10">BED ZF,GRAS</option>
+                                                          <option value="F066_3.10">BED ZF,Leafy</option>
+                                                          <option value="F068_3.10">BED ZF,MADF</option>
+                                                          <option value="F067_3.10">BED ZF,MADF,THAP finger</option>
+                                                          <option value="F069_3.10">BED ZF,MADS box</option>
+                                                          <option value="F070_3.10">BED ZF,MBD</option>
+                                                          <option value="F071_3.10">BED ZF,mTERF</option>
+                                                          <option value="F072_3.10">BED ZF,Myb/SANT</option>
+                                                          <option value="F073_3.10">BED ZF,NAC/NAM</option>
+                                                          <option value="F074_3.10">BED ZF,Pipsqueak</option>
+                                                          <option value="F075_3.10">BED ZF,RFX</option>
+                                                          <option value="F076_3.10">BED ZF,WRKY</option>
+                                                          <option value="F078_3.10">BED ZF,Zinc cluster</option>
+                                                          <option value="F082_3.10">bHLH</option>
+                                                          <option value="F079_3.10">bHLH,bZIP</option>
+                                                          <option value="F080_3.10">bHLH,C2H2 ZF</option>
+                                                          <option value="F081_3.10">bHLH,EBF1</option>
+                                                          <option value="F083_3.10">bHLH,Myb/SANT</option>
+                                                          <option value="F084_3.10">bHLH,Nuclear receptor</option>
+                                                          <option value="F085_3.10">bHLH,Sigma 70</option>
+                                                          <option value="F086_3.10">bHLH,Sox</option>
+                                                          <option value="F087_3.10">bHLH,T-box</option>
+                                                          <option value="F088_3.10">Brinker</option>
+                                                          <option value="F089_3.10">Brinker,C2H2 ZF</option>
+                                                          <option value="F090_3.10">Brinker,CENPB,FLYWCH</option>
+                                                          <option value="F091_3.10">bZIP</option>
+                                                          <option value="F092_3.10">bZIP,C2H2 ZF</option>
+                                                          <option value="F093_3.10">bZIP,CG-1</option>
+                                                          <option value="F094_3.10">bZIP,CUT,Homeodomain</option>
+                                                          <option value="F095_3.10">bZIP,FLYWCH</option>
+                                                          <option value="F096_3.10">bZIP,GATA</option>
+                                                          <option value="F097_3.10">bZIP,GRAS</option>
+                                                          <option value="F098_3.10">bZIP,Homeodomain</option>
+                                                          <option value="F099_3.10">bZIP,HSF</option>
+                                                          <option value="F100_3.10">bZIP,MADS box</option>
+                                                          <option value="F101_3.10">bZIP,Myb/SANT</option>
+                                                          <option value="F102_3.10">bZIP,Sox</option>
+                                                          <option value="F103_3.10">bZIP,THAP finger</option>
+                                                          <option value="F104_3.10">bZIP,WRKY</option>
+                                                          <option value="F105_3.10">bZIP,Zinc cluster</option>
+                                                          <option value="F135_3.10">C2H2 ZF</option>
+                                                          <option value="F106_3.10">C2H2 ZF,CBF/NF-Y</option>
+                                                          <option value="F107_3.10">C2H2 ZF,CENPB</option>
+                                                          <option value="F108_3.10">C2H2 ZF,CUT</option>
+                                                          <option value="F109_3.10">C2H2 ZF,Dof</option>
+                                                          <option value="F110_3.10">C2H2 ZF,E2F</option>
+                                                          <option value="F111_3.10">C2H2 ZF,FAR1</option>
+                                                          <option value="F112_3.10">C2H2 ZF,FLYWCH</option>
+                                                          <option value="F113_3.10">C2H2 ZF,Forkhead</option>
+                                                          <option value="F115_3.10">C2H2 ZF,GATA</option>
+                                                          <option value="F114_3.10">C2H2 ZF,GATA,Myb/SANT</option>
+                                                          <option value="F116_3.10">C2H2 ZF,Homeodomain</option>
+                                                          <option value="F117_3.10">C2H2 ZF,HSF</option>
+                                                          <option value="F118_3.10">C2H2 ZF,IRF</option>
+                                                          <option value="F119_3.10">C2H2 ZF,MADF</option>
+                                                          <option value="F120_3.10">C2H2 ZF,MADS box</option>
+                                                          <option value="F122_3.10">C2H2 ZF,MBD</option>
+                                                          <option value="F121_3.10">C2H2 ZF,MBD,THAP finger</option>
+                                                          <option value="F123_3.10">C2H2 ZF,Myb/SANT</option>
+                                                          <option value="F124_3.10">C2H2 ZF,NFX</option>
+                                                          <option value="F125_3.10">C2H2 ZF,Nuclear receptor</option>
+                                                          <option value="F126_3.10">C2H2 ZF,Paired box</option>
+                                                          <option value="F127_3.10">C2H2 ZF,Pipsqueak</option>
+                                                          <option value="F128_3.10">C2H2 ZF,RFX</option>
+                                                          <option value="F129_3.10">C2H2 ZF,Runt</option>
+                                                          <option value="F130_3.10">C2H2 ZF,RWP-RK</option>
+                                                          <option value="F131_3.10">C2H2 ZF,Sox</option>
+                                                          <option value="F132_3.10">C2H2 ZF,STE</option>
+                                                          <option value="F133_3.10">C2H2 ZF,TBP</option>
+                                                          <option value="F134_3.10">C2H2 ZF,THAP finger</option>
+                                                          <option value="F136_3.10">C2H2 ZF,Zinc cluster</option>
+                                                          <option value="F137_3.10">C2HC ZF</option>
+                                                          <option value="F138_3.10">CBF/NF-Y</option>
+                                                          <option value="F139_3.10">CBF/NF-Y,FAR1</option>
+                                                          <option value="F140_3.10">CCCH ZF</option>
+                                                          <option value="F141_3.10">CENPB</option>
+                                                          <option value="F142_3.10">CENPB,FLYWCH</option>
+                                                          <option value="F143_3.10">CENPB,Homeodomain</option>
+                                                          <option value="F144_3.10">CENPB,MADF</option>
+                                                          <option value="F145_3.10">CENPB,MBD</option>
+                                                          <option value="F146_3.10">CENPB,Myb/SANT</option>
+                                                          <option value="F147_3.10">CENPB,Paired box</option>
+                                                          <option value="F148_3.10">CENPB,Pipsqueak</option>
+                                                          <option value="F149_3.10">CENPB,RWP-RK</option>
+                                                          <option value="F150_3.10">CENPB,T-box</option>
+                                                          <option value="F151_3.10">CENPB,THAP finger</option>
+                                                          <option value="F152_3.10">CG-1</option>
+                                                          <option value="F153_3.10">CG-1,FAR1</option>
+                                                          <option value="F154_3.10">CG-1,Myb/SANT</option>
+                                                          <option value="F155_3.10">CG-1,THAP finger</option>
+                                                          <option value="F156_3.10">Copper fist</option>
+                                                          <option value="F157_3.10">Copper fist,FAR1</option>
+                                                          <option value="F158_3.10">CSD</option>
+                                                          <option value="F159_3.10">CSD,CUT</option>
+                                                          <option value="F160_3.10">CSD,Nuclear receptor</option>
+                                                          <option value="F161_3.10">CSL</option>
+                                                          <option value="F162_3.10">CUT</option>
+                                                          <option value="F163_3.10">CUT,GATA,Homeodomain</option>
+                                                          <option value="F164_3.10">CUT,Homeodomain</option>
+                                                          <option value="F165_3.10">CUT,Homeodomain,MADF</option>
+                                                          <option value="F169_3.10">CxxC</option>
+                                                          <option value="F167_3.10">CxxC,MBD</option>
+                                                          <option value="F166_3.10">CxxC,MBD,Myb/SANT</option>
+                                                          <option value="F168_3.10">CxxC,Nuclear receptor</option>
+                                                          <option value="F170_3.10">DM</option>
+                                                          <option value="F171_3.10">DM,MADF</option>
+                                                          <option value="F173_3.10">Dof</option>
+                                                          <option value="F172_3.10">Dof,E2F</option>
+                                                          <option value="F174_3.10">E2F</option>
+                                                          <option value="F175_3.10">E2F,TCR/CxC</option>
+                                                          <option value="F176_3.10">E2F,THAP finger</option>
+                                                          <option value="F177_3.10">E2F,Zinc cluster</option>
+                                                          <option value="F178_3.10">EBF1</option>
+                                                          <option value="F179_3.10">EIN3</option>
+                                                          <option value="F180_3.10">Ets</option>
+                                                          <option value="F181_3.10">Ets,Homeodomain</option>
+                                                          <option value="F182_3.10">FAR1</option>
+                                                          <option value="F183_3.10">FAR1,FLYWCH</option>
+                                                          <option value="F184_3.10">FAR1,GATA</option>
+                                                          <option value="F185_3.10">FAR1,Homeodomain</option>
+                                                          <option value="F186_3.10">FAR1,MADF</option>
+                                                          <option value="F187_3.10">FAR1,Myb/SANT</option>
+                                                          <option value="F188_3.10">FAR1,Paired box</option>
+                                                          <option value="F189_3.10">FAR1,Zinc cluster</option>
+                                                          <option value="F190_3.10">FLYWCH</option>
+                                                          <option value="F191_3.10">FLYWCH,MADF</option>
+                                                          <option value="F192_3.10">FLYWCH,Nuclear receptor</option>
+                                                          <option value="F193_3.10">FLYWCH,Pipsqueak</option>
+                                                          <option value="F194_3.10">FLYWCH,Sox</option>
+                                                          <option value="F195_3.10">FLYWCH,THAP finger</option>
+                                                          <option value="F196_3.10">Forkhead</option>
+                                                          <option value="F197_3.10">Forkhead,GATA,Myb/SANT</option>
+                                                          <option value="F198_3.10">Forkhead,TBP</option>
+                                                          <option value="F199_3.10">Forkhead,THAP finger</option>
+                                                          <option value="F200_3.10">Forkhead,Zinc cluster</option>
+                                                          <option value="F201_3.10">GATA</option>
+                                                          <option value="F202_3.10">GATA,Myb/SANT</option>
+                                                          <option value="F203_3.10">GATA,Myb/SANT,Rap1</option>
+                                                          <option value="F204_3.10">GATA,Nuclear receptor</option>
+                                                          <option value="F205_3.10">GATA,Rap1</option>
+                                                          <option value="F206_3.10">GATA,SAND</option>
+                                                          <option value="F207_3.10">GATA,Sox</option>
+                                                          <option value="F208_3.10">GATA,TCR/CxC</option>
+                                                          <option value="F209_3.10">GATA,THAP finger</option>
+                                                          <option value="F210_3.10">GATA,WRKY</option>
+                                                          <option value="F211_3.10">GATA,Zinc cluster</option>
+                                                          <option value="F212_3.10">GCM</option>
+                                                          <option value="F213_3.10">GCR1</option>
+                                                          <option value="F214_3.10">GCR1,Pipsqueak</option>
+                                                          <option value="F215_3.10">Grainyhead</option>
+                                                          <option value="F216_3.10">GRAS</option>
+                                                          <option value="F217_3.10">GRAS,Myb/SANT</option>
+                                                          <option value="F218_3.10">GRAS,TCR/CxC</option>
+                                                          <option value="F219_3.10">GTF2I-like</option>
+                                                          <option value="F220_3.10">GTF2I-like,Homeodomain,Sox</option>
+                                                          <option value="F221_3.10">GTF2I-like,Pipsqueak</option>
+                                                          <option value="F222_3.10">GTF2I-like,Sox</option>
+                                                          <option value="F223_3.10">Homeodomain</option>
+                                                          <option value="F224_3.10">Homeodomain,HSF</option>
+                                                          <option value="F225_3.10">Homeodomain,MADF</option>
+                                                          <option value="F226_3.10">Homeodomain,MATalpha_HMGbox</option>
+                                                          <option value="F227_3.10">Homeodomain,MBD</option>
+                                                          <option value="F228_3.10">Homeodomain,Myb/SANT</option>
+                                                          <option value="F229_3.10">Homeodomain,Nuclear receptor</option>
+                                                          <option value="F230_3.10">Homeodomain,Paired box</option>
+                                                          <option value="F231_3.10">Homeodomain,POU</option>
+                                                          <option value="F232_3.10">Homeodomain,RFX</option>
+                                                          <option value="F233_3.10">Homeodomain,SAND</option>
+                                                          <option value="F234_3.10">Homeodomain,Sigma 70</option>
+                                                          <option value="F235_3.10">Homeodomain,Sox</option>
+                                                          <option value="F236_3.10">Homeodomain,TCP</option>
+                                                          <option value="F237_3.10">Homeodomain,Zinc cluster</option>
+                                                          <option value="F238_3.10">HSF</option>
+                                                          <option value="F239_3.10">HSF,MBD</option>
+                                                          <option value="F240_3.10">HSF,SBP</option>
+                                                          <option value="F241_3.10">IBD</option>
+                                                          <option value="F242_3.10">ICP4</option>
+                                                          <option value="F243_3.10">IRF</option>
+                                                          <option value="F244_3.10">IRF,THAP finger</option>
+                                                          <option value="F245_3.10">Leafy</option>
+                                                          <option value="F246_3.10">Leafy,MADF</option>
+                                                          <option value="F247_3.10">Leafy,T-box</option>
+                                                          <option value="F248_3.10">Leafy,Zinc cluster</option>
+                                                          <option value="F249_3.10">LOB</option>
+                                                          <option value="F250_3.10">LOB,Myb/SANT</option>
+                                                          <option value="F251_3.10">MADF</option>
+                                                          <option value="F252_3.10">MADF,Myb/SANT</option>
+                                                          <option value="F253_3.10">MADF,Pipsqueak</option>
+                                                          <option value="F254_3.10">MADF,Storekeeper</option>
+                                                          <option value="F255_3.10">MADF,THAP finger</option>
+                                                          <option value="F256_3.10">MADS box</option>
+                                                          <option value="F257_3.10">MATalpha_HMGbox</option>
+                                                          <option value="F258_3.10">MATalpha_HMGbox,Sox</option>
+                                                          <option value="F259_3.10">MBD</option>
+                                                          <option value="F260_3.10">MBD,Myb/SANT</option>
+                                                          <option value="F261_3.10">MBD,Sox</option>
+                                                          <option value="F262_3.10">MBD,THAP finger</option>
+                                                          <option value="F263_3.10">mTERF</option>
+                                                          <option value="F264_3.10">mTERF,Paired box</option>
+                                                          <option value="F265_3.10">mTERF,Zinc cluster</option>
+                                                          <option value="F266_3.10">Myb/SANT</option>
+                                                          <option value="F267_3.10">Myb/SANT,Rap1</option>
+                                                          <option value="F268_3.10">Myb/SANT,RWP-RK</option>
+                                                          <option value="F269_3.10">Myb/SANT,Sox</option>
+                                                          <option value="F270_3.10">Myb/SANT,Storekeeper</option>
+                                                          <option value="F271_3.10">Myb/SANT,THAP finger</option>
+                                                          <option value="F272_3.10">Myb/SANT,Zinc cluster</option>
+                                                          <option value="F273_3.10">NAC/NAM</option>
+                                                          <option value="F274_3.10">NAC/NAM,WRKY</option>
+                                                          <option value="F275_3.10">Ndt80/PhoG</option>
+                                                          <option value="F276_3.10">NFX</option>
+                                                          <option value="F278_3.10">Nuclear receptor</option>
+                                                          <option value="F277_3.10">Nuclear receptor,TCP</option>
+                                                          <option value="F279_3.10">p53</option>
+                                                          <option value="F280_3.10">p53,Pipsqueak</option>
+                                                          <option value="F281_3.10">Paired box</option>
+                                                          <option value="F282_3.10">Pipsqueak</option>
+                                                          <option value="F283_3.10">Pipsqueak,RWP-RK</option>
+                                                          <option value="F284_3.10">Pipsqueak,Sox</option>
+                                                          <option value="F285_3.10">Pipsqueak,T-box</option>
+                                                          <option value="F286_3.10">Pipsqueak,THAP finger</option>
+                                                          <option value="F287_3.10">Pipsqueak,Zinc cluster</option>
+                                                          <option value="F288_3.10">PLATZ</option>
+                                                          <option value="F289_3.10">POU</option>
+                                                          <option value="F290_3.10">Prospero</option>
+                                                          <option value="F291_3.10">Rap1</option>
+                                                          <option value="F292_3.10">Rap1,Sox</option>
+                                                          <option value="F293_3.10">Rel</option>
+                                                          <option value="F294_3.10">RFX</option>
+                                                          <option value="F295_3.10">RRM</option>
+                                                          <option value="F296_3.10">Runt</option>
+                                                          <option value="F297_3.10">RWP-RK</option>
+                                                          <option value="F298_3.10">S1FA</option>
+                                                          <option value="F299_3.10">SAND</option>
+                                                          <option value="F300_3.10">SAND,Sox</option>
+                                                          <option value="F301_3.10">SBP</option>
+                                                          <option value="F302_3.10">SBP,WRKY</option>
+                                                          <option value="F303_3.10">Sigma 70</option>
+                                                          <option value="F304_3.10">SMAD</option>
+                                                          <option value="F305_3.10">Sox</option>
+                                                          <option value="F306_3.10">Sox,WRKY</option>
+                                                          <option value="F307_3.10">Sox,Zinc cluster</option>
+                                                          <option value="F308_3.10">STAT</option>
+                                                          <option value="F309_3.10">STE</option>
+                                                          <option value="F310_3.10">Storekeeper</option>
+                                                          <option value="F311_3.10">Storekeeper,THAP finger</option>
+                                                          <option value="F312_3.10">T-box</option>
+                                                          <option value="F313_3.10">TBP</option>
+                                                          <option value="F314_3.10">TCP</option>
+                                                          <option value="F315_3.10">TCR/CxC</option>
+                                                          <option value="F316_3.10">TCR/CxC,THAP finger</option>
+                                                          <option value="F317_3.10">TEA</option>
+                                                          <option value="F318_3.10">THAP finger</option>
+                                                          <option value="F319_3.10">Unknown</option>
+                                                          <option value="F320_3.10">VHR1</option>
+                                                          <option value="F321_3.10">Whirly</option>
+                                                          <option value="F322_3.10">WRC</option>
+                                                          <option value="F323_3.10">WRKY</option>
+                                                          <option value="F324_3.10">Zinc cluster</option>
+                                                  </select>
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Family[]" value="Logos" checked />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Family[]" value="Escores" />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Family[]" value="Zscores" />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Family[]" value="SignalIntensities" />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Family[]" value="TF_Information" checked />
+                </td>
+                <td align="center">
+                    <input type="checkbox" name="Family[]" value="PWMs" checked />
+                </td>
+                <td align="center"><input type="submit" name="submit" value="Download Family Archive!"></input></td>
+              </tr>
+              <!-- the other-->
+              <tr>
+                  <th colspan="9"></th>
+                  
+              </tr>
+              <tr>
+                <td >Entire dataset</td>
+                <td colspan="7">
+                </td>
+                <td align="center"><a href="entireDownload.php"><button type="button">Download Entire Dataset Archive!</button></a></td>
+              </tr>
+              <tr>
+                <td >MySQL tables</td>
+                <td colspan="7"></td>
+                <td align="center"> 
+<a href="data/3_10/DataFiles/SQLDumps/SQLArchive_cisbp_3_10.zip"><button type="button">Download MySQL tables</button></a></td>
+              </tr>
+          </table>
+      </form>
+      </div>
+      <div id="footer">Last updated: Jan 1st, 1970 Database Build 3.10</div>
+
+   </div>
+</body>
+</html>
