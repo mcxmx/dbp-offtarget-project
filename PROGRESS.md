@@ -90,7 +90,7 @@
 - Created a v0.4.2 construct audit for the 57 natural UniPROBE proteins.
 - Confirmed that no assay-aligned construct sequences were recovered from the local provenance, so the assay-aligned natural construct benchmark remains empty.
 - Preserved `FULL_LENGTH_REFERENCE` as a sensitivity benchmark only.
-- Recorded DeepPBS Linux runtime status and kept the official Docker/WSL limitation explicit in provenance.
+- The initial Windows-side DeepPBS run was host-limited; that historical status is preserved in the earlier v0.4.2 report.
 - Trained a frozen ESM-2 `esm2_t12_35M_UR50D` protein-conditioned baseline on the natural PBM train split.
 - FrozenPLM macro median Spearman: natural_test 0.316 and designed_external 0.153.
 - Reanalyzed the 1,515 pre-registered v0.3.1 sequence-vs-experiment disagreement candidates with a frozen resolution protocol.
@@ -98,18 +98,23 @@
 - Defined a 263-sequence common hard set where high experimental PBM E-score candidates remain low-ranked by all complete core baselines.
 - Added designed DBP difficulty diagnostics covering motif-distance regimes, protein train-set similarity, ESM embedding distance, score distribution shape, and per-protein baseline performance.
 - Wrote `results/v0_4_2/FINAL_STRONG_BASELINE_GATE.md` and `results/v0_4_2/V0_4_2_VALIDATION_REPORT.md`.
-- Added v0.4.2 regression tests; `pytest` reports 72 passed.
-- Current v0.4.2 gate: `WAIT - BENCHMARK STILL INCOMPLETE`.
+- Added v0.4.2 regression tests; `pytest` reports 72 passed before the DeepPBS completion addendum.
+- Completed the official DeepPBS Linux workflow in the configured Ubuntu VM: the official `5x6g` example passed, DBP35 completed with Helix score 1.0/contact count 266, and DBP48 completed after a documented DSSR helix-only input repair with Helix score 1.0/contact count 224.
+- Parsed and validated DeepPBS `P`/`Seq` outputs from upstream commit `8bfb211dd67f02877841f6f33aa493ddf7daedf9`; fixed the A/C/G/T semantics and PWM-to-7-mer RC-class scoring protocol in project-side code.
+- Completed DeepPBS evaluation for 2/7 legally evaluable designed DBPs over 8,192 RC classes each: DBP35 Spearman 0.040 and DBP48 Spearman 0.278; macro median 0.159.
+- Integrated DeepPBS into the frozen disagreement analysis: 398 eligible hard-case candidates, 39 resolved, 359 unresolved; five DBPs remain non-evaluable because no legitimate structure input was found.
+- Added DeepPBS completion reports, run manifests, prediction checksums, source-semantics documentation, PBM-joined predictions, and regression tests; the full suite reports 80 passed.
+- Current completed DeepPBS gate: `WAIT FOR STRONGER STRUCTURE-COVERED BASELINE`; this is a coverage/generalization limitation, not a runtime blocker.
 
 ## In progress
 
-- Preparing a supported Linux/Docker execution path for DeepPBS official preprocessing and prediction.
 - Expanding natural PBM protein sequence curation from full-length UniProt references to assay construct sequences.
 - Improving structure-aware baseline coverage for all seven designed DBPs.
 
 ## Next step
 
-- Run DeepPBS in a supported Linux/Docker/WSL environment using the wrapper in `external/deeppbs/`.
+- Search for additional legitimate public/original designed-DBP protein-DNA structures, without fabricating missing inputs.
+- Resolve DeepPBS homolog-level overlap if the upstream training manifest becomes available.
 - Replace v0.4.1 proxy protein clustering with MMseqs2/CD-HIT once a Linux runtime is available.
 - Curate experimental PBM construct sequences where source publications provide them.
 - Keep GSE237017 designed DBPs as an external test set rather than mixing them into natural DBP training.
@@ -126,9 +131,9 @@
 - Natural-to-designed OOD evaluation may be confounded by assay shift unless natural PBM/uPBM controls are added.
 - No calibrated uncertainty or protein-conditioned binding model is available yet.
 - v0.4 NA-MPNN results are diagnostic for two proteins only; DBP48/8TAC is not zero-shot because of detected split overlap.
-- DeepPBS has not been fairly evaluated yet.
+- DeepPBS is evaluated only for DBP35 and DBP48; the two-protein result is diagnostic and cannot support a seven-protein generalization claim.
 - v0.4.1 natural PBM uses 8-mer UniPROBE E-scores, while GSE237017 designed uPBM uses 7-mer E-scores; natural-to-designed comparisons remain confounded by assay/k-mer processing differences.
 - v0.4.1 natural protein sequences are full-length UniProt references, not confirmed assay constructs.
 - v0.4.1 SimplePC is a low-capacity baseline, not the proposed model and not a replacement for strong structure-aware baselines.
 - v0.4.2 assay-aligned natural PBM construct sequences were not recovered from the current local provenance, so the primary construct-aware benchmark remains empty.
-- v0.4.2 DeepPBS still lacks a runnable Linux runtime on this host; the official example remains unexecuted locally.
+- DeepPBS exact overlap was not found in checked manifests, but homolog-level training overlap remains unresolved.

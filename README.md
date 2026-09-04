@@ -2,7 +2,7 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.4.2 strong baseline closure with construct audit, frozen PLM baseline, and failure diagnostics.
+Current status: v0.4.2 DeepPBS baseline closure with construct audit, frozen PLM baseline, and failure diagnostics.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -16,7 +16,14 @@ Current scope:
 
 NO FINAL PROPOSED MODEL TRAINED YET.
 
-Next stage: fair Linux/Docker DeepPBS reproduction on structurally evaluable designed DBPs before starting any final proposed model.
+DeepPBS status: the official Linux workflow was reproduced in the configured
+Ubuntu VM. DBP35 and DBP48 are evaluable; coverage is 2/7 because no
+legitimate public/project protein-DNA structure was found for the other five
+designed DBPs.
+
+Next stage: use DeepPBS as a completed partial structure-aware diagnostic and
+resolve structure coverage/overlap limitations before starting a final
+proposed model.
 
 ## v0.4.2 Current Results
 
@@ -25,8 +32,11 @@ Next stage: fair Linux/Docker DeepPBS reproduction on structurally evaluable des
 - Compared with the prior SimplePC baseline, FrozenPLM improves natural held-out ranking slightly but is weaker on the designed DBP external set.
 - Best prior designed sequence-only baseline remains 0.232 macro median Spearman; empirical designed uPBM replicate reference remains about 0.591.
 - Reanalyzed the pre-registered 1,515 v0.3.1 sequence-vs-experiment disagreement candidates; SimplePC resolves 333, sequence k-mer resolves 309, FrozenPLM resolves 159, and 263 candidates remain common high-experiment/low-core-baseline cases.
-- DeepPBS official Linux example was not run on this host because Docker/Podman/installed WSL are unavailable here, so DeepPBS remains a reproducibility/provenance package rather than a completed designed-DBP performance result.
-- v0.4.2 gate: `WAIT - BENCHMARK STILL INCOMPLETE`.
+- DeepPBS official `5x6g` example passed in the Ubuntu VM. DBP35 and DBP48 also completed the official preprocessing/inference workflow and were evaluated over 8,192 RC-class 7-mers each.
+- DeepPBS diagnostic macro median Spearman is 0.159 across 2/7 evaluable designed DBPs: DBP35 0.040 and DBP48 0.278. This is not a seven-protein generalization estimate.
+- DeepPBS-derived scores are PWM/log-probability ranking proxies, not affinity, Kd, binding probability, or calibrated specificity scores.
+- The completed artifact is `results/v0_4_2/DEEPPBS_COMPLETION_REPORT.md`; the earlier host-limited WAIT report is retained as historical output.
+- v0.4.2 DeepPBS gate: `WAIT FOR STRONGER STRUCTURE-COVERED BASELINE`.
 
 ## v0.4.1 Current Results
 
@@ -37,7 +47,7 @@ Next stage: fair Linux/Docker DeepPBS reproduction on structurally evaluable des
 - SimplePC macro median Spearman: natural_test 0.301; designed external GSE237017 0.362.
 - Best prior designed sequence-only baseline: 0.232 macro median Spearman.
 - Designed uPBM empirical replicate Spearman reference: about 0.591.
-- DeepPBS: Linux/Docker provenance and wrapper added, but official example was not run because this host lacks Docker/WSL runtime.
+- DeepPBS: official Linux runtime and the two legally evaluable designed-DBP inputs were completed in the Ubuntu VM; coverage remains 2/7.
 - v0.4.1 gate: `WAIT FOR STRONGER BASELINE`.
 
 ## v0.4.1 Run Order

@@ -1,24 +1,43 @@
 # DeepPBS v0.4.2 Linux Runbook
 
-The official DeepPBS preprocessing is Linux-oriented and requires a Linux container/runtime. This Windows host has no Docker, Podman, conda/mamba, or installed WSL distribution, so the official example was not executed locally.
+The official DeepPBS preprocessing is Linux-oriented. The reproducible
+execution used the configured Ubuntu VM rather than native Windows.
 
-## Primary official Docker path
+## Completed environment
+
+- SSH host: `qwqaq@192.168.73.128`
+- Upstream checkout: `/home/qwqaq/DeepPBS`
+- Environment Python: `/home/qwqaq/miniconda3/envs/deeppbs/bin/python`
+- Upstream commit: `8bfb211dd67f02877841f6f33aa493ddf7daedf9`
+- Execution mode: CPU
+
+The official example was run first and passed. The captured acceptance marker
+is `results/v0_4_2/external_runs/deeppbs_official_example/official_example_status.txt`.
+
+## Documented upstream command pattern
+
+The following is the command pattern used remotely, with the actual per-input
+filenames recorded in each project-side run manifest:
 
 ```bash
-docker pull aricohen/deeppbs:latest
-docker run --rm \
-  -v "$PWD/external/deeppbs/DeepPBS/run/process/pdb:/app/input:ro" \
-  -v "$PWD/results/v0_4_2/external_runs/deeppbs_official_example:/output" \
-  aricohen/deeppbs:latest /app/input/5x6g.pdb -m
+export PATH=/home/qwqaq/miniconda3/envs/deeppbs/bin:/home/qwqaq/DeepPBS/dependencies/bin:$PATH
+export X3DNA=/home/qwqaq/DeepPBS/x3dna-v2.3-linux-64bit/x3dna-v2.3
+cd /home/qwqaq/DeepPBS/run/process
+/home/qwqaq/miniconda3/envs/deeppbs/bin/python ../process_co_crystal.py INPUT.pdb CONFIG --no_pwm
+/home/qwqaq/miniconda3/envs/deeppbs/bin/python ../predict.py INPUT.npz OUTPUT_DIR -c CONFIG
 ```
 
-Expected first acceptance artifact: `results/v0_4_2/external_runs/deeppbs_official_example/predict/`.
+DBP48 required a project-side DSSR-defined helix-only PDB because the original
+deposited DNA contains non-helical overhang residues that fail upstream shape
+extraction. This preparation is documented and does not modify the upstream
+checkout.
 
-## Local checkout
+## Provenance
 
 - Repository: https://github.com/timkartar/DeepPBS.git
-- Commit: 8bfb211dd67f02877841f6f33aa493ddf7daedf9
 - License: BSD 3-Clause
 - Weights: `metadata/v0_4_2/deeppbs_weight_manifest_v2.csv`
+- Full run manifest: `results/v0_4_2/tables/deeppbs_run_manifest_completed_v0_4_2.csv`
+- Output semantics: `docs/v0_4_2/DEEPPBS_OUTPUT_SEMANTICS.md`
 
 No third-party DeepPBS source code is modified by this project.

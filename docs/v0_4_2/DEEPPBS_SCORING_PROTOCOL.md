@@ -2,6 +2,12 @@
 
 This protocol is frozen before any designed-DBP DeepPBS result is evaluated.
 
+The upstream semantics supporting this protocol are documented in
+`docs/v0_4_2/DEEPPBS_OUTPUT_SEMANTICS.md`, with source-level references to
+`deeppbs/dna_encodings.py`, `run/predict.py`, and
+`run/models/model_v2.py` at DeepPBS commit
+`8bfb211dd67f02877841f6f33aa493ddf7daedf9`.
+
 ## Inputs
 
 Use only public/original protein-DNA complex structures listed in `metadata/v0_4_2/designed_structure_manifest_v2.csv`.
@@ -17,5 +23,6 @@ The offset range is all contiguous 7-bp windows fully contained in the structure
 ## Constraints
 
 - Do not tune offsets, checkpoint, or aggregation after inspecting PBM E-scores.
-- Do not call the PWM-derived value a PBM affinity, Kd, or calibrated binding probability.
+- Do not call the PWM-derived value a PBM affinity, Kd, binding probability, or
+  calibrated binding score.
 - If fewer than 4 designed DBPs are evaluable, DeepPBS remains diagnostic.
