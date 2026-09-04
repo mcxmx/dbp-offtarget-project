@@ -1,0 +1,7 @@
+method,protein_representation,structure_required,training_data,n_designed_proteins_covered,designed_macro_median_spearman,natural_macro_median_spearman,gap_to_replicate,overlap_caveat,notes
+sequence-only best,none,False,v0.2/v0.1 proxy benchmark,7,0.2320822289869546,,,sequence-only proxy baseline,best prior designed sequence-only baseline
+SimpleProteinConditionalBaseline,simple composition features,False,natural PBM train split,7,0.3616108129479222,0.3013536821293048,0.22982788349448,no structure requirement; designed test external,previous baseline
+FrozenPLMProteinConditionalBaseline,frozen ESM-2 mean-pooled embeddings,False,natural PBM train split,7,0.1530196201433334,0.3159663936975623,0.4384190762990688,no structure requirement; designed test external,frozen protein-LM baseline
+NA-MPNN diagnostic,structure-aware,True,official diagnostic run,2,-0.0407175716940406,,,diagnostic only; DBP48 overlap risk,not a full strong-baseline result
+Replicate reference,,False,experimental agreement reference,7,0.5914386964424022,,0.0,empirical assay reproducibility reference,not a theoretical upper bound
+DeepPBS,structure-aware official ensemble PWM,True,official bundled DeepPBS model,2,0.15927114742013274,,0.4321675490222695,exact overlap not found in checked manifests; homolog-level audit unresolved,Completed Linux diagnostic; DBP35/DBP48 only; not a 7-protein generalization estimate

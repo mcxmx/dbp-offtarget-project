@@ -1,0 +1,5 @@
+OFFICIAL_EXAMPLE_PASS
+
+The official 5x6g process and prediction completed on the Ubuntu VM with
+return code 0. The original historical stderr.txt is retained unchanged as a
+record of the earlier host-limited attempt.

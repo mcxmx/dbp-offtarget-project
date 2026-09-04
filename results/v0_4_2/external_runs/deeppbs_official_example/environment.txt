@@ -1,8 +1,14 @@
 {
-  "audit_date": "2026-09-02",
-  "host": "Windows PowerShell",
-  "docker_returncode": 127,
-  "podman_returncode": 127,
-  "wsl_returncode": 50,
-  "official_example_status": "OFFICIAL_EXAMPLE_NOT_RUN_HOST_NO_LINUX_RUNTIME"
+  "audit_date": "2026-09-04",
+  "host": "Ubuntu 20.04 VM via SSH",
+  "ssh_host": "qwqaq@192.168.73.128",
+  "upstream_commit": "8bfb211dd67f02877841f6f33aa493ddf7daedf9",
+  "python": "/home/qwqaq/miniconda3/envs/deeppbs/bin/python",
+  "python_version": "3.10.14",
+  "pytorch": "2.2.1+cpu",
+  "numpy": "1.26.3",
+  "scipy": "1.12.0",
+  "biopython": "1.83",
+  "gpu": false,
+  "official_example_status": "OFFICIAL_EXAMPLE_PASS"
 }

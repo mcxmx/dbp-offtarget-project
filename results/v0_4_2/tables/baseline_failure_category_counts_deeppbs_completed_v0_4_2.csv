@@ -1,0 +1,8 @@
+candidate_scope,failure_category,n_candidates
+all_v0.3.1_disagreement_candidates,DeepPBS_not_evaluable,1117
+all_v0.3.1_disagreement_candidates,mixed_or_unclassified,280
+all_v0.3.1_disagreement_candidates,sequence_only_resolves_DeepPBS_disagreement,50
+all_v0.3.1_disagreement_candidates,both_methods_high,30
+all_v0.3.1_disagreement_candidates,common_low_prediction,25
+all_v0.3.1_disagreement_candidates,both_methods_low,10
+all_v0.3.1_disagreement_candidates,DeepPBS_resolves_sequence_disagreement,3

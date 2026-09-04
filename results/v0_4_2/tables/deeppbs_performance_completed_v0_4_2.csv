@@ -1,0 +1,8 @@
+protein_id,baseline,status,spearman,ndcg_1pct,ndcg_5pct,pairwise_accuracy,top1pct_recovery,n_rc_classes,n_expected_rc_classes
+DBP1,DeepPBS,not_evaluable_missing_prediction,,,,,,0,8192
+DBP3,DeepPBS,not_evaluable_missing_prediction,,,,,,0,8192
+DBP5,DeepPBS,not_evaluable_missing_prediction,,,,,,0,8192
+DBP6,DeepPBS,not_evaluable_missing_prediction,,,,,,0,8192
+DBP9,DeepPBS,not_evaluable_missing_prediction,,,,,,0,8192
+DBP35,DeepPBS,evaluated,0.0401764557169653,0.5382295612875594,0.5555982073947182,0.5135756787839392,0.012195121951219513,8192,8192
+DBP48,DeepPBS,evaluated,0.27836583912330015,0.45362133133350013,0.515238711213655,0.5903295164758238,0.0,8192,8192

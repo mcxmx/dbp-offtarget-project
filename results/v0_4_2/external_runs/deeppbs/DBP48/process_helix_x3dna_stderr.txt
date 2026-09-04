@@ -1,0 +1,18 @@
+
+Processing file 'dna.tmp.pdb'
+    total number of nucleotides: 18
+    total number of base pairs: 9
+    total number of helices: 1
+    total number of stems: 1
+    total number of non-pairing interactions: 17
+
+boundary for lvector(): [1 to 0]
+
+Time used: 00:00:00:00
+done with cleaning up files.
+
+Time used: 00:00:00:00
+
+......Processing structure #1: <dna_entity_0.inp>......
+
+Time used: 00:00:00:00

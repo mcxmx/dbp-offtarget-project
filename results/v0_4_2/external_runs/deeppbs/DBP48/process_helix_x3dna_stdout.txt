@@ -1,0 +1,11 @@
+Helix score: 0.8888888888888888
+0 2
+3 6
+7 10
+10 13
+14 17
+18 21
+22 25
+26 29
+29 31
+CONTACT COUNT 224 8TAC_helix_only.pdb

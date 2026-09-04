@@ -1,0 +1,8 @@
+protein_id,baseline,metric,n_units,bootstrap_mean,ci_2.5,ci_97.5,bootstrap_unit,n_bootstrap
+DBP1,DeepPBS,spearman,0,,,,canonical_rc_class,500
+DBP3,DeepPBS,spearman,0,,,,canonical_rc_class,500
+DBP5,DeepPBS,spearman,0,,,,canonical_rc_class,500
+DBP6,DeepPBS,spearman,0,,,,canonical_rc_class,500
+DBP9,DeepPBS,spearman,0,,,,canonical_rc_class,500
+DBP35,DeepPBS,spearman,8192,0.04069167162168558,0.017092814457102912,0.06127879990287253,canonical_rc_class,500
+DBP48,DeepPBS,spearman,8192,0.2784529033216003,0.25672544764794564,0.29868883030043425,canonical_rc_class,500

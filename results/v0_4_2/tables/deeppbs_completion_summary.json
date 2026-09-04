@@ -1,0 +1,12 @@
+{
+  "prediction_rows": 16384,
+  "evaluable_proteins": 2,
+  "coverage": "2/7",
+  "macro_median_spearman": 0.15927114742013274,
+  "eligible_candidates": 398,
+  "resolved": 39,
+  "unresolved": 359,
+  "resolution_rate": 0.09798994974874371,
+  "complete_core_common_failures": 25,
+  "all_disagreement_candidates": 1515
+}

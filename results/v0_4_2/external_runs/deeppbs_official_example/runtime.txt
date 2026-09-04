@@ -1,1 +1,6 @@
-not_run_host_no_linux_container_runtime
+OFFICIAL_EXAMPLE_PASS
+process_returncode=0
+predict_returncode=0
+helix_score=1.0
+contact_count=413
+runtime_host=qwqaq@192.168.73.128

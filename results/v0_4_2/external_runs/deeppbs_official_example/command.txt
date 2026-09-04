@@ -1,1 +1,12 @@
-docker run --rm -v ${PWD}/external/deeppbs/DeepPBS/run/process/pdb:/app/input:ro -v ${PWD}/results/v0_4_2/external_runs/deeppbs_official_example:/output aricohen/deeppbs:latest /app/input/5x6g.pdb -m
+Remote host: qwqaq@192.168.73.128
+Official DeepPBS checkout: /home/qwqaq/DeepPBS
+Python: /home/qwqaq/miniconda3/envs/deeppbs/bin/python
+
+export PATH=/home/qwqaq/miniconda3/envs/deeppbs/bin:/home/qwqaq/DeepPBS/dependencies/bin:$PATH
+export X3DNA=/home/qwqaq/DeepPBS/x3dna-v2.3-linux-64bit/x3dna-v2.3
+cd /home/qwqaq/DeepPBS/run/process
+/home/qwqaq/miniconda3/envs/deeppbs/bin/python ../process_co_crystal.py 5x6g.pdb config_03.26.2024.19.40_173 --no_pwm
+/home/qwqaq/miniconda3/envs/deeppbs/bin/python ../predict.py 5x6g.npz output -c config_03.26.2024.19.40_173
+
+The commands were executed in an isolated remote run directory using the
+unchanged upstream checkout. See process_stdout.txt and predict_stdout.txt.

@@ -1,0 +1,5 @@
+category,eligible_candidates,n_candidates,fraction_of_eligible,definition
+sequence_low_deeppbs_high,398,3,0.007537688442211055,"candidate-specific within-protein percentile thresholds; high >= 0.90, low <= 0.50"
+sequence_high_deeppbs_low,398,50,0.12562814070351758,"candidate-specific within-protein percentile thresholds; high >= 0.90, low <= 0.50"
+sequence_low_deeppbs_low,398,35,0.08793969849246232,"candidate-specific within-protein percentile thresholds; high >= 0.90, low <= 0.50"
+sequence_high_deeppbs_high,398,30,0.07537688442211055,"candidate-specific within-protein percentile thresholds; high >= 0.90, low <= 0.50"
