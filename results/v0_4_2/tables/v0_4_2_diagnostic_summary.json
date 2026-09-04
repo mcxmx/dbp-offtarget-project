@@ -1,0 +1,12 @@
+[
+  {
+    "n_designed_rows":57344,
+    "n_disagreement_candidates":1515,
+    "n_common_high_experiment_low_all_core":263,
+    "n_common_low_experiment_high_all_core":0,
+    "n_protein_sequence_clusters":4,
+    "n_original_target_groups":4,
+    "n_assay_target_groups":4,
+    "n_motif_groups":4
+  }
+]

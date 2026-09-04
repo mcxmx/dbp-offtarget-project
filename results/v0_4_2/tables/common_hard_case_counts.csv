@@ -1,0 +1,8 @@
+protein_id,failure_type,n_cases
+DBP1,high_experiment_low_all_core,40
+DBP3,high_experiment_low_all_core,42
+DBP35,high_experiment_low_all_core,30
+DBP48,high_experiment_low_all_core,72
+DBP5,high_experiment_low_all_core,14
+DBP6,high_experiment_low_all_core,30
+DBP9,high_experiment_low_all_core,35

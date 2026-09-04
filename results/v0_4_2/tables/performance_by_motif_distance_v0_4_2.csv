@@ -1,0 +1,141 @@
+protein_id,motif_distance_bin,method,spearman,ndcg_5pct,n_rc_classes,evaluation_status
+DBP1,0,sequence_kmer3,0.010834650195437336,0.43252363331643984,48,evaluated
+DBP1,0,SimpleProteinConditionalBaseline,0.3710377768128528,0.6290944382886522,48,evaluated
+DBP1,0,FrozenPLMProteinConditionalBaseline,0.21493703864524533,0.4729708012481764,48,evaluated
+DBP1,0,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP1,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP1,1,sequence_kmer3,0.16885863331468756,0.49744934302522925,712,evaluated
+DBP1,1,SimpleProteinConditionalBaseline,0.44003073312819946,0.8311505350154044,712,evaluated
+DBP1,1,FrozenPLMProteinConditionalBaseline,0.27216242794538714,0.7546730971259175,712,evaluated
+DBP1,1,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP1,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP1,2,sequence_kmer3,-0.009245967073947889,0.4684372463567099,3238,evaluated
+DBP1,2,SimpleProteinConditionalBaseline,0.4735890661690694,0.8083759963669911,3238,evaluated
+DBP1,2,FrozenPLMProteinConditionalBaseline,0.30863315995291524,0.6747668409464451,3238,evaluated
+DBP1,2,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP1,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP1,3+,sequence_kmer3,-0.12802966674243918,0.3546838430831654,4194,evaluated
+DBP1,3+,SimpleProteinConditionalBaseline,0.4084020866955446,0.7422508838639864,4194,evaluated
+DBP1,3+,FrozenPLMProteinConditionalBaseline,0.23326663642075776,0.693677694905007,4194,evaluated
+DBP1,3+,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP1,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP3,0,sequence_kmer3,,,8,not_evaluable_or_too_few_scores
+DBP3,0,SimpleProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP3,0,FrozenPLMProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP3,0,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP3,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP3,1,sequence_kmer3,0.13606353934065069,0.4227481898155932,144,evaluated
+DBP3,1,SimpleProteinConditionalBaseline,0.3431356000321518,0.8814290789689755,144,evaluated
+DBP3,1,FrozenPLMProteinConditionalBaseline,0.043296358813600194,0.5054569277894777,144,evaluated
+DBP3,1,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP3,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP3,2,sequence_kmer3,0.05922178481061031,0.5873020632021286,1032,evaluated
+DBP3,2,SimpleProteinConditionalBaseline,0.2746229960437638,0.7074012318966655,1032,evaluated
+DBP3,2,FrozenPLMProteinConditionalBaseline,-0.00268030027717548,0.498988605037928,1032,evaluated
+DBP3,2,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP3,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP3,3+,sequence_kmer3,-0.02472725825311888,0.4968734885968153,7008,evaluated
+DBP3,3+,SimpleProteinConditionalBaseline,0.26859636026864,0.7034723078137809,7008,evaluated
+DBP3,3+,FrozenPLMProteinConditionalBaseline,-0.0828760114278223,0.4064076664394613,7008,evaluated
+DBP3,3+,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP3,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP35,0,sequence_kmer3,,,8,not_evaluable_or_too_few_scores
+DBP35,0,SimpleProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP35,0,FrozenPLMProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP35,0,NA-MPNN diagnostic,,,8,not_evaluable_or_too_few_scores
+DBP35,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP35,1,sequence_kmer3,0.344214719700744,0.44639959753769454,136,evaluated
+DBP35,1,SimpleProteinConditionalBaseline,0.3431658794904823,0.7453482482204535,136,evaluated
+DBP35,1,FrozenPLMProteinConditionalBaseline,0.11719860693669194,0.40571209690332605,136,evaluated
+DBP35,1,NA-MPNN diagnostic,0.30585849911740853,0.924457864455893,136,evaluated
+DBP35,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP35,2,sequence_kmer3,0.2283665396601405,0.7843451068825134,928,evaluated
+DBP35,2,SimpleProteinConditionalBaseline,0.37720785221199316,0.7307165067906357,928,evaluated
+DBP35,2,FrozenPLMProteinConditionalBaseline,0.1766329818976506,0.6033815450642721,928,evaluated
+DBP35,2,NA-MPNN diagnostic,0.38185671250842984,0.8102535838604416,928,evaluated
+DBP35,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP35,3+,sequence_kmer3,0.28290249039508003,0.7929659261830652,7120,evaluated
+DBP35,3+,SimpleProteinConditionalBaseline,0.35453640124573843,0.723282254853704,7120,evaluated
+DBP35,3+,FrozenPLMProteinConditionalBaseline,0.15201984465548332,0.5986460929060808,7120,evaluated
+DBP35,3+,NA-MPNN diagnostic,0.2250642907960888,0.6921144516882138,7120,evaluated
+DBP35,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP48,0,sequence_kmer3,,,8,not_evaluable_or_too_few_scores
+DBP48,0,SimpleProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP48,0,FrozenPLMProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP48,0,NA-MPNN diagnostic,,,8,not_evaluable_or_too_few_scores
+DBP48,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP48,1,sequence_kmer3,0.3619256656584157,0.717642827854243,144,evaluated
+DBP48,1,SimpleProteinConditionalBaseline,0.3308857808857809,0.7123511419841093,144,evaluated
+DBP48,1,FrozenPLMProteinConditionalBaseline,0.20472852335888014,0.6534823797116546,144,evaluated
+DBP48,1,NA-MPNN diagnostic,-0.3979824772928221,0.37758956694984225,144,evaluated
+DBP48,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP48,2,sequence_kmer3,0.1384157851943252,0.7147963275348594,1020,evaluated
+DBP48,2,SimpleProteinConditionalBaseline,0.05344574119119746,0.6106921174648285,1020,evaluated
+DBP48,2,FrozenPLMProteinConditionalBaseline,-0.16003209176117822,0.32409984129275404,1020,evaluated
+DBP48,2,NA-MPNN diagnostic,-0.37170784454436534,0.24431303003700824,1020,evaluated
+DBP48,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP48,3+,sequence_kmer3,0.303860470377891,0.8055789062944362,7020,evaluated
+DBP48,3+,SimpleProteinConditionalBaseline,0.007309514947825676,0.563120392843453,7020,evaluated
+DBP48,3+,FrozenPLMProteinConditionalBaseline,-0.4623384869543729,0.16718250256785885,7020,evaluated
+DBP48,3+,NA-MPNN diagnostic,-0.3234563593327499,0.32603121601929086,7020,evaluated
+DBP48,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP5,0,sequence_kmer3,,,8,not_evaluable_or_too_few_scores
+DBP5,0,SimpleProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP5,0,FrozenPLMProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP5,0,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP5,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP5,1,sequence_kmer3,0.09106462852781591,0.35783346160674145,136,evaluated
+DBP5,1,SimpleProteinConditionalBaseline,0.26936485540410293,0.7629110040315625,136,evaluated
+DBP5,1,FrozenPLMProteinConditionalBaseline,0.27970072957026904,0.5489547695150878,136,evaluated
+DBP5,1,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP5,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP5,2,sequence_kmer3,0.18953256103778296,0.7703929843209064,928,evaluated
+DBP5,2,SimpleProteinConditionalBaseline,0.3913514174517183,0.6620877342788478,928,evaluated
+DBP5,2,FrozenPLMProteinConditionalBaseline,0.3258477362890422,0.7006613988727456,928,evaluated
+DBP5,2,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP5,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP5,3+,sequence_kmer3,0.2046831354272354,0.7029729553370933,7120,evaluated
+DBP5,3+,SimpleProteinConditionalBaseline,0.433098164775428,0.7604920303899609,7120,evaluated
+DBP5,3+,FrozenPLMProteinConditionalBaseline,0.3458290994593887,0.7450832929678737,7120,evaluated
+DBP5,3+,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP5,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP6,0,sequence_kmer3,,,8,not_evaluable_or_too_few_scores
+DBP6,0,SimpleProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP6,0,FrozenPLMProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP6,0,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP6,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP6,1,sequence_kmer3,0.49921762127019914,0.6408217212891689,136,evaluated
+DBP6,1,SimpleProteinConditionalBaseline,-0.3423862678145985,0.3984536672843647,136,evaluated
+DBP6,1,FrozenPLMProteinConditionalBaseline,-0.1917468056711512,0.44065870622781544,136,evaluated
+DBP6,1,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP6,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP6,2,sequence_kmer3,0.3822096151269296,0.8638507289144678,928,evaluated
+DBP6,2,SimpleProteinConditionalBaseline,-0.17892291784497144,0.3503672464401011,928,evaluated
+DBP6,2,FrozenPLMProteinConditionalBaseline,-0.1399914090708014,0.3490198093384257,928,evaluated
+DBP6,2,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP6,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP6,3+,sequence_kmer3,0.33316846593268007,0.8620021203172197,7120,evaluated
+DBP6,3+,SimpleProteinConditionalBaseline,-0.04419183386093805,0.4421612282828251,7120,evaluated
+DBP6,3+,FrozenPLMProteinConditionalBaseline,-0.0660869971534989,0.41823431301003433,7120,evaluated
+DBP6,3+,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP6,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP9,0,sequence_kmer3,,,8,not_evaluable_or_too_few_scores
+DBP9,0,SimpleProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP9,0,FrozenPLMProteinConditionalBaseline,,,8,not_evaluable_or_too_few_scores
+DBP9,0,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP9,0,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP9,1,sequence_kmer3,0.40020456886195377,0.6730833748539881,136,evaluated
+DBP9,1,SimpleProteinConditionalBaseline,-0.06098468584514097,0.7052205525002936,136,evaluated
+DBP9,1,FrozenPLMProteinConditionalBaseline,0.00869233338104098,0.5519967643792499,136,evaluated
+DBP9,1,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP9,1,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP9,2,sequence_kmer3,0.21692296798373023,0.7759397663987595,928,evaluated
+DBP9,2,SimpleProteinConditionalBaseline,0.16059084733448534,0.6005788096042788,928,evaluated
+DBP9,2,FrozenPLMProteinConditionalBaseline,0.19815180004021435,0.644973931190514,928,evaluated
+DBP9,2,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP9,2,DeepPBS,,,0,not_evaluable_or_too_few_scores
+DBP9,3+,sequence_kmer3,0.18093569939662993,0.7685575923416823,7120,evaluated
+DBP9,3+,SimpleProteinConditionalBaseline,0.379102512773645,0.8221780646599794,7120,evaluated
+DBP9,3+,FrozenPLMProteinConditionalBaseline,0.3825463610484631,0.820909154421629,7120,evaluated
+DBP9,3+,NA-MPNN diagnostic,,,0,not_evaluable_or_too_few_scores
+DBP9,3+,DeepPBS,,,0,not_evaluable_or_too_few_scores
