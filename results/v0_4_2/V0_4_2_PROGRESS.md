@@ -8,9 +8,8 @@ Date: 2026-09-02
 - Confirmed the local provenance does not recover assay-aligned construct sequences for the 57 natural proteins.
 - Kept `FULL_LENGTH_REFERENCE` as a sensitivity benchmark only.
 - Recorded DeepPBS official Linux runtime status and preserved Docker/WSL constraints in provenance.
-- Trained a frozen ESM-2 `esm2_t12_35M_UR50D` protein-conditioned baseline with a small ridge head.
-- Evaluated the frozen baseline on natural held-out and designed external sets.
-- Wrote the v0.4.2 summary gate and validation report.
+- Trained and evaluated a frozen ESM-2 `esm2_t12_35M_UR50D` protein-conditioned baseline.
+- Added difficulty-factor, training-space similarity, motif-distance, disagreement-resolution, and common-hard diagnostics.
 
 ## Current numbers
 
@@ -21,8 +20,12 @@ Date: 2026-09-02
 - SimplePC designed-external macro median Spearman: 0.362
 - Best prior sequence-only designed macro median Spearman: 0.232
 - Empirical replicate Spearman reference: about 0.591
+- v0.3.1 disagreement candidates: 1,515
+- Core common-hard high-experiment/low-all-core cases: 263
 
-## Limitation
+## Decision and limitations
 
-The construct-aware natural PBM benchmark remains empty, so the current protein-conditioned comparison is still anchored to full-length reference sequences rather than verified assay constructs.
-FrozenPLM did not improve designed external ranking over either SimplePC or the best sequence-only proxy, despite its slightly higher natural held-out result.
+The gate remains `WAIT - BENCHMARK STILL INCOMPLETE`. The main blockers are
+the empty assay-aligned construct benchmark and the absence of a runnable
+Linux-compatible DeepPBS execution. FrozenPLM did not improve designed ranking
+over SimplePC or the best sequence-only proxy.

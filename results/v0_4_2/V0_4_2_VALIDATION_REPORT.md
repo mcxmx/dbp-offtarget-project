@@ -7,5 +7,7 @@
 - Best prior sequence-only designed macro median Spearman: 0.232.
 - Empirical replicate e_score Spearman reference: 0.591.
 - 1,515 disagreement candidates remain the reference disagreement set.
+- Core common-hard high-experiment/low-all-core cases: 263.
+- Lowest FrozenPLM designed protein: DBP48 (-0.437 Spearman).
 
 Overall decision: WAIT - BENCHMARK STILL INCOMPLETE.

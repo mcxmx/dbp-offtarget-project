@@ -17,6 +17,9 @@ WAIT - BENCHMARK STILL INCOMPLETE
 7. DeepPBS official Linux example was not run on this host because Docker/Podman/installed WSL are unavailable.
 8. NA-MPNN remains diagnostic only; the prior v0.4 result covered 2/7 proteins.
 9. The 1,515 sequence-vs-experiment disagreement candidates from v0.3.1 are unchanged as the disagreement reference set.
+10. Under the frozen resolution rule, the complete core methods resolve 309 (k-mer3), 333 (SimplePC), and 159 (FrozenPLM) candidates.
+11. The core common-hard set contains 263 high-experiment/low-all-core cases. This is a ranking discrepancy set, not a claim that every available model failed.
+12. The lowest FrozenPLM designed Spearman is -0.437 for DBP48; DBP6 and DBP48 remain difficult, but this descriptive result is not a biological mechanism conclusion.
 
 ## Interpretation
 

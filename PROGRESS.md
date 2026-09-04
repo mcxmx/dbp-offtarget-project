@@ -93,8 +93,12 @@
 - Recorded DeepPBS Linux runtime status and kept the official Docker/WSL limitation explicit in provenance.
 - Trained a frozen ESM-2 `esm2_t12_35M_UR50D` protein-conditioned baseline on the natural PBM train split.
 - FrozenPLM macro median Spearman: natural_test 0.316 and designed_external 0.153.
+- Reanalyzed the 1,515 pre-registered v0.3.1 sequence-vs-experiment disagreement candidates with a frozen resolution protocol.
+- Disagreement resolution counts: sequence k-mer 309/1,515, SimplePC 333/1,515, FrozenPLM 159/1,515, NA-MPNN diagnostic 50/398 evaluable candidates, DeepPBS 0 evaluable candidates.
+- Defined a 263-sequence common hard set where high experimental PBM E-score candidates remain low-ranked by all complete core baselines.
+- Added designed DBP difficulty diagnostics covering motif-distance regimes, protein train-set similarity, ESM embedding distance, score distribution shape, and per-protein baseline performance.
 - Wrote `results/v0_4_2/FINAL_STRONG_BASELINE_GATE.md` and `results/v0_4_2/V0_4_2_VALIDATION_REPORT.md`.
-- Added v0.4.2 regression tests; `pytest` reports 67 passed.
+- Added v0.4.2 regression tests; `pytest` reports 72 passed.
 - Current v0.4.2 gate: `WAIT - BENCHMARK STILL INCOMPLETE`.
 
 ## In progress

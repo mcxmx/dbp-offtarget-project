@@ -2,7 +2,7 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.4.2 strong baseline closure with construct audit and frozen PLM baseline.
+Current status: v0.4.2 strong baseline closure with construct audit, frozen PLM baseline, and failure diagnostics.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -24,6 +24,7 @@ Next stage: fair Linux/Docker DeepPBS reproduction on structurally evaluable des
 - FrozenPLMProteinConditionalBaseline: frozen ESM-2 `esm2_t12_35M_UR50D` mean-pooled protein embeddings with a small ridge head; natural_test macro median Spearman 0.316 and designed_external macro median Spearman 0.153.
 - Compared with the prior SimplePC baseline, FrozenPLM improves natural held-out ranking slightly but is weaker on the designed DBP external set.
 - Best prior designed sequence-only baseline remains 0.232 macro median Spearman; empirical designed uPBM replicate reference remains about 0.591.
+- Reanalyzed the pre-registered 1,515 v0.3.1 sequence-vs-experiment disagreement candidates; SimplePC resolves 333, sequence k-mer resolves 309, FrozenPLM resolves 159, and 263 candidates remain common high-experiment/low-core-baseline cases.
 - DeepPBS official Linux example was not run on this host because Docker/Podman/installed WSL are unavailable here, so DeepPBS remains a reproducibility/provenance package rather than a completed designed-DBP performance result.
 - v0.4.2 gate: `WAIT - BENCHMARK STILL INCOMPLETE`.
 
