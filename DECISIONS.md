@@ -35,3 +35,7 @@
 33. For v0.4.1, train `SimpleProteinConditionalBaseline_composition_ridge` only on natural PBM train proteins and select hyperparameters only on natural validation proteins. Designed DBPs remain an external test set.
 34. For v0.4.1, do not claim DeepPBS performance because Docker and WSL are unavailable on this host. Record official provenance and runnable Linux wrapper instead of substituting a reimplementation.
 35. For v0.4.1, set the final gate to `WAIT FOR STRONGER BASELINE`: SimplePC improves over sequence-only, but DeepPBS still needs a fair supported-runtime reproduction before proposed model development.
+36. For v0.5, define `primary_target` as the independently reported original design target. Never infer it from PBM top motifs, PBM E-scores, or test-set optima; preserve experimental assay/reference DNA and PBM-derived motif as separate metadata fields.
+37. For v0.5, use the existing four protein-sequence clusters for the primary leave-one-cluster-out split. Use connected components over protein-cluster, original-target, assay-target, and motif links as a strict sensitivity split.
+38. For v0.5, treat canonical reverse-complement equivalence classes as the DNA unit and prohibit random protein-7-mer row splits.
+39. For v0.5, a future target-conditioned model must be non-separable in `(P,T,D)`. Subtracting a candidate-independent `S(P,T)` constant from `S(P,D)` cannot change the within-protein ranking.

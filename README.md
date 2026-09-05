@@ -2,7 +2,8 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.4.2 DeepPBS baseline closure with construct audit, frozen PLM baseline, and failure diagnostics.
+Current status: v0.5 target-conditioned specificity data and split contract;
+no v0.5 model has been trained.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -24,6 +25,19 @@ designed DBPs.
 Next stage: use DeepPBS as a completed partial structure-aware diagnostic and
 resolve structure coverage/overlap limitations before starting a final
 proposed model.
+
+## v0.5 Target Contract
+
+- Preserves independently sourced intended design target, experimental assay
+  reference, and PBM-derived motif as separate fields.
+- Uses the existing four protein-sequence clusters for the primary
+  leave-one-protein-cluster-out split.
+- Adds a stricter three-component split using the combined protein/target/motif
+  leakage graph.
+- Groups all future DNA-level partitions by canonical reverse-complement
+  equivalence class.
+- Prohibits random splitting of the 57,344 protein-RC-class rows.
+- No proposed target-conditioned model is implemented or trained yet.
 
 ## v0.4.2 Current Results
 

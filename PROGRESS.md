@@ -106,6 +106,17 @@
 - Added DeepPBS completion reports, run manifests, prediction checksums, source-semantics documentation, PBM-joined predictions, and regression tests; the full suite reports 80 passed.
 - Current completed DeepPBS gate: `WAIT FOR STRONGER STRUCTURE-COVERED BASELINE`; this is a coverage/generalization limitation, not a runtime blocker.
 
+### v0.5 target-conditioned specificity contract
+
+- Re-read the curated v0.3.1 designed-DBP target, motif, protein-cluster, and target-group metadata before defining any future model split.
+- Built `metadata/v0_5/designed_target_manifest_v0_5.csv` with separate independently sourced intended design targets, experimental assay references, and PBM-derived motifs.
+- Confirmed DBP48 retains original design target `CGCCCAAAGCCGCG`, assay/PBM reference `CGACACCTGACGCG`, and PBM motif `CTGACG` as separate concepts.
+- Built a leakage graph joining shared protein sequence clusters, original target groups, assay target groups, and motif groups.
+- The graph produces three combined components: DBP1/DBP3, DBP35/DBP5/DBP6/DBP9, and DBP48.
+- Defined leave-one-protein-cluster-out as the primary split and combined-component-out as a strict sensitivity split; random protein-7-mer row splits are prohibited.
+- Added a toy algebraic test showing that subtracting a candidate-independent `S(P,T)` constant cannot change within-protein candidate ranking.
+- No v0.5 model was trained or implemented.
+
 ## In progress
 
 - Expanding natural PBM protein sequence curation from full-length UniProt references to assay construct sequences.
@@ -137,3 +148,5 @@
 - v0.4.1 SimplePC is a low-capacity baseline, not the proposed model and not a replacement for strong structure-aware baselines.
 - v0.4.2 assay-aligned natural PBM construct sequences were not recovered from the current local provenance, so the primary construct-aware benchmark remains empty.
 - DeepPBS exact overlap was not found in checked manifests, but homolog-level training overlap remains unresolved.
+- v0.5 has only seven designed proteins and three strict leakage components; split-level uncertainty is therefore limited.
+- The primary cluster split does not fully control target/motif leakage because the TGCACA motif is shared across protein clusters 2 and 4; use the combined-component sensitivity split for strict target independence.
