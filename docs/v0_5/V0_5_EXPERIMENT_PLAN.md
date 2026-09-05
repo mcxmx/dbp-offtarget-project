@@ -108,3 +108,24 @@ unless a clearly labeled within-designed diagnostic is being run.
 
 No model, hyperparameter, epoch, or checkpoint may be selected using the
 designed test folds.
+
+## Development Exposure Note
+
+The engineering smoke test used `protein_cluster_loco_fold_1`, whose held-out
+proteins are DBP1 and DBP3. The architecture, target definition, split
+contract, pair-sampling protocol, and hyperparameters were not changed in
+response to those outputs, but this fold is nevertheless
+`development-exposed` rather than untouched confirmatory evidence.
+
+The previously unseen primary folds are folds 2-4, covering DBP5, DBP35,
+DBP48, DBP6, and DBP9. The complete seven-protein result will report all
+folds, while the primary confirmatory descriptive summary will also report
+this previously unseen five-protein subset separately.
+
+## Frozen Evaluation Seeds
+
+Before evaluating folds 2-4, the multi-seed set is fixed to `17`, `29`, and
+`43`. Seed aggregation is performed within each DBP and model first
+(mean, standard deviation, minimum, and maximum), followed by macro summaries
+over proteins. The seven proteins are not treated as 21 independent
+biological replicates, and seed variation is not biological uncertainty.

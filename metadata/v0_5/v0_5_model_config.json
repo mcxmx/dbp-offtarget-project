@@ -1,5 +1,10 @@
 {
   "seed": 42,
+  "evaluation_seeds": [
+    17,
+    29,
+    43
+  ],
   "smoke_split_name": "protein_cluster_loco",
   "smoke_fold_id": "protein_cluster_loco_fold_1",
   "hidden_dim": 32,

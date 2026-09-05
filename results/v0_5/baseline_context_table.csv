@@ -1,0 +1,12 @@
+baseline,coverage,macro_median_spearman,split_training_regime,directly_matched,notes
+sequence-only kmer3 RC-aware,7/7,0.2320822289869546,v0.3.1 designed uPBM; no training,True,Sequence-only proxy; not protein-conditioned.
+SimpleProteinConditional,7/7 designed; 9 natural test,0.3616108129479222,natural PBM train -> designed external; prior v0.4.1,False,Prior natural-test macro median=0.301354; low-capacity baseline.
+FrozenPLM,7/7 designed,0.1530196201433334,natural PBM train -> designed external; prior v0.4.2,False,Frozen ESM-2 baseline; prior result is not this matched v0.5 trainer.
+DeepPBS,2/7 designed,0.1592711474201327,official structure-aware diagnostic; prior v0.4.2,False,Coverage-limited diagnostic; not comparable as a seven-protein estimate.
+NA-MPNN diagnostic,2/7 designed,-0.0407175716940406,official structure-aware diagnostic; prior v0.4.2,False,Limited diagnostic coverage and DBP48 overlap caveat.
+Experimental replicate reference,7/7 designed,0.5914386964424022,uPBM replicate agreement,False,"Empirical reproducibility reference, not a strict theoretical ceiling."
+v0.5 M0,7/7 designed,0.12495071006359587,"v0.5 4-fold protein-cluster LOCO, seed-mean per protein",True,Matched primary result; see primary tables for development-exposed and unseen subsets.
+v0.5 M1,7/7 designed,0.05576127261303032,"v0.5 4-fold protein-cluster LOCO, seed-mean per protein",True,Matched primary result; see primary tables for development-exposed and unseen subsets.
+v0.5 M1c,7/7 designed,0.06050586477988248,"v0.5 4-fold protein-cluster LOCO, seed-mean per protein",True,Matched primary result; see primary tables for development-exposed and unseen subsets.
+v0.5 M2,7/7 designed,0.038764479230060274,"v0.5 4-fold protein-cluster LOCO, seed-mean per protein",True,Matched primary result; see primary tables for development-exposed and unseen subsets.
+v0.5 M3,7/7 designed,0.06819948642617549,"v0.5 4-fold protein-cluster LOCO, seed-mean per protein",True,Matched primary result; see primary tables for development-exposed and unseen subsets.

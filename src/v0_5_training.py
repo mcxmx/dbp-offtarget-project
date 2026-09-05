@@ -38,6 +38,7 @@ SPLIT_PATH = ROOT / "metadata" / "v0_5" / "v0_5_split_manifest.csv"
 @dataclass(frozen=True)
 class V05Config:
     seed: int = 42
+    evaluation_seeds: tuple[int, ...] = (17, 29, 43)
     smoke_split_name: str = "protein_cluster_loco"
     smoke_fold_id: str = "protein_cluster_loco_fold_1"
     hidden_dim: int = 32
@@ -52,6 +53,7 @@ class V05Config:
     def as_dict(self) -> dict[str, Any]:
         return {
             "seed": self.seed,
+            "evaluation_seeds": list(self.evaluation_seeds),
             "smoke_split_name": self.smoke_split_name,
             "smoke_fold_id": self.smoke_fold_id,
             "hidden_dim": self.hidden_dim,
