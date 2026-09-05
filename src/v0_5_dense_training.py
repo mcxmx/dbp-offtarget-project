@@ -6,7 +6,6 @@ from typing import Any
 
 import numpy as np
 import pandas as pd
-import torch
 
 from src.utils import ensure_dir, project_root
 from src.v0_4_evaluation import compute_ranking_metrics
@@ -146,6 +145,7 @@ def _corr(first: np.ndarray, second: np.ndarray) -> float:
 def _shuffled_predictions(
     model,
     model_name: str,
+    label: str,
     protocol: str,
     cache: dict[str, dict[str, Any]],
     test_protein: str,
@@ -154,7 +154,7 @@ def _shuffled_predictions(
     entry = cache[test_protein]
     original = predict_model(model, model_name, entry)
     rows: list[dict[str, Any]] = []
-    if model_name == CandidateDNAOnly.model_name:
+    if label == "M0":
         return [
             {
                 "model": "M0",
@@ -167,29 +167,30 @@ def _shuffled_predictions(
                 "retrained": False,
             }
         ]
-    protein_shuffled = dict(entry)
-    protein_shuffled["embedding"] = cache[shuffled_protein]["embedding"]
-    shuffled = predict_model(model, model_name, protein_shuffled)
-    rows.append(
-        {
-            "model": next(label for label, name in MODEL_LABELS.items() if name == model_name or label == "M1c"),
-            "protocol": protocol,
-            "dbp_id": test_protein,
-            "shuffle_type": "protein",
-            "permutation_source": shuffled_protein,
-            "prediction_correlation": _corr(original, shuffled),
-            "mean_abs_score_change": float(np.mean(np.abs(original - shuffled))),
-            "retrained": False,
-        }
-    )
-    if model_name == ProteinTargetCandidate.model_name:
+    if label in {"M1c", "M3"}:
+        protein_shuffled = dict(entry)
+        protein_shuffled["embedding"] = cache[shuffled_protein]["embedding"]
+        shuffled = predict_model(model, model_name, protein_shuffled)
+        rows.append(
+            {
+                "model": label,
+                "protocol": protocol,
+                "dbp_id": test_protein,
+                "shuffle_type": "protein",
+                "permutation_source": shuffled_protein,
+                "prediction_correlation": _corr(original, shuffled),
+                "mean_abs_score_change": float(np.mean(np.abs(original - shuffled))),
+                "retrained": False,
+            }
+        )
+    if label in {"M2", "M3"}:
         target_shuffled = dict(entry)
         target_shuffled["target"] = cache[shuffled_protein]["target"]
         target_shuffled["target_features"] = cache[shuffled_protein]["target_features"]
         shuffled_target = predict_model(model, model_name, target_shuffled)
         rows.append(
             {
-                "model": "M3",
+                "model": label,
                 "protocol": protocol,
                 "dbp_id": test_protein,
                 "shuffle_type": "target",
@@ -205,7 +206,6 @@ def _shuffled_predictions(
 def run_dense_smoke(config: V05Config | None = None) -> dict[str, pd.DataFrame]:
     config = dense_config_from_registered() if config is None else config
     set_seed(config.seed)
-    torch.set_num_threads(2)
     benchmark, targets, embedding_map, splits = load_v05_data()
     fold_id, train_proteins, test_proteins = select_untouched_smoke_fold(
         splits,
@@ -326,7 +326,7 @@ def run_dense_smoke(config: V05Config | None = None) -> dict[str, pd.DataFrame]:
             shuffled_source = sorted(set(train_proteins + test_proteins))
             source = shuffled_source[(shuffled_source.index(test_proteins[0]) + 1) % len(shuffled_source)]
             shuffle_rows.extend(
-                _shuffled_predictions(model, canonical_name, protocol, cache, test_proteins[0], source)
+                _shuffled_predictions(model, canonical_name, label, protocol, cache, test_proteins[0], source)
             )
 
     evaluation = pd.DataFrame(all_eval_rows)
