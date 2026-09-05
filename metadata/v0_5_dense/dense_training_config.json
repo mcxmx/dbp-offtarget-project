@@ -1,0 +1,40 @@
+{
+  "phase": "v0.5_phase6A",
+  "seed": 17,
+  "smoke_split_name": "protein_cluster_loco",
+  "smoke_fold_id": "protein_cluster_loco_fold_3",
+  "smoke_exposure_status": "development-exposed-for-dense-supervision",
+  "protocols": {
+    "S512": {
+      "pairs_per_protein": 512,
+      "sampler": "frozen v0.5 deterministic sampler"
+    },
+    "D4096": {
+      "pairs_per_protein": 4096,
+      "sampler": "deterministic coverage-aware within-protein sampler"
+    },
+    "D16384": {
+      "pairs_per_protein": 16384,
+      "sampler": "deterministic coverage-aware within-protein sampler"
+    }
+  },
+  "models": [
+    "M0_CandidateDNAOnly",
+    "M1c_ProteinCandidateCapacityMatched",
+    "M2_TargetCandidateOnly",
+    "M3_ProteinTargetCandidate"
+  ],
+  "hidden_dim": 32,
+  "capacity_matched_hidden_dim": 40,
+  "learning_rate": 0.01,
+  "weight_decay": 0.0001,
+  "epochs": 18,
+  "batch_size": 128,
+  "tie_tolerance": 1e-10,
+  "loss": "frozen within-protein logistic pairwise ranking loss",
+  "target_definition": "frozen primary intended target from metadata/v0_5",
+  "dna_unit": "canonical reverse-complement 7-mer class",
+  "evaluation_metric": "per-protein Spearman",
+  "designed_test_used_for_selection": false,
+  "status": "single-fold_falsification_pilot_not_full_evaluation"
+}

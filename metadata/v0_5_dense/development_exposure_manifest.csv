@@ -1,0 +1,8 @@
+protein_id,prior_exposure_status,phase6a_exposure_status,exposure_source,notes
+DBP1,development_exposed,development_exposed,global v0.5 smoke fold 1,Not untouched before Phase 6A.
+DBP3,development_exposed,development_exposed,global v0.5 smoke fold 1,Not untouched before Phase 6A.
+DBP5,development_exposed_for_local_model,development_exposed_for_local_model,Phase 5A local fold 2,Not untouched before Phase 6A.
+DBP35,development_exposed_for_local_model,development_exposed_for_local_model,Phase 5A local fold 2,Not untouched before Phase 6A.
+DBP48,still_untouched,development_exposed_for_dense_supervision,Phase 6A fold 3 smoke,First fully untouched fold selected by manifest order.
+DBP6,still_untouched,still_untouched,none,Reserved for later evaluation.
+DBP9,still_untouched,still_untouched,none,Reserved for later evaluation.
