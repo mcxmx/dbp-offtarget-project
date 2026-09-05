@@ -39,3 +39,4 @@
 37. For v0.5, use the existing four protein-sequence clusters for the primary leave-one-cluster-out split. Use connected components over protein-cluster, original-target, assay-target, and motif links as a strict sensitivity split.
 38. For v0.5, treat canonical reverse-complement equivalence classes as the DNA unit and prohibit random protein-7-mer row splits.
 39. For v0.5, a future target-conditioned model must be non-separable in `(P,T,D)`. Subtracting a candidate-independent `S(P,T)` constant from `S(P,D)` cannot change the within-protein ranking.
+40. For v0.5 Phase 2 smoke training, use deterministic within-protein logistic ranking pairs with seed 42 and fixed 40% easy, 35% medium, and 25% hard rank-difference strata. The sampler was corrected to match this declared protocol before the final smoke run; this changes only the smoke-training pair composition, not benchmark data or split definitions.

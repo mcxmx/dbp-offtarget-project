@@ -115,12 +115,23 @@
 - The graph produces three combined components: DBP1/DBP3, DBP35/DBP5/DBP6/DBP9, and DBP48.
 - Defined leave-one-protein-cluster-out as the primary split and combined-component-out as a strict sensitivity split; random protein-7-mer row splits are prohibited.
 - Added a toy algebraic test showing that subtracting a candidate-independent `S(P,T)` constant cannot change within-protein candidate ranking.
-- No v0.5 model was trained or implemented.
+
+### v0.5 Phase 2 matched model family and smoke training
+
+- Implemented the matched `M0` candidate-DNA-only, `M1` protein-candidate, `M2` target-candidate-only, and `M3` protein-target-candidate model family, plus the `M1c` capacity-matched control.
+- Reused the frozen ESM-2 `esm2_t12_35M_UR50D` 480-dimensional embeddings for M1/M3; no protein language model parameters are trainable.
+- Added RC-invariant DNA encoding, canonical target-window handling, target-relative sequence controls, and a protein-controlled FiLM interaction in M3.
+- Added deterministic within-protein easy/medium/hard pair sampling and logistic pairwise ranking loss. The fixed protocol is 40% easy, 35% medium, and 25% hard with seed 42.
+- Ran the first legal primary `protein_cluster_loco_fold_1` smoke training for all five model variants. The output is explicitly engineering-only and is not a primary scientific result.
+- Recorded parameter counts, pair counts, loss histories, prediction-health checks, runtime, per-protein ranking metrics, and target-control metrics under `results/v0_5/`.
+- Added v0.5 model and training tests; the full suite reports 107 passed.
+- No complete four-fold primary evaluation or final proposed-model development was started.
 
 ## In progress
 
 - Expanding natural PBM protein sequence curation from full-length UniProt references to assay construct sequences.
 - Improving structure-aware baseline coverage for all seven designed DBPs.
+- Reviewing the v0.5 smoke implementation before any complete four-fold evaluation.
 
 ## Next step
 
@@ -129,6 +140,7 @@
 - Replace v0.4.1 proxy protein clustering with MMseqs2/CD-HIT once a Linux runtime is available.
 - Curate experimental PBM construct sequences where source publications provide them.
 - Keep GSE237017 designed DBPs as an external test set rather than mixing them into natural DBP training.
+- Run the pre-registered v0.5 four-fold model comparison only after the smoke implementation is reviewed; do not select architecture or hyperparameters from designed test results.
 
 ## Known limitations
 

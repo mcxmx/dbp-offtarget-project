@@ -2,8 +2,9 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.5 target-conditioned specificity data and split contract;
-no v0.5 model has been trained.
+Current status: v0.5 target-conditioned specificity model family implemented;
+one fixed-fold engineering smoke training completed. The complete four-fold
+primary evaluation and final proposed model have not been run.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -14,6 +15,7 @@ Current scope:
 - designed DBP uPBM experimental specificity benchmark from GEO GSE237017
 - baseline feasibility and diagnostic evaluation for DeepPBS / NA-MPNN / simple protein-conditioned scaffold
 - natural UniPROBE PBM 8-mer training benchmark for first protein-conditioned baseline sanity checks
+- v0.5 matched model family (`M0` to `M3`) with RC-invariant scoring, deterministic pairwise ranking training, and one legal-fold smoke test
 
 NO FINAL PROPOSED MODEL TRAINED YET.
 
@@ -37,7 +39,7 @@ proposed model.
 - Groups all future DNA-level partitions by canonical reverse-complement
   equivalence class.
 - Prohibits random splitting of the 57,344 protein-RC-class rows.
-- No proposed target-conditioned model is implemented or trained yet.
+- The v0.5 matched implementation is an engineering/smoke-test family, not the final proposed model; no complete four-fold primary evaluation has been run.
 
 ## v0.4.2 Current Results
 
