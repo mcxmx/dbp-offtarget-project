@@ -1,0 +1,52 @@
+Phase 6A dense supervision smoke
+
+          split_name                     fold_id                 train_proteins test_proteins  seed                        status                           exposure_status
+protein_cluster_loco protein_cluster_loco_fold_3 DBP1|DBP3|DBP35|DBP5|DBP6|DBP9         DBP48    17 NOT PRIMARY SCIENTIFIC RESULT development-exposed-for-dense-supervision
+
+model protocol  training_pair_count  optimizer_steps  first_epoch_loss  final_epoch_loss  loss_reduction  train_macro_median_spearman  test_macro_median_spearman  test_prediction_variance  nan_inf_count  runtime_seconds   status
+   M0     S512                 3072              432          0.692098          0.627258        0.064840                     0.303073                   -0.202994                  0.311687              0         1.774226 complete
+  M1c     S512                 3072              432          0.696365          0.616532        0.079833                     0.311632                   -0.164334                  0.380935              0         2.672946 complete
+   M2     S512                 3072              432          0.694330          0.634371        0.059959                     0.262663                   -0.183266                  0.233002              0         2.861197 complete
+   M3     S512                 3072              432          0.696598          0.619182        0.077417                     0.305791                   -0.255933                  0.483499              0         4.110555 complete
+   M0    D4096                24576             3456          0.683204          0.660735        0.022469                     0.333015                   -0.273387                  0.093062              0        14.332725 complete
+  M1c    D4096                24576             3456          0.684867          0.662253        0.022615                     0.319411                   -0.181917                  0.070208              0        23.013786 complete
+   M2    D4096                24576             3456          0.682220          0.663370        0.018850                     0.302052                   -0.328712                  0.112684              0        31.864901 complete
+   M3    D4096                24576             3456          0.680484          0.670439        0.010044                     0.288863                   -0.293103                  0.056454              0        50.630348 complete
+   M0   D16384                98304            13824          0.660677          0.646837        0.013840                     0.272158                   -0.224453                  0.244593              0        56.045596 complete
+  M1c   D16384                98304            13824          0.664789          0.647015        0.017774                     0.221513                   -0.118028                  0.213448              0        86.586855 complete
+   M2   D16384                98304            13824          0.666194          0.647807        0.018387                     0.294992                   -0.253300                  0.174017              0       134.398892 complete
+   M3   D16384                98304            13824          0.662537          0.651916        0.010621                     0.274231                   -0.268989                  0.198120              0       225.844993 complete
+
+model dbp_id  S512_test_rho  D4096_test_rho  D16384_test_rho  D4096_minus_S512  D16384_minus_S512
+   M0  DBP48      -0.202994       -0.273387        -0.224453         -0.070394          -0.021459
+  M1c  DBP48      -0.164334       -0.181917        -0.118028         -0.017583           0.046306
+   M2  DBP48      -0.183266       -0.328712        -0.253300         -0.145446          -0.070034
+   M3  DBP48      -0.255933       -0.293103        -0.268989         -0.037170          -0.013057
+
+model protocol dbp_id shuffle_type permutation_source  prediction_correlation  mean_abs_score_change  retrained
+   M0     S512  DBP48         none                                        NaN               0.000000      False
+  M1c     S512  DBP48      protein               DBP5                0.832134               0.509099      False
+   M2     S512  DBP48       target               DBP5                0.895112               0.238704      False
+   M3     S512  DBP48      protein               DBP5                0.999998               0.003323      False
+   M3     S512  DBP48       target               DBP5                0.968069               0.164237      False
+   M0    D4096  DBP48         none                                        NaN               0.000000      False
+  M1c    D4096  DBP48      protein               DBP5                0.999984               0.029993      False
+   M2    D4096  DBP48       target               DBP5                0.996247               0.025410      False
+   M3    D4096  DBP48      protein               DBP5                0.999999               0.000403      False
+   M3    D4096  DBP48       target               DBP5                0.981359               0.041485      False
+   M0   D16384  DBP48         none                                        NaN               0.000000      False
+  M1c   D16384  DBP48      protein               DBP5                0.999997               0.031496      False
+   M2   D16384  DBP48       target               DBP5                0.997336               0.038751      False
+   M3   D16384  DBP48      protein               DBP5                0.999998               0.003343      False
+   M3   D16384  DBP48       target               DBP5                0.981013               0.109860      False
+
+model protocol  median_candidate_coverage  train_rho  test_rho  median_shuffle_prediction_correlation
+  M1c     S512                   0.117676   0.311632 -0.164334                               0.832134
+   M2     S512                   0.117676   0.262663 -0.183266                               0.895112
+   M3     S512                   0.117676   0.305791 -0.255933                               0.984034
+  M1c    D4096                   0.766357   0.319411 -0.181917                               0.999984
+   M2    D4096                   0.766357   0.302052 -0.328712                               0.996247
+   M3    D4096                   0.766357   0.288863 -0.293103                               0.990679
+  M1c   D16384                   1.000000   0.221513 -0.118028                               0.999997
+   M2   D16384                   1.000000   0.294992 -0.253300                               0.997336
+   M3   D16384                   1.000000   0.274231 -0.268989                               0.990506

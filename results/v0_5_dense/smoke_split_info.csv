@@ -1,0 +1,2 @@
+split_name,fold_id,train_proteins,test_proteins,seed,status,exposure_status
+protein_cluster_loco,protein_cluster_loco_fold_3,DBP1|DBP3|DBP35|DBP5|DBP6|DBP9,DBP48,17,NOT PRIMARY SCIENTIFIC RESULT,development-exposed-for-dense-supervision

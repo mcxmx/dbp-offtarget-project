@@ -61,3 +61,16 @@ protocols will be reported.
 
 No full four-fold dense experiment, listwise loss, local-model dense run, or
 genome mining follows automatically from this pilot.
+
+## Execution and replay validation
+
+The registered smoke was rerun after a pre-validation reproducibility issue
+was identified. An extra `torch.set_num_threads(2)` in the dense runner
+changed CPU floating-point execution relative to the frozen v0.5 runner and
+was removed. The accepted S512 results reproduce the frozen
+`protein_cluster_loco_fold_3`/seed-17 DBP48 results exactly for M0, M1c, M2,
+and M3. The replay is enforced by an automated test. The earlier
+non-replaying output was not used for interpretation.
+
+The accepted run completed all S512, D4096, and D16384 protocols with the
+registered seed. H2 was evaluated only after this replay check passed.
