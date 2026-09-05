@@ -1,0 +1,36 @@
+Phase 5A local interaction smoke
+
+          split_name                     fold_id            train_proteins test_proteins  n_train_proteins  n_test_proteins  n_rc_units_per_protein  training_pair_count                        status                     exposure_status
+protein_cluster_loco protein_cluster_loco_fold_2 DBP1|DBP3|DBP48|DBP6|DBP9    DBP35|DBP5                 5                2                    8192                 2560 NOT PRIMARY SCIENTIFIC RESULT development-exposed-for-local-model
+
+                                   model inputs  trainable_params  frozen_params  frozen_protein_embedding_dim                                                                              notes
+                L1_LocalProteinCandidate    P,D             15385              0                           480 ESM residue embeddings are external frozen inputs; not trainable model parameters.
+L1c_LocalProteinCandidateCapacityMatched    P,D             16425              0                           480 ESM residue embeddings are external frozen inputs; not trainable model parameters.
+          L2_LocalProteinTargetCandidate  P,T,D             17713              0                           480 ESM residue embeddings are external frozen inputs; not trainable model parameters.
+
+                                   model  training_pair_count  first_epoch_loss  final_epoch_loss  loss_delta  train_macro_median_spearman  test_prediction_variance  test_prediction_min  test_prediction_max  nan_inf_count  runtime_seconds   status
+                L1_LocalProteinCandidate                 2560          0.690524          0.693224    0.002700                     0.024004              9.080907e-06            -0.261561            -0.244534              0         9.596084 complete
+L1c_LocalProteinCandidateCapacityMatched                 2560          0.690942          0.693147    0.002205                     0.028973              6.094871e-07             0.079511             0.081147              0         9.546412 complete
+          L2_LocalProteinTargetCandidate                 2560          0.694613          0.693150   -0.001463                     0.018214              2.592936e-05            -0.001582             0.026795              0        11.162075 complete
+
+dbp_id   old_M1c    old_M2   old_M3        L1       L1c        L2                                                                                context_note
+ DBP35 -0.012960  0.080646 0.047683 -0.191882 -0.188782 -0.187176 old columns are frozen v0.5 primary seed-mean values; local columns are Phase 5A smoke only
+  DBP5  0.060506 -0.029258 0.068199 -0.335690 -0.335605 -0.338024 old columns are frozen v0.5 primary seed-mean values; local columns are Phase 5A smoke only
+
+                                   model dbp_id shuffle_type permutation_source  prediction_correlation  original_spearman  shuffled_spearman  spearman_delta  mean_abs_score_change  retrained
+                L1_LocalProteinCandidate  DBP35      protein              DBP48                1.000000          -0.191882          -0.191552        0.000330               0.043143      False
+                L1_LocalProteinCandidate   DBP5      protein               DBP6                1.000000          -0.335690          -0.335870       -0.000180               0.007675      False
+L1c_LocalProteinCandidateCapacityMatched  DBP35      protein              DBP48                0.999997          -0.188782          -0.188094        0.000688               0.001841      False
+L1c_LocalProteinCandidateCapacityMatched   DBP5      protein               DBP6                0.999984          -0.335605          -0.335767       -0.000161               0.002933      False
+          L2_LocalProteinTargetCandidate  DBP35      protein              DBP48                0.999996          -0.187176          -0.186381        0.000795               0.003044      False
+          L2_LocalProteinTargetCandidate  DBP35       target              DBP48                1.000000          -0.187176          -0.187173        0.000003               0.001878      False
+          L2_LocalProteinTargetCandidate   DBP5      protein               DBP6                0.999999          -0.338024          -0.338044       -0.000020               0.002641      False
+          L2_LocalProteinTargetCandidate   DBP5       target               DBP6                1.000000          -0.338024          -0.338024        0.000000               0.000000      False
+
+                                   model dbp_id  n_candidates_sampled  attention_entropy_normalized  candidate_attention_variation_mean_std  top_residue_max_fraction  top_residue_unique_count                                            interpretation
+                L1_LocalProteinCandidate  DBP35                   256                      0.999548                                0.000398                  0.929129                         2 mechanism sanity diagnostic; not a biological contact map
+                L1_LocalProteinCandidate   DBP5                   256                      0.999531                                0.000361                  0.893415                         2 mechanism sanity diagnostic; not a biological contact map
+L1c_LocalProteinCandidateCapacityMatched  DBP35                   256                      0.999902                                0.000219                  0.570312                         3 mechanism sanity diagnostic; not a biological contact map
+L1c_LocalProteinCandidateCapacityMatched   DBP5                   256                      0.999905                                0.000219                  0.820312                         3 mechanism sanity diagnostic; not a biological contact map
+          L2_LocalProteinTargetCandidate  DBP35                   256                      0.999090                                0.000235                  0.607701                         2 mechanism sanity diagnostic; not a biological contact map
+          L2_LocalProteinTargetCandidate   DBP5                   256                      0.999357                                0.000220                  0.713170                         2 mechanism sanity diagnostic; not a biological contact map

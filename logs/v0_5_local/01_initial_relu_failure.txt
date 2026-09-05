@@ -1,0 +1,13 @@
+Phase 5A initial implementation diagnostic
+
+The first fixed fold-2 smoke used the same registered seed (42), optimizer,
+learning rate, pair sampler, and 18 epochs as the replacement run. The local
+ReLU implementation produced a constant L1 test prediction (variance
+4.930380657631324e-32; Spearman undefined) and an effectively collapsed L2
+prediction (variance 2.9208204743724764e-09). This was classified as a
+training-health implementation failure, not a scientific result.
+
+The only repair was replacing the local interaction/scoring MLP ReLU
+activations with smooth tanh activations. Hidden dimensions, inputs, target
+windows, RC pooling, loss, pair count, optimizer, epochs, seed, and smoke fold
+were unchanged. The replacement run is the reportable Phase 5A smoke.

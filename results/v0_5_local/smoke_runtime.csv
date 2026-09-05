@@ -1,0 +1,4 @@
+model,runtime_seconds,training_proteins,test_proteins
+L1_LocalProteinCandidate,9.596083500000532,DBP1|DBP3|DBP48|DBP6|DBP9,DBP35|DBP5
+L1c_LocalProteinCandidateCapacityMatched,9.546412199997576,DBP1|DBP3|DBP48|DBP6|DBP9,DBP35|DBP5
+L2_LocalProteinTargetCandidate,11.162074600011692,DBP1|DBP3|DBP48|DBP6|DBP9,DBP35|DBP5

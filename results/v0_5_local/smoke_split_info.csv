@@ -1,0 +1,2 @@
+split_name,fold_id,train_proteins,test_proteins,n_train_proteins,n_test_proteins,n_rc_units_per_protein,training_pair_count,status,exposure_status
+protein_cluster_loco,protein_cluster_loco_fold_2,DBP1|DBP3|DBP48|DBP6|DBP9,DBP35|DBP5,5,2,8192,2560,NOT PRIMARY SCIENTIFIC RESULT,development-exposed-for-local-model

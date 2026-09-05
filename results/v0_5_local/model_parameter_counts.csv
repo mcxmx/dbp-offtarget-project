@@ -1,0 +1,4 @@
+model,inputs,trainable_params,frozen_params,frozen_protein_embedding_dim,notes
+L1_LocalProteinCandidate,"P,D",15385,0,480,ESM residue embeddings are external frozen inputs; not trainable model parameters.
+L1c_LocalProteinCandidateCapacityMatched,"P,D",16425,0,480,ESM residue embeddings are external frozen inputs; not trainable model parameters.
+L2_LocalProteinTargetCandidate,"P,T,D",17713,0,480,ESM residue embeddings are external frozen inputs; not trainable model parameters.
