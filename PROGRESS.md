@@ -140,6 +140,24 @@
 - M3 did not consistently exceed both matched protein-only controls and the target-only control. No final GO/NO-GO decision is issued in this phase; hard-case analysis is intentionally deferred.
 - Added `results/v0_5/V0_5_PRIMARY_RESULTS.md` and complete primary/strict result artifacts.
 
+### v0.5 Phase 7A natural-transfer stop and exposure correction
+
+- Corrected current development bookkeeping: the complete v0.5 primary
+  evaluation exposed all seven designed DBPs. There is no untouched
+  confirmatory GSE237017 subset remaining.
+- Preserved the earlier Phase 5A and Phase 6A exposure fields as historical
+  snapshots and recorded current status in
+  `metadata/v0_5_transfer/exposure_manifest.csv`.
+- Audited the existing natural UniPROBE benchmark against the designed
+  GSE237017 benchmark: natural data use processed contiguous 8-mer E-scores
+  and mostly full-length reference sequences, while designed data use
+  processed 7-mer uPBM E-scores.
+- Stopped the H3 natural-transfer mainline as `NOT SUPPORTED` before running a
+  new bridge. Prior SimplePC values remain unmatched context only; no causal
+  protein-diversity claim is made.
+- Recorded one next falsifiable hypothesis, assay/task alignment (H4), without
+  implementing a new model or downloading another dataset.
+
 ## In progress
 
 - Expanding natural PBM protein sequence curation from full-length UniProt references to assay construct sequences.
@@ -156,6 +174,9 @@
 - Keep GSE237017 designed DBPs as an external test set rather than mixing them into natural DBP training.
 - Review the frozen v0.5 primary evidence and run the separately scoped hard-case analysis without changing the primary evaluation contract or selecting on the designed results.
 - Perform the separately scoped v0.5 hard-case/failure analysis without changing the frozen primary evaluation contract.
+- Curate an assay-matched natural PBM control or independent designed-DBP
+  confirmatory dataset before making a final transfer or model-development
+  claim.
 
 ## Known limitations
 

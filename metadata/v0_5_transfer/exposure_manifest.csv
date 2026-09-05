@@ -1,0 +1,8 @@
+protein_id,current_exposure_status,current_exposure_basis,first_exposure_phase,confirmatory_status,notes
+DBP1,development_exposed,Viewed in the complete v0.5 primary evaluation and earlier fold-1 smoke,v0.5_primary_and_smoke,not_available,The prior smoke used the DBP1/DBP3 held-out cluster.
+DBP3,development_exposed,Viewed in the complete v0.5 primary evaluation and earlier fold-1 smoke,v0.5_primary_and_smoke,not_available,The prior smoke used the DBP1/DBP3 held-out cluster.
+DBP5,development_exposed,Viewed in the complete v0.5 primary evaluation and the Phase 5A local smoke,v0.5_primary_and_local_smoke,not_available,The primary result and local pilot have both been inspected.
+DBP35,development_exposed,Viewed in the complete v0.5 primary evaluation and the Phase 5A local smoke,v0.5_primary_and_local_smoke,not_available,The primary result and local pilot have both been inspected.
+DBP48,development_exposed,Viewed in the complete v0.5 primary evaluation and the Phase 6A dense smoke,v0.5_primary_and_dense_smoke,not_available,The dense smoke used the DBP48 fold.
+DBP6,development_exposed,Viewed in the complete v0.5 primary evaluation,v0.5_primary,not_available,The complete primary evaluation exposed this protein even though it was not selected for an earlier smoke.
+DBP9,development_exposed,Viewed in the complete v0.5 primary evaluation,v0.5_primary,not_available,The complete primary evaluation exposed this protein even though it was not selected for an earlier smoke.

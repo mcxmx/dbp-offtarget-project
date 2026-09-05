@@ -116,6 +116,14 @@ supervision to L1/L2 based on this pilot. Sparse pair coverage may still be a
 limitation, but this experiment does not establish it as the explanation for
 the cross-protein failure.
 
+### Current exposure correction
+
+This report preserves the exposure state known during Phase 6A. It is a
+historical snapshot, not the current confirmatory status. The complete v0.5
+primary evaluation subsequently exposed all seven designed DBPs, including
+DBP6 and DBP9. No GSE237017 designed protein is currently untouched; see
+`metadata/v0_5_transfer/exposure_manifest.csv`.
+
 The next possible hypothesis is outside this phase: the remaining bottleneck
 may be cross-protein generalization or the frozen global protein
 representation, rather than the number of sampled ranking pairs.

@@ -1,0 +1,15 @@
+{
+  "phase": "v0.5 Phase 7A",
+  "hypothesis": "H3",
+  "decision": "NOT SUPPORTED",
+  "natural_transfer_mainline": "stopped",
+  "bridge_execution": false,
+  "designed_labels_added_to_natural_training": false,
+  "target_conditioned_model_implemented": false,
+  "target_features_used_in_natural_training": false,
+  "designed_evaluation_status": "developmental_exploratory",
+  "independent_confirmatory_designed_dataset": "required",
+  "primary_natural_source": "data/processed/v0_4_1/natural_pbm_benchmark_v0_4_1.parquet",
+  "primary_designed_source": "data/processed/v0_3_1/designed_dbp_upbm_rc_class_v0_3_1.parquet",
+  "decision_basis": "The prior SimplePC natural and designed values are unmatched context, not a Phase 7A bridge."
+}

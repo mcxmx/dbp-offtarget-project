@@ -93,3 +93,12 @@ Do not run Phase 5B full local-model evaluation from this smoke result. The
 next bottleneck should be reviewed before changing architecture: the current
 512-pair training signal and its ability to learn candidate-dependent
 protein-residue interactions. No proposed model was implemented.
+
+### Current exposure correction
+
+The exposure statements in this Phase 5A report are historical snapshots.
+After the complete v0.5 primary evaluation and later diagnostics, all seven
+designed DBPs have been viewed during development. They must not be described
+as untouched confirmatory proteins. The unchanged historical artifacts remain
+valid for Phase 5A provenance; current status is in
+`metadata/v0_5_transfer/exposure_manifest.csv`.

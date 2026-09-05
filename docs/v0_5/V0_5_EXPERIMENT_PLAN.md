@@ -122,6 +122,16 @@ DBP48, DBP6, and DBP9. The complete seven-protein result will report all
 folds, while the primary confirmatory descriptive summary will also report
 this previously unseen five-protein subset separately.
 
+### Current exposure correction
+
+The text above is a historical pre-evaluation snapshot. After the complete
+four-fold primary evaluation and subsequent diagnostics, all seven designed
+DBPs have been viewed during development. DBP1, DBP3, DBP5, DBP35, DBP48,
+DBP6, and DBP9 are therefore currently `development_exposed`; none is an
+untouched confirmatory test protein. Historical result files and historical
+exposure labels remain unchanged. Current status is recorded in
+`metadata/v0_5_transfer/exposure_manifest.csv`.
+
 ## Frozen Evaluation Seeds
 
 Before evaluating folds 2-4, the multi-seed set is fixed to `17`, `29`, and

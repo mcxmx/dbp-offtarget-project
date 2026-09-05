@@ -1,0 +1,5 @@
+regime,training_data,designed_labels_used,designed_fine_tuning_allowed,held_out_designed_cluster_excluded,target_features_used,bridge_status,reason
+R-DESIGNED,Designed GSE237017 labels,yes,fold-training proteins only,yes,no,not_run_after_explicit_h3_stop,Natural-transfer mainline was stopped before bridge execution.
+R-NATURAL,Natural UniPROBE labels,no,no,yes,no,not_run_after_explicit_h3_stop,H3 was explicitly marked NOT SUPPORTED; no new transfer training was run.
+R-NATURAL-BUDGET-MATCHED,Natural UniPROBE labels,no,no,yes,no,not_run_after_explicit_h3_stop,No budget-matched causal comparison was run.
+R-NATURAL+DESIGNED,Natural pretraining plus designed fold training,no for held-out proteins,training designed proteins only,yes,no,not_run_after_explicit_h3_stop,No fine-tuning or designed transfer experiment was run after the stop decision.

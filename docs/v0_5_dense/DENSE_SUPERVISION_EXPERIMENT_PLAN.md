@@ -74,3 +74,12 @@ non-replaying output was not used for interpretation.
 
 The accepted run completed all S512, D4096, and D16384 protocols with the
 registered seed. H2 was evaluated only after this replay check passed.
+
+### Historical exposure snapshot correction
+
+The earlier Phase 6A bookkeeping below is a historical snapshot at the time
+of the dense smoke. After the complete v0.5 primary evaluation was inspected,
+all seven designed DBPs became development-exposed. In particular, DBP6 and
+DBP9 are not currently untouched. The historical phase-specific manifest and
+results are preserved unchanged; see
+`metadata/v0_5_transfer/exposure_manifest.csv` for current status.

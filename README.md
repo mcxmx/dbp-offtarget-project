@@ -4,7 +4,8 @@ Reproducible research prototype for genome-wide off-target risk assessment and u
 
 Current status: v0.5 complete primary and strict sensitivity evaluation;
 the matched model family has been tested across all frozen folds and seeds.
-No final proposed model has been selected or implemented.
+The v0.5 Phase 7A natural-transfer mainline was stopped with H3
+`NOT SUPPORTED`; no final proposed model has been selected or implemented.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -28,6 +29,17 @@ designed DBPs.
 Next stage: use DeepPBS as a completed partial structure-aware diagnostic and
 resolve structure coverage/overlap limitations before starting a final
 proposed model.
+
+## v0.5 Phase 7A Status
+
+- All seven GSE237017 designed DBPs are now `development_exposed` because the
+  complete v0.5 primary evaluation and later diagnostics were inspected.
+- The prior SimplePC natural/designed values are unmatched historical context,
+  not a Phase 7A bridge result.
+- Natural-transfer H3 is `NOT SUPPORTED`; no new transfer training or
+  target-conditioned model was started.
+- An independent designed-DBP dataset or prospective holdout is required for
+  final confirmation.
 
 ## v0.5 Target Contract
 

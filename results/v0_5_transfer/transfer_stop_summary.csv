@@ -1,0 +1,2 @@
+hypothesis,decision,direct_bridge_status,prior_simplepc_natural_test,prior_simplepc_designed_external,causal_claim,reason
+H3,NOT_SUPPORTED,not_run_after_explicit_stop,0.3013536821293048,0.3616108129479222,false,"Prior SimplePC results are unmatched context: natural training, representation, objective, normalization, split, and evaluation protocol differ from current v0.5 matched models."

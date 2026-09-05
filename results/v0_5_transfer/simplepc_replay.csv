@@ -1,0 +1,2 @@
+record_type,run_status,prior_artifact,prior_natural_heldout_macro_median_spearman,prior_designed_external_macro_median_spearman,new_replay_performed,reproduction_quality,notes
+prior_context,not_run_after_explicit_h3_stop,results/v0_5/baseline_context_table.csv,0.3013536821293048,0.3616108129479222,false,not_assessed,These values are from the prior unmatched v0.4.1 SimplePC protocol and are not a new replay or a causal H3 result.
