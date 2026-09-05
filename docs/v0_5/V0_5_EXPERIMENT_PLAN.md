@@ -61,6 +61,10 @@ that is tested rather than assumed.
 
 ## Split contract
 
+The PBM-derived motif may be used for the conservative leakage-sensitivity
+grouping recorded in the v0.5 audit. It must not be used as the primary target,
+as a model input, as feature engineering, or for test-performance tuning.
+
 ### Primary split: leave-one-protein-cluster-out
 
 The primary unit is a whole designed protein sequence cluster, using the

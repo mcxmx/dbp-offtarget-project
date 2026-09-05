@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "smoke_split_name": "protein_cluster_loco",
+  "smoke_fold_id": "protein_cluster_loco_fold_1",
+  "hidden_dim": 32,
+  "capacity_matched_hidden_dim": 40,
+  "learning_rate": 0.01,
+  "weight_decay": 0.0001,
+  "epochs": 18,
+  "pair_count_per_protein": 512,
+  "batch_size": 128,
+  "tie_tolerance": 1e-10,
+  "protein_representation": "frozen ESM-2 esm2_t12_35M_UR50D mean-pooled embeddings",
+  "protein_embedding_dim": 480,
+  "dna_representation": "RC-symmetric one-hot 7-mer features",
+  "target_representation": "all canonical RC target windows of length 7, mean pooled",
+  "primary_loss": "within-protein logistic pairwise ranking loss",
+  "pair_sampling": "deterministic 40% easy, 35% medium, 25% hard by within-protein rank difference",
+  "designed_test_used_for_selection": false,
+  "status": "smoke_training_only_not_primary_scientific_result"
+}

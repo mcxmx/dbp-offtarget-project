@@ -1,0 +1,6 @@
+model,inputs,trainable_params,frozen_params,protein_representation,notes
+M0_CandidateDNAOnly,D,2017,0,none,M1c is capacity-matched control; external frozen embeddings are not model parameters.
+M1_ProteinCandidate,"P,D",19457,0,"frozen ESM-2 t12 35M, 480 dimensions",M1c is capacity-matched control; external frozen embeddings are not model parameters.
+M2_TargetCandidateOnly,"T,D",6145,0,"frozen ESM-2 t12 35M, 480 dimensions",M1c is capacity-matched control; external frozen embeddings are not model parameters.
+M3_ProteinTargetCandidate,"P,T,D",23649,0,"frozen ESM-2 t12 35M, 480 dimensions",M1c is capacity-matched control; external frozen embeddings are not model parameters.
+M1c_ProteinCandidateCapacityMatched,"P,D",25281,0,"frozen ESM-2 t12 35M, 480 dimensions",M1c is capacity-matched control; external frozen embeddings are not model parameters.
