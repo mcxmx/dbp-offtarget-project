@@ -154,7 +154,7 @@
 - Replace v0.4.1 proxy protein clustering with MMseqs2/CD-HIT once a Linux runtime is available.
 - Curate experimental PBM construct sequences where source publications provide them.
 - Keep GSE237017 designed DBPs as an external test set rather than mixing them into natural DBP training.
-- Run the pre-registered v0.5 four-fold model comparison only after the smoke implementation is reviewed; do not select architecture or hyperparameters from designed test results.
+- Review the frozen v0.5 primary evidence and run the separately scoped hard-case analysis without changing the primary evaluation contract or selecting on the designed results.
 - Perform the separately scoped v0.5 hard-case/failure analysis without changing the frozen primary evaluation contract.
 
 ## Known limitations
