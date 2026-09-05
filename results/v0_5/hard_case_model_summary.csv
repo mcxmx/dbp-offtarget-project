@@ -1,0 +1,6 @@
+model,eligible,resolved,unresolved,not_evaluable,resolution_rate,reference_total,resolution_definition
+M0,1515,383,1132,0,0.2528052805280528,1515,existing v0.3.1 hard cases; prediction percentile >= 0.90 after seed-mean aggregation
+M1,1515,246,1269,0,0.16237623762376238,1515,existing v0.3.1 hard cases; prediction percentile >= 0.90 after seed-mean aggregation
+M1c,1515,282,1233,0,0.18613861386138614,1515,existing v0.3.1 hard cases; prediction percentile >= 0.90 after seed-mean aggregation
+M2,1515,241,1274,0,0.15907590759075907,1515,existing v0.3.1 hard cases; prediction percentile >= 0.90 after seed-mean aggregation
+M3,1515,236,1279,0,0.15577557755775578,1515,existing v0.3.1 hard cases; prediction percentile >= 0.90 after seed-mean aggregation

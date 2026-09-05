@@ -1,0 +1,8 @@
+dbp_id,m1_fail_m3_success,m1c_fail_m3_success,m2_fail_m3_success,joint_controls_fail_m3_success,all_current_models_fail
+DBP1,28,27,17,13,105
+DBP3,58,47,29,24,183
+DBP35,8,8,8,8,106
+DBP48,6,7,6,5,210
+DBP5,45,45,47,43,85
+DBP6,19,19,10,6,89
+DBP9,0,1,1,0,93
