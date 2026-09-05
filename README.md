@@ -2,9 +2,9 @@
 
 Reproducible research prototype for genome-wide off-target risk assessment and uncertainty calibration for sequence-specific DNA-binding proteins.
 
-Current status: v0.5 target-conditioned specificity model family implemented;
-one fixed-fold engineering smoke training completed. The complete four-fold
-primary evaluation and final proposed model have not been run.
+Current status: v0.5 complete primary and strict sensitivity evaluation;
+the matched model family has been tested across all frozen folds and seeds.
+No final proposed model has been selected or implemented.
 
 Current scope:
 - public structural protein-DNA pairs from RCSB PDB, curated as a structural cognate layer
@@ -16,6 +16,7 @@ Current scope:
 - baseline feasibility and diagnostic evaluation for DeepPBS / NA-MPNN / simple protein-conditioned scaffold
 - natural UniPROBE PBM 8-mer training benchmark for first protein-conditioned baseline sanity checks
 - v0.5 matched model family (`M0` to `M3`) with RC-invariant scoring, deterministic pairwise ranking training, and one legal-fold smoke test
+- v0.5 complete four-fold protein-cluster LOCO primary evaluation and three-fold combined-component leakage sensitivity evaluation with frozen seeds
 
 NO FINAL PROPOSED MODEL TRAINED YET.
 
@@ -39,7 +40,17 @@ proposed model.
 - Groups all future DNA-level partitions by canonical reverse-complement
   equivalence class.
 - Prohibits random splitting of the 57,344 protein-RC-class rows.
-- The v0.5 matched implementation is an engineering/smoke-test family, not the final proposed model; no complete four-fold primary evaluation has been run.
+- The v0.5 matched implementation is an engineering/baseline family, not the final proposed model.
+
+## v0.5 Primary Evaluation
+
+- Primary split: four-fold protein-cluster LOCO. Fold 1 (DBP1/DBP3) is development-exposed because it was used for the earlier engineering smoke test.
+- Previously unseen primary evidence: folds 2-4 covering DBP5, DBP35, DBP48, DBP6, and DBP9.
+- Frozen evaluation seeds: 17, 29, and 43. Seed aggregation is within protein before macro summarization.
+- All five matched models were evaluated on 8,192 canonical RC classes per test protein.
+- Primary all-7 macro median Spearman: M0 0.125, M1 0.056, M1c 0.061, M2 0.039, M3 0.068.
+- Strict combined-component sensitivity macro median Spearman: M0 0.169, M1 -0.013, M1c -0.053, M2 0.033, M3 -0.003.
+- The frozen M3 result does not consistently exceed M1, capacity-matched M1c, or M2. This phase reports evidence only; hard-case analysis and the final model gate remain deferred.
 
 ## v0.4.2 Current Results
 

@@ -125,13 +125,27 @@
 - Ran the first legal primary `protein_cluster_loco_fold_1` smoke training for all five model variants. The output is explicitly engineering-only and is not a primary scientific result.
 - Recorded parameter counts, pair counts, loss histories, prediction-health checks, runtime, per-protein ranking metrics, and target-control metrics under `results/v0_5/`.
 - Added v0.5 model and training tests; the full suite reports 107 passed.
-- No complete four-fold primary evaluation or final proposed-model development was started.
+
+### v0.5 Phase 3 complete primary evaluation and strict sensitivity
+
+- Marked `protein_cluster_loco_fold_1` as development-exposed because DBP1/DBP3 were used in the earlier engineering smoke test; folds 2-4 remain the previously unseen primary subset.
+- Frozen evaluation seeds before running the unseen folds to `17`, `29`, and `43`; no architecture, target, split, pair protocol, or hyperparameter changes were made after the smoke run.
+- Completed all four primary protein-cluster LOCO folds and all three strict combined-component LOCO folds for M0, M1, M1c, M2, and M3.
+- Saved 105 primary seed-level protein results and 105 strict sensitivity seed-level protein results: 7 proteins x 5 models x 3 seeds in each split family.
+- Aggregated seeds within each protein/model before calculating all-7 and previously-unseen-five macro summaries.
+- Computed target-relative Hamming, edit, and k-mer controls for all seven proteins using the independently sourced intended targets.
+- Primary all-7 macro median Spearman: M0 0.125, M1 0.056, M1c 0.061, M2 0.039, M3 0.068.
+- Previously-unseen-five macro median Spearman: M0 0.096, M1 -0.016, M1c 0.005, M2 0.039, M3 0.068.
+- Strict sensitivity macro median Spearman: M0 0.169, M1 -0.013, M1c -0.053, M2 0.033, M3 -0.003.
+- M3 did not consistently exceed both matched protein-only controls and the target-only control. No final GO/NO-GO decision is issued in this phase; hard-case analysis is intentionally deferred.
+- Added `results/v0_5/V0_5_PRIMARY_RESULTS.md` and complete primary/strict result artifacts.
 
 ## In progress
 
 - Expanding natural PBM protein sequence curation from full-length UniProt references to assay construct sequences.
 - Improving structure-aware baseline coverage for all seven designed DBPs.
 - Reviewing the v0.5 smoke implementation before any complete four-fold evaluation.
+- Reviewing the frozen primary evidence before starting the separate hard-case analysis phase.
 
 ## Next step
 
@@ -141,6 +155,7 @@
 - Curate experimental PBM construct sequences where source publications provide them.
 - Keep GSE237017 designed DBPs as an external test set rather than mixing them into natural DBP training.
 - Run the pre-registered v0.5 four-fold model comparison only after the smoke implementation is reviewed; do not select architecture or hyperparameters from designed test results.
+- Perform the separately scoped v0.5 hard-case/failure analysis without changing the frozen primary evaluation contract.
 
 ## Known limitations
 
@@ -152,7 +167,7 @@
 - JASPAR pilot scores are PFM-derived PWM log2-odds values, not raw PBM/HT-SELEX enrichment.
 - GSE237017 processed PBM tables are 7-mer level; intended full target DNA sequences are longer than 7 bp and are summarized by overlapping 7-mers only.
 - Natural-to-designed OOD evaluation may be confounded by assay shift unless natural PBM/uPBM controls are added.
-- No calibrated uncertainty or protein-conditioned binding model is available yet.
+- No calibrated uncertainty or final proposed protein-conditioned binding model is available yet; v0.5 models are matched baseline prototypes.
 - v0.4 NA-MPNN results are diagnostic for two proteins only; DBP48/8TAC is not zero-shot because of detected split overlap.
 - DeepPBS is evaluated only for DBP35 and DBP48; the two-protein result is diagnostic and cannot support a seven-protein generalization claim.
 - v0.4.1 natural PBM uses 8-mer UniPROBE E-scores, while GSE237017 designed uPBM uses 7-mer E-scores; natural-to-designed comparisons remain confounded by assay/k-mer processing differences.
