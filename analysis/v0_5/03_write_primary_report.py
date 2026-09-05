@@ -239,11 +239,16 @@ def write_report() -> None:
         "",
         "The frozen primary result does not provide robust evidence that M3 "
         "improves target-conditioned ranking over both protein-only matched "
-        "controls: its all-7 median is below M1c, and its improvement counts "
-        "are not consistent across the primary or strict split. M3 also does "
-        "not exceed M2 in macro median. The unseen-five subset shows a small "
-        "positive median delta versus M1 and M1c but remains negative versus "
-        "M2 and is based on only five proteins.",
+        "controls. The unpaired all-7 macro medians are M1=0.0558, "
+        "M1c=0.0605, and M3=0.0682, but the pre-registered paired "
+        "per-protein median deltas are M3-M1=0.0124 and M3-M1c=-0.0227, "
+        "with improvements on only 4/7 and 3/7 proteins respectively. The "
+        "paired delta is the relevant comparison because the median of paired "
+        "differences is not the difference of macro medians. M3-M2 has a "
+        "paired median delta of -0.0201 and improves on only 3/7 proteins. "
+        "The unseen-five subset shows small positive paired median deltas "
+        "versus M1 and M1c but a negative delta versus M2, and is based on "
+        "only five proteins.",
         "",
         "This report does not issue a final GO/NO-GO decision. Hard-case analysis "
         "and failure-resolution analysis are intentionally deferred to the next "
