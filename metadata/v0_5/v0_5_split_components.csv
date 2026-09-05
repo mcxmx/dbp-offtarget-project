@@ -1,0 +1,4 @@
+component_id,members,n_proteins,protein_clusters,original_target_groups,assay_target_groups,motif_groups,legal_for_primary_cluster_split,legal_for_strict_component_split,notes
+combined_component_1,DBP1|DBP3,2,protein_cluster_1,original_target_A_c,assay_target_A_c,motif_CCTGC|motif_GCAGGA,True,True,All proteins in a component must remain in the same future split.
+combined_component_2,DBP35|DBP5|DBP6|DBP9,4,protein_cluster_2|protein_cluster_4,original_target_B_b|original_target_B_c,assay_target_B_b|assay_target_B_c,motif_TGCACA,True,True,All proteins in a component must remain in the same future split.
+combined_component_3,DBP48,1,protein_cluster_3,original_target_I_b,assay_target_C,motif_CGTCAG,True,True,All proteins in a component must remain in the same future split.

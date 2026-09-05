@@ -1,0 +1,8 @@
+dbp_id_a,dbp_id_b,same_protein_cluster,same_original_target_group,same_assay_target_group,same_motif_group,relationship_basis,target_leakage_risk,combined_component
+DBP1,DBP3,True,True,True,False,protein_cluster|original_target_group|assay_target_group,yes,combined_component_1
+DBP5,DBP6,False,False,False,True,motif_group,yes,combined_component_2
+DBP5,DBP9,False,False,False,True,motif_group,yes,combined_component_2
+DBP5,DBP35,True,True,True,True,protein_cluster|original_target_group|assay_target_group|motif_group,yes,combined_component_2
+DBP6,DBP9,True,True,True,True,protein_cluster|original_target_group|assay_target_group|motif_group,yes,combined_component_2
+DBP6,DBP35,False,False,False,True,motif_group,yes,combined_component_2
+DBP9,DBP35,False,False,False,True,motif_group,yes,combined_component_2
