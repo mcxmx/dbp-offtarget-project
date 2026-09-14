@@ -1,0 +1,8 @@
+method,protein_id,status,n_candidates,spearman,coverage_fraction,score_variance,structure_source,model_version,exposure_status
+NA-MPNN,DBP1,evaluated,8192,-0.31103904947685357,1.0,0.7217249278686919,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP001.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP3,evaluated,8192,-0.07735566258990552,1.0,1.6528747496992482,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP003.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP5,evaluated,8192,0.1838524058379643,1.0,1.0746090375938069,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP005.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP6,evaluated,8192,0.12466304128709847,1.0,0.8478142988781988,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP006.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP9,evaluated,8192,0.1042933574931015,1.0,0.9351186371414069,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP009.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP35,evaluated,8192,0.24195541542049212,1.0,1.3238975038844494,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP035.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP48,evaluated,8192,0.26752497653438334,1.0,0.7480162434757155,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP048.pdb,s_70114.pt,DEVELOPMENT_EXPOSED_GSE237017

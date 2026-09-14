@@ -1,0 +1,8 @@
+protein_id,structure,status,heavy_atom_contact_count_4A,base_atom_contact_count_4A,base_contacting_residue_count,base_specific_hbond_like_count,backbone_or_phosphate_contact_count,contact_definition
+DBP1,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP001.pdb,computed,98,48,12,9,50,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
+DBP3,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP003.pdb,computed,102,39,16,11,63,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
+DBP5,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP005.pdb,computed,80,25,14,5,55,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
+DBP6,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP006.pdb,computed,82,35,10,7,47,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
+DBP9,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP009.pdb,computed,75,33,11,6,42,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
+DBP35,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP035.pdb,computed,80,32,16,5,48,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
+DBP48,data/raw/v1_0_structure/design_pdbs/design_pdbs/DBP048.pdb,computed,81,38,10,10,43,non-H protein/DNA atom distance <=4.0A; base atom names whitelist; exploratory descriptor
