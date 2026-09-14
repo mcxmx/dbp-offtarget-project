@@ -1,0 +1,3 @@
+protein_id,structure_source,status,n_candidates,spearman,top_predicted_7mer,top_score,structure_id,comparison_status,interpretation,exposure_status
+DBP48,design_model,not_available,0,,,,,,,
+DBP48,experimental_8TAC,evaluated,8192,-0.3311403766246295,CGGAATC,-5.034336234955583,8TAC,descriptive_provenance_only,design model versus 8TAC; construct/DNA mismatch prevents isolating design-model error,DEVELOPMENT_EXPOSED_GSE237017

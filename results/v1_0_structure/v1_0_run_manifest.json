@@ -1,0 +1,12 @@
+{
+  "stage": "v1.0",
+  "design_pdb_source": "data/raw/v1_0_structure/design_pdbs/design_pdbs",
+  "structure_archive": "data/raw/v1_0_structure/41594_2025_1669_MOESM9_ESM.zip",
+  "structure_archive_sha256": "a4936a258c7174502b4aaf8be9f65b5e2c7d83c4468e79bea820d47f8b8050b8",
+  "deepPBS_environment_status": "blocked_torch_geometric_and_linux_3dna",
+  "nampnn_checkpoint": "external/nampnn/NA-MPNN/models/specificity_model/s_70114.pt",
+  "exposure_status": "DEVELOPMENT_EXPOSED_GSE237017",
+  "pbm_labels_used_for_ranking": true,
+  "register_protocol_frozen_before_ranking": true,
+  "quantitative_supplementary_labels_read": false
+}
