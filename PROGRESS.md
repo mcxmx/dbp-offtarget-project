@@ -198,3 +198,10 @@
 - DeepPBS exact overlap was not found in checked manifests, but homolog-level training overlap remains unresolved.
 - v0.5 has only seven designed proteins and three strict leakage components; split-level uncertainty is therefore limited.
 - The primary cluster split does not fully control target/motif leakage because the TGCACA motif is shared across protein clusters 2 and 4; use the combined-component sensitivity split for strict target independence.
+
+### v1.3 Conditionality & Local Effect Benchmark (2026-09-17)
+
+- Audited the repository and froze `reports/v1.3/V1_3_DATA_AUDIT.md` plus `V1_3_EVALUATION_CONTRACT.md`.
+- Parsed the 10-sheet competition workbook into the v1.3 tidy/consensus Parquet tables; DBP001/003/005/006/009/035/048 are development-exposed and DBP023/056/062 are locked holdouts.
+- Recomputed global, position-sensitivity, and within-position identity metrics from frozen v1.1 inputs; generated full permutation nulls, empirical p-values, protein-bootstrap and leave-one-protein-out summaries, and `results/v1_3/figure2_data.tsv`. The primary set is six proteins; DBP048 remains sensitivity-only.
+- DBP35opt and individual competition replicate values remain unavailable; no new model was trained. See `reports/v1.3/V1_3_PROGRESS.md`.

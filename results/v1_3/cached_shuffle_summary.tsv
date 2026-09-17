@@ -1,0 +1,6 @@
+model	held_out_spearman_median	candidate_prediction_variance_median	protein_shuffle_prediction_correlation_median	protein_conditioning_effect_size_median	target_shuffle_prediction_correlation_median	target_conditioning_effect_size_median	protein_shuffle_collapse_threshold	target_shuffle_collapse_threshold	scope	source_file	development_status
+M0	0.2714539367261298	0.9503120183944702					0.995	0.995	developmental all-seven GSE237017 DBPs	results/v0_6_representation/conditionality_diagnostics.csv	development_exposed_historical_v0_6
+M1	0.1917303755012042	1.1794191598892212					0.995	0.995	developmental all-seven GSE237017 DBPs	results/v0_6_representation/conditionality_diagnostics.csv	development_exposed_historical_v0_6
+M1c	0.1754074433040789	1.0798401832580566					0.995	0.995	developmental all-seven GSE237017 DBPs	results/v0_6_representation/conditionality_diagnostics.csv	development_exposed_historical_v0_6
+M2	0.1280522601105113	0.5245377421379089					0.995	0.995	developmental all-seven GSE237017 DBPs	results/v0_6_representation/conditionality_diagnostics.csv	development_exposed_historical_v0_6
+M3	0.1182583317329429	0.720594048500061	0.99999993845706	6.154294007743033e-08	0.9968705672603728	0.0031294327396272	0.995	0.995	developmental all-seven GSE237017 DBPs	results/v0_6_representation/conditionality_diagnostics.csv	development_exposed_historical_v0_6
