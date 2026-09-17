@@ -20,6 +20,8 @@ DBP35opt is DBP35 K18V/R33N/P42Q. The official panel 9e sheet contains 42 matche
 
 No threshold was chosen and no binary gained/lost-specificity claim is made. Exact mutation and position values are in `results/v1_3/dbp35opt_mutation_shift.tsv` and `results/v1_3/dbp35opt_position_shift.tsv`.
 
+The publication-oriented comparison is rendered from `results/v1_3/figure4_dbp35opt_data.tsv` as `figures/v1_3/Figure4_DBP35_DBP35opt.png` and PDF. The figure contains no manually edited numeric values.
+
 ## Model endpoint
 
 The predicted landscape-shift endpoint remains `NOT_EVALUABLE_NO_DBP35OPT_MODEL_PREDICTION`: the recovered workbook supplies experiment, not a DBP35opt structure/model prediction. It is therefore not yet possible to say whether DeepPBS detects this real protein perturbation.

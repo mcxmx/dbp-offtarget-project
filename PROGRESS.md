@@ -205,3 +205,13 @@
 - Parsed the 10-sheet competition workbook into the v1.3 tidy/consensus Parquet tables; DBP001/003/005/006/009/035/048 are development-exposed and DBP023/056/062 are locked holdouts.
 - Recomputed global, position-sensitivity, and within-position identity metrics from frozen v1.1 inputs; generated full permutation nulls, empirical p-values, protein-bootstrap and leave-one-protein-out summaries, and `results/v1_3/figure2_data.tsv`. The primary set is six proteins; DBP048 remains sensitivity-only.
 - DBP35opt and individual competition replicate values remain unavailable; no new model was trained. See `reports/v1.3/V1_3_PROGRESS.md`.
+
+### v1.3.1 Public Data Recovery + Prospective Holdout (2026-09-17)
+
+- Downloaded the official Springer Nature source workbooks for Extended Data Fig. 3 and Fig. 9 and cached one SHA256 per new source in the persistent manifest.
+- Confirmed exact parity for all 414 published competition means (maximum and median absolute reconstruction error 0). The downloadable sheets contain no replicate-valued columns, so the requested competition replicate noise ceiling remains not evaluable; no values were inferred from means or images.
+- Recovered the 42-mutation DBP35opt landscape. DBP35 versus DBP35opt experimental Spearman is 0.736 globally, 0.776 for position sensitivity, and 0.184 for within-position identity residuals. The comparison remains assay-context confounded.
+- Froze prospective DeepPBS predictions for DBP023/056/062 in commit `ff68394` before joining competition labels.
+- After the freeze, evaluated the unchanged primary endpoints. Three-protein medians are global Spearman 0.085, position Spearman 0.560, identity residual Spearman 0.001, and identity pairwise accuracy 0.548 versus chance 0.5.
+- Generated revised Figures 2-4 and traceable source tables. The result directionally supports `position >> identity`, but n=3 and the missing experimental replicate ceiling preclude a broad or model-specific failure claim.
+- No new GNN was trained. The v1.4 model-development gate remains closed pending replicate-resolved experimental evidence.

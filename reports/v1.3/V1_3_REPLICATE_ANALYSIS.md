@@ -15,3 +15,5 @@ Mutation-level, position-sensitivity, and within-position identity replicate agr
 ## PBM interpretation
 
 `results/v1_3/assay_reproducibility_matrix.tsv` places PBM-versus-competition values beside explicit unavailable competition R1-versus-R2 cells at GLOBAL, POSITION, and IDENTITY levels. PBM disagreement remains a mixture of assay estimand, biological/context, and technical differences; technical variance is not separately identifiable without the missing competition replicates.
+
+This evaluability boundary is shown without imputation in `figures/v1_3/Figure3_reproducibility_ceiling.png` and PDF, using `results/v1_3/figure3_reproducibility_data.tsv` as source data.
