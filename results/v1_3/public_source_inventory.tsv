@@ -1,0 +1,16 @@
+source_figure	source_file	sheet	n_rows	n_columns	columns	replicate_columns_found
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_A_DBP001	39	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_B_DBP003	39	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_C_DBP005	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_D_DBP006	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_E_DBP009	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_F_DBP023	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_G_DBP035	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_H_DBP048	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_I_DBP056	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 3	data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls	Extended_Data_Figure_1_J_DBP062	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 9	data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls	Extended_Data_Figure_9_D	16383	21	FITC-A|FITC-H|FITC-W|FSC-A|FSC-H|FSC-W|PE-A|PE-H|PE-W|SSC-A|SSC-H|SSC-W|Time|concentration|sample|GM_1|GM|expression|PE/FITC|concentration (nM)|target	0
+Extended Data Fig. 9	data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls	Extended_Data_Figure_9_E_DBP035	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	0
+Extended Data Fig. 9	data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls	Extended_Data_Figure_9_F	16383	21	FITC-A|FITC-H|FITC-W|FSC-A|FSC-H|FSC-W|PE-A|PE-H|PE-W|SSC-A|SSC-H|SSC-W|Time|concentration|sample|GM_1|GM|expression|PE/FITC|concentration (nM)|target	0
+Extended Data Fig. 9	data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls	Extended_Data_Figure_9_G	16383	21	FITC-A|FITC-H|FITC-W|FSC-A|FSC-H|FSC-W|PE-A|PE-H|PE-W|SSC-A|SSC-H|SSC-W|Time|concentration|sample|GM_1|GM|expression|PE/FITC|concentration (nM)|target	0
+Extended Data Fig. 9	data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls	Extended_Data_Figure_9_H	16383	21	FITC-A|FITC-H|FITC-W|FSC-A|FSC-H|FSC-W|PE-A|PE-H|PE-W|SSC-A|SSC-H|SSC-W|Time|concentration|sample|GM_1|GM|expression|PE/FITC|concentration (nM)|binder	0

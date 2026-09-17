@@ -8,7 +8,7 @@ The competition source is `data/raw/v1_1_competition/source_data_extended_data_f
 
 The workbook contains a normalized PE/FITC value described as the mean of two replicates. It does not contain the two underlying replicate values. Therefore the v1.3 tidy table preserves one row per published mean and does not manufacture replicate rows. PBM has two replicate-level source files for the seven GSE237017 proteins.
 
-`DBP35opt` was not found in repository paths, metadata, cached predictions, or reports searched for the exact identifiers `DBP35opt`/`DBP035opt`; the DBP35 -> DBP35opt case study is unavailable until a source is supplied.
+At the original v1.3 freeze, `DBP35opt` was not present in the checkout. A v1.3.1 data-availability amendment recovered its 42-mutation, 14-position experimental landscape from official Extended Data Fig. 9e. The public workbook has a single summary column and no replicate-valued columns; DBP35opt model prediction remains unavailable.
 
 ## Per-protein inventory
 
@@ -36,4 +36,4 @@ The workbook contains a normalized PE/FITC value described as the mean of two re
 
 ## Audit limitations
 
-Structure-file presence is reported separately from validated structure/assay alignment. The three locked holdouts have raw PDB files but no checked-out v0.x-v1.2 structure metadata rows. Replicate reproducibility for competition cannot be estimated from this workbook; only PBM replicate data are available locally.
+Structure-file presence is reported separately from validated structure/assay alignment. The three locked holdouts have raw PDB files but no checked-out v0.x-v1.2 structure metadata rows. Official Extended Data Fig. 3 was re-downloaded in v1.3.1 and contains the same 414 published means (maximum reconstruction error 0), but no underlying replicate values; competition replicate reproducibility therefore remains unavailable.
