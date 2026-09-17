@@ -1,0 +1,11 @@
+name,passed,observed,threshold,stage
+rc_class_count,True,8192,8192,pre_replay
+v06_rc_class_injectivity,True,collisions=0,zero cross-class collisions,pre_replay
+synthetic_all_rankings_correct,True,4/4,4/4,pre_replay
+synthetic_protein_conditionality,True,min corr=-1.000000,positive correlation < 0.995,pre_replay
+synthetic_target_conditionality,True,min corr=-1.000000,positive correlation < 0.995,pre_replay
+held_out_spearman_available,True,105/105,105 complete protein-seed rows,post_replay
+protein_shuffle_no_collapse,False,median corr=1.000000,median prediction correlation <= 0.995,post_replay
+target_shuffle_no_collapse,False,median corr=0.996871,median prediction correlation <= 0.995,post_replay
+prediction_variance_positive,True,min variance=0.190398,> 0 for every run,post_replay
+no_nan_inf,True,max NaN/Inf=0,0,post_replay

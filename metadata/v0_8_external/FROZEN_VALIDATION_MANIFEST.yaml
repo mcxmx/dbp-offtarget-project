@@ -1,0 +1,15 @@
+status: pre_external_template_not_active
+label_access: false
+git_commit: 11362531a441bb6e96f26148f6bbddec26e437b5
+git_tag_proposal: v0.8-pre-external-validation
+date: '2026-09-14'
+code_and_checkpoint_sha256:
+  src/v0_8_sota.py: d10ce5d82a95d73addb09cd1770a2c5ef5ad2a631fa545510089c77997ccd17a
+  docs/v0_8_external/EXTERNAL_COHORT_SELECTION_PROTOCOL.md: 86076fee8e4a16e7169c31f72053b789325d7980850a220c2e10423a64ab8d4d
+  docs/v0_8_external/PREREGISTERED_VALIDATION_PLAN.md: 4684d0257e979a8ce56b85e214b2333001493429ec11fff5eda70a45e83494ee
+  external/nampnn/NA-MPNN/models/specificity_model/s_70114.pt: dcce4199a4b1dd00c592c1a73f4eeb51642123e2c850fc71e11b7f49c3695965
+  external/deeppbs/DeepPBS/run/plot_scripts/txts/DeepPBS.txt: d977120d581dd9c9a7ff5d31adae4e257c011276a4e15c866056eee5e0e9e39a
+dataset_metadata_known_before_label_access:
+- candidate_datasets.csv
+- EXTERNAL_COHORT_SELECTION_PROTOCOL.md
+no_label_access_assertion: true

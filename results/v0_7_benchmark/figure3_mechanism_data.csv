@@ -1,0 +1,30 @@
+figure,panel,experiment,metric,value,unit,source,interpretation
+Figure 3,representation_repair,rc_encoding_exhaustive,n_oriented_7mers,16384,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,n_canonical_rc_classes,8192,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,legacy_representation_count,2000,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,legacy_cross_rc_class_representation_collisions,1872,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,legacy_collision_excess_over_rc_pairs,12384,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,v06_representation_count,8192,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,v06_cross_rc_class_representation_collisions,0,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,v06_collision_excess_over_rc_pairs,0,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,representation_repair,rc_encoding_exhaustive,v06_rc_class_injective,True,count_or_boolean,results/v0_6_representation/representation_audit.csv,RC-class representation audit
+Figure 3,conditionality_gates,v0.6_replay,rc_class_count,8192,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,v06_rc_class_injectivity,collisions=0,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,synthetic_all_rankings_correct,4/4,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,synthetic_protein_conditionality,min corr=-1.000000,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,synthetic_target_conditionality,min corr=-1.000000,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,held_out_spearman_available,105/105,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,protein_shuffle_no_collapse,median corr=1.000000,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,target_shuffle_no_collapse,median corr=0.996871,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,prediction_variance_positive,min variance=0.190398,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,conditionality_gates,v0.6_replay,no_nan_inf,max NaN/Inf=0,gate_observation,results/v0_6_representation/go_no_go.csv,pre-registered gate result
+Figure 3,dense_supervision,M0,test_spearman_delta,-0.0703935978211287,Spearman,results/v0_5_dense/supervision_delta_summary.csv,H2 pilot; no scaling claim
+Figure 3,dense_supervision,M1c,test_spearman_delta,-0.0175826936799451,Spearman,results/v0_5_dense/supervision_delta_summary.csv,H2 pilot; no scaling claim
+Figure 3,dense_supervision,M2,test_spearman_delta,-0.145446296864112,Spearman,results/v0_5_dense/supervision_delta_summary.csv,H2 pilot; no scaling claim
+Figure 3,dense_supervision,M3,test_spearman_delta,-0.0371701467753761,Spearman,results/v0_5_dense/supervision_delta_summary.csv,H2 pilot; no scaling claim
+Figure 3,local_attention,L1_LocalProteinCandidate,attention_entropy_normalized,0.9995475665309862,normalized_entropy,results/v0_5_local/attention_diagnostics.csv,near-uniform attention diagnostic
+Figure 3,local_attention,L1_LocalProteinCandidate,attention_entropy_normalized,0.9995306407166988,normalized_entropy,results/v0_5_local/attention_diagnostics.csv,near-uniform attention diagnostic
+Figure 3,local_attention,L1c_LocalProteinCandidateCapacityMatched,attention_entropy_normalized,0.9999018953576498,normalized_entropy,results/v0_5_local/attention_diagnostics.csv,near-uniform attention diagnostic
+Figure 3,local_attention,L1c_LocalProteinCandidateCapacityMatched,attention_entropy_normalized,0.9999047001848548,normalized_entropy,results/v0_5_local/attention_diagnostics.csv,near-uniform attention diagnostic
+Figure 3,local_attention,L2_LocalProteinTargetCandidate,attention_entropy_normalized,0.9990900739221354,normalized_entropy,results/v0_5_local/attention_diagnostics.csv,near-uniform attention diagnostic
+Figure 3,local_attention,L2_LocalProteinTargetCandidate,attention_entropy_normalized,0.9993565355893872,normalized_entropy,results/v0_5_local/attention_diagnostics.csv,near-uniform attention diagnostic

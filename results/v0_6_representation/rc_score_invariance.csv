@@ -1,0 +1,5 @@
+model,n_pairs,max_abs_rc_score_difference,score_rc_invariant
+M0,16384,0.0,True
+M1,16384,0.0,True
+M2,16384,0.0,True
+M3,16384,0.0,True

@@ -1,0 +1,15 @@
+method	protein	n	spearman	mapping_status	primary_status	note
+DeepPBS	DBP001	8192	-0.06610940200634095	unique_sequence_derived	primary	
+NA-MPNN	DBP001	8192	-0.31103904947685357	unique_sequence_derived	primary	frozen v1.0 global landscape; native PPM not retained
+DeepPBS	DBP003	8192	0.008296002433644416	unique_sequence_derived	primary	
+NA-MPNN	DBP003	8192	-0.07735566258990553	unique_sequence_derived	primary	frozen v1.0 global landscape; native PPM not retained
+DeepPBS	DBP005	8192	-0.0016798266453572424	unique_sequence_derived	primary	
+NA-MPNN	DBP005	8192	0.18385240583796433	unique_sequence_derived	primary	frozen v1.0 global landscape; native PPM not retained
+DeepPBS	DBP006	8192	0.035653908184390466	unique_sequence_derived	primary	
+NA-MPNN	DBP006	8192	0.12466304128709847	unique_sequence_derived	primary	frozen v1.0 global landscape; native PPM not retained
+DeepPBS	DBP009	8192	0.026340815280234006	unique_sequence_derived	primary	
+NA-MPNN	DBP009	8192	0.1042933574931015	unique_sequence_derived	primary	frozen v1.0 global landscape; native PPM not retained
+DeepPBS	DBP035	8192	0.02493636828565732	unique_sequence_derived	primary	
+NA-MPNN	DBP035	8192	0.24195541542049215	unique_sequence_derived	primary	frozen v1.0 global landscape; native PPM not retained
+DeepPBS	DBP048	8192	0.0799813446396202	ambiguous	sensitivity_only_ambiguous_mapping	
+NA-MPNN	DBP048	8192	0.2675249765343834	ambiguous	sensitivity_only_ambiguous_mapping	frozen v1.0 global landscape; native PPM not retained

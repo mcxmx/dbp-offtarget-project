@@ -1,0 +1,69 @@
+{
+  "additive_pwm_d_ge_2_median_spearman": 0.1293584242083503,
+  "classification_A": "descriptive_only",
+  "classification_B": "not_blanket_supported",
+  "classification_C": "assessed_per_protein",
+  "classification_D": "supported_capacity_diagnostic",
+  "competition_assay_status": "PARSED_MOESM16_HEATMAP_MEANS",
+  "competition_n_mutations": 288,
+  "competition_replicate_level_available": false,
+  "conditionality_median_pairwise": {
+    "DeepPBS": 0.23643650261672128,
+    "NA-MPNN": 0.00590010116199415
+  },
+  "dbp048_mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+  "deeppbs_global_median_spearman_all7_descriptive": 0.02493636828565732,
+  "deeppbs_global_median_spearman_primary_n6": 0.01661618535965087,
+  "deeppbs_global_per_protein": {
+    "DBP001": -0.06610940200634095,
+    "DBP003": 0.008296002433644416,
+    "DBP005": -0.0016798266453572424,
+    "DBP006": 0.035653908184390466,
+    "DBP009": 0.026340815280234006,
+    "DBP035": 0.02493636828565732,
+    "DBP048": 0.0799813446396202
+  },
+  "deeppbs_local_median_spearman_primary_n6": 0.3537800826513249,
+  "deeppbs_local_per_protein": {
+    "DBP001": 0.2271255060728745,
+    "DBP003": 0.18238866396761136,
+    "DBP005": 0.34916133214488293,
+    "DBP006": 0.7447532614861032,
+    "DBP009": 0.5655133295519001,
+    "DBP035": 0.3583988331577668,
+    "DBP048": 0.049833887043189376
+  },
+  "development_exposed": true,
+  "nampnn_global_median_spearman_all7_descriptive": 0.12466304128709847,
+  "nampnn_global_median_spearman_primary_n6": 0.11447819939009998,
+  "nampnn_global_per_protein": {
+    "DBP001": -0.31103904947685357,
+    "DBP003": -0.07735566258990553,
+    "DBP005": 0.18385240583796433,
+    "DBP006": 0.12466304128709847,
+    "DBP009": 0.1042933574931015,
+    "DBP035": 0.24195541542049215,
+    "DBP048": 0.2675249765343834
+  },
+  "nampnn_local_median_spearman_primary_n6": 0.1487012987012987,
+  "nampnn_local_per_protein": {
+    "DBP001": 0.22857142857142856,
+    "DBP003": 0.34935064935064936,
+    "DBP005": 0.3103896103896104,
+    "DBP006": 0.06753246753246753,
+    "DBP009": 0.06883116883116883,
+    "DBP035": 0.005194805194805195,
+    "DBP048": -0.045454545454545456
+  },
+  "pbm_competition_median_spearman_primary_n6": 0.36363636363636365,
+  "pbm_competition_per_protein": {
+    "DBP001": -0.42207792207792205,
+    "DBP003": 0.16883116883116883,
+    "DBP005": 0.14805194805194805,
+    "DBP006": 0.8132510984294133,
+    "DBP009": 0.6831168831168831,
+    "DBP035": 0.5584415584415584,
+    "DBP048": 0.48181818181818176
+  },
+  "training_overlap_status": "UNDETERMINED"
+}

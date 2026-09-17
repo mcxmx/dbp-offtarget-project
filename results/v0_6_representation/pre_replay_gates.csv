@@ -1,0 +1,6 @@
+name,passed,observed,threshold,stage
+rc_class_count,True,8192,8192,pre_replay
+v06_rc_class_injectivity,True,collisions=0,zero cross-class collisions,pre_replay
+synthetic_all_rankings_correct,True,4/4,4/4,pre_replay
+synthetic_protein_conditionality,True,min corr=-1.000000,positive correlation < 0.995,pre_replay
+synthetic_target_conditionality,True,min corr=-1.000000,positive correlation < 0.995,pre_replay

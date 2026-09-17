@@ -1,0 +1,8 @@
+protein	width	sequence	dtype_P	dtype_Seq	finite	P_rows_sum_1	Seq_rows_sum_1	helix_score	contact_count	source_file	sha256
+DBP001	13	TAGCAGGATGTGT	float32	float32	True	True	True	0.8461538461538461	261	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP001.npz_predict.npz	c0f90e8d43c4377483d8e907c772b0631cbb57a212acf23f55be4a73e2e0391c
+DBP003	13	TAGCAGGATGTGT	float32	float32	True	True	True	0.8461538461538461	367	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP003.npz_predict.npz	448ab1a5928e1522674a1459c25147737243f6ca67c03f870111c6b77faca048
+DBP005	15	GCAGATCTGCACATC	float32	float32	True	True	True	1.0	270	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP005.npz_predict.npz	3448f9cbb29ceaed3a761f1719d487bf72777e44747a431c95656d0ce548555a
+DBP006	15	GCAGATCTGCACATC	float32	float32	True	True	True	1.0	235	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP006.npz_predict.npz	0e7363f0b7de97d0dd43a46ff35c8a1d0cac06849ea08b0f5adbd9ad5843c00f
+DBP009	15	GCAGATCTGCACATC	float32	float32	True	True	True	1.0	235	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP009.npz_predict.npz	194d27c8fdf50315364c9e95740fedf796ebbcab78409a77c0d22ed0aa44c924
+DBP035	15	GCAGATCTGCACATC	float32	float32	True	True	True	1.0	266	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP035.npz_predict.npz	742d81f9141ffbc543b2ec6cf9adedb9cc857a0b8a206987c6417296561881fe
+DBP048	14	CGCCCAAAGCCGCG	float32	float32	True	True	True	1.0	242	data/raw/v1_1_deeppbs/frozen_design7_20260914/predictions/DBP048.npz_predict.npz	42a613ecbb9f2ad8fd00a50e610c9e26a9b21c63c86eb92552c761d6a24b9d71

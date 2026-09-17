@@ -1,0 +1,3 @@
+# Baseline protocol
+
+The structural position-only control uses negative DeepPBS PPM information content on the mutant-effect axis and assigns the same score to all three substitutions at a position. A separate PBM position-only comparator uses mean experimental PBM mutation effect per position. The mutation-type baseline is a fixed, label-free transition indicator; it is intentionally not fitted and is not a mechanistic claim. The uniform baseline is a constant and is reported as undefined rather than numerically hacked. PBM local effect is an experimental comparator, not a label-free baseline. The historical RC-aware 3-mer baseline is reused without fitting.

@@ -1,0 +1,2 @@
+status	proteins_covered	n_mutations	source_search	files_checked	reason	downstream_action
+PARSED_MOESM16	7	288	official PMC/Nature source workbook	data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended Data Fig. 3 XLS contains normalized competition values; paper describes displayed values as means of two replicates	competition-aligned scoring and PBM-vs-competition agreement evaluated

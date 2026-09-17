@@ -1,0 +1,43 @@
+method	protein	n_mutations	spearman	pearson	definition	status
+DeepPBS_position_information_only	DBP001	39	0.33610833456484573	0.4435403059692689	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP001	39	0.12082324277645062	0.11653262946066309	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP001	39			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+DeepPBS_position_information_only	DBP003	39	0.33854390220662	0.27352965716803	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP003	39	0.14498789133174075	0.16951611753679782	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP003	39			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+DeepPBS_position_information_only	DBP005	42	0.13814703143766446	0.43263408467520265	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP005	42	-0.05000376199861049	-0.1054017657153133	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP005	42			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+DeepPBS_position_information_only	DBP006	42	0.6454170833833742	0.698737563635405	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP006	42	0.025001880999305243	-0.023443197290473942	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP006	42			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+DeepPBS_position_information_only	DBP009	42	0.6605231079850236	0.5829112489164602	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP009	42	-0.012500940499652622	-0.013948763511827408	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP009	42			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+DeepPBS_position_information_only	DBP035	42	-0.012425923462647068	0.2686811982655876	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP035	42	0.0041669801665508745	-0.005580948466468422	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP035	42			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+DeepPBS_position_information_only	DBP048	42	0.2711775061554154	0.25205219031146103	negative PPM information content; identical for all substitutions at a position	EVALUATED
+mutation_type_transition_indicator	DBP048	42	-0.05833772233171224	-0.03011043373409779	fixed transition=1/transversion=0; no competition labels fitted	EVALUATED
+uniform_no_information	DBP048	42			constant score; correlation intentionally undefined	UNDEFINED_CONSTANT
+PBM_experimental_local_effect	DBP001	21	-0.42207792207792205	-0.524215009124962	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	PRIMARY
+PBM_position_only	DBP001	21	-0.7116944338852546	-0.6977401038803245	mean PBM mutation effect per position; identical for all three substitutions	PRIMARY
+historical_sequence_kmer3_local	DBP001	21	0.011890789174706562	0.00524927770481675	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	PRIMARY
+PBM_experimental_local_effect	DBP003	21	0.16883116883116883	0.14278100757587026	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	PRIMARY
+PBM_position_only	DBP003	21	0.2988330219628693	0.4479938556828975	mean PBM mutation effect per position; identical for all three substitutions	PRIMARY
+historical_sequence_kmer3_local	DBP003	21	0.23488046144545774	0.15382427773662058	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	PRIMARY
+PBM_experimental_local_effect	DBP005	21	0.14805194805194805	-0.030355612500053038	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	PRIMARY
+PBM_position_only	DBP005	21	0.027524094128159014	-0.055417212906849776	mean PBM mutation effect per position; identical for all three substitutions	PRIMARY
+historical_sequence_kmer3_local	DBP005	21	0.3960852755372344	0.2872617359981714	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	PRIMARY
+PBM_experimental_local_effect	DBP006	21	0.8132510984294133	0.7409034966520958	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	PRIMARY
+PBM_position_only	DBP006	21	0.7431505414602935	0.731807981309765	mean PBM mutation effect per position; identical for all three substitutions	PRIMARY
+historical_sequence_kmer3_local	DBP006	21	0.5623756226222881	0.585825800498079	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	PRIMARY
+PBM_experimental_local_effect	DBP009	21	0.6831168831168831	0.58836420777248	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	PRIMARY
+PBM_position_only	DBP009	21	0.613394097713258	0.6638890795286486	mean PBM mutation effect per position; identical for all three substitutions	PRIMARY
+historical_sequence_kmer3_local	DBP009	21	0.33978224463442097	0.45127291585326723	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	PRIMARY
+PBM_experimental_local_effect	DBP035	21	0.5584415584415584	0.42224520928510584	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	PRIMARY
+PBM_position_only	DBP035	21	0.6487822187351767	0.6877472436698898	mean PBM mutation effect per position; identical for all three substitutions	PRIMARY
+historical_sequence_kmer3_local	DBP035	21	0.5230944382714882	0.5273677690989769	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	PRIMARY
+PBM_experimental_local_effect	DBP048	21	0.48181818181818176	0.46673417506334614	frozen experimental PBM mutant-minus-WT score on mapped 7-mer positions	SENSITIVITY_ONLY
+PBM_position_only	DBP048	21	0.4954336943068623	0.4756352026152576	mean PBM mutation effect per position; identical for all three substitutions	SENSITIVITY_ONLY
+historical_sequence_kmer3_local	DBP048	21	-0.12497090588756962	-0.17646393064994673	frozen v0.3.1 RC-aware 3-mer Jaccard score on mapped mutant 7-mers	SENSITIVITY_ONLY

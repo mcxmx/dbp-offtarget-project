@@ -1,0 +1,9 @@
+method,capability,input_requirements,output_type,applicable_designed_dbp,full_7mer_landscape,compute,leakage_risk,status
+sequence k-mer / motif similarity,sequence-only ranking,DNA target/motif,ranking score,True,True,low,target/motif provenance,existing comparator; no new run
+PWM / motif similarity,position-specific motif scoring,PWM or known motif,PWM score,True,True,low,motif derived from assay labels,manifest only
+SimpleProteinConditionalBaseline,protein composition + DNA,"protein sequence, DNA",ranking score,True,True,low,natural/design protocol mismatch,historical unmatched result
+DeepPBS,structure-conditioned PWM ensemble,protein-DNA structure / processed structure,PWM/log-probability proxy,partial,True,high/Linux,structure overlap/homology,2/7 diagnostic only
+NA-MPNN,structure-aware sequence design/specificity diagnostic,protein-DNA structure,model score,partial,not established,high,PDB overlap and construct mismatch,not a complete 7-protein baseline
+structure-conditioned protein-DNA neural models,learned contact/sequence compatibility,structure or reliable complex prediction,compatibility score,hypothesis,requires adaptation,high,training-set structural homologs,do not run in v0.7
+AlphaFold3-derived contact metrics,predicted interaction/contact diagnostic,protein + DNA complex prediction,contacts/confidence,hypothesis,False,very high,model/database overlap; stochasticity,not a specificity predictor; manifest only
+Rosetta energetic approaches,physics/energy ranking,structure and DNA model,energy proxy,partial,expensive,high,structure/template selection,manifest only

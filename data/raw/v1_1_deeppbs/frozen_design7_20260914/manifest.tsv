@@ -1,0 +1,8 @@
+protein	length	dtype	finite	P_rowsum	Seq_rowsum
+DBP001	13	float32	True	True	True
+DBP003	13	float32	True	True	True
+DBP005	15	float32	True	True	True
+DBP006	15	float32	True	True	True
+DBP009	15	float32	True	True	True
+DBP035	15	float32	True	True	True
+DBP048	14	float32	True	True	True

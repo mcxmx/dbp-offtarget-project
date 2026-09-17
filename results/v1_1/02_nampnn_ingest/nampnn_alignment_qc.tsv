@@ -1,0 +1,8 @@
+protein	n_landscape	score_min	score_max	experimental_assay_target	native_ppm_available	representation_note
+DBP001	8192	-10.097855976156191	-4.648161105643052	TAGCAGGATGTGT	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor
+DBP003	8192	-11.281745996717817	-3.0557217146003133	TAGCAGGATGTGT	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor
+DBP005	8192	-10.283274150576894	-3.106068054693223	GCAGATCTGCACATC	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor
+DBP006	8192	-9.411827278661264	-5.068092740768154	GCAGATCTGCACATC	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor
+DBP009	8192	-9.685698068823651	-5.12953613312483	GCAGATCTGCACATC	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor
+DBP035	8192	-10.226569504640928	-2.9153216786285614	GCAGATCTGCACATC	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor
+DBP048	8192	-9.5436506939977	-4.200282053953097	CGACACCTGACGCG	False	v1.0 retained canonical 7-mer landscape only; no native PPM tensor

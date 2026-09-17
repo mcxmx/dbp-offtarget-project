@@ -1,0 +1,23 @@
+schema_version: v0.9
+status: preregistration_frozen_waiting_for_cohort
+label_access: false
+preregistration_date: '2026-09-14'
+git_commit: 11362531a441bb6e96f26148f6bbddec26e437b5
+git_tag_proposal: v0.9-pre-external-validation
+code_hashes:
+  src/v0_9_external_validation.py: 576a790657c5e17451b405e235d78879fd9bea9d8778ad37e5b478b4a58487c2
+  metadata/v0_9_external/external_validation_config.yaml: 7fc676eada5436d5bea058df8bf7f12cd61a7b566bf4ea260fb770122f6a746c
+  docs/v0_9_external/PREREGISTERED_EXTERNAL_VALIDATION.md: 19899617a3bd4972946d23b5474849c5c361c53327a1acf9180bdc19eadf3fd2
+checkpoint_hashes:
+  external/nampnn/NA-MPNN/models/specificity_model/s_70114.pt: dcce4199a4b1dd00c592c1a73f4eeb51642123e2c850fc71e11b7f49c3695965
+  external/deeppbs/DeepPBS/run/plot_scripts/txts/DeepPBS.txt: d977120d581dd9c9a7ff5d31adae4e257c011276a4e15c866056eee5e0e9e39a
+environment:
+  python: '3.13'
+  requirements_file: requirements.txt
+  pinned_packages: 'numpy==2.5.2; pandas==3.0.5; scipy==1.18.1; PyYAML==6.0.3; pyarrow==25.0.1; torch==2.13.0'
+dataset_metadata_known_before_label_access:
+  - metadata/v0_9_external/external_dataset_audit.csv
+  - docs/v0_9_external/RFD3_COHORT_AUDIT.md
+  - docs/v0_9_external/ASSAY_SPECIFIC_VALIDATION_RULES.md
+no_label_access_assertion: true
+unlock_rule: set label_access true only after cohort and this manifest are independently frozen; no CLI override

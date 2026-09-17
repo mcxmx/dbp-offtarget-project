@@ -1,0 +1,27 @@
+
+Processing file 'dna.tmp.pdb'
+    total number of nucleotides: 26
+    total number of base pairs: 13
+    total number of helices: 1
+    total number of stems: 1
+    total number of non-pairing interactions: 26
+
+boundary for lvector(): [1 to 0]
+
+Time used: 00:00:00:00
+done with cleaning up files.
+
+Time used: 00:00:00:00
+
+......Processing structure #1: <dna_entity_0.inp>......
+[i] missing ' P  ' atom : residue name ' DT', chain B, number [  59 ]
+[i] missing ' OP1' atom : residue name ' DT', chain B, number [  59 ]
+[i] missing ' OP2' atom : residue name ' DT', chain B, number [  59 ]
+[i] missing ' P  ' atom : residue name ' DA', chain B, number [  72 ]
+[i] missing ' OP1' atom : residue name ' DA', chain B, number [  72 ]
+[i] missing ' OP2' atom : residue name ' DA', chain B, number [  72 ]
+[i] missing ' P  ' atom : residue name ' DT', chain B, number [  59 ]
+[i] missing ' P  ' atom : residue name ' DA', chain B, number [  72 ]
+
+Time used: 00:00:00:01
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.19s/it]100%|██████████| 1/1 [00:01<00:00,  1.19s/it]

@@ -1,0 +1,224 @@
+{
+  "assay_triangle": {
+    "DBP001": {
+      "mapping_status": "PRIMARY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": 0.4454545454545455,
+      "rho_deeppbs_pbm": -0.0909090909090909,
+      "rho_pbm_competition": -0.422077922077922
+    },
+    "DBP003": {
+      "mapping_status": "PRIMARY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": 0.1935064935064935,
+      "rho_deeppbs_pbm": 0.1688311688311688,
+      "rho_pbm_competition": 0.1688311688311688
+    },
+    "DBP005": {
+      "mapping_status": "PRIMARY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": 0.4935064935064934,
+      "rho_deeppbs_pbm": -0.1493506493506493,
+      "rho_pbm_competition": 0.148051948051948
+    },
+    "DBP006": {
+      "mapping_status": "PRIMARY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": 0.461038961038961,
+      "rho_deeppbs_pbm": 0.5865541069343133,
+      "rho_pbm_competition": 0.8132510984294133
+    },
+    "DBP009": {
+      "mapping_status": "PRIMARY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": 0.2506493506493506,
+      "rho_deeppbs_pbm": 0.3844155844155844,
+      "rho_pbm_competition": 0.6831168831168831
+    },
+    "DBP035": {
+      "mapping_status": "PRIMARY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": 0.4519480519480519,
+      "rho_deeppbs_pbm": 0.1636363636363636,
+      "rho_pbm_competition": 0.5584415584415584
+    },
+    "DBP048": {
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "n_matched": 21,
+      "rho_deeppbs_competition": -0.1233766233766233,
+      "rho_deeppbs_pbm": -0.1415584415584415,
+      "rho_pbm_competition": 0.4818181818181817
+    }
+  },
+  "competition_replicates": "XLS heatmap means of two replicates; individual replicate values unavailable",
+  "dbp048_sensitivity": [
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "CGCCCAA",
+      "model_window_start_1based": 1,
+      "n_mutations": 21,
+      "pearson": 0.0572617424864342,
+      "position_severity_spearman": -0.2142857142857143,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.293121693121693,
+      "spearman": 0.0662337662337662,
+      "within_position_median_spearman": 0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "GCCCAAA",
+      "model_window_start_1based": 2,
+      "n_mutations": 21,
+      "pearson": -0.0132679233912954,
+      "position_severity_spearman": -0.5714285714285715,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.4600783475783475,
+      "spearman": 0.0389610389610389,
+      "within_position_median_spearman": 0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "CCCAAAG",
+      "model_window_start_1based": 3,
+      "n_mutations": 21,
+      "pearson": -0.2741634064658874,
+      "position_severity_spearman": -0.642857142857143,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.2140834111422346,
+      "spearman": -0.4129870129870129,
+      "within_position_median_spearman": -0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "CCAAAGC",
+      "model_window_start_1based": 4,
+      "n_mutations": 21,
+      "pearson": 0.1914191585165295,
+      "position_severity_spearman": 0.0357142857142857,
+      "previous_v1_1_window": 1,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.6128968253968253,
+      "spearman": 0.2571428571428571,
+      "within_position_median_spearman": -0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "CAAAGCC",
+      "model_window_start_1based": 5,
+      "n_mutations": 21,
+      "pearson": -0.3292423200487469,
+      "position_severity_spearman": -0.5357142857142858,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.2382897603485838,
+      "spearman": -0.287012987012987,
+      "within_position_median_spearman": -0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "AAAGCCG",
+      "model_window_start_1based": 6,
+      "n_mutations": 21,
+      "pearson": 0.3322710635588251,
+      "position_severity_spearman": 0.6785714285714287,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.8857142857142857,
+      "spearman": 0.548051948051948,
+      "within_position_median_spearman": 0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "AAGCCGC",
+      "model_window_start_1based": 7,
+      "n_mutations": 21,
+      "pearson": -0.1989764174367304,
+      "position_severity_spearman": -0.1428571428571428,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.2571911805657936,
+      "spearman": -0.1233766233766233,
+      "within_position_median_spearman": -0.5
+    },
+    {
+      "assay_window": "CTGACGC",
+      "mapping_status": "AMBIGUOUS_SENSITIVITY_ONLY",
+      "model_window": "AGCCGCG",
+      "model_window_start_1based": 8,
+      "n_mutations": 21,
+      "pearson": -0.00477695156678,
+      "position_severity_spearman": 0.0357142857142857,
+      "previous_v1_1_window": 0,
+      "protein": "DBP048",
+      "selection_status": "sensitivity_only_ambiguous_mapping",
+      "severe_quartile_average_precision": 0.3527777777777778,
+      "spearman": -0.0025974025974025,
+      "within_position_median_spearman": -0.5
+    }
+  ],
+  "deeppbs_local_all7_median": 0.3491613321448829,
+  "deeppbs_local_primary_median": 0.3537800826513249,
+  "deeppbs_per_protein": {
+    "DBP001": 0.2271255060728745,
+    "DBP003": 0.1823886639676113,
+    "DBP005": 0.3491613321448829,
+    "DBP006": 0.7447532614861032,
+    "DBP009": 0.5655133295519001,
+    "DBP035": 0.3583988331577668,
+    "DBP048": 0.0498338870431893
+  },
+  "development_exposed": true,
+  "independent_validation": false,
+  "interpretations": {
+    "R1": "not_established",
+    "R2": "dominant_observed_component",
+    "R3": "inconclusive",
+    "R4": "descriptively_supported",
+    "R5": "not_indicated_by_primary_sign_crossing"
+  },
+  "large_effect_primary_median_ap": 0.5896212930621605,
+  "local_conditionality": [
+    {
+      "max_pairwise_spearman": 0.890909090909091,
+      "median_pairwise_spearman": 0.0333333333333333,
+      "min_pairwise_spearman": -0.7714285714285715,
+      "n_pairs": 15,
+      "set": "primary_six"
+    },
+    {
+      "max_pairwise_spearman": 0.890909090909091,
+      "median_pairwise_spearman": 0.0023809523809523,
+      "min_pairwise_spearman": -0.7714285714285715,
+      "n_pairs": 21,
+      "set": "all_seven_descriptive"
+    }
+  ],
+  "n_proteins": 7,
+  "na_score_label": "NA-MPNN frozen global landscape-derived local mutation score",
+  "pbm_local_primary_median": 0.3636363636363636,
+  "position_preserving_null_primary_exceed_q975": 1,
+  "primary_n_proteins": 6,
+  "primary_position_severity_median": 0.423076923076923,
+  "primary_top_deleterious_base_exact_median": 0.2967032967032967,
+  "primary_within_position_pairwise_accuracy_median": 0.5064102564102564,
+  "primary_within_position_spearman_median": -0.5,
+  "v11_reproduction_all_pass": true,
+  "version": "v1.2"
+}

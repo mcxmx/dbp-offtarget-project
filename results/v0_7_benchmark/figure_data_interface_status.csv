@@ -1,0 +1,4 @@
+figure,panel,source,status,data_files,interpretation
+Figure 3,mechanism_audit,v0.5 local/dense + v0.6 representation,available,figure3_mechanism_data.csv,representation repair changes performance but does not remove real-data conditioning collapse
+Figure 4,hard_case_and_domain_shift,v0.7 hard_case_taxonomy + natural_designed_shift,available,figure4_hard_case_shift_data.csv,"failure taxonomy and shift diagnostics; descriptive, not causal"
+Figure 5,external_validation,new independent cohort only,BLOCKED,none,GSE237017 cannot serve as independent validation

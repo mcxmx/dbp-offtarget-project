@@ -1,0 +1,4 @@
+method	macro_median_spearman	macro_mean_spearman	n_proteins	status
+DeepPBS_native_pwm	0.34916133214488293	0.3538821162034755	7	development_exposed_assay_aligned_diagnostic
+NA-MPNN_frozen_global_landscape_derived	0.06883116883116883	0.14063079777365495	7	development_exposed_assay_aligned_diagnostic
+PBM_vs_competition	0.48181818181818176	0.34734755951589025	7	development_exposed_assay_aligned_diagnostic

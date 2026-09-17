@@ -1,0 +1,382 @@
+metric,dataset,protein_id,value,unit,n_units,comparability,stage
+protein_sequence_length,natural,UniPROBE:DEV12:Abd-B,493.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Abd-B,0.90415,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Abd-B,0.4617,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Abd-B,1.481961475367238,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Abd-B,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Bap,382.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Bap,0.78613,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Bap,0.336535,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Bap,1.7902543535164432,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Bap,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Eve,376.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Eve,0.92081,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Eve,0.4246625,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Eve,1.6377188819078836,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Eve,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Lbl,294.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Lbl,0.78405,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Lbl,0.3429,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Lbl,1.6276106094955791,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Lbl,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Msh,515.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Msh,0.7988900000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Msh,0.4353925,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Msh,1.5513306136000349,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Msh,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Ptx1,509.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Ptx1,0.92461,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Ptx1,0.4027125,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Ptx1,1.7384293639882622,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Ptx1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Six4,392.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Six4,0.84379,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Six4,0.3967549999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Six4,1.739117041269739,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Six4,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Slou,659.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Slou,0.82596,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Slou,0.4283575,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Slou,1.583161620047136,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Slou,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Tin,416.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Tin,0.85958,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Tin,0.3945025,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Tin,1.7729660580390698,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Tin,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:DEV12:Ubx,389.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:DEV12:Ubx,0.9558,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:DEV12:Ubx,0.45236,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:DEV12:Ubx,1.5358970097383104,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:DEV12:Ubx,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Abf1,731.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Abf1,0.93738,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Abf1,0.4795399999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Abf1,1.8943092466109808,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Abf1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Cad1,409.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Cad1,0.99245,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Cad1,0.4304675,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Cad1,1.8027837444446264,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Cad1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Cin5,295.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Cin5,0.99735,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Cin5,0.4498324999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Cin5,1.7571679875073625,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Cin5,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Cst6,587.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Cst6,0.99395,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Cst6,0.5169275,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Cst6,1.9221480624264824,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Cst6,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Ecm22,814.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Ecm22,0.94392,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Ecm22,0.5207275,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Ecm22,1.9174037437439573,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Ecm22,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Gcr1,785.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Gcr1,0.9344,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Gcr1,0.4312325,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Gcr1,1.8371591675854348,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Gcr1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Hac1,238.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Hac1,0.99887,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Hac1,0.4947375,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Hac1,1.8667211169112103,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Hac1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Hap1,456.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Hap1,0.93113,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Hap1,0.5643849999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Hap1,1.838395777208455,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Hap1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Hmlalpha2,210.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Hmlalpha2,0.99546,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Hmlalpha2,0.5682125,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Hmlalpha2,1.8261810659034812,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Hmlalpha2,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Mot3,490.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Mot3,0.97775,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Mot3,0.5314450000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Mot3,1.8348759450944128,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Mot3,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Msn1,382.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Msn1,0.9975,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Msn1,0.4718725,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Msn1,1.8442517078968628,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Msn1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Nrg2,220.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Nrg2,0.94561,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Nrg2,0.39583,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Nrg2,1.9213929288965217,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Nrg2,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Pdr3,976.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Pdr3,0.97372,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Pdr3,0.5117925,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Pdr3,1.7932679993974792,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Pdr3,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Sko1,647.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Sko1,0.99962,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Sko1,0.5541125,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Sko1,1.904772541285089,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Sko1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Stb4,949.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Stb4,0.95727,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Stb4,0.549775,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Stb4,1.7951582648892863,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Stb4,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Stb5,743.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Stb5,0.95887,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Stb5,0.5469124999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Stb5,1.7686715796516064,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Stb5,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Ste12,688.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Ste12,0.91403,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Ste12,0.42021,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Ste12,1.81185411165582,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Ste12,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Stp1,519.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Stp1,0.99512,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Stp1,0.4866775,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Stp1,1.6926514682857794,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Stp1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Sut1,299.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Sut1,0.99876,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Sut1,0.492245,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Sut1,1.8689228655604413,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Sut1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Upc2,913.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Upc2,0.94924,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Upc2,0.52016,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Upc2,1.900949373832057,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Upc2,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Vhr1,640.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Vhr1,0.95095,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Vhr1,0.4358625,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Vhr1,1.862040242181746,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Vhr1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Vhr2,505.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Vhr2,0.99886,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Vhr2,0.517235,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Vhr2,1.8378231236025375,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Vhr2,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Yap3,330.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Yap3,0.99639,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Yap3,0.4546,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Yap3,1.6473015127139503,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Yap3,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Ybr033w,919.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Ybr033w,0.99475,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Ybr033w,0.5005250000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Ybr033w,1.6437109962912264,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Ybr033w,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Yer184c,794.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Yer184c,0.96851,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Yer184c,0.4905325,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Yer184c,1.8155054789745315,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Yer184c,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Ylr278c,1341.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Ylr278c,0.96934,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Ylr278c,0.5594475000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Ylr278c,1.7959270852660445,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Ylr278c,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:GB11:Zap1,880.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:GB11:Zap1,0.96959,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:GB11:Zap1,0.4935975,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:GB11:Zap1,1.8570250707760696,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:GB11:Zap1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11A_23,835.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11A_23,0.950265,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11A_23,0.4882375,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11A_23,1.7587449675282882,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11A_23,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11A_456,835.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11A_456,0.94885,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11A_456,0.511235,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11A_456,1.7537215626336429,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11A_456,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11A_XL,835.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11A_XL,0.98451,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11A_XL,0.46426,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11A_XL,1.7287483060293087,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11A_XL,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11A_d23d456,835.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11A_d23d456,0.8962600000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11A_d23d456,0.4131025,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11A_d23d456,1.5672374572192391,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11A_d23d456,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11B_23,894.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11B_23,0.923065,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11B_23,0.45956875,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11B_23,1.7518345909244806,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11B_23,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11B_456,894.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11B_456,0.91657,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11B_456,0.49130375,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11B_456,1.760800326084833,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11B_456,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:LIU18A:BCL11B_XL,894.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:LIU18A:BCL11B_XL,0.96744,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:LIU18A:BCL11B_XL,0.44011,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:LIU18A:BCL11B_XL,1.751304437575533,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:LIU18A:BCL11B_XL,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NAR10:GCN4,281.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NAR10:GCN4,30612.915673041534,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NAR10:GCN4,0.276162323520895,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NAR10:GCN4,1.858069432380776,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NAR10:GCN4,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NAR10:Jun_Fos,314.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NAR10:Jun_Fos,880.556452480894,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NAR10:Jun_Fos,119.81526664343002,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NAR10:Jun_Fos,1.8958888729306185,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NAR10:Jun_Fos,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NAR11:HLH-1,324.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NAR11:HLH-1,0.96066,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NAR11:HLH-1,0.3501391666666666,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NAR11:HLH-1,1.8679694480928248,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NAR11:HLH-1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NAR11:HLH-1_L13R,324.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NAR11:HLH-1_L13R,0.94075,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NAR11:HLH-1_L13R,0.5236991666666666,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NAR11:HLH-1_L13R,1.8203570674231035,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NAR11:HLH-1_L13R,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NAR11:HLH-1_L13T,324.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NAR11:HLH-1_L13T,0.8448200000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NAR11:HLH-1_L13T,0.3086816666666666,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NAR11:HLH-1_L13T,1.878663764946216,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NAR11:HLH-1_L13T,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NAR11:HLH-1_L13V,324.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NAR11:HLH-1_L13V,0.8532033333333334,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NAR11:HLH-1_L13V,0.32076,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NAR11:HLH-1_L13V,1.882676347836843,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NAR11:HLH-1_L13V,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NBT06:CEH-22,346.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NBT06:CEH-22,0.85951,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NBT06:CEH-22,0.4538124999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NBT06:CEH-22,1.872980552582036,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NBT06:CEH-22,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NBT06:Cbf1,251.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NBT06:Cbf1,,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NBT06:Cbf1,,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NBT06:Cbf1,1.8569566133328013,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NBT06:Cbf1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NBT06:Ceh-22,346.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NBT06:Ceh-22,0.85951,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NBT06:Ceh-22,0.4538124999999999,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NBT06:Ceh-22,1.872980552582036,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NBT06:Ceh-22,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NBT06:Oct-1,585.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NBT06:Oct-1,0.87503,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NBT06:Oct-1,0.5040100000000001,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NBT06:Oct-1,1.5998866273368082,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NBT06:Oct-1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NBT06:Rap1,184.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NBT06:Rap1,0.86968,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NBT06:Rap1,0.3178725,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NBT06:Rap1,1.770309167571505,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NBT06:Rap1,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:NBT06:Zif268,508.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:NBT06:Zif268,0.85478,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:NBT06:Zif268,0.3725775,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:NBT06:Zif268,1.6253607331943538,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:NBT06:Zif268,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,natural,UniPROBE:PNAS12:Lmd,358.0,aa,32896,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,natural,UniPROBE:PNAS12:Lmd,0.76422,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,natural,UniPROBE:PNAS12:Lmd,0.3630275,assay_score,32896,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,natural,UniPROBE:PNAS12:Lmd,1.636322853483621,bits,329,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,natural,UniPROBE:PNAS12:Lmd,8.0,nt,32896,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP1,58.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP1,0.806785,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP1,0.32689525,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP1,1.7798673820268056,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP1,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP3,58.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP3,0.783785,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP3,0.3614954999999999,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP3,1.72122669974469,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP3,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP35,63.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP35,0.7998449999999999,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP35,0.3255892499999999,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP35,1.7559172009433988,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP35,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP48,65.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP48,0.90037,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP48,0.5396544999999999,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP48,1.706825713407088,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP48,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP5,63.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP5,0.84759,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP5,0.3671635,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP5,1.869020364979124,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP5,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP6,56.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP6,0.795465,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP6,0.3342164999999998,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP6,1.7088119237443524,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP6,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+protein_sequence_length,designed,DBP9,56.0,aa,8192,descriptive,v0.8_reused_data_layer_audit
+score_dynamic_range,designed,DBP9,0.8018000000000001,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+score_95_5_spread,designed,DBP9,0.3860515,assay_score,8192,assay-specific; not cross-normalized,v0.8_reused_data_layer_audit
+top1pct_position_entropy_mean,designed,DBP9,1.7867903268573169,bits,82,within-dataset descriptive,v0.8_reused_data_layer_audit
+dna_kmer_length,designed,DBP9,7.0,nt,8192,protocol difference,v0.8_reused_data_layer_audit
+aa_fraction_A,natural,__summary__,0.0680347982426018,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_C,natural,__summary__,0.0154741773427273,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_D,natural,__summary__,0.0524178897395095,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_E,natural,__summary__,0.0572819090216249,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_F,natural,__summary__,0.0333620797404716,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_G,natural,__summary__,0.0534990998096816,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_H,natural,__summary__,0.0293637412095791,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_I,natural,__summary__,0.0441876271857444,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_K,natural,__summary__,0.0597696764526246,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_L,natural,__summary__,0.0823346661256172,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_M,natural,__summary__,0.0227436268480419,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_N,natural,__summary__,0.0665699874027917,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_P,natural,__summary__,0.0676020001107506,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_Q,natural,__summary__,0.052729723277058,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_R,natural,__summary__,0.0491454136923403,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_S,natural,__summary__,0.1079624833668205,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_T,natural,__summary__,0.0630707722725414,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_V,natural,__summary__,0.041953348369665,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_W,natural,__summary__,0.0057980674069935,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_Y,natural,__summary__,0.0266989123828142,fraction,57,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_A,designed,__summary__,0.1277033448215714,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_C,designed,__summary__,0.0025510204081632,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_D,designed,__summary__,0.0174159584258106,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_E,designed,__summary__,0.1251987886224339,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_F,designed,__summary__,0.0090702947845804,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_G,designed,__summary__,0.0709233295440191,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_H,designed,__summary__,0.0024630541871921,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_I,designed,__summary__,0.066055865316949,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_K,designed,__summary__,0.0740274093722369,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_L,designed,__summary__,0.1054411242834888,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_M,designed,__summary__,0.0021978021978021,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_N,designed,__summary__,0.019439181508147,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_P,designed,__summary__,0.0140327926042211,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_Q,designed,__summary__,0.0283824139735469,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_R,designed,__summary__,0.1377944988782427,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_S,designed,__summary__,0.0481218835898638,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_T,designed,__summary__,0.056695056448751,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_V,designed,__summary__,0.0702502751763835,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_W,designed,__summary__,0.0075650950035186,fraction,7,descriptive,v0.8_reused_data_layer_audit
+aa_fraction_Y,designed,__summary__,0.0146708108530768,fraction,7,descriptive,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP1,0.1322314049586777,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP3,0.1983471074380165,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP35,0.1862348178137652,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP48,0.1686746987951807,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP5,0.1295546558704453,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP6,0.1916666666666666,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_sequence_similarity,designed,DBP9,0.1666666666666666,SequenceMatcher_ratio,57,rough sequence similarity; not alignment identity,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP1,0.2703809253937236,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP1,4.114949995981768,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP3,0.3318670132730138,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP3,4.619296772536484,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP35,0.2111146583748934,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP35,3.917214180219777,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP48,0.221979131656546,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP48,3.915547368169312,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP5,0.2541007330719093,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP5,3.607245039948321,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP6,0.2076598337693155,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP6,3.667111427309352,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_cosine_distance,designed,DBP9,0.1897701518493838,1-cosine,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit
+nearest_natural_embedding_euclidean_distance,designed,DBP9,3.949767786478705,L2,57,frozen ESM-2 embedding diagnostic,v0.8_reused_data_layer_audit

@@ -1,0 +1,8 @@
+method,protein_id,status,n_candidates,spearman,coverage_fraction,score_variance,exposure_status
+DeepPBS,DBP1,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+DeepPBS,DBP3,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+DeepPBS,DBP35,evaluated,8192,0.0401764557169653,1.0,3.894708767763009,DEVELOPMENT_EXPOSED_GSE237017
+DeepPBS,DBP48,evaluated,8192,0.2783658391233002,1.0,3.4177070312803317,DEVELOPMENT_EXPOSED_GSE237017
+DeepPBS,DBP5,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+DeepPBS,DBP6,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+DeepPBS,DBP9,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017

@@ -1,0 +1,2 @@
+subset	n_proteins	median_spearman	note
+DBP005|DBP006|DBP009|DBP035	4	0.46195608135483346	same underlying development-exposed proteins and assay; descriptive only

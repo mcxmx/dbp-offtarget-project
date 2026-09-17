@@ -1,0 +1,8 @@
+protein_id,candidate_set,selection_seed,defined_before_af3,status
+DBP1,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY
+DBP3,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY
+DBP35,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY
+DBP48,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY
+DBP5,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY
+DBP6,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY
+DBP9,on_target; Hamming-1; Hamming-2; frozen 1515 hard cases; 50 fixed-seed background,202608,True,NOT_RUN_FEASIBILITY_ONLY

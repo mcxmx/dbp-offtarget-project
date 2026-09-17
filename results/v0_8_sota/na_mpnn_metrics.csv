@@ -1,0 +1,8 @@
+method,protein_id,status,n_candidates,spearman,coverage_fraction,score_variance,exposure_status
+NA-MPNN,DBP1,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP3,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP35,evaluated,8192,0.24970523323654817,1.0,1.4839511625358939,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP48,evaluated,8192,-0.3311403766246295,1.0,1.3496596640865965,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP5,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP6,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017
+NA-MPNN,DBP9,not_evaluable_missing_structure_prediction,0,,0.0,,DEVELOPMENT_EXPOSED_GSE237017

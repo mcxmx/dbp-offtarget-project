@@ -1,0 +1,8 @@
+protein	n_evaluable	sign_accuracy	balanced_accuracy	tp	tn	fp	fn	status	note
+DBP001	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification
+DBP003	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification
+DBP005	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification
+DBP006	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification
+DBP009	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification
+DBP035	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification
+DBP048	0							NOT_APPLICABLE_NO_WT_RELATIVE_SIGNED_EFFECT	competition values are normalized signal; all mutations are not a WT-relative improve/reduce classification

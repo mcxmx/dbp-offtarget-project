@@ -1,0 +1,8 @@
+dbp_id,target_length,v06_ordered_window_count,v06_unique_window_count,v06_repeated_window_count,v06_register_min,v06_register_max,legacy_unique_sorted_window_count,ordered_windows_preserved,set_deduplication_used,register_preserved
+DBP1,13,7,7,0,-1.0,1.0,7,True,False,True
+DBP3,13,7,7,0,-1.0,1.0,7,True,False,True
+DBP5,15,9,9,0,-1.0,1.0,7,True,False,True
+DBP6,15,9,9,0,-1.0,1.0,7,True,False,True
+DBP9,15,9,9,0,-1.0,1.0,7,True,False,True
+DBP35,15,9,9,0,-1.0,1.0,7,True,False,True
+DBP48,14,8,8,0,-1.0,1.0,8,True,False,True

@@ -1,0 +1,3 @@
+diagnostic,v05_median_prediction_correlation,v06_median_prediction_correlation,v05_median_effect_size,v06_median_effect_size,collapse_threshold
+protein_shuffle,0.9999996550332794,0.99999993845706,3.449667206334439e-07,6.154293996640803e-08,0.995
+target_shuffle,0.9998705443645132,0.9968705672603728,0.00012945563548683037,0.0031294327396271804,0.995

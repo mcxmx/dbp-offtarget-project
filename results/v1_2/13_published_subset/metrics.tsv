@@ -1,0 +1,5 @@
+protein	n_mutations	spearman	subset
+DBP005	42.0	0.34916133214488293	predefined_published_DeepPBS_four_protein_subset
+DBP006	42.0	0.7447532614861032	predefined_published_DeepPBS_four_protein_subset
+DBP009	42.0	0.5655133295519001	predefined_published_DeepPBS_four_protein_subset
+DBP035	42.0	0.3583988331577668	predefined_published_DeepPBS_four_protein_subset

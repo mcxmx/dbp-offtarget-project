@@ -1,0 +1,3 @@
+target,request,status
+RFdiffusion3 authors,"exact designed construct sequences, intended DNA targets, randomized-library data, processed quantitative tables, assay metadata",REQUEST_REQUIRED_BEFORE_CONFIRMATION
+new engineered DBP study authors,same matched construct and specificity package,REQUEST_REQUIRED_BEFORE_CONFIRMATION

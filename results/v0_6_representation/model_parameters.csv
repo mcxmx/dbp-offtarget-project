@@ -1,0 +1,6 @@
+model,trainable_params,representation
+M0,2017,v0.6 canonical RC one-hot + ordered target windows
+M1,19457,v0.6 canonical RC one-hot + ordered target windows
+M1c,25281,v0.6 canonical RC one-hot + ordered target windows
+M2,7105,v0.6 canonical RC one-hot + ordered target windows
+M3,24609,v0.6 canonical RC one-hot + ordered target windows

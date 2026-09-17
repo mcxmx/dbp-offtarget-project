@@ -1,0 +1,51 @@
+schema_version: v0.9
+status: frozen_before_external_label_access
+label_access: false
+cohort_policy: docs/v0_9_external/ASSAY_SPECIFIC_VALIDATION_RULES.md
+methods:
+  - id: sequence_kmer3
+    version: v0.3.1
+    checkpoint: none
+    aggregation: deterministic_single_score
+    allowed_assay_tiers: [tier1, tier2, tier3]
+  - id: v0.6_M0
+    version: v0.6_corrected_representation
+    checkpoint: frozen_historical_replay
+    aggregation: fixed_seed_mean_17_29_43
+    allowed_assay_tiers: [tier1, tier2, tier3]
+  - id: v0.6_M3
+    version: v0.6_corrected_representation
+    checkpoint: frozen_historical_replay
+    aggregation: fixed_seed_mean_17_29_43
+    allowed_assay_tiers: [tier1, tier2, tier3]
+  - id: SimpleProteinConditionalBaseline
+    version: v0.4.1
+    checkpoint: frozen_ridge_context_only
+    aggregation: deterministic_single_score
+    allowed_assay_tiers: [tier1, tier2]
+  - id: DeepPBS
+    version: v0.4.2_frozen_diagnostic
+    checkpoint: official_ensemble_commit_8bfb211dd67f02877841f6f33aa493ddf7daedf
+    aggregation: fixed_pwm_log_probability_rule
+    allowed_assay_tiers: [tier1, tier2]
+  - id: NA-MPNN
+    version: v0.4_frozen_diagnostic
+    checkpoint: s_70114.pt
+    aggregation: fixed_ppm_log_probability_rule
+    allowed_assay_tiers: [tier1, tier2]
+  - id: AF3_contact_probability
+    version: feasibility_only
+    checkpoint: not_available_locally
+    aggregation: preregistered_contact_metric_only
+    allowed_assay_tiers: [tier2, tier3]
+scoring:
+  reverse_complement: canonical_rc_class_invariant
+  tier1_register: predeclared biological register; ambiguous register excludes protein
+  tier2_endpoint: per_protein rank correlation or preregistered discrimination metric defined before labels
+  tier3_endpoint: directional mutational agreement or rank correlation over tested variants
+  no_post_hoc_scoring: true
+statistics:
+  independent_unit: protein
+  primary_summary: median_per_protein_metric
+  candidate_level_significance: forbidden
+  missing_data: retain eligible proteins in denominator and report coverage

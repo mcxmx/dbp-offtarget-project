@@ -1,0 +1,64 @@
+figure,panel,stage,method,dataset,split_protocol,exposure_status,median_spearman,conditionality_status
+Figure 1,benchmark_design,v0.5,M0,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1249507100635958,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M0,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1249507100635958,P=False;T=False
+Figure 1,benchmark_design,v0.5,M1,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0557612726130303,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M1,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0557612726130303,P=False;T=False
+Figure 1,benchmark_design,v0.5,M1c,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0605058647798824,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M1c,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0605058647798824,P=False;T=False
+Figure 1,benchmark_design,v0.5,M2,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0387644792300602,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M2,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0387644792300602,P=False;T=False
+Figure 1,benchmark_design,v0.5,M3,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0681994864261754,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M3,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.0681994864261754,P=False;T=False
+Figure 1,benchmark_design,v0.5,M0,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,0.1685768050783356,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M0,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,0.1685768050783356,P=False;T=False
+Figure 1,benchmark_design,v0.5,M1,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,-0.0133962082703006,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M1,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,-0.0133962082703006,P=False;T=False
+Figure 1,benchmark_design,v0.5,M1c,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,-0.0534366093948892,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M1c,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,-0.0534366093948892,P=False;T=False
+Figure 1,benchmark_design,v0.5,M2,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,0.033263583969221,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M2,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,0.033263583969221,P=False;T=False
+Figure 1,benchmark_design,v0.5,M3,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,-0.0029370576465126,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5,M3,GSE237017 designed DBP,combined_component_loco,development_exposed_all7,-0.0029370576465126,P=False;T=False
+Figure 1,benchmark_design,v0.6,M0,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.2829121931738695,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.6,M0,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.2829121931738695,P=False;T=False
+Figure 1,benchmark_design,v0.6,M1,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.2015887916994151,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.6,M1,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.2015887916994151,P=False;T=False
+Figure 1,benchmark_design,v0.6,M1c,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1692632383446527,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.6,M1c,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1692632383446527,P=False;T=False
+Figure 1,benchmark_design,v0.6,M2,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1342356303404365,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.6,M2,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1342356303404365,P=False;T=False
+Figure 1,benchmark_design,v0.6,M3,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1415054997760777,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.6,M3,GSE237017 designed DBP,protein_cluster_loco,development_exposed_all7,0.1415054997760777,P=False;T=False
+Figure 1,benchmark_design,v0.3.1,sequence_kmer3,GSE237017 designed DBP,per-protein ranking/no training,development_exposed_all7,0.2320822289869546,P=False;T=False
+Figure 1,benchmark_design,v0.4.1,SimpleProteinConditionalBaseline,natural PBM UniPROBE,v0.4.1 natural 40% cluster split; unmatched external designed evaluation,development_exposed_historical,0.3013536821293048,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.4.1,SimpleProteinConditionalBaseline,GSE237017 designed DBP,v0.4.1 natural 40% cluster split; unmatched external designed evaluation,development_exposed_historical,0.3616108129479222,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-local,L1_LocalProteinCandidate,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_2,development_exposed,-0.2637860260297565,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5-local,L1_LocalProteinCandidate,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_2,development_exposed,-0.2637860260297565,P=False;T=False
+Figure 1,benchmark_design,v0.5-local,L1c_LocalProteinCandidateCapacityMatched,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_2,development_exposed,-0.2621936408299309,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5-local,L1c_LocalProteinCandidateCapacityMatched,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_2,development_exposed,-0.2621936408299309,P=False;T=False
+Figure 1,benchmark_design,v0.5-local,L2_LocalProteinTargetCandidate,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_2,development_exposed,-0.2626002677786796,P=False;T=False
+Figure 2,performance_vs_conditionality,v0.5-local,L2_LocalProteinTargetCandidate,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_2,development_exposed,-0.2626002677786796,P=False;T=False
+Figure 1,benchmark_design,v0.5-dense,M0,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2244529339590933,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M0,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2244529339590933,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M0,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2733872380523387,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M0,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2733872380523387,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M0,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.20299364023121,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M0,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.20299364023121,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M1c,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1180282751409114,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M1c,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1180282751409114,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M1c,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1819171263717985,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M1c,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1819171263717985,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M1c,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1643344326918533,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M1c,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1643344326918533,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M2,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2533000987676552,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M2,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2533000987676552,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M2,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.3287124280533806,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M2,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.3287124280533806,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M2,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1832661311892685,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M2,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.1832661311892685,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M3,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2689891906991916,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M3,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2689891906991916,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M3,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2931027608515641,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M3,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.2931027608515641,P=not assessed;T=not assessed
+Figure 1,benchmark_design,v0.5-dense,M3,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.255932614076188,P=not assessed;T=not assessed
+Figure 2,performance_vs_conditionality,v0.5-dense,M3,GSE237017 designed DBP,one-fold protein_cluster_loco_fold_3,development_exposed,-0.255932614076188,P=not assessed;T=not assessed

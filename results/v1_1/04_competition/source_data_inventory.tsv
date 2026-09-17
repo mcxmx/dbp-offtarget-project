@@ -1,0 +1,11 @@
+source_file	source_sheet	protein	rows	columns	columns_text	merged_cells	replicate_columns	wt_control_rows	missing_values	status
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_A_DBP001	DBP001	39	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_B_DBP003	DBP003	39	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_C_DBP005	DBP005	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	1	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_D_DBP006	DBP006	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_E_DBP009	DBP009	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	1	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_F_DBP023	DBP023	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	metadata_only
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_G_DBP035	DBP035	43	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	1	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_H_DBP048	DBP048	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	parsed
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_I_DBP056	DBP056	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	metadata_only
+data/raw/v1_1_competition/source_data_extended_data_fig3.xls	Extended_Data_Figure_1_J_DBP062	DBP062	42	5	position|original_base|new_base|sample|Median PE/FITC (Normalized)	none observed by xlrd inspection	none	0	0	metadata_only

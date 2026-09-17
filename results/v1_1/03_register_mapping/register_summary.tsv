@@ -1,0 +1,8 @@
+protein	model_sequence	assay_sequence	model_window	assay_window	model_window_start_1based	assay_window_start_1based	motif	mapping_status	mapping_class	mapping_evidence	ambiguity_flag
+DBP001	TAGCAGGATGTGT	TAGCAGGATGTGT	AGCAGGA	AGCAGGA	2	2	GCAGG	PRIMARY	PRIMARY	exact_model_and_assay_sequence_match	False
+DBP003	TAGCAGGATGTGT	TAGCAGGATGTGT	GCAGGAT	GCAGGAT	3	3	GCAGGA	PRIMARY	PRIMARY	exact_model_and_assay_sequence_match	False
+DBP005	GCAGATCTGCACATC	GCAGATCTGCACATC	TGCACAT	TGCACAT	8	8	TGCACA	PRIMARY	PRIMARY	exact_model_and_assay_sequence_match	False
+DBP006	GCAGATCTGCACATC	GCAGATCTGCACATC	TGCACAT	TGCACAT	8	8	TGCACA	PRIMARY	PRIMARY	exact_model_and_assay_sequence_match	False
+DBP009	GCAGATCTGCACATC	GCAGATCTGCACATC	TGCACAT	TGCACAT	8	8	TGCACA	PRIMARY	PRIMARY	exact_model_and_assay_sequence_match	False
+DBP035	GCAGATCTGCACATC	GCAGATCTGCACATC	TGCACAT	TGCACAT	8	8	TGCACA	PRIMARY	PRIMARY	exact_model_and_assay_sequence_match	False
+DBP048	CGCCCAAAGCCGCG	CGACACCTGACGCG	CCAAAGC	CTGACGC	4	7	CTGACG	AMBIGUOUS	SENSITIVITY_ONLY	sequence_C_same_length_positional_mapping; design_sequence_differs	True

@@ -1,0 +1,4 @@
+method,performance_median_spearman,protein_shuffle_correlation,target_shuffle_correlation,protein_conditioning_effect_size,target_conditioning_effect_size,performance_axis,conditionality_axis,four_state,protein_unit_n
+v0.6 M3,0.1415054997760777,1.0,0.9969,0.0,0.0031,low,collapsed,low_performance+collapsed_conditioning,7
+DeepPBS,0.15927114742013276,,,,,low,not_applicable_structure_specific,low_performance+not_assessed,2
+NA-MPNN,-0.04071757169404065,,,,,low,not_applicable_structure_specific,low_performance+not_assessed,2

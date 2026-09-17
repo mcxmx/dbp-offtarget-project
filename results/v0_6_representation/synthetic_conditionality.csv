@@ -1,0 +1,5 @@
+benchmark,protein_id,target_id,candidate_A,candidate_C,expected_A_minus_C_sign,observed_A_minus_C,observed_A_minus_C_sign,ranking_correct,prediction_variance,final_training_loss,epochs,seed,protein_swap_changes_ranking,target_swap_changes_ranking,protein_shuffle_correlation,target_shuffle_correlation,protein_shuffle_not_invariant,target_shuffle_not_invariant
+synthetic_conditionality,P1,T1,AAAAAAA,CCCCCCC,1.0,39.61688232421875,1.0,True,392.37432861328125,2.0106765101780447e-18,240,2026,True,True,-1.0,-1.0,True,True
+synthetic_conditionality,P1,T2,AAAAAAA,CCCCCCC,-1.0,-41.29100036621094,-1.0,True,426.2366638183594,2.0106765101780447e-18,240,2026,True,True,-1.0,-1.0,True,True
+synthetic_conditionality,P2,T1,AAAAAAA,CCCCCCC,-1.0,-43.79119873046875,-1.0,True,479.4172668457031,2.0106765101780447e-18,240,2026,True,True,-1.0,-1.0,True,True
+synthetic_conditionality,P2,T2,AAAAAAA,CCCCCCC,1.0,42.05011749267578,1.0,True,442.0531005859375,2.0106765101780447e-18,240,2026,True,True,-1.0,-1.0,True,True
