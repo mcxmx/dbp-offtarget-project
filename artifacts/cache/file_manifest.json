@@ -1,0 +1,58 @@
+{
+  "files": {
+    "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM7_ESM.xlsx": {
+      "hash": "09715f8531f2afffb81348e1d369e60b6d861fc4fb75e254693979ff2d1bd6a7",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789648933571461300,
+      "path": "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM7_ESM.xlsx",
+      "size": 12968460,
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2843-2/MediaObjects/41586_2020_2843_MOESM7_ESM.xlsx",
+      "timestamp": "2026-09-17T12:54:42.153694+00:00"
+    },
+    "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM4_ESM.xlsx": {
+      "hash": "ba3afc5b182a319bd6b200b69b58996fde593af2712bb18393d4448951932c18",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789648912137594900,
+      "path": "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM4_ESM.xlsx",
+      "size": 7775515,
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2843-2/MediaObjects/41586_2020_2843_MOESM4_ESM.xlsx",
+      "timestamp": "2026-09-17T13:00:04.586772+00:00"
+    },
+    "data/raw/v1_3_2_external/samba/GSE156375_RAW.tar": {
+      "hash": "a23e11e027ae34f1eed117bc8e3cad158085b0a7d761b32b046d9f4dfd166bf6",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789649398809096400,
+      "path": "data/raw/v1_3_2_external/samba/GSE156375_RAW.tar",
+      "size": 15114240,
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156375/suppl/GSE156375_RAW.tar",
+      "timestamp": "2026-09-17T12:54:42.157675+00:00"
+    },
+    "data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls": {
+      "hash": "5ba651f551af207beb1fb91be255317242bd93b213d5b35de7a032cf1b76ace0",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789644978754999900,
+      "path": "data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls",
+      "size": 72192,
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-025-01669-4/MediaObjects/41594_2025_1669_MOESM16_ESM.xls",
+      "timestamp": "2026-09-17T11:54:12.084761+00:00"
+    },
+    "data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls": {
+      "hash": "8be665a7c8cc577e93f883407e5cdf478ab4a87c809a21e7612a033c2092a7db",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789645164150000800,
+      "path": "data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls",
+      "size": 15216640,
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-025-01669-4/MediaObjects/41594_2025_1669_MOESM21_ESM.xls",
+      "timestamp": "2026-09-17T11:54:12.112155+00:00"
+    },
+    "results/v1_3/holdout_predictions_unscored.tsv": {
+      "hash": "002c8825679a4a918bf7eac04c06eb390381061a52ae4f5197f5416cbb8dacdf",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789646421645029400,
+      "path": "results/v1_3/holdout_predictions_unscored.tsv",
+      "size": 59464,
+      "timestamp": "2026-09-17T12:00:21.655172+00:00"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls": {
+      "size": 72192,
+      "mtime_ns": 1789644978754999900
+    },
+    "data/raw/v1_3_external/41594_2025_1669_MOESM21_ESM.xls": {
+      "size": 15216640,
+      "mtime_ns": 1789645164150000800
+    },
+    "data/raw/v1_1_competition/source_data_extended_data_fig3.xls": {
+      "size": 72192,
+      "mtime_ns": 1789613436659838100
+    }
+  },
+  "status": "complete",
+  "official_competition_rows": 414,
+  "replicate_rows_recovered": 0,
+  "dbp35opt_rows": 42
+}

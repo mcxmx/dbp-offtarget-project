@@ -1,0 +1,57 @@
+perturbation_type	tf_id	metric	value	metric_label	chance_baseline	analysis_role
+canonical_watson_crick	Cbf1	global_spearman	0.9325611325611326	Global	0.0	PRIMARY
+canonical_watson_crick	Egr1	global_spearman	0.9819819819819822	Global	0.0	PRIMARY
+canonical_watson_crick	Ets1	global_spearman	0.9300217586618174	Global	0.0	PRIMARY
+canonical_watson_crick	GR	global_spearman	0.9670619235836626	Global	0.0	PRIMARY
+canonical_watson_crick	Max	global_spearman	0.9564993564993566	Global	0.0	PRIMARY
+canonical_watson_crick	TBP	global_spearman	0.9472747497219132	Global	0.0	PRIMARY
+canonical_watson_crick	p53	global_spearman	0.9253148067737734	Global	0.0	PRIMARY
+mismatch	Cbf1	global_spearman	0.9585764809902741	Global	0.0	SECONDARY
+mismatch	Egr1	global_spearman	0.9827144120247568	Global	0.0	SECONDARY
+mismatch	Ets1	global_spearman	0.7846367678699753	Global	0.0	SECONDARY
+mismatch	GR	global_spearman	0.939035155406031	Global	0.0	SECONDARY
+mismatch	Max	global_spearman	0.9023939443387992	Global	0.0	SECONDARY
+mismatch	TBP	global_spearman	0.9612264740606986	Global	0.0	SECONDARY
+mismatch	p53	global_spearman	0.9257197063796091	Global	0.0	SECONDARY
+canonical_watson_crick	Cbf1	position_spearman	0.8811188811188813	Position	0.0	PRIMARY
+canonical_watson_crick	Egr1	position_spearman	0.965034965034965	Position	0.0	PRIMARY
+canonical_watson_crick	Ets1	position_spearman	0.7954545454545454	Position	0.0	PRIMARY
+canonical_watson_crick	GR	position_spearman	0.9178571428571428	Position	0.0	PRIMARY
+canonical_watson_crick	Max	position_spearman	0.8811188811188813	Position	0.0	PRIMARY
+canonical_watson_crick	TBP	position_spearman	0.9757575757575756	Position	0.0	PRIMARY
+canonical_watson_crick	p53	position_spearman	0.7088235294117646	Position	0.0	PRIMARY
+mismatch	Cbf1	position_spearman	0.9230769230769231	Position	0.0	SECONDARY
+mismatch	Egr1	position_spearman	0.9790209790209792	Position	0.0	SECONDARY
+mismatch	Ets1	position_spearman	0.890909090909091	Position	0.0	SECONDARY
+mismatch	GR	position_spearman	0.9857142857142854	Position	0.0	SECONDARY
+mismatch	Max	position_spearman	0.9020979020979022	Position	0.0	SECONDARY
+mismatch	TBP	position_spearman	0.915151515151515	Position	0.0	SECONDARY
+mismatch	p53	position_spearman	0.6029411764705882	Position	0.0	SECONDARY
+canonical_watson_crick	Cbf1	identity_residual_spearman	0.9032175032175033	Identity residual	0.0	PRIMARY
+canonical_watson_crick	Egr1	identity_residual_spearman	0.9534105534105534	Identity residual	0.0	PRIMARY
+canonical_watson_crick	Ets1	identity_residual_spearman	0.7873758880630006	Identity residual	0.0	PRIMARY
+canonical_watson_crick	GR	identity_residual_spearman	0.6447957839262187	Identity residual	0.0	PRIMARY
+canonical_watson_crick	Max	identity_residual_spearman	0.823037323037323	Identity residual	0.0	PRIMARY
+canonical_watson_crick	TBP	identity_residual_spearman	0.9388209121245827	Identity residual	0.0	PRIMARY
+canonical_watson_crick	p53	identity_residual_spearman	0.7206904038211029	Identity residual	0.0	PRIMARY
+mismatch	Cbf1	identity_residual_spearman	0.9198979181737803	Identity residual	0.0	SECONDARY
+mismatch	Egr1	identity_residual_spearman	0.9109436540471023	Identity residual	0.0	SECONDARY
+mismatch	Ets1	identity_residual_spearman	0.750975146807098	Identity residual	0.0	SECONDARY
+mismatch	GR	identity_residual_spearman	0.8547815261787916	Identity residual	0.0	SECONDARY
+mismatch	Max	identity_residual_spearman	0.7508118318463146	Identity residual	0.0	SECONDARY
+mismatch	TBP	identity_residual_spearman	0.9117195638586012	Identity residual	0.0	SECONDARY
+mismatch	p53	identity_residual_spearman	0.8816466043385269	Identity residual	0.0	SECONDARY
+canonical_watson_crick	Cbf1	identity_pairwise_accuracy	0.8055555555555556	Identity pairwise	0.5	PRIMARY
+canonical_watson_crick	Egr1	identity_pairwise_accuracy	0.8888888888888888	Identity pairwise	0.5	PRIMARY
+canonical_watson_crick	Ets1	identity_pairwise_accuracy	0.8143939393939394	Identity pairwise	0.5	PRIMARY
+canonical_watson_crick	GR	identity_pairwise_accuracy	0.7333333333333333	Identity pairwise	0.5	PRIMARY
+canonical_watson_crick	Max	identity_pairwise_accuracy	0.8611111111111112	Identity pairwise	0.5	PRIMARY
+canonical_watson_crick	TBP	identity_pairwise_accuracy	0.8666666666666667	Identity pairwise	0.5	PRIMARY
+canonical_watson_crick	p53	identity_pairwise_accuracy	0.7916666666666666	Identity pairwise	0.5	PRIMARY
+mismatch	Cbf1	identity_pairwise_accuracy	0.7954545454545454	Identity pairwise	0.5	SECONDARY
+mismatch	Egr1	identity_pairwise_accuracy	0.8232323232323232	Identity pairwise	0.5	SECONDARY
+mismatch	Ets1	identity_pairwise_accuracy	0.7504225926226435	Identity pairwise	0.5	SECONDARY
+mismatch	GR	identity_pairwise_accuracy	0.803030303030303	Identity pairwise	0.5	SECONDARY
+mismatch	Max	identity_pairwise_accuracy	0.7607323232323232	Identity pairwise	0.5	SECONDARY
+mismatch	TBP	identity_pairwise_accuracy	0.8484848484848485	Identity pairwise	0.5	SECONDARY
+mismatch	p53	identity_pairwise_accuracy	0.8319128787878788	Identity pairwise	0.5	SECONDARY
