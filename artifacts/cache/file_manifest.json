@@ -63,6 +63,15 @@
       "source_url": "https://files.rcsb.org/download/2STT.cif",
       "timestamp": "2026-09-18T04:53:33.192013+00:00"
     },
+    "data/raw/v1_3_3_external/structures/2STT.pdb": {
+      "hash": "df60dca76f0923a110e06ae46e2f797923d63c36baddfd60dab0fddaf055106b",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789707483876890000,
+      "path": "data/raw/v1_3_3_external/structures/2STT.pdb",
+      "size": 5446764,
+      "source_url": "https://files.rcsb.org/download/2STT.pdb",
+      "timestamp": "2026-09-18T05:10:43.021278+00:00"
+    },
     "data/raw/v1_3_3_external/structures/3WTU.cif": {
       "hash": "338723f3db3bb85650b57191a43ddff9ab676ac3db559bf4c49da897cc5ec3ee",
       "hash_algorithm": "sha256",

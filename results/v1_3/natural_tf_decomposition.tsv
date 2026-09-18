@@ -1,0 +1,5 @@
+row_type	method	metric	n_sites	n_tfs	median	mean	chance_baseline	status
+tf_median	DeepPBS	global_spearman	2	1	NA	NA	0.0	STRUCTURAL_COVERAGE_LIMITED_NOT_EVALUABLE
+tf_median	DeepPBS	position_spearman	2	1	NA	NA	0.0	STRUCTURAL_COVERAGE_LIMITED_NOT_EVALUABLE
+tf_median	DeepPBS	identity_residual_spearman	2	1	NA	NA	0.0	STRUCTURAL_COVERAGE_LIMITED_NOT_EVALUABLE
+tf_median	DeepPBS	identity_pairwise_accuracy	2	1	NA	NA	0.5	STRUCTURAL_COVERAGE_LIMITED_NOT_EVALUABLE

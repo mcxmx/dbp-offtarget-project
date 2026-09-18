@@ -18,6 +18,12 @@ technical-repeatability dataset.
   perturbation)` is constructed from the already frozen source-defined
   `published_fold_change`: `log2(published_fold_change)`. No new normalization,
   centering, median/mean choice, or label-dependent transformation is allowed.
+- The primary label set is additionally restricted to the source-integrity-valid
+  canonical sites carried forward by v1.3.2:
+  `Cbf1`, `Egr1`, `Ets1_site_1`, `Ets1_site_3`, `GR`, `Max_site_1`,
+  `Max_site_2`, `TBP_site_1`, `TBP_site_2`, and `p53`. Ets1_site_2 and
+  Ets1_site_4 remain auditable raw sites but are excluded from primary labels
+  because their published medians failed the frozen source reconstruction.
 - Larger values mean stronger relative binding. The DeepPBS score keeps the
   previously frozen sign: `log(P_mutant + 1e-12) - log(P_wild_type + 1e-12)`.
 

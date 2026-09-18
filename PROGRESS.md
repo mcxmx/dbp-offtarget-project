@@ -223,3 +223,10 @@
 - Exact source reconstruction validated 10 of 12 calibration sites across 7 TFs. Canonical technical spot-split medians were global 0.947, position 0.881, identity residual 0.823, and identity pairwise 0.814; these are technical repeatability metrics, not biological replicate ceilings.
 - Official SAMPDI-3D T227 sources did not yield an auditable 227-row table or per-row SAMPDI/FoldX predictions. The 17-versus-18 TF discrepancy is recorded and T227 decomposition is `NOT_EVALUABLE`.
 - Added external provenance/audit reports, technical nulls, Figure 3 source/render, and `manuscript/OUTLINE.md`. v1.4 remains closed pending row-level natural-TF or replicate-resolved competition evidence.
+
+### v1.3.3 Natural-TF Structural Model Challenge (2026-09-18)
+
+- Froze the label-blind natural-TF challenge contract and RCSB structure/mapping audit. Four of 12 SaMBA sites were eligible, all ETS1; eight were excluded for mapping/coverage ambiguity.
+- Committed structure/mapping freeze `2e29f3c`, then committed prediction freeze `e44e29e` with 132 canonical mutation keys and explicit DeepPBS preprocessing failure status. No labels were read during Stage A and no alternate structure/register/model was substituted.
+- After reveal, natural-TF DeepPBS decomposition is `NOT_EVALUABLE` because the fixed 2STT input produced no official DeepPBS NPZ. Figure 4 explicitly separates SaMBA technical repeatability, designed model performance, prospective holdout, and natural-TF NA status.
+- SAMPDI/T227 was not reopened, orthogonal SaMBA validation is `NOT_EVALUABLE`, and v1.4 remains closed. No new GNN was trained and no frozen primary metric was changed.

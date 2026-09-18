@@ -74,3 +74,30 @@ Obtain the underlying competition replicate-level records from an author or publ
 ### Next single priority
 
 Recover a legitimate row-level natural-TF mutation benchmark or an independent replicate-resolved competition assay before opening v1.4 identity-aware model development.
+
+## v1.3.3 Natural-TF Structural Model Challenge (2026-09-18)
+
+### Completed
+
+- Froze `V1_3_3_NATURAL_TF_CHALLENGE_CONTRACT.md` before natural-TF model/label performance inspection.
+- Audited all 12 SaMBA sites across seven TFs using official RCSB experimental structures and a deterministic label-blind DNA mapping. Four ETS1 sites mapped uniquely to PDB 2STT; eight sites were excluded for mapping/coverage ambiguity. Structure files and one-time hashes are in `data/raw/v1_3_3_external/structures/` and the persistent manifest.
+- Committed the structure/mapping freeze as `2e29f3c`.
+- Ran the frozen official DeepPBS preprocessing in the documented Linux CPU environment. The fixed 2STT NMR input produced no NPZ; no alternate structure, register, orientation, checkpoint, or implementation was substituted.
+- Committed the unscored prediction artifact as `e44e29e`. It contains 132 eligible canonical mutation keys with explicit `NOT_REPRODUCED_DEEPPBS_PREPROCESSING_NO_NPZ` status and no experimental effects.
+- After the freeze, revealed canonical SaMBA labels and wrote the natural-TF decomposition tables. All primary natural-TF DeepPBS metrics are `NOT_EVALUABLE`; no score was imputed.
+- Generated `figure4_natural_vs_designed_identity.png/pdf` and traceable source data. The figure distinguishes SaMBA technical repeatability, model performance, prospective holdout, and natural-TF not-evaluable status.
+- Added the SAMPDI leakage status and an explicit NOT_EVALUABLE orthogonal SaMBA validation table. T227 was not reopened.
+
+### Stable conclusions
+
+- SaMBA technical identity repeatability remains high under its within-assay spot split, but the natural-TF model challenge currently has no valid DeepPBS performance estimate.
+- The natural-TF evidence cannot distinguish designed-protein domain shift from a general structure-model identity limitation. Structural coverage is limited and all eligible sites belong to ETS1.
+- v1.4 remains closed; no GNN was trained and no frozen v1.3/v1.3.1/v1.3.2 endpoint was changed.
+
+### Bugs / reproducibility findings
+
+- Official DeepPBS preprocessing silently skipped the fixed 2STT NMR input while returning success. This is recorded as a reproducibility failure and preserved as NA rows rather than being treated as a negative model result.
+
+### Next single priority
+
+Obtain a reproducible experimental-structure-compatible natural-TF inference path or an independent row-level mutation benchmark; do not open v1.4 model development from the current NOT_EVALUABLE result.

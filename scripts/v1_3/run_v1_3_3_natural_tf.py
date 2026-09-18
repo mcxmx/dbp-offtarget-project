@@ -231,13 +231,21 @@ def reveal() -> tuple[pd.DataFrame, pd.DataFrame]:
     labels = pd.read_parquet(SPOTS)
     ref = labels[labels.perturbation_type.eq("reference")][["tf_id", "binding_site_id", "sequence"]].drop_duplicates()
     canonical = labels[labels.perturbation_type.eq("canonical_watson_crick")].copy()
+    valid_sites = set(map(tuple, pd.read_csv(RESULTS / "external_samba_decomposition.tsv", sep="\t")[lambda d: d.perturbation_type.eq("canonical_watson_crick")][["tf_id", "binding_site_id"]].drop_duplicates().itertuples(index=False, name=None)))
+    canonical = canonical[canonical.apply(lambda r: (r.tf_id, r.binding_site_id) in valid_sites, axis=1)].copy()
     # One source-defined consensus label per mutation. This is only opened after prediction freeze.
     canonical["experimental_effect"] = np.log2(pd.to_numeric(canonical["published_fold_change"], errors="coerce"))
     canonical = canonical.groupby(["tf_id", "binding_site_id", "position", "wt_basepair", "perturbation"], as_index=False).experimental_effect.first()
+    canonical = canonical.rename(columns={"binding_site_id": "site_id"})
     canonical["wt_base"] = canonical.wt_basepair.str[0]
     canonical["mutant_base"] = canonical.perturbation.str[0]
-    joined = canonical.merge(pred, on=["tf_id", "site_id", "position", "wt_base", "mutant_base"], how="inner", validate="one_to_one")
+    scored_pred = pred[pred.prediction_status.eq("PREDICTION_GENERATED")].copy()
+    joined = canonical.merge(scored_pred, on=["tf_id", "site_id", "position", "wt_base", "mutant_base"], how="inner", validate="one_to_one")
     per_rows = []
+    for _, site in mapping[mapping.mapping_status.eq("ELIGIBLE")].iterrows():
+        if (site.tf_id, site.binding_site_id) not in valid_sites:
+            continue
+        per_rows.append({"row_type": "tf_site", "tf_id": site.tf_id, "site_id": site.binding_site_id, "method": "DeepPBS", "n_mutations": 0, "n_positions": 0, "global_spearman": np.nan, "global_pearson": np.nan, "position_spearman": np.nan, "position_pearson": np.nan, "identity_residual_spearman": np.nan, "identity_residual_pearson": np.nan, "identity_pairwise_accuracy": np.nan, "status": "NOT_EVALUABLE_PREDICTION_NOT_REPRODUCED"})
     for (tf, site), g in joined.groupby(["tf_id", "site_id"], sort=True):
         g = g.sort_values(["position", "mutant_base"])
         groups = [q for _, q in g.groupby("position", sort=True)]
@@ -245,13 +253,14 @@ def reveal() -> tuple[pd.DataFrame, pd.DataFrame]:
         pred_pos = np.array([np.mean(np.abs(q.predicted_effect)) for q in groups])
         exp_res = np.concatenate([q.experimental_effect.to_numpy(float) - q.experimental_effect.mean() for q in groups])
         pred_res = np.concatenate([q.predicted_effect.to_numpy(float) - q.predicted_effect.mean() for q in groups])
+        per_rows = [row for row in per_rows if not (row["tf_id"] == tf and row["site_id"] == site)]
         per_rows.append({"row_type": "tf_site", "tf_id": tf, "site_id": site, "method": "DeepPBS", "n_mutations": len(g), "n_positions": len(groups), "global_spearman": safe_corr(g.experimental_effect, g.predicted_effect), "global_pearson": safe_corr(g.experimental_effect, g.predicted_effect, "pearson"), "position_spearman": safe_corr(exp_pos, pred_pos), "position_pearson": safe_corr(exp_pos, pred_pos, "pearson"), "identity_residual_spearman": safe_corr(exp_res, pred_res), "identity_residual_pearson": safe_corr(exp_res, pred_res, "pearson"), "identity_pairwise_accuracy": float(np.nanmean([pairwise_accuracy(q.experimental_effect.to_numpy(float), q.predicted_effect.to_numpy(float)) for q in groups])), "status": "EVALUABLE"})
     per = pd.DataFrame(per_rows)
     per.to_csv(RESULTS / "natural_tf_decomposition_per_tf.tsv", sep="\t", index=False, na_rep="NA")
     summary_rows = []
     for metric in ["global_spearman", "position_spearman", "identity_residual_spearman", "identity_pairwise_accuracy"]:
         values = per[metric].to_numpy(float)
-        summary_rows.append({"row_type": "tf_median", "method": "DeepPBS", "metric": metric, "n_sites": int(len(per)), "n_tfs": int(per.tf_id.nunique()), "median": float(np.nanmedian(values)) if len(values) else np.nan, "mean": float(np.nanmean(values)) if len(values) else np.nan, "chance_baseline": 0.5 if metric.endswith("pairwise_accuracy") else 0.0, "status": "STRUCTURAL_COVERAGE_LIMITED" if per.tf_id.nunique() < 4 else "EVALUABLE"})
+        summary_rows.append({"row_type": "tf_median", "method": "DeepPBS", "metric": metric, "n_sites": int(len(per)), "n_tfs": int(per.tf_id.nunique()), "median": float(np.nanmedian(values)) if np.isfinite(values).any() else np.nan, "mean": float(np.nanmean(values)) if np.isfinite(values).any() else np.nan, "chance_baseline": 0.5 if metric.endswith("pairwise_accuracy") else 0.0, "status": "STRUCTURAL_COVERAGE_LIMITED_NOT_EVALUABLE"})
     summary = pd.DataFrame(summary_rows)
     summary.to_csv(RESULTS / "natural_tf_decomposition.tsv", sep="\t", index=False, na_rep="NA")
     joined.to_csv(REVEALED, sep="\t", index=False, na_rep="NA")

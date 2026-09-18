@@ -20,4 +20,9 @@ was inspected.
 The persistent size/mtime-aware manifest records one SHA256 for each newly
 downloaded file. Unchanged files are not rehashed by the v1.3.3 scripts.
 
+For the documented DeepPBS preprocessing attempt, the same RCSB entry was also
+downloaded as `data/raw/v1_3_3_external/structures/2STT.pdb`; it is a format
+conversion of the official coordinate download, not an alternate structure or
+mapping.
+
 Authoritative RCSB records used for candidate metadata include [1HLO](https://www.rcsb.org/structure/1HLO), [1R4R](https://www.rcsb.org/structure/1R4R), [1TGH](https://www.rcsb.org/structure/1TGH), [1AAY](https://www.rcsb.org/structure/1AAY), [2STT](https://www.rcsb.org/structure/2STT), and [8OVW](https://www.rcsb.org/structure/8OVW).

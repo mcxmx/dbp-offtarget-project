@@ -1,0 +1,2 @@
+tf_id	binding_site_id	comparison	status	n_rows	spearman	pearson	note
+ALL	ALL	SaMBA_vs_orthogonal_affinity	NOT_EVALUABLE_SOURCE_TABLE_NOT_UNAMBIGUOUS	0	NA	No orthogonal mutation-level numeric table was recovered without figure OCR or undocumented mapping; not used in primary challenge.

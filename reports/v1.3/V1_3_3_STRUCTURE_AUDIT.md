@@ -30,5 +30,6 @@ Primary candidates were fixed label-blind by TF identity and direct experimental
 - SaMBA sites audited: 12 across 7 TFs.
 - Eligible mappings: 4 sites.
 - Excluded/ambiguous mappings: 8 sites.
+- Primary v1.3.2 source-integrity-valid sites among the structure-eligible set: 2 (Ets1_site_1 and Ets1_site_3). Ets1_site_2 and Ets1_site_4 are retained in the raw audit but excluded from primary labels because their published medians failed the frozen source reconstruction.
 - `protein_sequence_coverage` is reported conservatively as structure-chain coverage metadata; no sequence identity to the assay construct was inferred without a frozen reference mapping.
 - If the eligible count is too small for a TF-level challenge, the result is reported as `STRUCTURAL_COVERAGE_LIMITED` and v1.4 remains closed.
