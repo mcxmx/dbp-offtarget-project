@@ -13,3 +13,13 @@ This record freezes method inclusion before interpreting Figure 2. A method is i
 | DBP35 -> DBP35opt experiment | official Extended Data Fig. 9e | EXPERIMENT_RECOVERED_CONTEXT_CONFOUNDED | The official numeric landscape is available, but DBP35opt used 20 nM target/160 nM competitor versus the standard 1 uM/8 uM condition. No DBP35opt model prediction is available, so predicted landscape shift remains not evaluable. |
 
 The v1.3 benchmark itself used cached predictions without rerunning external methods. The v1.3.1 prospective holdout is the explicitly documented exception: it ran the same official DeepPBS checkout and frozen pipeline for three previously unscored structures, without holdout labels or parameter selection. Prediction generation and evaluation are separated by freeze commit `ff68394`; old v0.x-v1.2 outputs were not overwritten.
+
+## v1.3.2 external methods
+
+| method | status | reason |
+|---|---|---|
+| SAMPDI-3D on T227 | NOT_RECOVERED | Official paper/supplement exposes only aggregate benchmark values; no row-level predictions were available from the historical server at audit time. |
+| FoldX on T227 | NOT_RECOVERED | No official row-level prediction table was supplied with the paper/supplement; no replacement version was run. |
+| PNBACE derivative of T227 | NOT_USED | A later paper references a derivative T227 table, but it is not the frozen original SAMPDI-3D distribution and was not substituted for the pre-registered external benchmark. |
+
+SaMBA is an experimental technical-repeatability analysis, not a computational method comparison. Its source parser and split protocol are in `scripts/v1_3/run_v1_3_2_external.py`.

@@ -215,3 +215,11 @@
 - After the freeze, evaluated the unchanged primary endpoints. Three-protein medians are global Spearman 0.085, position Spearman 0.560, identity residual Spearman 0.001, and identity pairwise accuracy 0.548 versus chance 0.5.
 - Generated revised Figures 2-4 and traceable source tables. The result directionally supports `position >> identity`, but n=3 and the missing experimental replicate ceiling preclude a broad or model-specific failure claim.
 - No new GNN was trained. The v1.4 model-development gate remains closed pending replicate-resolved experimental evidence.
+
+### v1.3.2 External Generalization & Identifiability (2026-09-18)
+
+- Froze `V1_3_2_EXTERNAL_VALIDATION_CONTRACT.md` before external result inspection; no v1.3 primary metrics were changed and no new model was trained.
+- Recovered official Afek et al. SaMBA MOESM4/MOESM7 workbooks and GEO `GSE156375` raw archive with persistent one-time SHA256 provenance. Parsed 22,026 spot rows, preserving canonical Watson-Crick mutations and mismatches as separate strata.
+- Exact source reconstruction validated 10 of 12 calibration sites across 7 TFs. Canonical technical spot-split medians were global 0.947, position 0.881, identity residual 0.823, and identity pairwise 0.814; these are technical repeatability metrics, not biological replicate ceilings.
+- Official SAMPDI-3D T227 sources did not yield an auditable 227-row table or per-row SAMPDI/FoldX predictions. The 17-versus-18 TF discrepancy is recorded and T227 decomposition is `NOT_EVALUABLE`.
+- Added external provenance/audit reports, technical nulls, Figure 3 source/render, and `manuscript/OUTLINE.md`. v1.4 remains closed pending row-level natural-TF or replicate-resolved competition evidence.

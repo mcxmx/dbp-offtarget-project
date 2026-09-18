@@ -1,0 +1,13 @@
+tf_id	binding_site_id	n_positions	n_canonical_sequences	n_mismatch_sequences	n_reference_sequences	n_canonical_spots	n_mismatch_spots	n_reference_spots	n_unmapped_sequences	n_name_collision_sequences	n_reconstruction_mismatches	max_published_median_reconstruction_error	median_published_median_reconstruction_error	source_mapping_status	min_spots_per_mapped_sequence	median_spots_per_mapped_sequence	max_spots_per_mapped_sequence	raw_sheet	signal_column
+Cbf1	Cbf1	12	36	144	1	360	1440	10	0	0	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	10	Raw_data1	Cbf1_Signal
+Egr1	Egr1	12	36	144	1	370	1440	10	0	1	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	20	Raw_data2	Egr1_Signal
+Ets1	Ets1_site_1	11	33	132	1	330	1320	10	0	0	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	10	Raw_data1	Ets1_Signal
+Ets1	Ets1_site_2	11	33	132	1	330	1347	10	0	3	166	957.5	30.0	UNRESOLVED_PUBLISHED_MEDIAN_RECONSTRUCTION	10	10.0	19	Raw_data1	Ets1_Signal
+Ets1	Ets1_site_3	11	33	132	1	665	1330	10	0	34	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	25	Raw_data1	Ets1_Signal
+Ets1	Ets1_site_4	11	33	132	1	390	1600	10	0	34	162	1300.5	7.0	UNRESOLVED_PUBLISHED_MEDIAN_RECONSTRUCTION	10	10.0	20	Raw_data1	Ets1_Signal
+GR	GR	15	45	180	1	450	1816	10	0	1	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	26	Raw_data1	GR_Signal
+Max	Max_site_1	12	36	144	1	360	1440	10	0	0	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	10	Raw_data2	Max_Signal
+Max	Max_site_2	12	36	144	1	360	1440	10	0	0	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	10	Raw_data2	Max_Signal
+TBP	TBP_site_1	10	30	120	1	270	1080	9	0	151	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	9	9.0	9	Raw_data3	TBP_Signal
+TBP	TBP_site_2	10	30	120	1	270	1080	9	0	151	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	9	9.0	9	Raw_data3	TBP_Signal
+p53	p53	16	48	192	1	480	1940	10	0	2	0	0.0	0.0	VALIDATED_BY_EXACT_MEDIAN_RECONSTRUCTION	10	10.0	20	Raw_data1	p53_Signal

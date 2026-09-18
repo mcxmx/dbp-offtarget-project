@@ -47,3 +47,30 @@
 ## Next single priority
 
 Obtain the underlying competition replicate-level records from an author or public repository, or establish an independent replicate-resolved mutation benchmark, before deciding whether identity-aware model development is scientifically justified.
+
+## v1.3.2 External Generalization & Identifiability (2026-09-18)
+
+### Completed
+
+- Froze `V1_3_2_EXTERNAL_VALIDATION_CONTRACT.md` before reading external results. Canonical Watson-Crick mutations remain primary; mismatches remain secondary; technical spot splits are not biological replicates.
+- Downloaded and cached official Afek et al. SaMBA sources: Springer MOESM4/MOESM7 and GEO `GSE156375_RAW.tar`. Provenance and one-time hashes are in `V1_3_2_EXTERNAL_DATA_PROVENANCE.md` and `artifacts/cache/file_manifest.json`.
+- Parsed the calibration workbook into `data/processed/v1_3_2_samba_spots.parquet`: 22,026 spot rows, 12 source sites, 7 TFs. Ten sites pass exact reconstruction of every published median; Ets1 site 2 and site 4 remain in the raw table but are excluded from endpoints because their published medians cannot be reconstructed without an undocumented block-selection rule.
+- Ran the frozen seed-1301 spot split, 100-seed secondary stability analysis, 2,000-permutation nulls, landscape variance allocation, and publication-oriented Figure 3 source/render. The canonical TF-level medians are global 0.947, position 0.881, identity residual 0.823, and identity pairwise 0.814.
+- Audited official SAMPDI-3D T227 sources. The paper/supplement reports aggregate values only; no auditable row-level T227 or per-row SAMPDI/FoldX predictions were recovered. The 17-versus-18 TF discrepancy is recorded; no T227 decomposition is fabricated.
+- Added `manuscript/OUTLINE.md` and external audit/validation reports. No model was trained and the v1.4 gate remains closed.
+
+### Bugs / source issues
+
+- A concurrent manifest write initially omitted the MOESM7 cache entry; the already-computed SHA256, file size, mtime, URL, and timestamp were restored directly into the persistent manifest without rereading the workbook.
+- The calibration workbook does not provide reliable array/batch identifiers. Processed rows therefore use `array_id=unknown_array` and record `array_id_source=not_supplied_by_source_workbook`.
+- Ets1 site 2/site 4 sequence joins contain published-median inconsistencies. They are explicitly excluded by source-integrity status rather than mapped by outcome.
+
+### Stable conclusions
+
+- SaMBA canonical identity effects are highly repeatable at the technical spot-split level (median residual Spearman 0.823; median pairwise accuracy 0.814), so identity information is not universally unobservable under this assay.
+- This result is not a biological replicate noise ceiling and does not identify all PBM/competition estimand or context differences.
+- T227 natural-TF generalization remains not evaluable from official row-level data. The designed benchmark therefore retains its prospective position-dominant finding but cannot yet claim natural-TF universality.
+
+### Next single priority
+
+Recover a legitimate row-level natural-TF mutation benchmark or an independent replicate-resolved competition assay before opening v1.4 identity-aware model development.
