@@ -106,6 +106,14 @@
       "path": "results/v1_3/holdout_predictions_unscored.tsv",
       "size": 59464,
       "timestamp": "2026-09-17T12:00:21.655172+00:00"
+    },
+    "results/v1_3/natural_tf_predictions_unscored.tsv": {
+      "hash": "c48d0147119ad26976d33547a1e9707a746c912699165e9735dc96f52919e80b",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789707644264933200,
+      "path": "results/v1_3/natural_tf_predictions_unscored.tsv",
+      "size": 30442,
+      "timestamp": "2026-09-18T05:01:19.727077+00:00"
     }
   },
   "schema_version": 1

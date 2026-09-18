@@ -196,9 +196,13 @@ def write_prediction_rows(mapping: pd.DataFrame, npz_dir: Path) -> pd.DataFrame:
     # Labels are deliberately not opened here. Only sequence/mutation identity metadata is read.
     _, canonical = load_sequences()
     rows = []
+    columns = ["tf_id", "site_id", "pdb_id", "position", "wt_base", "mutant_base", "predicted_effect", "model", "model_version", "structure_chain", "dna_chain", "dna_register", "orientation", "mapping_status", "prediction_status", "prediction_source"]
     for _, site in mapping[mapping.mapping_status.eq("ELIGIBLE")].iterrows():
         npz_path = npz_dir / f"{site.pdb_id}_{site.binding_site_id}.npz_predict.npz"
         if not npz_path.exists():
+            site_canonical = canonical[(canonical.tf_id == site.tf_id) & (canonical.binding_site_id == site.binding_site_id)]
+            for _, mutation in site_canonical.iterrows():
+                rows.append({"tf_id": site.tf_id, "site_id": site.binding_site_id, "pdb_id": site.pdb_id, "position": int(mutation.position), "wt_base": str(mutation.wt_basepair)[0], "mutant_base": str(mutation.perturbation)[0], "predicted_effect": np.nan, "model": "DeepPBS", "model_version": "official_commit_8bfb211_ensemble_828_529_173_898_820", "structure_chain": site.protein_chain, "dna_chain": site.mapping_chain, "dna_register": f"{site.mapping_start}:{site.mapping_length}", "orientation": site.mapping_orientation, "mapping_status": "FROZEN", "prediction_status": "NOT_REPRODUCED_DEEPPBS_PREPROCESSING_NO_NPZ", "prediction_source": str(npz_path.relative_to(ROOT))})
             continue
         pred = np.load(npz_path, allow_pickle=False)
         p = np.asarray(pred["P"], dtype=float)
@@ -214,8 +218,8 @@ def write_prediction_rows(mapping: pd.DataFrame, npz_dir: Path) -> pd.DataFrame:
             mutant = str(mutation.perturbation)[0]
             if wt not in BASES or mutant not in BASES:
                 continue
-            rows.append({"tf_id": site.tf_id, "site_id": site.binding_site_id, "pdb_id": site.pdb_id, "position": int(mutation.position), "wt_base": wt, "mutant_base": mutant, "predicted_effect": float(np.log(p[pred_idx, BASES.index(mutant)] + 1e-12) - np.log(p[pred_idx, BASES.index(wt)] + 1e-12)), "model": "DeepPBS", "model_version": "official_commit_8bfb211_ensemble_828_529_173_898_820", "structure_chain": site.protein_chain, "dna_chain": site.mapping_chain, "dna_register": f"{site.mapping_start}:{site.mapping_length}", "orientation": site.mapping_orientation, "mapping_status": "FROZEN", "prediction_source": str(npz_path.relative_to(ROOT))})
-    out = pd.DataFrame(rows)
+            rows.append({"tf_id": site.tf_id, "site_id": site.binding_site_id, "pdb_id": site.pdb_id, "position": int(mutation.position), "wt_base": wt, "mutant_base": mutant, "predicted_effect": float(np.log(p[pred_idx, BASES.index(mutant)] + 1e-12) - np.log(p[pred_idx, BASES.index(wt)] + 1e-12)), "model": "DeepPBS", "model_version": "official_commit_8bfb211_ensemble_828_529_173_898_820", "structure_chain": site.protein_chain, "dna_chain": site.mapping_chain, "dna_register": f"{site.mapping_start}:{site.mapping_length}", "orientation": site.mapping_orientation, "mapping_status": "FROZEN", "prediction_status": "PREDICTION_GENERATED", "prediction_source": str(npz_path.relative_to(ROOT))})
+    out = pd.DataFrame(rows, columns=columns)
     RESULTS.mkdir(parents=True, exist_ok=True)
     out.to_csv(PREDICTIONS, sep="\t", index=False, na_rep="NA")
     return out
@@ -265,7 +269,7 @@ def main() -> None:
     if args.command == "audit":
         out = audit(); print(out[["tf_id", "binding_site_id", "pdb_id", "mapping_status", "target_similarity"]].to_string(index=False))
     elif args.command == "prediction":
-        out = write_prediction_rows(load_frozen_mapping(), args.npz_dir); print(f"wrote {len(out)} unscored rows")
+        out = write_prediction_rows(load_frozen_mapping(), args.npz_dir.resolve()); print(f"wrote {len(out)} unscored rows")
     else:
         per, summary = reveal(); print(per.to_string(index=False)); print(summary.to_string(index=False))
 
