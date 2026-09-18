@@ -1,0 +1,5 @@
+step	status	evidence	route
+positive_control	PASS_CACHED_SUCCESS	DBP035.npz and DBP035.npz_predict.npz exist	existing frozen local pipeline
+2STT_MODEL1_local	FAILED_ENVIRONMENT_MISSING_TORCH_CLUSTER	process_co_crystal.py exit 1; ModuleNotFoundError: torch_cluster; no NPZ	Route 1
+2STT_MODEL1_docker	NOT_ATTEMPTED_DOCKER_UNAVAILABLE_CACHED	logs/v0_4_1/05_deeppbs_linux_reproduction_audit.log records Docker exit 127 and WSL exit 50	Route 2
+2STT_final	NOT_EVALUABLE_PRIMARY_UNCHANGED	no rescue NPZ; labels were revealed before rescue; no prospective validation claim	bounded rescue stopped

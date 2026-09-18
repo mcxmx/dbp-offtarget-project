@@ -74,3 +74,54 @@ Obtain the underlying competition replicate-level records from an author or publ
 ### Next single priority
 
 Recover a legitimate row-level natural-TF mutation benchmark or an independent replicate-resolved competition assay before opening v1.4 identity-aware model development.
+
+## v1.3.3 Natural-TF Structural Model Challenge (2026-09-18)
+
+### Completed
+
+- Froze `V1_3_3_NATURAL_TF_CHALLENGE_CONTRACT.md` before natural-TF model/label performance inspection.
+- Audited all 12 SaMBA sites across seven TFs using official RCSB experimental structures and a deterministic label-blind DNA mapping. Four ETS1 sites mapped uniquely to PDB 2STT; eight sites were excluded for mapping/coverage ambiguity. Structure files and one-time hashes are in `data/raw/v1_3_3_external/structures/` and the persistent manifest.
+- Committed the structure/mapping freeze as `2e29f3c`.
+- Ran the frozen official DeepPBS preprocessing in the documented Linux CPU environment. The fixed 2STT NMR input produced no NPZ; no alternate structure, register, orientation, checkpoint, or implementation was substituted.
+- Committed the unscored prediction artifact as `e44e29e`. It contains 132 eligible canonical mutation keys with explicit `NOT_REPRODUCED_DEEPPBS_PREPROCESSING_NO_NPZ` status and no experimental effects.
+- After the freeze, revealed canonical SaMBA labels and wrote the natural-TF decomposition tables. All primary natural-TF DeepPBS metrics are `NOT_EVALUABLE`; no score was imputed.
+- Generated `figure4_natural_vs_designed_identity.png/pdf` and traceable source data. The figure distinguishes SaMBA technical repeatability, model performance, prospective holdout, and natural-TF not-evaluable status.
+- Added the SAMPDI leakage status and an explicit NOT_EVALUABLE orthogonal SaMBA validation table. T227 was not reopened.
+
+### Stable conclusions
+
+- SaMBA technical identity repeatability remains high under its within-assay spot split, but the natural-TF model challenge currently has no valid DeepPBS performance estimate.
+- The natural-TF evidence cannot distinguish designed-protein domain shift from a general structure-model identity limitation. Structural coverage is limited and all eligible sites belong to ETS1.
+- v1.4 remains closed; no GNN was trained and no frozen v1.3/v1.3.1/v1.3.2 endpoint was changed.
+
+### Bugs / reproducibility findings
+
+- Official DeepPBS preprocessing silently skipped the fixed 2STT NMR input while returning success. This is recorded as a reproducibility failure and preserved as NA rows rather than being treated as a negative model result.
+
+### Next single priority
+
+Obtain a reproducible experimental-structure-compatible natural-TF inference path or an independent row-level mutation benchmark; do not open v1.4 model development from the current NOT_EVALUABLE result.
+
+## v1.3.4 Technical Rescue + Paper Consolidation (2026-09-18)
+
+### Completed
+
+- Wrote `V1_3_4_TECHNICAL_RESCUE_PROTOCOL.md` and `reports/v1.3/V1_3_4_DEEPPBS_FAILURE_AUDIT.md` before rerunning any prediction.
+- Confirmed that frozen 2STT is a 25-model NMR ensemble: 2,670 atoms per model, protein chain C, complementary DNA chains A/B, and no alternate locations, waters, or heteroatom records in the audited atom blocks.
+- Deterministically extracted MODEL 1 to `data/processed/v1_3_4/2STT_model1.pdb` without minimization, remodeling, mutation, fitting, or register changes. Its SHA256 was added once to the persistent manifest.
+- Reused the cached DBP035 positive-control output. The one permitted local MODEL 1 rescue failed at import with `ModuleNotFoundError: torch_cluster` and produced no NPZ. Historical Docker/WSL unavailability was reused from the existing audit; no alternate route, conformer, structure, or webserver result was substituted.
+- Closed the bounded natural-TF rescue with primary status `NOT_EVALUABLE_PRIMARY_UNCHANGED`. No post-reveal prediction table was fabricated.
+- Generated `results/v1_3/variance_decomposition_per_protein.tsv` and `results/v1_3/position_only_counterfactual.tsv` from frozen experimental and prediction tables. These distinguish landscape variance allocation from predictive performance.
+- Generated publication-oriented Figures 1-5 and the full `manuscript/MANUSCRIPT_DRAFT.md`, `manuscript/SUPPLEMENT_PLAN.md`, and `manuscript/SUBMISSION_GAP_ANALYSIS.md`.
+
+### Stable v1.3.4 conclusions
+
+- Experimental landscapes contain a nonzero within-position identity component, while DeepPBS often allocates a larger share of predicted variance to between-position effects.
+- Position-only counterfactuals can preserve aggregate global ranking, so aggregate performance can mask loss of nucleotide-identity discrimination.
+- The locked holdout continues to support `position >> identity` (global 0.085, position 0.560, identity residual 0.001, pairwise 0.548 median).
+- SaMBA identity repeatability is high in a distinct technical assay (median residual Spearman 0.823; pairwise 0.814) and is not a competition noise ceiling.
+- Protein conditionality and DNA mutation resolution remain orthogonal failure axes.
+
+### Gate and stop condition
+
+`V1.4 GATE: CLOSED.` The evidence supports manuscript consolidation, but the training set beyond seven designed proteins and replicate-resolved competition identifiability are not yet defensible for identity-aware model development. No new neural network or GNN was trained. v1.3.4 is complete; the next action is manuscript refinement/submission preparation or a separately approved v1.4 project, not another v1.3 benchmark expansion.

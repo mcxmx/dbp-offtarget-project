@@ -1,13 +1,12 @@
 {
   "files": {
-    "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM7_ESM.xlsx": {
-      "hash": "09715f8531f2afffb81348e1d369e60b6d861fc4fb75e254693979ff2d1bd6a7",
+    "data/processed/v1_3_4/2STT_model1.pdb": {
+      "hash": "89268088fef1111a85200413fdc17023cecdaec6d2746593bc6438ce148c15e1",
       "hash_algorithm": "sha256",
-      "mtime_ns": 1789648933571461300,
-      "path": "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM7_ESM.xlsx",
-      "size": 12968460,
-      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2843-2/MediaObjects/41586_2020_2843_MOESM7_ESM.xlsx",
-      "timestamp": "2026-09-17T12:54:42.153694+00:00"
+      "mtime_ns": 1789712821837055500,
+      "path": "data/processed/v1_3_4/2STT_model1.pdb",
+      "size": 219191,
+      "timestamp": "2026-09-18T06:39:39.174056+00:00"
     },
     "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM4_ESM.xlsx": {
       "hash": "ba3afc5b182a319bd6b200b69b58996fde593af2712bb18393d4448951932c18",
@@ -18,6 +17,15 @@
       "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2843-2/MediaObjects/41586_2020_2843_MOESM4_ESM.xlsx",
       "timestamp": "2026-09-17T13:00:04.586772+00:00"
     },
+    "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM7_ESM.xlsx": {
+      "hash": "09715f8531f2afffb81348e1d369e60b6d861fc4fb75e254693979ff2d1bd6a7",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789648933571461300,
+      "path": "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM7_ESM.xlsx",
+      "size": 12968460,
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2843-2/MediaObjects/41586_2020_2843_MOESM7_ESM.xlsx",
+      "timestamp": "2026-09-17T12:54:42.153694+00:00"
+    },
     "data/raw/v1_3_2_external/samba/GSE156375_RAW.tar": {
       "hash": "a23e11e027ae34f1eed117bc8e3cad158085b0a7d761b32b046d9f4dfd166bf6",
       "hash_algorithm": "sha256",
@@ -26,6 +34,69 @@
       "size": 15114240,
       "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156375/suppl/GSE156375_RAW.tar",
       "timestamp": "2026-09-17T12:54:42.157675+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/1AAY.cif": {
+      "hash": "41b8a72426810c08997e89928f8fb8dc897120dabff4011760bc0864aa8afe28",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789706568184736700,
+      "path": "data/raw/v1_3_3_external/structures/1AAY.cif",
+      "size": 182954,
+      "source_url": "https://files.rcsb.org/download/1AAY.cif",
+      "timestamp": "2026-09-18T04:53:32.914206+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/1HLO.cif": {
+      "hash": "7ab3218eb5503fe0348c196a521cd40f48225f40ea16313bda9073e911e01c5a",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789706570036316000,
+      "path": "data/raw/v1_3_3_external/structures/1HLO.cif",
+      "size": 230714,
+      "source_url": "https://files.rcsb.org/download/1HLO.cif",
+      "timestamp": "2026-09-18T04:53:33.057426+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/1R4R.cif": {
+      "hash": "d317d6f641e515de0ed08dcf58a2a6dd70aacf1900861c5f4776d684f696b3a5",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789706577951246900,
+      "path": "data/raw/v1_3_3_external/structures/1R4R.cif",
+      "size": 326426,
+      "source_url": "https://files.rcsb.org/download/1R4R.cif",
+      "timestamp": "2026-09-18T04:53:33.661535+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/2STT.cif": {
+      "hash": "50bf764ee81b02d8d286bf2573fc16977788c2607f29efd84bc729e262c714b7",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789706805038517500,
+      "path": "data/raw/v1_3_3_external/structures/2STT.cif",
+      "size": 6370613,
+      "source_url": "https://files.rcsb.org/download/2STT.cif",
+      "timestamp": "2026-09-18T04:53:33.192013+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/2STT.pdb": {
+      "hash": "df60dca76f0923a110e06ae46e2f797923d63c36baddfd60dab0fddaf055106b",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789707483876890000,
+      "path": "data/raw/v1_3_3_external/structures/2STT.pdb",
+      "size": 5446764,
+      "source_url": "https://files.rcsb.org/download/2STT.pdb",
+      "timestamp": "2026-09-18T05:10:43.021278+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/3WTU.cif": {
+      "hash": "338723f3db3bb85650b57191a43ddff9ab676ac3db559bf4c49da897cc5ec3ee",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789706573049218300,
+      "path": "data/raw/v1_3_3_external/structures/3WTU.cif",
+      "size": 813960,
+      "source_url": "https://files.rcsb.org/download/3WTU.cif",
+      "timestamp": "2026-09-18T04:53:33.343984+00:00"
+    },
+    "data/raw/v1_3_3_external/structures/8OVW.cif": {
+      "hash": "bfdffa9cc702f19a63c05bf2933508d74dd2bd6a9ca933501fa6a12adbc2212f",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789706589590667200,
+      "path": "data/raw/v1_3_3_external/structures/8OVW.cif",
+      "size": 3122123,
+      "source_url": "https://files.rcsb.org/download/8OVW.cif",
+      "timestamp": "2026-09-18T04:53:33.504920+00:00"
     },
     "data/raw/v1_3_external/41594_2025_1669_MOESM16_ESM.xls": {
       "hash": "5ba651f551af207beb1fb91be255317242bd93b213d5b35de7a032cf1b76ace0",
@@ -52,6 +123,14 @@
       "path": "results/v1_3/holdout_predictions_unscored.tsv",
       "size": 59464,
       "timestamp": "2026-09-17T12:00:21.655172+00:00"
+    },
+    "results/v1_3/natural_tf_predictions_unscored.tsv": {
+      "hash": "c48d0147119ad26976d33547a1e9707a746c912699165e9735dc96f52919e80b",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789707644264933200,
+      "path": "results/v1_3/natural_tf_predictions_unscored.tsv",
+      "size": 30442,
+      "timestamp": "2026-09-18T05:01:19.727077+00:00"
     }
   },
   "schema_version": 1

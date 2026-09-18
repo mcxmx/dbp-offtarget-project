@@ -1,0 +1,3 @@
+row_type	tf_id	site_id	method	n_mutations	n_positions	global_spearman	global_pearson	position_spearman	position_pearson	identity_residual_spearman	identity_residual_pearson	identity_pairwise_accuracy	status
+tf_site	Ets1	Ets1_site_1	DeepPBS	0	0	NA	NA	NA	NA	NA	NA	NA	NOT_EVALUABLE_PREDICTION_NOT_REPRODUCED
+tf_site	Ets1	Ets1_site_3	DeepPBS	0	0	NA	NA	NA	NA	NA	NA	NA	NOT_EVALUABLE_PREDICTION_NOT_REPRODUCED
