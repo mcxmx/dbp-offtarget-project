@@ -1,5 +1,13 @@
 {
   "files": {
+    "data/processed/v1_3_4/2STT_model1.pdb": {
+      "hash": "89268088fef1111a85200413fdc17023cecdaec6d2746593bc6438ce148c15e1",
+      "hash_algorithm": "sha256",
+      "mtime_ns": 1789712821837055500,
+      "path": "data/processed/v1_3_4/2STT_model1.pdb",
+      "size": 219191,
+      "timestamp": "2026-09-18T06:39:39.174056+00:00"
+    },
     "data/raw/v1_3_2_external/samba/41586_2020_2843_MOESM4_ESM.xlsx": {
       "hash": "ba3afc5b182a319bd6b200b69b58996fde593af2712bb18393d4448951932c18",
       "hash_algorithm": "sha256",

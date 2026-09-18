@@ -101,3 +101,27 @@ Recover a legitimate row-level natural-TF mutation benchmark or an independent r
 ### Next single priority
 
 Obtain a reproducible experimental-structure-compatible natural-TF inference path or an independent row-level mutation benchmark; do not open v1.4 model development from the current NOT_EVALUABLE result.
+
+## v1.3.4 Technical Rescue + Paper Consolidation (2026-09-18)
+
+### Completed
+
+- Wrote `V1_3_4_TECHNICAL_RESCUE_PROTOCOL.md` and `reports/v1.3/V1_3_4_DEEPPBS_FAILURE_AUDIT.md` before rerunning any prediction.
+- Confirmed that frozen 2STT is a 25-model NMR ensemble: 2,670 atoms per model, protein chain C, complementary DNA chains A/B, and no alternate locations, waters, or heteroatom records in the audited atom blocks.
+- Deterministically extracted MODEL 1 to `data/processed/v1_3_4/2STT_model1.pdb` without minimization, remodeling, mutation, fitting, or register changes. Its SHA256 was added once to the persistent manifest.
+- Reused the cached DBP035 positive-control output. The one permitted local MODEL 1 rescue failed at import with `ModuleNotFoundError: torch_cluster` and produced no NPZ. Historical Docker/WSL unavailability was reused from the existing audit; no alternate route, conformer, structure, or webserver result was substituted.
+- Closed the bounded natural-TF rescue with primary status `NOT_EVALUABLE_PRIMARY_UNCHANGED`. No post-reveal prediction table was fabricated.
+- Generated `results/v1_3/variance_decomposition_per_protein.tsv` and `results/v1_3/position_only_counterfactual.tsv` from frozen experimental and prediction tables. These distinguish landscape variance allocation from predictive performance.
+- Generated publication-oriented Figures 1-5 and the full `manuscript/MANUSCRIPT_DRAFT.md`, `manuscript/SUPPLEMENT_PLAN.md`, and `manuscript/SUBMISSION_GAP_ANALYSIS.md`.
+
+### Stable v1.3.4 conclusions
+
+- Experimental landscapes contain a nonzero within-position identity component, while DeepPBS often allocates a larger share of predicted variance to between-position effects.
+- Position-only counterfactuals can preserve aggregate global ranking, so aggregate performance can mask loss of nucleotide-identity discrimination.
+- The locked holdout continues to support `position >> identity` (global 0.085, position 0.560, identity residual 0.001, pairwise 0.548 median).
+- SaMBA identity repeatability is high in a distinct technical assay (median residual Spearman 0.823; pairwise 0.814) and is not a competition noise ceiling.
+- Protein conditionality and DNA mutation resolution remain orthogonal failure axes.
+
+### Gate and stop condition
+
+`V1.4 GATE: CLOSED.` The evidence supports manuscript consolidation, but the training set beyond seven designed proteins and replicate-resolved competition identifiability are not yet defensible for identity-aware model development. No new neural network or GNN was trained. v1.3.4 is complete; the next action is manuscript refinement/submission preparation or a separately approved v1.4 project, not another v1.3 benchmark expansion.

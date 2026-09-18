@@ -1,0 +1,24 @@
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+ROOT=Path(__file__).resolve().parents[2]; RES=ROOT/'results/v1_3'; OUT=ROOT/'figures/v1_3'; OUT.mkdir(parents=True,exist_ok=True)
+plt.rcParams.update({'font.size':9,'axes.spines.top':False,'axes.spines.right':False})
+def save(fig,name):
+    fig.tight_layout(); fig.savefig(OUT/f'{name}.png',dpi=220); fig.savefig(OUT/f'{name}.pdf'); plt.close(fig)
+def main():
+    fig,ax=plt.subplots(figsize=(6.6,4.2)); ax.set_xlim(0,1); ax.set_ylim(0,1); ax.set_xlabel('Protein conditionality'); ax.set_ylabel('DNA mutation resolution'); ax.set_xticks([.18,.5,.82],['protein shuffle','target shuffle','protein-specific']); ax.set_yticks([.2,.5,.8],['global','position','within-position identity']); ax.scatter([.18,.5,.82],[.24,.48,.78],s=220,c=['#9aa5b1','#d97706','#2563eb'],edgecolor='white'); ax.text(.5,.06,'Two orthogonal evaluation axes',ha='center'); save(fig,'Figure1_conceptual_axes')
+    d=pd.read_csv(RES/'figure2_revised_data.tsv',sep='\t'); metrics=[('global_spearman','Global'),('position_spearman','Position'),('within_position_residual_spearman','Identity residual'),('within_position_pairwise_accuracy','Pairwise')]; fig,axes=plt.subplots(1,4,figsize=(11,3.1))
+    for ax,(col,label) in zip(axes,metrics):
+        dev=d[d.holdout_status=='DEVELOPMENT_EXPOSED']; ho=d[d.holdout_status=='PROSPECTIVE_LOCKED_HOLDOUT']; ax.scatter(np.arange(len(dev)),dev[col],color='#64748b',label='development'); ax.scatter(np.arange(len(dev),len(dev)+len(ho)),ho[col],color='#dc2626',label='locked holdout'); ax.axhline(.5 if 'pairwise' in col else 0,color='#cbd5e1',lw=.8); ax.set_title(label); ax.set_xticks([]); ax.set_ylim(-.25,1.02)
+    axes[0].set_ylabel('Spearman / accuracy'); axes[-1].legend(frameon=False,fontsize=8); fig.suptitle('Designed DBP evidence; holdout frozen before reveal'); save(fig,'Figure2_designed_evidence')
+    cf=pd.read_csv(RES/'position_only_counterfactual.tsv',sep='\t'); vd=pd.read_csv(RES/'variance_decomposition_per_protein.tsv',sep='\t'); fig,axes=plt.subplots(2,2,figsize=(8.3,7))
+    for cohort,color in [('development','#2563eb'),('prospective_holdout','#dc2626')]:
+        z=cf[cf.cohort==cohort]; axes[0,0].scatter(z.full_global_spearman,z.position_only_global_spearman,c=color,label=cohort)
+    axes[0,0].plot([-.3,.9],[-.3,.9],'k--',lw=.8); axes[0,0].set_xlabel('Full global Spearman'); axes[0,0].set_ylabel('Position-only global Spearman'); axes[0,0].legend(frameon=False,fontsize=8)
+    for source,ax,title,color in [('experimental_competition',axes[0,1],'Experimental landscape','#059669'),('DeepPBS_prediction',axes[1,0],'DeepPBS prediction','#7c3aed')]:
+        z=vd[vd.source_type==source].pivot(index='protein',columns='cohort',values='position_fraction'); z.plot(kind='bar',ax=ax,color=['#94a3b8',color],width=.75); ax.set_ylim(0,1); ax.set_title(title); ax.set_ylabel('Position variance fraction'); ax.set_xlabel(''); ax.legend(frameon=False,fontsize=7)
+    axes[1,1].scatter(cf.full_identity_spearman,cf.full_pairwise_accuracy,c=np.where(cf.cohort=='development','#2563eb','#dc2626')); axes[1,1].axhline(.5,color='#cbd5e1',lw=.8); axes[1,1].set_xlabel('Identity residual Spearman'); axes[1,1].set_ylabel('Identity pairwise accuracy'); axes[1,1].set_title('Full identity discrimination'); fig.suptitle('Aggregate metrics can mask loss of nucleotide identity'); save(fig,'Figure3_aggregate_masks_identity')
+    s=pd.read_csv(RES/'external_samba_decomposition_summary.tsv',sep='\t'); keep=s[(s.perturbation_type=='canonical_watson_crick') & s.metric.isin(['global_spearman','position_spearman','identity_residual_spearman','identity_pairwise_accuracy'])].drop_duplicates('metric'); order=['global_spearman','position_spearman','identity_residual_spearman','identity_pairwise_accuracy']; keep=keep.set_index('metric').loc[order]; labels=['Global','Position','Identity residual','Pairwise']; fig,ax=plt.subplots(figsize=(6.2,3.8)); ax.bar(labels,keep['median'],color=['#64748b','#059669','#7c3aed','#d97706']); ax.set_ylim(0,1); ax.set_ylabel('Canonical technical spot-split median'); ax.set_title('SaMBA technical repeatability'); ax.axhline(.5,color='#cbd5e1',lw=.8); save(fig,'Figure4_samba_repeatability')
+    c=pd.read_csv(RES/'cached_shuffle_summary.tsv',sep='\t').set_index('model').loc[['M1','M2','M3']]; fig,ax=plt.subplots(figsize=(6.5,3.8)); x=np.arange(3); w=.35; ax.bar(x-w/2,c['held_out_spearman_median'],w,label='held-out Spearman',color='#2563eb'); vals=c['protein_conditioning_effect_size_median'].fillna(0); ax.bar(x+w/2,vals,w,label='protein shuffle effect',color='#dc2626'); ax.set_xticks(x,c.index); ax.set_ylabel('Cached diagnostic value'); ax.set_title('Protein conditionality diagnostics (no retraining)'); ax.legend(frameon=False); save(fig,'Figure5_protein_conditionality')
+if __name__=='__main__': main()
